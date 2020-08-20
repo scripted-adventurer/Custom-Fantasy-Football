@@ -1,0 +1,29 @@
+table.lineup-table {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+table.lineup-table tr {
+  border: 2px solid #b5b5b5;
+  border-collapse: collapse;
+  padding: 2%;
+  margin: 5%;
+}
+
+table.lineup-table td {
+  padding: 5px 5px 5px 10px;
+  border-collapse: collapse;
+  color: #C0AF47;
+  text-align: left;
+}
+
+table.lineup-table td.score {
+  text-align: right;
+}
+
+span.clickable {
+  cursor: pointer;
+}

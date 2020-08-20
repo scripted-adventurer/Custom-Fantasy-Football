@@ -1,0 +1,16 @@
+div.error-message {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  margin: 5px auto;
+  max-width: 500px;
+  text-align: center;
+  color: #FF0000;
+  background-color: #b5b5b5;
+  border: 1px solid #FFFFFF;
+  font-size: 80%;
+  font-weight: bold;
+  padding: 1%;
+}

@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  color: #ffffff;
+}
+
+body {
+  background-color: #000000;
+}
+
+#root {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  background-color: #282923;
+  min-height: 100vh;
+}
+
+/* Universal elements used across different pages */
+
+button {
+  color: #000000;
+  margin: 1% auto;
+}
+
+p.nav-link a {
+  color: #40A5C1;
+}
+
+p.title {
+  font-size: 175%;
+  color: #DF6722;
+}
+
+p.subtitle {
+  font-size: 140%;
+  color: #7DAF28;
+}

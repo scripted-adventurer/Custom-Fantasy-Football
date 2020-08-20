@@ -1,0 +1,24 @@
+div.popup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+  z-index: 1;
+  margin: auto;
+  min-width: 50%;
+  max-width: 500px;
+  text-align: center;
+  color: #C0AF47;
+  background-color: #000000;
+  padding: 1%;
+}
+
+p.popup-data {
+  color: #C0AF47;
+}
+
+div#popup-close {
+  text-align: right;
+  cursor: pointer;
+}

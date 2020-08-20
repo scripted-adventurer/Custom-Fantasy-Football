@@ -1,0 +1,20 @@
+p.default-form-title {
+  font-size: 150%;
+}
+
+p.default-form-error {
+  color: red;
+}
+
+form.default-form input {
+  color: #000000;
+}
+
+form.default-form label {
+  padding: 1%;
+}
+
+form.default-form input[type="submit"] {
+  display: block;
+  margin: 3% auto;
+}

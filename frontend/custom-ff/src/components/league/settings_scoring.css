@@ -1,0 +1,39 @@
+div.stats-container {
+  padding-bottom: 2%;
+  border: 1px solid #ffffff;
+  width: auto;
+  display: flex;
+}
+
+div.conditions-container {
+  padding-bottom: 1%;
+}
+
+div.stats-container, div.conditions-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+div.stats-content, div.conditions-content {
+  flex: 1;
+}
+
+div.stats-icon, div.conditions-icon {
+  font-size: 250%;
+  padding-top: 10vh;
+  cursor: default;
+}
+
+div.stats-icon {
+  padding-right: 2%;
+}
+
+div.conditions-icon {
+  padding-left: 2%;
+}
+
+div.label-input-box {
+  display: block;
+  margin: 1em auto;
+}
