@@ -1,0 +1,4354 @@
+{
+  "data": {
+    "viewer": {
+      "league": {
+        "games": {
+          "edges": [
+            {
+              "node": {
+                "id": "10012017-0803-5147-3870-de11b62c789d",
+                "esbId": "2017080351",
+                "gameDetailId": "10160000-0571-69ae-24ee-e9fc6f79d19b",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 0
+                },
+                "gameTime": "2017-08-04T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0809-515d-a600-063e59375970",
+                "esbId": "2017080951",
+                "gameDetailId": "10160000-0571-7382-995d-60558d5b3dc5",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-09T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0810-51bb-e105-98b1900471fd",
+                "esbId": "2017081051",
+                "gameDetailId": "10160000-0571-7141-c914-319ae6f10e6b",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-10T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0810-5249-15e7-b53c3189b609",
+                "esbId": "2017081052",
+                "gameDetailId": "10160000-0571-7296-c8cf-5ca056d19fcf",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-10T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0810-535e-87fd-ef464b53413e",
+                "esbId": "2017081053",
+                "gameDetailId": "10160000-0571-747e-e64a-7055b85e8309",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-11T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0810-54ea-bb34-8cf078fa3c26",
+                "esbId": "2017081054",
+                "gameDetailId": "10160000-0571-762e-66a0-66764b6f9e43",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-11T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0810-5535-cfd5-a9d2c73a7c32",
+                "esbId": "2017081055",
+                "gameDetailId": "10160000-0571-77c2-3602-46d4a996fb55",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-11T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0810-56fe-fdee-f96d50007065",
+                "esbId": "2017081056",
+                "gameDetailId": "10160000-0571-82bc-ec3e-3756ee2b8fc0",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-10T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0810-571a-4e63-ff6505eb8631",
+                "esbId": "2017081057",
+                "gameDetailId": "10160000-0571-83f1-e351-c247a7e01329",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-10T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0811-51de-767f-9c6b169f5d04",
+                "esbId": "2017081151",
+                "gameDetailId": "10160000-0571-842a-c79e-ba88316fdded",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-11T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0811-5246-c8ba-bdce73ae4186",
+                "esbId": "2017081152",
+                "gameDetailId": "10160000-0571-7595-d5bd-389e4fb7e2c9",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-11T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0811-53a6-9425-cef401d760b3",
+                "esbId": "2017081153",
+                "gameDetailId": "10160000-0571-7988-59e9-cce093885f56",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-12T01:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0812-5152-38fc-e2176b72e7f5",
+                "esbId": "2017081251",
+                "gameDetailId": "10160000-0571-7063-2a82-d8adde0bb7d4",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-13T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0812-52e3-65d0-0fdd878c673c",
+                "esbId": "2017081252",
+                "gameDetailId": "10160000-0571-81ef-b276-37cff72ea4fe",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-13T01:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0812-5314-b95f-c5ece32e1e79",
+                "esbId": "2017081253",
+                "gameDetailId": "10160000-0571-8568-6202-cfb732396d95",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-12T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0813-51c9-ab56-a0535e311076",
+                "esbId": "2017081351",
+                "gameDetailId": "10160000-0571-78ae-af39-3aa91dcd66c5",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-13T17:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0813-52b4-727b-4d4a4a8b98dd",
+                "esbId": "2017081352",
+                "gameDetailId": "10160000-0571-8072-c352-6dbe11564d24",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-08-14T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0817-516f-085f-ae92fcda1052",
+                "esbId": "2017081751",
+                "gameDetailId": "10160000-0571-867b-2f6e-e7eeaf8e49b0",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-18T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0817-52d1-f630-d4509aaa6350",
+                "esbId": "2017081752",
+                "gameDetailId": "10160000-0571-9292-840d-2d869249cea9",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-17T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0817-53dd-34ce-bff897858a5e",
+                "esbId": "2017081753",
+                "gameDetailId": "10160000-0571-9442-4ec5-1adc9ac63ad5",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-17T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0818-516d-fdd8-7facbd0ff6ba",
+                "esbId": "2017081851",
+                "gameDetailId": "10160000-0571-9762-f1ac-21ac9dac4aaf",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-19T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0819-51de-e516-bd38ba335544",
+                "esbId": "2017081951",
+                "gameDetailId": "10160000-0571-981b-8a14-9ebfee2982e9",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-19T19:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0819-522b-570a-ee7b6f8fbdec",
+                "esbId": "2017081952",
+                "gameDetailId": "10160000-0571-8871-9a58-cf3e6eacfc21",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-19T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0819-53a6-722f-5344f42903a9",
+                "esbId": "2017081953",
+                "gameDetailId": "10160000-0571-895b-46c0-85a96b34bf22",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-19T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0819-54b2-759a-f8cbb45f2b98",
+                "esbId": "2017081954",
+                "gameDetailId": "10160000-0572-0054-064b-bf4c447f0c63",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-19T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0819-5535-3ca8-9c1a4213da6c",
+                "esbId": "2017081955",
+                "gameDetailId": "10160000-0571-99c3-6eae-6a2af0aa9e2a",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-19T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0819-56b3-90cd-c7cb9d16cc73",
+                "esbId": "2017081956",
+                "gameDetailId": "10160000-0571-903f-17e4-fd5d0a6623d4",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-20T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0819-5778-ecfe-95515523bca7",
+                "esbId": "2017081957",
+                "gameDetailId": "10160000-0571-93b3-d111-fae141add5d7",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-20T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0819-58c8-0051-1696e3be11e2",
+                "esbId": "2017081958",
+                "gameDetailId": "10160000-0571-969e-beb4-bfa74329730a",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-20T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0819-59c8-d248-39bb0c5c6661",
+                "esbId": "2017081959",
+                "gameDetailId": "10160000-0571-87c3-dc49-c96aa23f9b01",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-20T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0820-5123-0df6-b27a4b49f47b",
+                "esbId": "2017082051",
+                "gameDetailId": "10160000-0571-9593-c85c-19f6a1ccee6b",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-20T20:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0820-5216-128c-8f9fb89d199b",
+                "esbId": "2017082052",
+                "gameDetailId": "10160000-0571-9179-8177-18bb5e2cbe8f",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-21T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0821-5165-bdf3-69d37fa1a4d5",
+                "esbId": "2017082151",
+                "gameDetailId": "10160000-0572-01f4-187f-ff64880ca622",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-08-22T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0824-51ba-8e59-f568c6fb0f78",
+                "esbId": "2017082451",
+                "gameDetailId": "10160000-0572-07f5-cabe-80c6a73a9a36",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-24T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0824-52d9-eeae-532068557d9c",
+                "esbId": "2017082452",
+                "gameDetailId": "10160000-0572-09dc-d712-c302b5729247",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-24T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0825-51a9-1412-422808711442",
+                "esbId": "2017082551",
+                "gameDetailId": "10160000-0572-0610-dc99-31f7b9067ba6",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-25T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0825-52e6-75d8-8f9bfe5b1d75",
+                "esbId": "2017082552",
+                "gameDetailId": "10160000-0572-12da-8d07-865829baf7de",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-26T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0826-5127-de43-7a8f8d479d3d",
+                "esbId": "2017082651",
+                "gameDetailId": "10160000-0572-0246-94bb-49e196d0d2f1",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-26T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0826-523d-cc50-3da2073b3756",
+                "esbId": "2017082652",
+                "gameDetailId": "10160000-0572-0313-3828-40b7ee7f5d7c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-26T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0826-5355-ba10-e518dffbeb0a",
+                "esbId": "2017082653",
+                "gameDetailId": "10160000-0572-13fc-1130-a18e5c168286",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-26T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0826-545e-93ae-ea71639a330c",
+                "esbId": "2017082654",
+                "gameDetailId": "10160000-0572-1040-03f0-c3f80a9c35f0",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-26T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0826-5549-86e2-392ca31e379d",
+                "esbId": "2017082655",
+                "gameDetailId": "10160000-0572-11a2-0cd0-fb2efa4d8a50",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-26T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0826-566b-0d56-5e392eb97061",
+                "esbId": "2017082656",
+                "gameDetailId": "10160000-0572-04c1-4106-6523e8adf0a9",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-27T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0826-57c3-01c5-1ccda37ff677",
+                "esbId": "2017082657",
+                "gameDetailId": "10160000-0572-1488-15a3-ba5f8a40d3aa",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-27T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0826-58ac-ff24-307e590429c7",
+                "esbId": "2017082658",
+                "gameDetailId": "10160000-0572-0841-0028-8ba460aed66d",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-27T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0826-5947-3996-c33c01973cc1",
+                "esbId": "2017082659",
+                "gameDetailId": "10160000-0572-0524-864e-555fd5cb1c86",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-27T01:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0827-5191-1a3c-d1532e7de1fb",
+                "esbId": "2017082751",
+                "gameDetailId": "10160000-0572-15b9-0791-237ed0bf7eb5",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0827-52cc-8d8c-2ee0d3669faf",
+                "esbId": "2017082752",
+                "gameDetailId": "10160000-0572-1630-4009-a73b26eff836",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-27T20:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0827-5352-1f37-9a7a0416eaab",
+                "esbId": "2017082753",
+                "gameDetailId": "10160000-0572-175e-146c-0f5bd3b485ce",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-08-28T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-51e5-39a5-fb069681291f",
+                "esbId": "2017083151",
+                "gameDetailId": "10160000-0572-18d4-3154-5415ef151df3",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-08-31T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-527c-3f0c-6dc8c2c166f3",
+                "esbId": "2017083152",
+                "gameDetailId": "10160000-0572-1935-09ef-a4431ff6ace9",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-08-31T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-536c-6bfc-0731affed1d8",
+                "esbId": "2017083153",
+                "gameDetailId": "10160000-0572-2077-64a1-b93e5763da6f",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-08-31T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-545f-d8e5-31227a92a44e",
+                "esbId": "2017083154",
+                "gameDetailId": "10160000-0572-212c-df38-a6b4487ea650",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-08-31T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-55c5-ef44-921c8fb2c467",
+                "esbId": "2017083155",
+                "gameDetailId": "10160000-0572-22de-82a8-82ae790023af",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-09-01T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-56ec-cd6a-413b4262743b",
+                "esbId": "2017083156",
+                "gameDetailId": "10160000-0572-2357-1e8c-c0ffc8bf3ec2",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-09-01T01:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-577a-0d5e-8af442ecac5a",
+                "esbId": "2017083157",
+                "gameDetailId": "10160000-0572-24fe-d2cb-2d6b7565c559",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-08-31T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-581b-edf9-c09dda8a0c38",
+                "esbId": null,
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-08-31T07:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-595f-7acd-755480c2cf45",
+                "esbId": "2017083159",
+                "gameDetailId": "10160000-0572-26d6-2e05-4de33f46e576",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-08-31T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-6087-b565-1d0598b357c2",
+                "esbId": "2017083160",
+                "gameDetailId": "10160000-0572-2734-1283-854b58cd7e7d",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-09-01T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-61d8-6f2c-76aa9bd5879c",
+                "esbId": "2017083161",
+                "gameDetailId": "10160000-0572-2832-c74b-a2e513723031",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-09-01T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-622b-f7f6-bfc13ff9bc96",
+                "esbId": "2017083162",
+                "gameDetailId": "10160000-0572-29a4-0776-45b6575a9cbf",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-08-31T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-636e-319b-cbf263de2bfe",
+                "esbId": "2017083163",
+                "gameDetailId": "10160000-0572-3089-5793-ee22bc6d87ec",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-09-01T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-64ad-8cd2-7555d8be72d0",
+                "esbId": "2017083164",
+                "gameDetailId": "10160000-0572-3145-06fd-274902b61ee2",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-09-01T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-65eb-b24d-4dd42c99f84e",
+                "esbId": "2017083165",
+                "gameDetailId": "10160000-0572-32ba-bd58-ce4eb45e2d21",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-09-01T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0831-66d5-7c6a-eddd974912f6",
+                "esbId": "2017083166",
+                "gameDetailId": "10160000-0572-33c8-7a78-074e9148b2eb",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-08-31T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0907-0048-c3b3-932661e7094f",
+                "esbId": "2017090700",
+                "gameDetailId": "10160000-0572-3412-b46f-d3a88061d37b",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-08T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0910-007a-9603-93516b0720bf",
+                "esbId": "2017091000",
+                "gameDetailId": "10160000-0572-3528-3a63-9579470e1e7a",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-10T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0910-0124-da5e-c8a0cd3f75eb",
+                "esbId": "2017091001",
+                "gameDetailId": "10160000-0572-3618-1217-a33cdb9466dc",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-10T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0910-02b1-a221-11b7791c2be0",
+                "esbId": "2017091002",
+                "gameDetailId": "10160000-0572-377f-227e-0c2023fff71e",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-10T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0910-032e-4814-f966ce3e4aae",
+                "esbId": "2017091003",
+                "gameDetailId": "10160000-0572-38eb-f4e1-77b23e8d4d06",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-10T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0910-04e6-82e0-b5888d13894c",
+                "esbId": "2017091004",
+                "gameDetailId": "10160000-0572-39a9-5897-329c06c86160",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-10T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0910-053c-52c9-2fd12c1b4333",
+                "esbId": "2017091005",
+                "gameDetailId": "10160000-0572-40fb-c570-859ae2066f5d",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-10T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0910-066d-e13b-f811d6803a37",
+                "esbId": null,
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-10T07:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0910-07fc-3ba5-032bd0805ab5",
+                "esbId": "2017091007",
+                "gameDetailId": "10160000-0572-4266-5005-a312106a46ab",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-10T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0910-08e0-4e0b-011ea3f0dd8e",
+                "esbId": "2017091008",
+                "gameDetailId": "10160000-0572-4348-051a-f1de68a67352",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-10T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0910-09f0-9d73-596cec185bb0",
+                "esbId": "2017091009",
+                "gameDetailId": "10160000-0572-44b1-2d31-0bdf8e609981",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-10T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0910-102f-b9ca-05de0b4a50cb",
+                "esbId": "2017091010",
+                "gameDetailId": "10160000-0572-457a-d577-2e6f50aabf18",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-10T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0910-11a3-01e2-9af94180303b",
+                "esbId": "2017091011",
+                "gameDetailId": "10160000-0572-4641-d19f-c22cce6f3896",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-10T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0910-1259-941f-cc7dcfc98b41",
+                "esbId": "2017091012",
+                "gameDetailId": "10160000-0572-4713-ba40-bde58eba85c1",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-11T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0911-008e-416f-ea4c68f01520",
+                "esbId": "2017091100",
+                "gameDetailId": "10160000-0572-4892-1268-69367c2c4a6a",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-11T23:10:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0911-0131-3689-c8cd65e4be8e",
+                "esbId": "2017091101",
+                "gameDetailId": "10160000-0572-49db-1952-cf132884eb97",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2017-09-12T02:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0914-00cb-4d95-fa9e3d999ae0",
+                "esbId": "2017091400",
+                "gameDetailId": "10160000-0572-5090-b688-49080bd214d9",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-15T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-0070-fb5c-d089e47f4d81",
+                "esbId": "2017091700",
+                "gameDetailId": "10160000-0572-516e-f401-4ddb7b620df6",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-17T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-01fa-a40b-d13deb748d5a",
+                "esbId": "2017091701",
+                "gameDetailId": "10160000-0572-52b7-0b9d-1c3f305e1b33",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-17T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-025a-99be-d94da9f2c77d",
+                "esbId": "2017091702",
+                "gameDetailId": "10160000-0572-53b6-8b2b-669e08c7c7b7",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-17T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-03fc-1619-b56c812f0a15",
+                "esbId": "2017091703",
+                "gameDetailId": "10160000-0572-54cf-4d87-ea92e08986e8",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-17T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-0455-fc64-468ee298d8d7",
+                "esbId": "2017091704",
+                "gameDetailId": "10160000-0572-554e-c848-9108955bb8c4",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-17T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-0591-bce0-35792d32499d",
+                "esbId": "2017091705",
+                "gameDetailId": "10160000-0572-56d9-bc3c-f92fc864c5db",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-17T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-06cb-f11e-c7b61a8b6f42",
+                "esbId": "2017091706",
+                "gameDetailId": "10160000-0572-5719-524e-b08b2dc7d8a4",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-17T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-077f-6a39-dd27d2d298da",
+                "esbId": "2017091707",
+                "gameDetailId": "10160000-0572-586b-acfb-49f4b227a55c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-17T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-08da-7338-6421d984b7fd",
+                "esbId": "2017091708",
+                "gameDetailId": "10160000-0572-59b6-2ffc-0f304459d32e",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-17T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-094d-0900-cd87c253a1a2",
+                "esbId": "2017091709",
+                "gameDetailId": "10160000-0572-60bd-edc2-58fc0c9258dd",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-17T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-104a-9090-53f6f240c83e",
+                "esbId": "2017091710",
+                "gameDetailId": "10160000-0572-61e5-7eb5-56f101eb0d53",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-17T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-1169-5d6c-f23c9f5bccfa",
+                "esbId": "2017091711",
+                "gameDetailId": "10160000-0572-629d-2bec-dcf161f5d8d8",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-17T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-1225-087d-22fd6606923a",
+                "esbId": "2017091712",
+                "gameDetailId": "10160000-0572-63d9-2b95-df2bf0749704",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-17T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0917-134b-af36-c83c014bca00",
+                "esbId": "2017091713",
+                "gameDetailId": "10160000-0572-6431-1dc8-cfeb91a8bb01",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-18T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0918-0018-b0f3-7cdf4a3c135c",
+                "esbId": "2017091800",
+                "gameDetailId": "10160000-0572-653b-3b92-d27dc17a283c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2017-09-19T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0921-00ce-4e0a-d43490f0ebad",
+                "esbId": "2017092100",
+                "gameDetailId": "10160000-0572-66a7-8eb9-7a950167eb14",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-22T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-00a0-39c3-db403a28c54e",
+                "esbId": "2017092400",
+                "gameDetailId": "10160000-0572-6752-12f4-eb63c6e18c4f",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-24T13:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-01e8-ad83-597061bd62e8",
+                "esbId": "2017092401",
+                "gameDetailId": "10160000-0572-6817-b699-a3d2323225e8",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-24T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-0239-ba6d-e179fa7c2960",
+                "esbId": "2017092402",
+                "gameDetailId": "10160000-0572-6922-4d5d-0815f239758b",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-24T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-0338-9418-30f8d136fc4a",
+                "esbId": "2017092403",
+                "gameDetailId": "10160000-0572-7063-632b-a3d51a426700",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-24T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-045a-33a3-a664c53441d1",
+                "esbId": "2017092404",
+                "gameDetailId": "10160000-0572-7191-dc4c-88ef55bfc197",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-24T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-05b3-4986-f761a4686dbd",
+                "esbId": "2017092405",
+                "gameDetailId": "10160000-0572-7232-2223-3f74577328ad",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-24T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-06d1-e09c-91f209aa93aa",
+                "esbId": "2017092406",
+                "gameDetailId": "10160000-0572-73b1-0a6a-4cae6a73e9cf",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-24T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-079a-f18e-e360e1889765",
+                "esbId": "2017092407",
+                "gameDetailId": "10160000-0572-74a6-cd3e-64649647baba",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-24T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-08b1-1bfc-8646b7b068ac",
+                "esbId": "2017092408",
+                "gameDetailId": "10160000-0572-7569-10f3-d6735ba10d49",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-24T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-0934-7d84-2cce5153b41b",
+                "esbId": "2017092409",
+                "gameDetailId": "10160000-0572-7696-18d1-732987f20180",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-24T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-1047-f5ea-49bbafd0e8a9",
+                "esbId": "2017092410",
+                "gameDetailId": "10160000-0572-77b5-fd64-4d26fc0a9945",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-24T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-11b8-2160-19a7190e3181",
+                "esbId": "2017092411",
+                "gameDetailId": "10160000-0572-783e-481b-d9a9510792bb",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-24T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-1225-5003-8bc62a7e747c",
+                "esbId": "2017092412",
+                "gameDetailId": "10160000-0572-792e-1711-03d914b43d19",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-24T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0924-1366-caab-25bfedfadd25",
+                "esbId": "2017092413",
+                "gameDetailId": "10160000-0572-80bc-7a9f-4f41e1fdd43a",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-25T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0925-00b3-ef26-98c8cf5704df",
+                "esbId": "2017092500",
+                "gameDetailId": "10160000-0572-81f2-0329-6b7f1c619737",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2017-09-26T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-0928-00d1-6dba-01aff48e5736",
+                "esbId": "2017092800",
+                "gameDetailId": "10160000-0572-8238-bbdf-92f19f9c2224",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-09-29T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-0066-b52e-d55d3ef6ff48",
+                "esbId": "2017100100",
+                "gameDetailId": "10160000-0572-8379-e6cd-42eb9461e205",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-01T13:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-0119-a1e5-2d07a7a613e6",
+                "esbId": "2017100101",
+                "gameDetailId": "10160000-0572-8426-555c-47d1a7946748",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-01T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-0294-0c31-ab9d3905580c",
+                "esbId": "2017100102",
+                "gameDetailId": "10160000-0572-8533-8358-6baa5a5cb53c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-01T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-033c-80ba-023aa809add8",
+                "esbId": "2017100103",
+                "gameDetailId": "10160000-0572-8635-6b7d-fb375c9292e8",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-01T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-04c6-5b9c-47fd31bad080",
+                "esbId": "2017100104",
+                "gameDetailId": "10160000-0572-87bb-0ce0-95cf90283b59",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-01T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-0519-a03e-065fcaa9c965",
+                "esbId": "2017100105",
+                "gameDetailId": "10160000-0572-88b5-4e6f-6a114c4683b4",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-01T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-0656-2216-eb40b4575085",
+                "esbId": "2017100106",
+                "gameDetailId": "10160000-0572-89b3-0c4c-d9938b153018",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-01T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-07fb-8a01-8af33e623991",
+                "esbId": "2017100107",
+                "gameDetailId": "10160000-0572-9080-3734-19c18af24fb1",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-01T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-0858-ba27-fd76853f12c3",
+                "esbId": "2017100108",
+                "gameDetailId": "10160000-0572-91ca-1f57-5c65b1c15cf4",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-01T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-09db-aa84-266c476d81d3",
+                "esbId": "2017100109",
+                "gameDetailId": "10160000-0572-922c-c4de-7416e64b9f15",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-01T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-102f-0be9-a7d9323357f4",
+                "esbId": "2017100110",
+                "gameDetailId": "10160000-0572-93b4-5f7d-8436ef72b2ee",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-01T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-11e7-52e9-615d20b8a8c1",
+                "esbId": "2017100111",
+                "gameDetailId": "10160000-0572-9463-9dbd-d64669ed54e3",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-01T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-12db-99f1-543786e012a9",
+                "esbId": "2017100112",
+                "gameDetailId": "10160000-0572-9515-b6c2-407e45bba995",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-01T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1001-1363-0989-dc523414c9ca",
+                "esbId": "2017100113",
+                "gameDetailId": "10160000-0572-96e8-bf14-726f514b8eb8",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-02T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1002-00cc-2b93-23934e39de2e",
+                "esbId": "2017100200",
+                "gameDetailId": "10160000-0572-976f-adc6-6bd1510457c3",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2017-10-03T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1005-0075-fd61-618a1e271a52",
+                "esbId": "2017100500",
+                "gameDetailId": "10160000-0572-989b-14b1-bb8e322794cc",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-06T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1008-00bc-6c23-80e1fad09904",
+                "esbId": "2017100800",
+                "gameDetailId": "10160000-0572-9984-0363-586e6b418c07",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1008-019b-b326-c44525031bf1",
+                "esbId": "2017100801",
+                "gameDetailId": "10160000-0573-0045-18fa-bdc2df3cb731",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1008-02d8-e382-750e7d3d6913",
+                "esbId": "2017100802",
+                "gameDetailId": "10160000-0573-012e-3747-3c898de691b6",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1008-0352-2fca-daa374a66743",
+                "esbId": "2017100803",
+                "gameDetailId": "10160000-0573-02a3-350b-7502b9a46f19",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1008-047d-886e-b5cd9ce8a76f",
+                "esbId": "2017100804",
+                "gameDetailId": "10160000-0573-03c2-b2f6-795a2d999978",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1008-057c-fcfe-c87ab56ff0d4",
+                "esbId": "2017100805",
+                "gameDetailId": "10160000-0573-04a9-8258-c192403bf125",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1008-0654-c2b7-85799a87750e",
+                "esbId": "2017100806",
+                "gameDetailId": "10160000-0573-05d3-cb55-c7ac57688dd6",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1008-074c-5dc1-83159864ffd2",
+                "esbId": "2017100807",
+                "gameDetailId": "10160000-0573-06e6-722b-ce6a936677d6",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1008-0879-1199-6105eca71b02",
+                "esbId": "2017100808",
+                "gameDetailId": "10160000-0573-071c-30d5-88522ff504d4",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-08T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1008-09df-9557-0b7e0530c1c0",
+                "esbId": "2017100809",
+                "gameDetailId": "10160000-0573-0876-b38d-ef7e2f351103",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-08T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1008-1017-b961-12bee91f6473",
+                "esbId": "2017100810",
+                "gameDetailId": "10160000-0573-09f6-0773-0fe603528f13",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-08T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1008-1191-0a57-e0f851661019",
+                "esbId": "2017100811",
+                "gameDetailId": "10160000-0573-10db-1487-feb4da7e4742",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-09T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1009-00c2-95e0-58500037ff6c",
+                "esbId": "2017100900",
+                "gameDetailId": "10160000-0573-11c6-5327-1ec48183b101",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2017-10-10T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1012-00b6-ab96-8cdbd521faf9",
+                "esbId": "2017101200",
+                "gameDetailId": "10160000-0573-12bf-8bcf-419cd16d2763",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-13T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1015-00c5-30c9-c1108171ff53",
+                "esbId": "2017101500",
+                "gameDetailId": "10160000-0573-1364-cbaa-5d1298b03520",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1015-0178-b6e8-48171d8e7471",
+                "esbId": "2017101501",
+                "gameDetailId": "10160000-0573-1482-7542-b066a6ae19b1",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1015-0293-8919-c455966fbc65",
+                "esbId": "2017101502",
+                "gameDetailId": "10160000-0573-15ad-2158-ae661bb6279a",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1015-0388-11cd-013ba8c2a9ea",
+                "esbId": "2017101503",
+                "gameDetailId": "10160000-0573-1624-d694-0494526a09c3",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1015-0461-6d8b-f1d283ecdb58",
+                "esbId": "2017101504",
+                "gameDetailId": "10160000-0573-1721-b3c3-adf9f6d229fa",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1015-05e8-d076-e460e7bba219",
+                "esbId": "2017101505",
+                "gameDetailId": "10160000-0573-188d-0664-dc46842613aa",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1015-0677-2205-69028ec23825",
+                "esbId": "2017101506",
+                "gameDetailId": "10160000-0573-19a0-1ac8-205b53705616",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1015-07e6-5fe5-99831aa5b467",
+                "esbId": "2017101507",
+                "gameDetailId": "10160000-0573-20fb-c0e3-0df02249aea1",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-15T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1015-08ba-4cdd-ff438e0499b5",
+                "esbId": "2017101508",
+                "gameDetailId": "10160000-0573-2191-f316-667289ca9cf9",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-15T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1015-093d-4536-714ee2680b87",
+                "esbId": "2017101509",
+                "gameDetailId": "10160000-0573-225a-c20a-80932e6a56a0",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-15T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1015-106c-5167-bf9f190a4c6a",
+                "esbId": "2017101510",
+                "gameDetailId": "10160000-0573-231b-d76d-376c4c309195",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-15T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1015-112c-8bd7-c30f34e46cd8",
+                "esbId": "2017101511",
+                "gameDetailId": "10160000-0573-245b-9f91-ea7305ee632d",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-16T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1016-00aa-c37a-6254efd8f41b",
+                "esbId": "2017101600",
+                "gameDetailId": "10160000-0573-255a-c000-310f28e34265",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2017-10-17T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1019-00ca-081e-50172269133e",
+                "esbId": "2017101900",
+                "gameDetailId": "10160000-0573-265f-dafa-6a12295d39df",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-20T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1022-0024-8f4f-4e5348dd337b",
+                "esbId": "2017102200",
+                "gameDetailId": "10160000-0573-2722-2f61-e7aabbe55978",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1022-0151-04d3-011b9d80a97f",
+                "esbId": "2017102201",
+                "gameDetailId": "10160000-0573-28ae-0eb2-b0f5c487fe29",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1022-02d5-acbc-1c4675a40881",
+                "esbId": "2017102202",
+                "gameDetailId": "10160000-0573-298a-6aeb-ce5b2952c501",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1022-0397-0c4f-9dff3830cc1c",
+                "esbId": "2017102203",
+                "gameDetailId": "10160000-0573-3091-cf72-6ac2f566dcda",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1022-044f-f395-2e09704bb4f0",
+                "esbId": "2017102204",
+                "gameDetailId": "10160000-0573-31d3-ab6f-b459262b8eed",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1022-053d-d6e9-723bd5bc8369",
+                "esbId": "2017102205",
+                "gameDetailId": "10160000-0573-32fd-b4af-36974c10bb5c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1022-06b4-8894-0c52a8024b83",
+                "esbId": "2017102206",
+                "gameDetailId": "10160000-0573-336a-27f0-e6252e6567b8",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1022-0713-e63d-74be7fc6cb9e",
+                "esbId": "2017102207",
+                "gameDetailId": "10160000-0573-347e-683b-e6a572622384",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1022-08bc-6044-e6447ea57f4d",
+                "esbId": "2017102208",
+                "gameDetailId": "10160000-0573-35ea-b9d9-d9d7152efaad",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-22T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1022-096e-beff-4ebdb8a00758",
+                "esbId": "2017102209",
+                "gameDetailId": "10160000-0573-3638-8a93-e78ec0091a6d",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-22T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1022-105c-15ab-3c6b47cebc60",
+                "esbId": "2017102210",
+                "gameDetailId": "10160000-0573-37eb-3e7b-cd2fd18514b9",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-22T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1022-1114-91a6-530af600f395",
+                "esbId": "2017102211",
+                "gameDetailId": "10160000-0573-38cb-f165-d9581720677f",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-22T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1022-12fd-98a1-078467a4e594",
+                "esbId": "2017102212",
+                "gameDetailId": "10160000-0573-3973-02ef-3ab713bdb573",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-23T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1023-00b1-2def-5597be27a9f9",
+                "esbId": "2017102300",
+                "gameDetailId": "10160000-0573-40ed-7c8b-72b4bb4ff7db",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2017-10-24T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1026-0078-08f7-70d8588cf193",
+                "esbId": "2017102600",
+                "gameDetailId": "10160000-0573-41bc-b0d2-0acc7f659706",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2017-10-27T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1029-005c-9f6e-eff3a4b813cb",
+                "esbId": "2017102900",
+                "gameDetailId": "10160000-0573-42c6-eadd-26a945616bae",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2017-10-29T13:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1029-01f4-36ef-5bd437a4d7d4",
+                "esbId": "2017102901",
+                "gameDetailId": "10160000-0573-431d-538f-4b6ec3a5cee7",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2017-10-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1029-0261-481d-b1224551e05e",
+                "esbId": "2017102902",
+                "gameDetailId": "10160000-0573-4474-b01a-b7929d115b91",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2017-10-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1029-033f-6720-1efd11232eda",
+                "esbId": "2017102903",
+                "gameDetailId": "10160000-0573-4530-f2c1-1c065b07fe57",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2017-10-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1029-04c8-a31f-c4a2f9d701ba",
+                "esbId": "2017102904",
+                "gameDetailId": "10160000-0573-46b6-7ba5-c857d481598b",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2017-10-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1029-05ac-0641-a6780422c20c",
+                "esbId": "2017102905",
+                "gameDetailId": "10160000-0573-473c-0248-cab223773c7c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2017-10-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1029-065f-b162-5ff749147944",
+                "esbId": "2017102906",
+                "gameDetailId": "10160000-0573-48d9-5d7c-356a43858a24",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2017-10-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1029-0731-9254-706f9ce1e8d5",
+                "esbId": "2017102907",
+                "gameDetailId": "10160000-0573-4974-313f-85406769cd91",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2017-10-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1029-089e-85d9-bce98ceeac7e",
+                "esbId": "2017102908",
+                "gameDetailId": "10160000-0573-5079-d361-d5bcb6080658",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2017-10-29T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1029-0934-e2cc-9368ce3391a6",
+                "esbId": "2017102909",
+                "gameDetailId": "10160000-0573-51f9-7cb6-bb174aba07a7",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2017-10-29T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1029-10a4-040d-7f7074835ba5",
+                "esbId": "2017102910",
+                "gameDetailId": "10160000-0573-525a-c10d-eb2208ccb85f",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2017-10-30T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1030-00b3-6b30-a61200c82d38",
+                "esbId": "2017103000",
+                "gameDetailId": "10160000-0573-53fd-1426-7917ce92b514",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2017-10-31T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1102-0079-64f1-6ff1021d59bd",
+                "esbId": "2017110200",
+                "gameDetailId": "10160000-0573-5419-1117-0cccd1fdd203",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2017-11-03T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1105-0016-fa7e-2cc7fc934def",
+                "esbId": "2017110500",
+                "gameDetailId": "10160000-0573-55de-38c6-57221bb36c0f",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2017-11-05T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1105-013c-6c11-cb7cd78d64a2",
+                "esbId": "2017110501",
+                "gameDetailId": "10160000-0573-5629-409e-0d2bf19ecce9",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2017-11-05T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1105-02fd-2606-ce6c093af362",
+                "esbId": "2017110502",
+                "gameDetailId": "10160000-0573-573a-f60a-41313da2858e",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2017-11-05T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1105-03d2-4871-c740b8222a73",
+                "esbId": "2017110503",
+                "gameDetailId": "10160000-0573-58c9-c7f3-7d1ee010045e",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2017-11-05T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1105-0432-35a4-7d44f71ce221",
+                "esbId": "2017110504",
+                "gameDetailId": "10160000-0573-59f1-64da-338b275977d0",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2017-11-05T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1105-0589-a92d-42c896f5022a",
+                "esbId": "2017110505",
+                "gameDetailId": "10160000-0573-60e3-d093-9a6f1af5d6f8",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2017-11-05T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1105-063b-138c-4fdd61fa1cc9",
+                "esbId": "2017110506",
+                "gameDetailId": "10160000-0573-61e9-ee70-28e450923c7c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2017-11-05T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1105-0728-34f9-308a7558baf4",
+                "esbId": "2017110507",
+                "gameDetailId": "10160000-0573-62eb-b1cd-cf0551b9e45a",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2017-11-05T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1105-0864-c399-9f9faf7f46c5",
+                "esbId": "2017110508",
+                "gameDetailId": "10160000-0573-63c2-bca8-320a8d413680",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2017-11-05T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1105-0968-4cd6-4aa9f620d60f",
+                "esbId": "2017110509",
+                "gameDetailId": "10160000-0573-6455-073e-6dd704e41626",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2017-11-05T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1105-10f2-733e-09dcf1436246",
+                "esbId": "2017110510",
+                "gameDetailId": "10160000-0573-6594-df73-7e3396c22c53",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2017-11-06T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1106-0026-a4ff-9929f71db29e",
+                "esbId": "2017110600",
+                "gameDetailId": "10160000-0573-6671-2813-bb10e4cd519e",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2017-11-07T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1109-0063-b1d4-32ed95444077",
+                "esbId": "2017110900",
+                "gameDetailId": "10160000-0573-679f-140a-c3e09f7b930c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-10T01:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1112-00f2-d976-a6da7db61380",
+                "esbId": "2017111200",
+                "gameDetailId": "10160000-0573-6885-40cc-b6d45c7c5988",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-12T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1112-01a8-b9e2-1aea8c4730bf",
+                "esbId": "2017111201",
+                "gameDetailId": "10160000-0573-6954-3632-e66ff0e98457",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-12T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1112-02fb-0dd6-a05f18bcb867",
+                "esbId": "2017111202",
+                "gameDetailId": "10160000-0573-70f4-6d82-d75d5305f2cd",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-12T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1112-03d8-b5f6-5047d2dba017",
+                "esbId": "2017111203",
+                "gameDetailId": "10160000-0573-71ef-ae62-a3d539f51f11",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-12T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1112-04aa-47ce-a4007d9e2d23",
+                "esbId": "2017111204",
+                "gameDetailId": "10160000-0573-72ce-7aa8-11275a88ae5c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-12T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1112-056e-fef0-bba64915e9f6",
+                "esbId": "2017111205",
+                "gameDetailId": "10160000-0573-7354-2f9e-ee0ef8cef961",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-12T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1112-0630-7ebe-b165f6951230",
+                "esbId": "2017111206",
+                "gameDetailId": "10160000-0573-7485-6630-09330d82e742",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-12T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1112-078f-33b5-7db9548ea98d",
+                "esbId": "2017111207",
+                "gameDetailId": "10160000-0573-7564-d639-3ac14f982fb2",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-12T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1112-08fc-2074-725fa4fda20a",
+                "esbId": "2017111208",
+                "gameDetailId": "10160000-0573-76eb-bc15-55368d1580d0",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-12T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1112-0928-5cba-aeb211e485f8",
+                "esbId": "2017111209",
+                "gameDetailId": "10160000-0573-77f0-7f1f-78be6d66097b",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-12T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1112-10e0-bfbd-de8bb868bad9",
+                "esbId": "2017111210",
+                "gameDetailId": "10160000-0573-7823-9272-931be6b66aa0",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-12T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1112-1190-cd3c-f17a741048c2",
+                "esbId": "2017111211",
+                "gameDetailId": "10160000-0573-79d2-bf47-e6866b1c704e",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-13T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1113-00eb-cb98-868c83f587c9",
+                "esbId": "2017111300",
+                "gameDetailId": "10160000-0573-8039-4b65-0c594a4a520d",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2017-11-14T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1116-0032-6480-becd4d7d1b1c",
+                "esbId": "2017111600",
+                "gameDetailId": "10160000-0573-81f1-17fa-d2ccdd7c6eac",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-17T01:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1119-00d3-2508-9af4171b2f9e",
+                "esbId": "2017111900",
+                "gameDetailId": "10160000-0573-821f-6f78-8ea3d1c0ad6f",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-19T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1119-0155-f11c-7e64d11321b8",
+                "esbId": "2017111901",
+                "gameDetailId": "10160000-0573-83fb-7afd-c149d8e1513f",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-19T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1119-0254-c269-caab32bbad15",
+                "esbId": "2017111902",
+                "gameDetailId": "10160000-0573-846c-3999-6b333a84bebb",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-19T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1119-0335-7396-36c9d13154f9",
+                "esbId": "2017111903",
+                "gameDetailId": "10160000-0573-8575-9cfc-66759de3a7fd",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-19T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1119-04f0-5431-a81c69a5689d",
+                "esbId": "2017111904",
+                "gameDetailId": "10160000-0573-8641-63b1-a94eb9e699c9",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-19T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1119-05f2-28da-3126b75f9d96",
+                "esbId": "2017111905",
+                "gameDetailId": "10160000-0573-877b-1760-e33e58118112",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-19T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1119-0666-7ea7-977ae09e3401",
+                "esbId": "2017111906",
+                "gameDetailId": "10160000-0573-88ce-ffcc-b75ab9e9ce8c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-19T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1119-0770-0a95-92ef77f22b2f",
+                "esbId": "2017111907",
+                "gameDetailId": "10160000-0573-8948-e319-091e35d76cf5",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-19T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1119-0819-e2c8-4af8959b35c2",
+                "esbId": "2017111908",
+                "gameDetailId": "10160000-0573-90db-69e4-8523f52ccab4",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-19T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1119-099b-1960-aa3895b87796",
+                "esbId": "2017111909",
+                "gameDetailId": "10160000-0573-9141-e9cf-a80ceeecf7ab",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-19T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1119-109e-0439-b76fe47ad667",
+                "esbId": "2017111910",
+                "gameDetailId": "10160000-0573-92a6-39a3-8c0bfa3f0faf",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-20T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1119-1136-a9db-08262cd7dde8",
+                "esbId": "2017111911",
+                "gameDetailId": "10160000-0572-418f-4a86-2ae7f957c1b3",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-19T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1120-0021-fe39-eaf17b7ac477",
+                "esbId": "2017112000",
+                "gameDetailId": "10160000-0573-93b1-a9c8-95c58b64e43d",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2017-11-21T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1123-00f3-01c8-32376a806b9e",
+                "esbId": "2017112300",
+                "gameDetailId": "10160000-0573-947e-f38c-da30792465db",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-23T17:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1123-011a-b918-ce13e6ab4127",
+                "esbId": "2017112301",
+                "gameDetailId": "10160000-0573-9575-4fe9-51011f402695",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-23T21:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1123-029e-19e3-be00f69c2098",
+                "esbId": "2017112302",
+                "gameDetailId": "10160000-0573-966d-17cf-74541c088ff4",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-24T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1126-0063-12b5-f880bcd29eb0",
+                "esbId": "2017112600",
+                "gameDetailId": "10160000-0573-975a-faa9-806565cc9ece",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-26T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1126-0194-ebf3-60e1e7d9f3aa",
+                "esbId": "2017112601",
+                "gameDetailId": "10160000-0573-98e0-fffa-bc5ae1bef693",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-26T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1126-02de-18ac-557ecc4e808f",
+                "esbId": "2017112602",
+                "gameDetailId": "10160000-0573-99c9-9bf7-12a3f9fa337f",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-26T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1126-0366-9b25-c18a99a18070",
+                "esbId": "2017112603",
+                "gameDetailId": "10160000-0574-0041-04bb-af52d484e341",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-26T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1126-045a-be47-19ea19602a58",
+                "esbId": "2017112604",
+                "gameDetailId": "10160000-0574-012e-05d7-665edf664648",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-26T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1126-05c9-69cb-f6ba7c1e5a2f",
+                "esbId": "2017112605",
+                "gameDetailId": "10160000-0574-0233-9650-8ff3e98ce114",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-26T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1126-06cf-8711-a0c43c07e9eb",
+                "esbId": "2017112606",
+                "gameDetailId": "10160000-0574-03e1-d8ea-d2b892a9ab1a",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-26T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1126-0793-f801-73123a8ec66a",
+                "esbId": "2017112607",
+                "gameDetailId": "10160000-0574-048e-cfef-ffba6733a12c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-26T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1126-081d-dce0-990731708de1",
+                "esbId": "2017112608",
+                "gameDetailId": "10160000-0574-05a3-e2c8-3c18c476a1b9",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-26T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1126-0934-d0a3-8f789d807366",
+                "esbId": "2017112609",
+                "gameDetailId": "10160000-0574-0699-0733-fb305f90cca6",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-26T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1126-10ce-7a45-dbcd392acca9",
+                "esbId": "2017112610",
+                "gameDetailId": "10160000-0574-0752-0975-f7b6d756623b",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-26T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1126-11f8-33d0-fb04fbd90779",
+                "esbId": "2017112611",
+                "gameDetailId": "10160000-0574-0871-3283-c17ceafed0d7",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-27T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1127-0081-1543-d2b602df8501",
+                "esbId": "2017112700",
+                "gameDetailId": "10160000-0574-09d6-bb4c-d6895c5ad687",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2017-11-28T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1130-00a9-bf83-7a10559315cd",
+                "esbId": "2017113000",
+                "gameDetailId": "10160000-0574-1067-f3b9-1bb496d51148",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-01T01:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-00f6-58b2-a996dcdbb2ba",
+                "esbId": "2017120300",
+                "gameDetailId": "10160000-0574-11e3-1fa9-7689d20e0999",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-01af-6f26-ae1b6359bce1",
+                "esbId": "2017120301",
+                "gameDetailId": "10160000-0574-12b7-b80a-a35b89219233",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-0215-e807-4d31b9be0c88",
+                "esbId": "2017120302",
+                "gameDetailId": "10160000-0574-132c-872f-ad8cd154c913",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-0310-44f1-b04b94bdcddf",
+                "esbId": "2017120303",
+                "gameDetailId": "10160000-0574-14c9-d110-0080c2fcb3d0",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-048d-f6c0-c85be407c5e3",
+                "esbId": "2017120304",
+                "gameDetailId": "10160000-0574-15fc-dc99-8ad06aaa1efd",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-05ba-164e-3e72f4dd0c01",
+                "esbId": "2017120305",
+                "gameDetailId": "10160000-0574-1660-5b7f-f96f4d778e7a",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-0679-711f-148a24e3f6a6",
+                "esbId": "2017120306",
+                "gameDetailId": "10160000-0574-1761-8cca-3710d847c03e",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-079d-8801-adc1f5beccb8",
+                "esbId": "2017120307",
+                "gameDetailId": "10160000-0574-18e4-c95f-a326c35e37fc",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-03T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-08bf-ef54-fd97d66a81ae",
+                "esbId": "2017120308",
+                "gameDetailId": "10160000-0574-191f-6b23-556c9e98369e",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-0937-cca6-b0ad88352367",
+                "esbId": "2017120309",
+                "gameDetailId": "10160000-0574-202d-2e75-e77a2c7daf9e",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-10ed-dc4b-ae816d15d062",
+                "esbId": "2017120310",
+                "gameDetailId": "10160000-0574-2116-202c-87d187ab9f4d",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-03T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-1144-852a-2fe88b6042b7",
+                "esbId": "2017120311",
+                "gameDetailId": "10160000-0574-226a-2c4d-46a723363165",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-03T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-12a0-d36e-dce1b81871bc",
+                "esbId": "2017120312",
+                "gameDetailId": "10160000-0574-23ba-cbc4-22ef68c0d848",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-03T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1203-1328-88df-8592a207064f",
+                "esbId": "2017120313",
+                "gameDetailId": "10160000-0574-24dd-1330-25ddfd5d7220",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-04T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1204-00bb-8048-d0fbc564caa0",
+                "esbId": "2017120400",
+                "gameDetailId": "10160000-0574-25c0-39cf-dccbd3e90553",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2017-12-05T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1207-00c6-bcda-fafe4368005b",
+                "esbId": "2017120700",
+                "gameDetailId": "10160000-0574-262e-8b2a-a800d3bb7fde",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-08T01:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-001e-f6ef-698bf0088ba8",
+                "esbId": "2017121000",
+                "gameDetailId": "10160000-0574-27bf-d23c-e5f721fd3e83",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-01e2-59e3-b6e514aeeeea",
+                "esbId": "2017121001",
+                "gameDetailId": "10160000-0574-28df-92c2-c9671a35bad0",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-02a1-1a11-95541359c823",
+                "esbId": "2017121002",
+                "gameDetailId": "10160000-0574-29c4-8c16-7afd7ee00be5",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-034d-dbf0-e91983077359",
+                "esbId": "2017121003",
+                "gameDetailId": "10160000-0574-30aa-740a-467665510365",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-04af-a979-fdabf9f556ad",
+                "esbId": "2017121004",
+                "gameDetailId": "10160000-0574-3187-c444-68b57173578d",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-0532-1a55-9dedbbba31ae",
+                "esbId": "2017121005",
+                "gameDetailId": "10160000-0574-3256-c158-b3002cf40c7e",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-10T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-06f4-0e85-2458d65ac401",
+                "esbId": "2017121006",
+                "gameDetailId": "10160000-0574-3333-8426-672e7df29be5",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-0712-3ca6-1e890ee52a91",
+                "esbId": "2017121007",
+                "gameDetailId": "10160000-0574-345b-2f5e-ac75aef05dc2",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-0820-d398-a919deb12e4f",
+                "esbId": "2017121008",
+                "gameDetailId": "10160000-0574-35cd-eaa7-cca9b13b23a4",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-10T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-09f9-671d-3b2eddda6d7a",
+                "esbId": "2017121009",
+                "gameDetailId": "10160000-0574-36aa-e88b-57f60fd2ceb2",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-10T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-10bb-33bb-6315f501b356",
+                "esbId": "2017121010",
+                "gameDetailId": "10160000-0574-37a9-cad9-a62d0cd7d7cc",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-10T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-1154-2820-759939227ec4",
+                "esbId": "2017121011",
+                "gameDetailId": "10160000-0574-38ea-e48c-34992b235cc9",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-10T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-1297-d4ec-5dbd0a0af2b9",
+                "esbId": "2017121012",
+                "gameDetailId": "10160000-0574-39d4-ca49-5b6cae55711b",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1210-13a5-9013-fdd7fe6214a2",
+                "esbId": "2017121013",
+                "gameDetailId": "10160000-0574-402d-fe18-9f31e503a682",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-11T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1211-0094-c3fa-aa1baa750e8c",
+                "esbId": "2017121100",
+                "gameDetailId": "10160000-0574-4184-a4cf-e9a176c204f1",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2017-12-12T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1214-0065-2383-a90d4bec4774",
+                "esbId": "2017121400",
+                "gameDetailId": "10160000-0574-4265-f2e8-6eee9509f0dc",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-15T01:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1216-008d-2286-af2ffdbca9c4",
+                "esbId": "2017121600",
+                "gameDetailId": "10160000-0574-433a-d4c3-cd702f641913",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-16T21:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1216-01de-8a12-2948d49a85bc",
+                "esbId": "2017121601",
+                "gameDetailId": "10160000-0574-4473-7207-acd05b71e2f0",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-17T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1217-0017-a889-d30af2e7d2d8",
+                "esbId": "2017121700",
+                "gameDetailId": "10160000-0574-4538-281f-34a8616e29d8",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1217-01b4-f157-6baf42125bae",
+                "esbId": "2017121701",
+                "gameDetailId": "10160000-0574-46a7-1196-27038bbc5535",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1217-0280-28bc-9e14a100058b",
+                "esbId": "2017121702",
+                "gameDetailId": "10160000-0574-4749-3a2e-328babe5e31c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1217-03e6-8f27-5667771a95a1",
+                "esbId": "2017121703",
+                "gameDetailId": "10160000-0574-48c0-8097-1617a537cfef",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1217-0490-2368-0aa9aa90238e",
+                "esbId": "2017121704",
+                "gameDetailId": "10160000-0574-492b-9da6-044db2cf2efe",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1217-0580-e846-86a3243c601e",
+                "esbId": "2017121705",
+                "gameDetailId": "10160000-0574-509f-d50a-4455f5406da6",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1217-064e-ce49-709c64446d3d",
+                "esbId": "2017121706",
+                "gameDetailId": "10160000-0574-51ba-8bd8-7e7526af6ea5",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1217-076b-8da9-1c4553109f4a",
+                "esbId": "2017121707",
+                "gameDetailId": "10160000-0574-5298-4762-a0b30f13722c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1217-08e6-cbf6-084e082ed464",
+                "esbId": "2017121708",
+                "gameDetailId": "10160000-0574-539f-a7f0-800ac8d2539f",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-17T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1217-0921-e16a-748d9253b05b",
+                "esbId": "2017121709",
+                "gameDetailId": "10160000-0574-546e-0785-7035230856db",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-17T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1217-106f-698d-ea9019070ab3",
+                "esbId": "2017121710",
+                "gameDetailId": "10160000-0574-555b-c3d1-a8e6637c570d",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-17T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1217-1127-6e78-22f5bac34e4a",
+                "esbId": "2017121711",
+                "gameDetailId": "10160000-0574-5621-b6a7-643b70ad1dc9",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-18T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1218-00d1-a00b-172a73404de5",
+                "esbId": "2017121800",
+                "gameDetailId": "10160000-0574-5732-83e7-68a5d5e43851",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2017-12-19T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1223-0099-df9c-1dbb9f1b54d3",
+                "esbId": "2017122300",
+                "gameDetailId": "10160000-0574-58c3-3f59-924c4fb75114",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-23T21:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1223-0121-5204-8aad7390e655",
+                "esbId": "2017122301",
+                "gameDetailId": "10160000-0574-59f7-7f43-928e428ff45d",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-24T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1224-00be-5ae3-a7a9adcf32c5",
+                "esbId": "2017122400",
+                "gameDetailId": "10160000-0574-604e-c8be-f84a929c2771",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1224-0175-7467-8fc753b7425d",
+                "esbId": "2017122401",
+                "gameDetailId": "10160000-0574-611f-bee4-250da0525312",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1224-02a7-2f01-e272148452c2",
+                "esbId": "2017122402",
+                "gameDetailId": "10160000-0574-622e-5e4c-ec65a9ebfa71",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1224-033a-1d9a-d60cbf0a6be9",
+                "esbId": "2017122403",
+                "gameDetailId": "10160000-0574-63a4-d9df-e4d44a85b647",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1224-04f8-d99a-c7baf6059dae",
+                "esbId": "2017122404",
+                "gameDetailId": "10160000-0574-6483-80b5-04b20353a3ea",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1224-0555-bfa3-9cd774859374",
+                "esbId": "2017122405",
+                "gameDetailId": "10160000-0574-65a3-8e74-553e9c3d9758",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1224-06f7-e511-2194917719ec",
+                "esbId": "2017122406",
+                "gameDetailId": "10160000-0574-665d-8bf3-2d8fc139fed2",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1224-0776-e790-c5e27ad1cedf",
+                "esbId": "2017122407",
+                "gameDetailId": "10160000-0574-67b0-c710-e46fdade928a",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1224-086d-fa06-d6c3c4c81a25",
+                "esbId": "2017122408",
+                "gameDetailId": "10160000-0574-682f-0faf-467e83e25bd2",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1224-092b-2c34-54982f36b003",
+                "esbId": "2017122409",
+                "gameDetailId": "10160000-0574-697f-2e4e-24049c3884b2",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-24T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1224-108e-4741-54f1bddc4b6e",
+                "esbId": "2017122410",
+                "gameDetailId": "10160000-0574-70d3-0fab-395ff48f96bc",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-24T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1224-11fb-278c-efa02f4139db",
+                "esbId": "2017122411",
+                "gameDetailId": "10160000-0574-71dd-6076-09233aa2ba16",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-24T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1225-0047-c082-f0848c28af5b",
+                "esbId": "2017122500",
+                "gameDetailId": "10160000-0574-72b0-0f30-d79a3e1d896e",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-25T21:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1225-014c-3bc8-3d3658fef9c6",
+                "esbId": "2017122501",
+                "gameDetailId": "10160000-0574-736f-8df9-d8997ba63a0c",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2017-12-26T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-00ea-ba09-806c7a6ff063",
+                "esbId": "2017123100",
+                "gameDetailId": "10160000-0574-748c-31a3-c69a2b220a27",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-0153-dbd0-8d0ed68a5ebc",
+                "esbId": "2017123101",
+                "gameDetailId": "10160000-0574-75ea-76d1-aa1db576ea20",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-02bc-7088-24fe870b53c4",
+                "esbId": "2017123102",
+                "gameDetailId": "10160000-0574-766f-89f1-db12f2adfb3d",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-038b-2ad8-9a54b101573f",
+                "esbId": "2017123103",
+                "gameDetailId": "10160000-0574-7760-52ac-320258d53a4d",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-0455-4703-2dd54f6a241d",
+                "esbId": "2017123104",
+                "gameDetailId": "10160000-0574-78b7-6867-0cf0c98de0e7",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-0523-e356-8826abc65c9b",
+                "esbId": "2017123105",
+                "gameDetailId": "10160000-0574-7946-c338-06caa8d5b5c6",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-065d-0b94-73f5a6bbd140",
+                "esbId": "2017123106",
+                "gameDetailId": "10160000-0574-80f8-95dd-79a34532daa1",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-0731-fbc5-e3002fcde293",
+                "esbId": "2017123107",
+                "gameDetailId": "10160000-0574-81a6-37bb-548c5cfe507a",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-0836-077a-c7b47f734d6e",
+                "esbId": "2017123108",
+                "gameDetailId": "10160000-0574-82a6-3f8f-9e0e62aa1290",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-09ab-988f-2f01d41787a3",
+                "esbId": "2017123109",
+                "gameDetailId": "10160000-0574-8393-0ec0-9323d3b181e2",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-10af-5ff0-45a629fa1b43",
+                "esbId": "2017123110",
+                "gameDetailId": "10160000-0574-8451-a9c8-f5ed049dd175",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-11b9-717c-0b92b58280e5",
+                "esbId": "2017123111",
+                "gameDetailId": "10160000-0574-85c7-8085-e69c74baf099",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-12f4-de9d-5d5b490b7837",
+                "esbId": "2017123112",
+                "gameDetailId": "10160000-0574-869e-2234-d860e20751a6",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-136f-c93c-374bc36f4a01",
+                "esbId": "2017123113",
+                "gameDetailId": "10160000-0574-8734-0704-3d551f4d229a",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-1456-be05-3d6cf8f0dab2",
+                "esbId": "2017123114",
+                "gameDetailId": "10160000-0574-88c2-b91b-8bb9a1d5dfed",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012017-1231-151c-1c6d-301b2d381f01",
+                "esbId": "2017123115",
+                "gameDetailId": "10160000-0574-894b-81e9-930d395a5319",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2017-12-31T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012018-0106-00e8-ac85-d2fa663251dc",
+                "esbId": "2018010600",
+                "gameDetailId": "10160000-0574-904d-3f08-f933300e412e",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2018-01-06T21:35:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012018-0106-01eb-45eb-1255e2c5e9ab",
+                "esbId": "2018010601",
+                "gameDetailId": "10160000-0574-91b6-e29b-b24fa88af20b",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2018-01-07T01:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012018-0107-00c0-ebb3-fbe0ed9b55f2",
+                "esbId": "2018010700",
+                "gameDetailId": "10160000-0574-92b9-21ba-8c8fa15b619b",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2018-01-07T18:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012018-0107-0124-d89f-fab5ec67ec2c",
+                "esbId": "2018010701",
+                "gameDetailId": "10160000-0574-93ba-c898-c8e7e3343cd8",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2018-01-07T21:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012018-0113-0027-5ad4-10e6067ae155",
+                "esbId": "2018011300",
+                "gameDetailId": "10160000-0574-943d-ee7b-2d5831da6224",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2018-01-13T21:35:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012018-0113-01fb-8f68-4a5449c4641c",
+                "esbId": "2018011301",
+                "gameDetailId": "10160000-0574-95b9-7c7a-0bc2842b5954",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2018-01-14T01:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012018-0114-0048-dd02-c0f3428876ed",
+                "esbId": "2018011400",
+                "gameDetailId": "10160000-0574-96c5-1ded-c71d0a065101",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2018-01-14T18:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012018-0114-01c7-b88f-d11a8fa16678",
+                "esbId": "2018011401",
+                "gameDetailId": "10160000-0574-97b0-26e0-c5fc5234352f",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2018-01-14T21:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012018-0121-0047-90d5-63b8ae515160",
+                "esbId": "2018012100",
+                "gameDetailId": "10160000-0574-989c-8097-5c0406efd3f8",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "POST",
+                  "weekValue": 3
+                },
+                "gameTime": "2018-01-21T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012018-0121-01be-4e6e-7f0f493bd683",
+                "esbId": "2018012101",
+                "gameDetailId": "10160000-0574-99ab-2bb8-c4c7ff1451f6",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "POST",
+                  "weekValue": 3
+                },
+                "gameTime": "2018-01-21T23:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012018-0128-00fa-7fdf-be4fd0050331",
+                "esbId": "2018012800",
+                "gameDetailId": "10160000-0575-0139-024f-0d7907dcf315",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "PRO",
+                  "weekValue": 1
+                },
+                "gameTime": "2018-01-28T20:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012018-0204-00f8-9eca-052dd7e9e25e",
+                "esbId": "2018020400",
+                "gameDetailId": "10160000-0575-00de-6a31-688199abb666",
+                "week": {
+                  "seasonValue": 2017,
+                  "seasonType": "POST",
+                  "weekValue": 4
+                },
+                "gameTime": "2018-02-04T23:30:00.000Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

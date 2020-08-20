@@ -1,0 +1,4328 @@
+{
+  "data": {
+    "viewer": {
+      "league": {
+        "games": {
+          "edges": [
+            {
+              "node": {
+                "id": "10012012-0205-00bb-c38f-1f97f8af3cca",
+                "esbId": "2012020500",
+                "gameDetailId": "10160000-0555-02b7-278c-fad13541f06a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "POST",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-02-05T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0129-0062-016c-0e5111bb97ce",
+                "esbId": "2012012900",
+                "gameDetailId": "10160000-0555-039f-fe36-fa0724f79d3f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRO",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-01-29T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0122-018f-443d-98f851607c59",
+                "esbId": "2012012201",
+                "gameDetailId": "10160000-0555-0146-cc20-5c85a829651d",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "POST",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-01-22T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0122-0083-b8f4-6ba4365415fc",
+                "esbId": "2012012200",
+                "gameDetailId": "10160000-0554-9851-4134-6f7cb5f0c182",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "POST",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-01-22T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0115-0178-bd79-23038ea80255",
+                "esbId": "2012011501",
+                "gameDetailId": "10160000-0554-972f-676d-b5684110b223",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-01-15T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0115-00d6-a62c-9d64fe74cf24",
+                "esbId": "2012011500",
+                "gameDetailId": "10160000-0554-968e-554d-2ea59698d2f6",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-01-15T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0114-0151-32f1-440849c0ebbc",
+                "esbId": "2012011401",
+                "gameDetailId": "10160000-0554-94f1-5f24-ea38bd5b51ba",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-01-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0114-0068-db28-5cfbcb0e7f73",
+                "esbId": "2012011400",
+                "gameDetailId": "10160000-0554-9543-8f4d-e21a2f592d26",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-01-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0108-01b7-41c6-d87d7e77805a",
+                "esbId": "2012010801",
+                "gameDetailId": "10160000-0554-927d-a960-05b87a0a236a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-01-08T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0108-003e-e7b4-a576feba628b",
+                "esbId": "2012010800",
+                "gameDetailId": "10160000-0554-932a-613c-6884eabb4f92",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-01-08T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0107-01c7-14ef-fda026a6633b",
+                "esbId": "2012010701",
+                "gameDetailId": "10160000-0554-91e6-045e-e45b217b1ea7",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-01-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0107-00bf-0512-9978d104003a",
+                "esbId": "2012010700",
+                "gameDetailId": "10160000-0554-9053-f761-561d0a8f190d",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-01-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-15fa-0709-672d77a6262d",
+                "esbId": "2012010115",
+                "gameDetailId": "10160000-0554-1781-cad6-ff2992bb6c1b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-14a5-4f9a-be535d1a5b77",
+                "esbId": "2012010114",
+                "gameDetailId": "10160000-0554-19b6-e28d-92debbfe1b5b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-1329-8944-6fb18e72a334",
+                "esbId": "2012010113",
+                "gameDetailId": "10160000-0554-18c9-fbb9-937511d74a99",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-1298-c076-7b6884a855c2",
+                "esbId": "2012010112",
+                "gameDetailId": "10160000-0554-1630-8c33-1896e0f948c2",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-1138-8a30-fc6c6640ea0c",
+                "esbId": "2012010111",
+                "gameDetailId": "10160000-0554-1375-4242-e1394024a714",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-10bc-689c-c6dbb87b25dd",
+                "esbId": "2012010110",
+                "gameDetailId": "10160000-0554-049d-b1e6-a31770d0ec70",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-0919-661c-385b6151278f",
+                "esbId": "2012010109",
+                "gameDetailId": "10160000-0554-11e4-8596-47f4ed190ec0",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-0864-2d93-b153be54352e",
+                "esbId": "2012010108",
+                "gameDetailId": "10160000-0554-07a5-ac40-98e8a9cc09cd",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-075e-299a-ee7825410b10",
+                "esbId": "2012010107",
+                "gameDetailId": "10160000-0554-1522-200f-0f1226bd65d8",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-0614-67d7-e707db69915a",
+                "esbId": "2012010106",
+                "gameDetailId": "10160000-0554-147b-ac77-3b3e75d26fe4",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-0549-6224-80d426f3b3b6",
+                "esbId": "2012010105",
+                "gameDetailId": "10160000-0554-0990-27da-3893ab696eeb",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-04de-d695-4f4da8486bce",
+                "esbId": "2012010104",
+                "gameDetailId": "10160000-0554-0856-7628-b8f308b0d34d",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-0331-4063-4c79fa429afd",
+                "esbId": "2012010103",
+                "gameDetailId": "10160000-0554-06ee-a150-7f3a142f506a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-0284-ed4b-3baa57203188",
+                "esbId": "2012010102",
+                "gameDetailId": "10160000-0554-05a9-b92e-ef7fa230e464",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-0116-f764-42f48f1dcd2d",
+                "esbId": "2012010101",
+                "gameDetailId": "10160000-0554-1296-f189-e8fa9ce24dca",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0101-004d-87b1-07dfe8136682",
+                "esbId": "2012010100",
+                "gameDetailId": "10160000-0554-10da-f9cd-5d3cf09f1372",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-01-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1226-0023-2e59-ffd3f393c0da",
+                "esbId": "2011122600",
+                "gameDetailId": "10160000-0554-031a-c9c2-b52a07919821",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-26T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1225-00cf-81d1-1964036fabc0",
+                "esbId": "2011122500",
+                "gameDetailId": "10160000-0554-0220-8fcd-3bf3b5c98195",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1224-12fd-3ae6-056d5048471f",
+                "esbId": "2011122412",
+                "gameDetailId": "10160000-0554-01a4-69c7-826810aa05c8",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1224-1190-2c51-78bace640702",
+                "esbId": "2011122411",
+                "gameDetailId": "10160000-0554-004b-be3b-6cd455cb61c9",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1224-10db-5cce-95aff9319ce3",
+                "esbId": "2011122410",
+                "gameDetailId": "10160000-0553-99b8-48ec-e0b51e555506",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1224-0913-e71c-d9d6f2767c0b",
+                "esbId": "2011122409",
+                "gameDetailId": "10160000-0553-96fb-2ddd-cdec358b4a1d",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1224-0886-157f-ed6ba125a7f7",
+                "esbId": "2011122408",
+                "gameDetailId": "10160000-0553-9279-7216-b38aeb6f2314",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1224-0773-2bd6-f01ce1045843",
+                "esbId": "2011122407",
+                "gameDetailId": "10160000-0553-9143-32f1-ef5c9bf96212",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1224-06de-6c8c-d539a087eb83",
+                "esbId": "2011122406",
+                "gameDetailId": "10160000-0553-98d5-3bcd-6854b8674693",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1224-0523-f74b-5fd7266db220",
+                "esbId": "2011122405",
+                "gameDetailId": "10160000-0553-952f-c048-a348b75af91d",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1224-04ce-11cb-8e6a6b1a52c6",
+                "esbId": "2011122404",
+                "gameDetailId": "10160000-0553-937d-b729-0fc1b29cfad1",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1224-037d-edbf-d260909cd49e",
+                "esbId": "2011122403",
+                "gameDetailId": "10160000-0553-97e8-e752-fd6b98acc817",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1224-0237-ed46-12be5d19fdee",
+                "esbId": "2011122402",
+                "gameDetailId": "10160000-0553-89e5-e078-a3f3474309c5",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1224-018c-bf96-ff07ed13604f",
+                "esbId": "2011122401",
+                "gameDetailId": "10160000-0553-9441-2755-a22de46f29f4",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1224-0020-9126-10fe03cca2c2",
+                "esbId": "2011122400",
+                "gameDetailId": "10160000-0553-90e0-9d8a-53a20054f6b9",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1222-0082-5cb6-27640ad82642",
+                "esbId": "2011122200",
+                "gameDetailId": "10160000-0553-882d-376d-8369d0480fcb",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2011-12-22T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1219-002d-e0ae-21a0b3cb28a7",
+                "esbId": "2011121900",
+                "gameDetailId": "10160000-0553-87a4-4767-22e1aa3575c1",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-19T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1218-1281-9b0f-66e76a54185f",
+                "esbId": "2011121812",
+                "gameDetailId": "10160000-0553-861c-4f4a-cf214cd76811",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1218-111e-43d0-391dc04b11a8",
+                "esbId": "2011121811",
+                "gameDetailId": "10160000-0553-84eb-3c9b-a548bc516962",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1218-10d4-b352-9118f781c0a0",
+                "esbId": "2011121810",
+                "gameDetailId": "10160000-0553-83cc-e621-11ab53c9f24a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1218-0925-2164-037efc3cc10f",
+                "esbId": "2011121809",
+                "gameDetailId": "10160000-0553-8516-0c86-c374511fc665",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1218-0837-9d8d-a05d311d097c",
+                "esbId": "2011121808",
+                "gameDetailId": "10160000-0553-8223-3a1d-5189a9f5371b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1218-0764-dc75-f1a76c0d80cc",
+                "esbId": "2011121807",
+                "gameDetailId": "10160000-0553-78dc-4a0c-720d626d7cb6",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1218-06dd-9670-d6bbf12e7c4f",
+                "esbId": "2011121806",
+                "gameDetailId": "10160000-0553-76c5-1903-694f26f668d7",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1218-0544-8a1f-e19e10e432f4",
+                "esbId": "2011121805",
+                "gameDetailId": "10160000-0553-79ed-58ad-3866d4cc1b94",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1218-0451-15d4-b7a2d4a256a7",
+                "esbId": "2011121804",
+                "gameDetailId": "10160000-0553-75c3-2711-e5c6db4a6ad2",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1218-035b-47a5-3c5da754bcee",
+                "esbId": "2011121803",
+                "gameDetailId": "10160000-0553-8050-3407-18ac5cc2a5d3",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1218-0254-b9f2-a8a640a92846",
+                "esbId": "2011121802",
+                "gameDetailId": "10160000-0553-7794-4b48-ea08c4ccc729",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1218-01d6-9a30-46da3223af24",
+                "esbId": "2011121801",
+                "gameDetailId": "10160000-0553-747c-21e4-2dac80ee242b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1218-009c-1140-f912bc954cfb",
+                "esbId": "2011121800",
+                "gameDetailId": "10160000-0553-81ba-b749-0b3746525685",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1217-00b3-46c0-eb875c2aa175",
+                "esbId": "2011121700",
+                "gameDetailId": "10160000-0553-73f6-ded5-65def2f51645",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-17T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1215-0044-962b-bf2b20e8a789",
+                "esbId": "2011121500",
+                "gameDetailId": "10160000-0553-7287-3682-937ef4f46562",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2011-12-15T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1212-0047-6b36-878b1e897873",
+                "esbId": "2011121200",
+                "gameDetailId": "10160000-0553-71ef-4d43-7d857afebe60",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-12T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-13f3-3cca-77c65b392f07",
+                "esbId": "2011121113",
+                "gameDetailId": "10160000-0553-70e1-d392-15987bfabb45",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-12a0-4706-992834562a01",
+                "esbId": "2011121112",
+                "gameDetailId": "10160000-0553-69f7-9965-177e9ff1f54f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-11d5-a7da-b9fb0ae92ed0",
+                "esbId": "2011121111",
+                "gameDetailId": "10160000-0553-6887-fcd0-51ee92122f62",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-105f-050c-fe53b2650b19",
+                "esbId": "2011121110",
+                "gameDetailId": "10160000-0553-6762-4738-a81e4a88d356",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-091c-2dfa-5d708eb6b54f",
+                "esbId": "2011121109",
+                "gameDetailId": "10160000-0553-6555-cf5c-187ca14089b6",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-08d9-ffa9-74dabe72bb6a",
+                "esbId": "2011121108",
+                "gameDetailId": "10160000-0553-623c-2c15-ac8fc126ab03",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-0739-ecb8-c5029269de1c",
+                "esbId": "2011121107",
+                "gameDetailId": "10160000-0553-63d9-2aca-ed92efc6d662",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-0651-117c-c0a5fd16c5d6",
+                "esbId": "2011121106",
+                "gameDetailId": "10160000-0553-58ac-7761-46dfa0c5c8f7",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-05e3-7085-c7cd58ac6ddc",
+                "esbId": "2011121105",
+                "gameDetailId": "10160000-0553-60dd-1ed3-13690869fbc0",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-048e-e169-cf3b641df624",
+                "esbId": "2011121104",
+                "gameDetailId": "10160000-0553-57d9-a686-53421679109f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-037a-b8ee-7aeadaceb419",
+                "esbId": "2011121103",
+                "gameDetailId": "10160000-0553-5988-1959-57f7187ab8cc",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-023f-ced7-c77f073d22f9",
+                "esbId": "2011121102",
+                "gameDetailId": "10160000-0553-64ee-1077-fdf09848146e",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-0197-7974-9e19a26cdfea",
+                "esbId": "2011121101",
+                "gameDetailId": "10160000-0553-615e-1bbf-01d45fedd70f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1211-002a-8c04-9e9612f2f123",
+                "esbId": "2011121100",
+                "gameDetailId": "10160000-0553-668c-44d3-4251899d191b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1208-00ba-f45f-67d234ead8df",
+                "esbId": "2011120800",
+                "gameDetailId": "10160000-0553-56f2-45ac-fe754fcbee5d",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2011-12-08T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1205-005b-9a7f-6d0f3fc57ac5",
+                "esbId": "2011120500",
+                "gameDetailId": "10160000-0553-555e-ec00-9979474cfedf",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-05T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-1353-e0db-084a03423dd1",
+                "esbId": "2011120413",
+                "gameDetailId": "10160000-0553-54c6-9e77-0f05634b0b88",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-1235-c7b2-05a1c4634b83",
+                "esbId": "2011120412",
+                "gameDetailId": "10160000-0553-531c-1d8d-a589df69bf33",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-11ff-58d5-c49e5cd219f2",
+                "esbId": "2011120411",
+                "gameDetailId": "10160000-0553-5199-56da-1e2b5459e8f9",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-10b7-4c08-f05b81c47b2f",
+                "esbId": "2011120410",
+                "gameDetailId": "10160000-0553-5241-b969-61774f10ec24",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-097f-a5ac-547819b59304",
+                "esbId": "2011120409",
+                "gameDetailId": "10160000-0553-50da-c2b3-0dc3e43eb923",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-0897-90ce-42d87f942fe3",
+                "esbId": "2011120408",
+                "gameDetailId": "10160000-0553-448f-bb66-9ca53c25f81e",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-0710-3891-5a5bf5c9a2c9",
+                "esbId": "2011120407",
+                "gameDetailId": "10160000-0553-4897-e155-1f35acbfc1ad",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-0624-926c-bd13922150d0",
+                "esbId": "2011120406",
+                "gameDetailId": "10160000-0553-46ca-5998-1f5293ff7759",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-05e5-73d4-260dd9a3f240",
+                "esbId": "2011120405",
+                "gameDetailId": "10160000-0553-4753-d68d-e89e2b387588",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-042d-b50b-4398fb682e89",
+                "esbId": "2011120404",
+                "gameDetailId": "10160000-0553-4348-b14e-214ff8ac51b0",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-0330-16d2-1d568ad7a002",
+                "esbId": "2011120403",
+                "gameDetailId": "10160000-0553-45c1-c7dc-75cb628c8bae",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-026c-e4cd-dab19c1ab039",
+                "esbId": "2011120402",
+                "gameDetailId": "10160000-0553-4181-15c4-20a565a27792",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-01b0-7922-c1e96b9c1d27",
+                "esbId": "2011120401",
+                "gameDetailId": "10160000-0553-429c-4e57-3c03ae17ab3c",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1204-00c0-7b46-d52132762254",
+                "esbId": "2011120400",
+                "gameDetailId": "10160000-0553-497b-adda-15d0fc489ef6",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1201-008f-a5cc-be5cdb16e7ad",
+                "esbId": "2011120100",
+                "gameDetailId": "10160000-0553-40d0-ee7d-4f4081f1a2a3",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2011-12-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1128-0084-f7ad-dca946d02b2f",
+                "esbId": "2011112800",
+                "gameDetailId": "10160000-0553-3971-6832-140382e3bc54",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1127-11a2-2fdc-d97c2467d006",
+                "esbId": "2011112711",
+                "gameDetailId": "10160000-0553-3836-2784-98cbf7b71429",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1127-10f0-4e85-244329a44086",
+                "esbId": "2011112710",
+                "gameDetailId": "10160000-0553-3763-73f5-21b0ec7b71f7",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1127-0950-f5c5-316da6226448",
+                "esbId": "2011112709",
+                "gameDetailId": "10160000-0553-36eb-1920-6faea1e3682b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1127-084f-2834-a8f3896309d6",
+                "esbId": "2011112708",
+                "gameDetailId": "10160000-0553-34ab-712a-df7db896f3b8",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1127-0751-0130-18543d6982da",
+                "esbId": "2011112707",
+                "gameDetailId": "10160000-0553-3551-85d1-3c1c194f49bd",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1127-06d4-5267-42858688ba9b",
+                "esbId": "2011112706",
+                "gameDetailId": "10160000-0553-33f2-6aa5-25fba752a831",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1127-05c5-4bc4-e0cd46feac03",
+                "esbId": "2011112705",
+                "gameDetailId": "10160000-0553-29d4-8195-9c9393e731da",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1127-046c-e6e0-4bd96ae6c04b",
+                "esbId": "2011112704",
+                "gameDetailId": "10160000-0553-3236-12d1-95be2a7d9269",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1127-03fe-7680-9e22405d6ec3",
+                "esbId": "2011112703",
+                "gameDetailId": "10160000-0553-2795-ef3c-ebf78f8e8f53",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1127-0230-5103-8b8592712979",
+                "esbId": "2011112702",
+                "gameDetailId": "10160000-0553-309f-ff4f-e90584b8ffb5",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1127-01df-974c-4cfa8b182e8d",
+                "esbId": "2011112701",
+                "gameDetailId": "10160000-0553-2880-7abb-560829ab5f20",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1127-0068-2992-2f9f8870d68b",
+                "esbId": "2011112700",
+                "gameDetailId": "10160000-0553-3153-8554-27cb754613dd",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1124-02cb-2ba9-3d25f0930c9f",
+                "esbId": "2011112402",
+                "gameDetailId": "10160000-0553-26b3-099b-70f86e4179e6",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1124-011f-e8aa-f26151c5736b",
+                "esbId": "2011112401",
+                "gameDetailId": "10160000-0553-2515-7e90-364091fa081c",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1124-0023-277b-c302c078b00b",
+                "esbId": "2011112400",
+                "gameDetailId": "10160000-0553-2434-20c3-020e94f09763",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2011-11-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1121-00ac-ae4c-e7750016d1a5",
+                "esbId": "2011112100",
+                "gameDetailId": "10160000-0553-23f2-00e7-2295beefe4fb",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1120-1175-48e6-4d4a288659cc",
+                "esbId": "2011112011",
+                "gameDetailId": "10160000-0553-2241-941d-ef944e1ba424",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1120-101a-2cab-75f56150dd39",
+                "esbId": "2011112010",
+                "gameDetailId": "10160000-0553-2163-d379-97a45081a20c",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1120-094e-ced0-ffb8e293cf67",
+                "esbId": "2011112009",
+                "gameDetailId": "10160000-0553-1993-08ed-034a57b75ab6",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1120-08d7-b40d-a40c3fe3c844",
+                "esbId": "2011112008",
+                "gameDetailId": "10160000-0553-202e-55dc-b8f664d5ed29",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1120-0719-519b-5ae36f0151ac",
+                "esbId": "2011112007",
+                "gameDetailId": "10160000-0553-152d-a563-5bbbea1c1927",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1120-06c2-55a9-bb5b6259d175",
+                "esbId": "2011112006",
+                "gameDetailId": "10160000-0553-14ab-d7c5-335b902c67b2",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1120-05f7-ea00-4b516411125f",
+                "esbId": "2011112005",
+                "gameDetailId": "10160000-0553-18ce-9f5b-f871db7d38e4",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1120-043a-54a9-a205a349ab51",
+                "esbId": "2011112004",
+                "gameDetailId": "10160000-0553-1279-71b4-b5ca4b14652c",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1120-03cc-0086-3eb9ecafc3c5",
+                "esbId": "2011112003",
+                "gameDetailId": "10160000-0553-1358-a197-0b73e5a246c0",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1120-027d-8aab-c8a6b340892a",
+                "esbId": "2011112002",
+                "gameDetailId": "10160000-0553-169b-cde1-465591daa62b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1120-019f-a6b8-04acd513ed05",
+                "esbId": "2011112001",
+                "gameDetailId": "10160000-0553-11a1-8dfd-4b79631017f1",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1120-0043-78d7-0e94044e6204",
+                "esbId": "2011112000",
+                "gameDetailId": "10160000-0553-17f1-1ea3-989395d63447",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1117-0079-2558-9af0b1d5e752",
+                "esbId": "2011111700",
+                "gameDetailId": "10160000-0553-10a7-2e56-ca8c80a0a5fd",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2011-11-17T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1114-00ac-8013-cc20a29b8a3e",
+                "esbId": "2011111400",
+                "gameDetailId": "10160000-0553-0950-9b00-113074534c17",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-1354-0403-58fa7c1d4e3d",
+                "esbId": "2011111313",
+                "gameDetailId": "10160000-0553-08ec-e6e9-910995af393a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-1213-4044-accb512e234c",
+                "esbId": "2011111312",
+                "gameDetailId": "10160000-0553-0740-ffdf-ea9c5cf7766b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-1116-4279-53c788a5965a",
+                "esbId": "2011111311",
+                "gameDetailId": "10160000-0553-06e4-044d-96a7f0b2cb50",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-105b-a148-3dd5d60f8d52",
+                "esbId": "2011111310",
+                "gameDetailId": "10160000-0552-99a5-f46a-d1b4d1a2f599",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-09f5-6a8f-02874a160643",
+                "esbId": "2011111309",
+                "gameDetailId": "10160000-0553-0379-d49e-f0dfda705d7a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-08c5-8323-eb25b6bca360",
+                "esbId": "2011111308",
+                "gameDetailId": "10160000-0552-951f-d53b-542895389b7a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-0715-9157-94f2fb0eff48",
+                "esbId": "2011111307",
+                "gameDetailId": "10160000-0552-971f-255d-cf0a7ed492b1",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-0626-5881-408a76f88f76",
+                "esbId": "2011111306",
+                "gameDetailId": "10160000-0553-04f6-7b65-2944812b7ed5",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-05af-1bbe-3898b1a636de",
+                "esbId": "2011111305",
+                "gameDetailId": "10160000-0553-0276-9d3f-e9ec2abc736f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-0428-12ac-70dd1044cc51",
+                "esbId": "2011111304",
+                "gameDetailId": "10160000-0553-01f7-7373-9443d7600ba5",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-0395-d02d-643d226f08dc",
+                "esbId": "2011111303",
+                "gameDetailId": "10160000-0552-98b0-8f19-7dbe6fddef14",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-0249-28ac-a91bf1f9c327",
+                "esbId": "2011111302",
+                "gameDetailId": "10160000-0553-0570-a340-e180bdd7167e",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-01e2-154b-f02d7c9e4b10",
+                "esbId": "2011111301",
+                "gameDetailId": "10160000-0552-9663-a04d-9c4fde294b3b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1113-00c4-e208-097ca9569fde",
+                "esbId": "2011111300",
+                "gameDetailId": "10160000-0553-005c-4f50-0c063a974cb1",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1110-00d9-35b5-7ae40fa6e02e",
+                "esbId": "2011111000",
+                "gameDetailId": "10160000-0552-9469-4929-92bb525b8c30",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2011-11-10T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1107-002d-9bac-6d02df42be12",
+                "esbId": "2011110700",
+                "gameDetailId": "10160000-0552-9340-ab32-5ca83ff16c51",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1106-12a0-2daa-58e631ad8b0d",
+                "esbId": "2011110612",
+                "gameDetailId": "10160000-0552-9255-0209-3d18cbf78a75",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1106-1119-fba5-5953c831baff",
+                "esbId": "2011110611",
+                "gameDetailId": "10160000-0552-89c7-8648-e9e191d6e807",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1106-1099-0525-870cae3592d5",
+                "esbId": "2011110610",
+                "gameDetailId": "10160000-0552-912a-e43e-32c151208cf2",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1106-0933-43db-5b81c1c6b37b",
+                "esbId": "2011110609",
+                "gameDetailId": "10160000-0552-9064-a559-908f1f6b22c5",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1106-081b-1a2f-9970e66d0b31",
+                "esbId": "2011110608",
+                "gameDetailId": "10160000-0552-884b-f8bb-47bb795419e0",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1106-07b8-003f-b4a0aa4d9d47",
+                "esbId": "2011110607",
+                "gameDetailId": "10160000-0552-877a-9eb6-94dcd17cb54e",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1106-06b0-04c9-a06d085881b0",
+                "esbId": "2011110606",
+                "gameDetailId": "10160000-0552-83af-6290-528882116f20",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1106-0598-cac2-d3a89ba51c6b",
+                "esbId": "2011110605",
+                "gameDetailId": "10160000-0552-85a3-8fbc-c7991ea7855a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1106-0414-aa9c-cc364d725e4d",
+                "esbId": "2011110604",
+                "gameDetailId": "10160000-0552-8688-23a4-c2a63e6a6a34",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1106-03a7-7e18-02de70089f63",
+                "esbId": "2011110603",
+                "gameDetailId": "10160000-0552-8147-e854-801a616209a9",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1106-0237-c6df-f571a4c78dc8",
+                "esbId": "2011110602",
+                "gameDetailId": "10160000-0552-84b7-b93b-d44a06d5d90b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1106-017e-6910-5c2086300e4a",
+                "esbId": "2011110601",
+                "gameDetailId": "10160000-0552-824f-55d4-0971a27a84ef",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1106-00e1-ac61-077c95ecb1a9",
+                "esbId": "2011110600",
+                "gameDetailId": "10160000-0552-80e2-2098-e2df6727c98a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2011-11-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1031-005d-8bb6-505749166b42",
+                "esbId": "2011103100",
+                "gameDetailId": "10160000-0552-7985-ffcc-c5544914b5e8",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2011-10-31T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1030-1116-082c-dc4e27387c25",
+                "esbId": "2011103011",
+                "gameDetailId": "10160000-0552-786e-289d-aa14d37bb3f1",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2011-10-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1030-10bf-559f-357655cead12",
+                "esbId": "2011103010",
+                "gameDetailId": "10160000-0552-7710-1972-88e5c5f17ba2",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2011-10-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1030-09a5-03d3-ebf1edf9e081",
+                "esbId": "2011103009",
+                "gameDetailId": "10160000-0552-765c-ccb8-af7d4b205048",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2011-10-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1030-08c7-4146-7fe3978af7d5",
+                "esbId": "2011103008",
+                "gameDetailId": "10160000-0552-757a-b445-f2a8327f60af",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2011-10-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1030-07a0-3ef3-254b52b551bd",
+                "esbId": "2011103007",
+                "gameDetailId": "10160000-0552-732b-ddba-0ac8e495706f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2011-10-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1030-0686-f892-2c2864c2421f",
+                "esbId": "2011103006",
+                "gameDetailId": "10160000-0552-741f-a7f9-fb827ad56b24",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2011-10-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1030-05a0-f418-183210d34c37",
+                "esbId": "2011103005",
+                "gameDetailId": "10160000-0552-67e6-3cc2-56e5dc91bd2e",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2011-10-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1030-04e5-73e2-081f4a6c72dc",
+                "esbId": "2011103004",
+                "gameDetailId": "10160000-0552-7110-6bd1-d03ac00e2e63",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2011-10-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1030-03c8-21a7-ba77a6503026",
+                "esbId": "2011103003",
+                "gameDetailId": "10160000-0552-6875-e907-f21077442a61",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2011-10-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1030-0247-4904-fc5d3a7ae0ca",
+                "esbId": "2011103002",
+                "gameDetailId": "10160000-0552-721c-7cf2-87f4e904b6ee",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2011-10-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1030-0137-6e2c-411119d19b0e",
+                "esbId": "2011103001",
+                "gameDetailId": "10160000-0552-698a-59f2-332cde097289",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2011-10-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1030-0035-8e3d-ed059b04f818",
+                "esbId": "2011103000",
+                "gameDetailId": "10160000-0552-70e5-ec77-7b3732d08066",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2011-10-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1024-0014-47b2-c488dee77b8d",
+                "esbId": "2011102400",
+                "gameDetailId": "10160000-0552-6639-e432-27b27d0800b7",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2011-10-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1023-11c3-59d0-eb2687679dc2",
+                "esbId": "2011102311",
+                "gameDetailId": "10160000-0552-65a6-dbd8-d5aa177b186a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2011-10-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1023-104e-644a-420f6cf6c9eb",
+                "esbId": "2011102310",
+                "gameDetailId": "10160000-0552-63bc-8da6-fb1a9ec0fc91",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2011-10-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1023-09ae-a5c5-6e2adce9817f",
+                "esbId": "2011102309",
+                "gameDetailId": "10160000-0552-64e4-f2e8-9c5c2101296d",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2011-10-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1023-08a9-b452-e8a6989e8d2c",
+                "esbId": "2011102308",
+                "gameDetailId": "10160000-0552-6279-ceec-f8d32d828ef9",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2011-10-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1023-07b6-4f94-306a3615fbf2",
+                "esbId": "2011102307",
+                "gameDetailId": "10160000-0552-6154-f433-9793bd41830a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2011-10-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1023-069a-ec2d-8188c625505c",
+                "esbId": "2011102306",
+                "gameDetailId": "10160000-0552-5565-870f-ab1b539f784e",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2011-10-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1023-05bc-42ae-975078320e67",
+                "esbId": "2011102305",
+                "gameDetailId": "10160000-0552-593b-f445-a7b011b18124",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2011-10-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1023-04ab-f62f-da7c3eeca04c",
+                "esbId": "2011102304",
+                "gameDetailId": "10160000-0552-5423-449e-8f4d28aa223d",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2011-10-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1023-038e-d2c8-f4e2f597bcc2",
+                "esbId": "2011102303",
+                "gameDetailId": "10160000-0552-561d-8583-bb11dda7db58",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2011-10-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1023-02ca-d11d-271afc9081cb",
+                "esbId": "2011102302",
+                "gameDetailId": "10160000-0552-6021-2790-21a284822b02",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2011-10-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1023-014d-bcc2-bdc40bc796b4",
+                "esbId": "2011102301",
+                "gameDetailId": "10160000-0552-58eb-ba9e-c65eabc78c3b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2011-10-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1023-0026-d6a2-3ca74fa6d25b",
+                "esbId": "2011102300",
+                "gameDetailId": "10160000-0552-57ae-7bf9-b9011df9e2ba",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2011-10-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1017-00ab-72b3-8dc79dd14b18",
+                "esbId": "2011101700",
+                "gameDetailId": "10160000-0552-53de-b161-a318f96167cb",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2011-10-17T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1016-1164-09d8-fe89a935ec8e",
+                "esbId": "2011101611",
+                "gameDetailId": "10160000-0552-526c-939e-a1151680e0b3",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2011-10-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1016-10e4-fd59-6ed463b27ffa",
+                "esbId": "2011101610",
+                "gameDetailId": "10160000-0552-50e1-4738-1f2732a33833",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2011-10-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1016-0975-31e7-7e6b7ab697be",
+                "esbId": "2011101609",
+                "gameDetailId": "10160000-0552-51bf-78bc-e33b1da37e61",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2011-10-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1016-088f-0cf2-a074031a2f7b",
+                "esbId": "2011101608",
+                "gameDetailId": "10160000-0552-489b-44c1-eb06ae57187b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2011-10-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1016-079e-e06c-bd47cd730b25",
+                "esbId": "2011101607",
+                "gameDetailId": "10160000-0552-4979-19c5-34e32595ceb6",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2011-10-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1016-06ea-4122-631097d91a95",
+                "esbId": "2011101606",
+                "gameDetailId": "10160000-0552-412e-0c97-fe68e503de1b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2011-10-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1016-0586-adc4-e23cf92b03e9",
+                "esbId": "2011101605",
+                "gameDetailId": "10160000-0552-4455-deab-7166b66aa125",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2011-10-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1016-0434-03cc-c324cd2ceaa4",
+                "esbId": "2011101604",
+                "gameDetailId": "10160000-0552-4353-0a23-fc8b019b5643",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2011-10-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1016-039d-ee8c-bc7446e5f587",
+                "esbId": "2011101603",
+                "gameDetailId": "10160000-0552-478f-f454-318ceb112bb7",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2011-10-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1016-02a0-8b8f-f28f1c824083",
+                "esbId": "2011101602",
+                "gameDetailId": "10160000-0552-461c-e45d-a03a8bfe40aa",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2011-10-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1016-01c5-be9e-91a3da0bd353",
+                "esbId": "2011101601",
+                "gameDetailId": "10160000-0552-42cf-b220-c180c2200ff5",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2011-10-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1016-00c9-e78a-ff7ff54996c9",
+                "esbId": "2011101600",
+                "gameDetailId": "10160000-0552-45c5-f785-9021b490a340",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2011-10-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1010-0083-57d1-f7334ff273ce",
+                "esbId": "2011101000",
+                "gameDetailId": "10160000-0552-40cf-ed75-36a5eca39d8f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2011-10-10T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1009-11b4-1052-78df5628c149",
+                "esbId": "2011100911",
+                "gameDetailId": "10160000-0552-399a-163d-3cd9122b8391",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2011-10-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1009-10d2-503c-9382bc902332",
+                "esbId": "2011100910",
+                "gameDetailId": "10160000-0552-37b5-b1bf-81746e9ebcae",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2011-10-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1009-09e3-ffd0-c3cc2c26dcd0",
+                "esbId": "2011100909",
+                "gameDetailId": "10160000-0552-38ed-63bd-e025b29736ff",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2011-10-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1009-0821-ef31-103239788b80",
+                "esbId": "2011100908",
+                "gameDetailId": "10160000-0552-36ca-831d-c77042b42eb3",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2011-10-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1009-0720-083b-c5a67fbf9aee",
+                "esbId": "2011100907",
+                "gameDetailId": "10160000-0552-28d0-67f9-207014fdc8ca",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2011-10-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1009-0680-321d-4d60a49bed58",
+                "esbId": "2011100906",
+                "gameDetailId": "10160000-0552-2985-1102-1418d36552a7",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2011-10-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1009-05e5-73fb-e83d94d5d9ba",
+                "esbId": "2011100905",
+                "gameDetailId": "10160000-0552-339e-f45b-9303fe922aca",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2011-10-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1009-04be-6327-aa0c7d7df10f",
+                "esbId": "2011100904",
+                "gameDetailId": "10160000-0552-3472-6ee3-2d3648625fe9",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2011-10-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1009-0326-533c-d3e448817975",
+                "esbId": "2011100903",
+                "gameDetailId": "10160000-0552-329a-9ea9-2eabaef6461f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2011-10-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1009-025a-1798-ea94c5199b32",
+                "esbId": "2011100902",
+                "gameDetailId": "10160000-0552-3111-6996-5e6fff1eaaf7",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2011-10-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1009-01f6-2cb2-c6f89c671636",
+                "esbId": "2011100901",
+                "gameDetailId": "10160000-0552-305e-64b0-5ecccb3ad380",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2011-10-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1009-002a-cd4e-f809698a1a0a",
+                "esbId": "2011100900",
+                "gameDetailId": "10160000-0552-358d-3e56-9834bf8587f3",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2011-10-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1003-00ca-0e12-e47d641e84ba",
+                "esbId": "2011100300",
+                "gameDetailId": "10160000-0552-276c-8e91-244753105215",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-03T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-14de-c1bd-8172dd7310ac",
+                "esbId": "2011100214",
+                "gameDetailId": "10160000-0552-2624-90a3-3f35db3cefd0",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-138a-8ab3-86b506b81748",
+                "esbId": "2011100213",
+                "gameDetailId": "10160000-0552-2558-4ec2-fee9f6b7b2f3",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-1249-fb3c-c7efad553394",
+                "esbId": "2011100212",
+                "gameDetailId": "10160000-0552-243d-89be-fd81db674bc7",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-11a8-8bb3-ef1ba4541b45",
+                "esbId": "2011100211",
+                "gameDetailId": "10160000-0552-2330-713f-cf7def8bf6b5",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-108a-6327-72ae04d0c3d1",
+                "esbId": "2011100210",
+                "gameDetailId": "10160000-0552-22bd-3325-177018dc73f3",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-0933-5c4a-156de99ed36b",
+                "esbId": "2011100209",
+                "gameDetailId": "10160000-0552-21a9-a980-61e3aae33532",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-0837-8d1d-0487ffe2fd7c",
+                "esbId": "2011100208",
+                "gameDetailId": "10160000-0552-18ce-e119-056e24f3e40f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-0746-5d72-d0e3b7fa70e0",
+                "esbId": "2011100207",
+                "gameDetailId": "10160000-0552-17f8-1c04-873f610d818a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-0690-2caf-d3a1c26005f7",
+                "esbId": "2011100206",
+                "gameDetailId": "10160000-0552-20bd-d3b2-685d91229d6f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-05e9-11b5-8f1faf5c82d3",
+                "esbId": "2011100205",
+                "gameDetailId": "10160000-0552-127c-6f4d-388ab1e13232",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-0471-35b5-23f81d2fc30a",
+                "esbId": "2011100204",
+                "gameDetailId": "10160000-0552-19c5-f096-921d545b455a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-0322-007d-45a2fd296dc8",
+                "esbId": "2011100203",
+                "gameDetailId": "10160000-0552-15ad-8a09-64f2c3c4828b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-0262-76fb-37313a48910a",
+                "esbId": "2011100202",
+                "gameDetailId": "10160000-0552-16d0-50fc-469afc4f7738",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-0139-95f6-e3596e8ca860",
+                "esbId": "2011100201",
+                "gameDetailId": "10160000-0552-14aa-4efc-dc7617957050",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-1002-00a4-82ef-283ec7f16e0c",
+                "esbId": "2011100200",
+                "gameDetailId": "10160000-0552-13c1-5564-cd45e0fbf39e",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-10-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0926-00fd-0511-55d972beee98",
+                "esbId": "2011092600",
+                "gameDetailId": "10160000-0552-11b9-9892-785249030592",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-26T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-14dd-e533-de44884e0218",
+                "esbId": "2011092514",
+                "gameDetailId": "10160000-0552-101d-352f-3cfc78f3a1c8",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-13c9-1883-ccb3ced7b99f",
+                "esbId": "2011092513",
+                "gameDetailId": "10160000-0552-0913-baec-129b3fe00f44",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-12f7-99a5-835756e3cfa1",
+                "esbId": "2011092512",
+                "gameDetailId": "10160000-0552-08f4-3670-6e4c1d0252b4",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-1168-46bd-3afe546ab99e",
+                "esbId": "2011092511",
+                "gameDetailId": "10160000-0552-07c4-976d-f7dcae84a068",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-10d4-4889-085e72fa55d1",
+                "esbId": "2011092510",
+                "gameDetailId": "10160000-0552-05aa-c9d5-8579a3340341",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-09fe-235e-ef1f0b267036",
+                "esbId": "2011092509",
+                "gameDetailId": "10160000-0552-06a8-bbfd-a752003c63c6",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-08e1-1aa6-cf210011823f",
+                "esbId": "2011092508",
+                "gameDetailId": "10160000-0552-04c2-b94c-0125307be14d",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-074c-3320-9a5be78cc7c0",
+                "esbId": "2011092507",
+                "gameDetailId": "10160000-0551-98ee-9611-d8364ed5f165",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-069e-8c27-8667908a31b3",
+                "esbId": "2011092506",
+                "gameDetailId": "10160000-0552-0075-d2f0-bb4e61438628",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-0543-427c-a4a30506d991",
+                "esbId": "2011092505",
+                "gameDetailId": "10160000-0552-0240-f31f-6427dc9a6510",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-043a-4578-3aa7fae4d1fe",
+                "esbId": "2011092504",
+                "gameDetailId": "10160000-0552-031f-f099-9375bdbb63b5",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-0354-a158-2f7afec486c7",
+                "esbId": "2011092503",
+                "gameDetailId": "10160000-0551-9957-b875-2bb8867ee2d0",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-0286-3603-d7a8ac4730f0",
+                "esbId": "2011092502",
+                "gameDetailId": "10160000-0551-96ae-3bd6-d16546283137",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-019e-bf54-22db402bac94",
+                "esbId": "2011092501",
+                "gameDetailId": "10160000-0552-01e2-effd-7bb53aff7722",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0925-00be-32d1-0234d93ae582",
+                "esbId": "2011092500",
+                "gameDetailId": "10160000-0551-9793-8fe8-153d0958dba8",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-09-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0919-0023-8cee-29d60bd5ad04",
+                "esbId": "2011091900",
+                "gameDetailId": "10160000-0551-951c-a0a4-b76f868de179",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-19T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-148f-3712-89c78af862d3",
+                "esbId": "2011091814",
+                "gameDetailId": "10160000-0551-94e3-2a28-18726569aa20",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-131e-ba5e-179d42b8e3c8",
+                "esbId": "2011091813",
+                "gameDetailId": "10160000-0551-9263-f19a-7ab72b88123a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-1262-0901-8927491af55f",
+                "esbId": "2011091812",
+                "gameDetailId": "10160000-0551-9114-a680-20f778713f01",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-11a9-bb0c-896a6bb2ac27",
+                "esbId": "2011091811",
+                "gameDetailId": "10160000-0551-9320-866f-116b28f2eba9",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-1061-6a89-9b708f62522b",
+                "esbId": "2011091810",
+                "gameDetailId": "10160000-0551-908d-b175-e5cfa1c1951d",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-0997-2a61-3f55bf1363b9",
+                "esbId": "2011091809",
+                "gameDetailId": "10160000-0551-8799-9ccf-b3f611326556",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-0879-49f5-41eef3d130c2",
+                "esbId": "2011091808",
+                "gameDetailId": "10160000-0551-854a-5018-3bd3f74a5dad",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-0711-cf9a-927eeba4b50e",
+                "esbId": "2011091807",
+                "gameDetailId": "10160000-0551-8195-36f6-c0d57f89f383",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-06a6-cc83-f6f86f5d932e",
+                "esbId": "2011091806",
+                "gameDetailId": "10160000-0551-84d4-2025-695c95fc501d",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-0593-5b02-c19ebec50be1",
+                "esbId": "2011091805",
+                "gameDetailId": "10160000-0551-8986-4d55-f4d386e0b5a8",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-04dc-3c60-5ea396db5c65",
+                "esbId": "2011091804",
+                "gameDetailId": "10160000-0551-832f-5ca0-c280a9252e1a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-037e-3974-8389333ecc12",
+                "esbId": "2011091803",
+                "gameDetailId": "10160000-0551-8626-e054-e75299aeb5ef",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-0260-2129-5aa3f9beac58",
+                "esbId": "2011091802",
+                "gameDetailId": "10160000-0551-88dd-fb4e-dfe7c47432a5",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-0134-abc8-63ea4453fadc",
+                "esbId": "2011091801",
+                "gameDetailId": "10160000-0551-807f-6825-91941e7ffc0a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0918-00f6-40a0-63abfdf5aa95",
+                "esbId": "2011091800",
+                "gameDetailId": "10160000-0551-82dd-69ff-e4d2200cc014",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-09-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0912-0178-293b-a77b9a80058b",
+                "esbId": "2011091201",
+                "gameDetailId": "10160000-0551-79eb-0d83-f251d37e3350",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-12T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0912-0056-e45a-6854e2c1ee73",
+                "esbId": "2011091200",
+                "gameDetailId": "10160000-0551-78f9-b191-84619d93afe2",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-12T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0911-127a-e89d-175e1c29fa87",
+                "esbId": "2011091112",
+                "gameDetailId": "10160000-0551-771d-fd76-f49112a5837d",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0911-11a0-6103-322b4463713e",
+                "esbId": "2011091111",
+                "gameDetailId": "10160000-0551-748d-84ac-dfbe1e8229c8",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0911-107d-96e6-119bc6edda8e",
+                "esbId": "2011091110",
+                "gameDetailId": "10160000-0551-758b-844d-2d229a065d17",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0911-09e4-d972-93e060fdc03a",
+                "esbId": "2011091109",
+                "gameDetailId": "10160000-0551-7312-c92c-d5ba0336cf7f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0911-0872-4dc3-138d8e40b69e",
+                "esbId": "2011091108",
+                "gameDetailId": "10160000-0551-76a5-edeb-c8891b56c435",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0911-07b7-7c0f-2bbf3bdc6fa4",
+                "esbId": "2011091107",
+                "gameDetailId": "10160000-0551-7194-2d1f-ee8b1aaa4460",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0911-0670-e485-c46cb269351d",
+                "esbId": "2011091106",
+                "gameDetailId": "10160000-0551-72d9-1f31-a6e4b5f938d4",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0911-05ed-354c-d50573033c25",
+                "esbId": "2011091105",
+                "gameDetailId": "10160000-0551-6676-21f6-c06c934bbbd6",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0911-0482-6db7-a38c33628e8a",
+                "esbId": "2011091104",
+                "gameDetailId": "10160000-0551-70ac-a825-156a6f3936c3",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0911-039e-dbac-2891e3ba38a9",
+                "esbId": "2011091103",
+                "gameDetailId": "10160000-0551-698c-c70c-16e8452cd8d1",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0911-02f6-fd2d-ed19764ba1b0",
+                "esbId": "2011091102",
+                "gameDetailId": "10160000-0551-68d4-adda-48bddc7d0fcd",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0911-0179-ec30-9c05d3937fed",
+                "esbId": "2011091101",
+                "gameDetailId": "10160000-0551-67af-d722-b499c3b1f7f6",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0911-0081-7948-1750edfa4684",
+                "esbId": "2011091100",
+                "gameDetailId": "10160000-0551-65ec-d8e4-b3a99e5eecde",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0908-0095-9841-038ab73f8aec",
+                "esbId": "2011090800",
+                "gameDetailId": "10160000-0551-6445-f333-7a6da0be2baf",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-09-08T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0902-51cd-fe27-6c39adc149ed",
+                "esbId": "2011090251",
+                "gameDetailId": "10160000-0554-87bf-327d-3c1f2e3235eb",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-65bb-8000-f473a62acd1c",
+                "esbId": "2011090165",
+                "gameDetailId": "10160000-0554-86ea-a57f-882d1778a39b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-645d-371e-648d81ed7d30",
+                "esbId": "2011090164",
+                "gameDetailId": "10160000-0554-8567-fd9e-db00758e5b25",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-63ca-f345-d558ede622f4",
+                "esbId": "2011090163",
+                "gameDetailId": "10160000-0554-8465-660b-eeb2c5b2b6fa",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-62e0-91bd-13dbe5d3a28c",
+                "esbId": "2011090162",
+                "gameDetailId": "10160000-0554-831d-2b4e-4c19d0db3cc3",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-6148-830b-052ad242e12b",
+                "esbId": "2011090161",
+                "gameDetailId": "10160000-0554-82a8-6f63-5b46c6896a31",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-6070-d3b1-c49f2ec06e59",
+                "esbId": "2011090160",
+                "gameDetailId": "10160000-0554-8133-05f1-aa59559cd67f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-5964-b8e8-0485e294815b",
+                "esbId": "2011090159",
+                "gameDetailId": "10160000-0554-804d-b8a3-d9f1b61fb75e",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-58c3-d96f-85f28aa5dc94",
+                "esbId": "2011090158",
+                "gameDetailId": "10160000-0554-79a0-6925-8ea4fcb70e7e",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-57c8-3256-de6fff45327b",
+                "esbId": "2011090157",
+                "gameDetailId": "10160000-0554-78d7-87e5-183614714c48",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-5628-251e-610804031e36",
+                "esbId": "2011090156",
+                "gameDetailId": "10160000-0554-7790-686c-73d625257390",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-5542-3c7e-5795782bc3ab",
+                "esbId": "2011090155",
+                "gameDetailId": "10160000-0554-76af-15de-5b81f9759290",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-54ff-5ec2-8cd6e7d78058",
+                "esbId": "2011090154",
+                "gameDetailId": "10160000-0554-755b-f299-d10b1636195f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-5378-32ac-3f7cf2b8d937",
+                "esbId": "2011090153",
+                "gameDetailId": "10160000-0554-7472-0279-7fc9a16fd0bd",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-52a0-6c92-156a5383f261",
+                "esbId": "2011090152",
+                "gameDetailId": "10160000-0554-73e8-9bf3-0dc66dc533f3",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0901-5126-da44-0c76f526a92f",
+                "esbId": "2011090151",
+                "gameDetailId": "10160000-0554-7252-0d41-31f6b0258943",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2011-09-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0829-5120-d28d-0e1c8555abb9",
+                "esbId": "2011082951",
+                "gameDetailId": "10160000-0554-64a2-6bfd-38da0e3a2dd3",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-29T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0828-5111-35f2-39a7ffacc98c",
+                "esbId": "2011082851",
+                "gameDetailId": "10160000-0554-7151-5407-be6cc5c08f63",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0827-6072-678d-4aac33f0c04e",
+                "esbId": "2011082760",
+                "gameDetailId": "10160000-0554-592e-b6dd-3f966ce23487",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0827-593a-75ff-8e3946ec128a",
+                "esbId": "2011082759",
+                "gameDetailId": "10160000-0554-7014-3b22-5cbec837b3b5",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0827-589b-a6ea-b0e91dc77a34",
+                "esbId": "2011082758",
+                "gameDetailId": "10160000-0554-696d-1283-8da7d7ca7430",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0827-57e2-2d7c-bc23f0e44689",
+                "esbId": "2011082757",
+                "gameDetailId": "10160000-0554-61da-d135-a1cf2314de95",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0827-56e0-df7b-ef01cc1ee2d2",
+                "esbId": "2011082756",
+                "gameDetailId": "10160000-0554-68f2-20f3-a5869b60b55b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0827-5519-928f-0506102f253c",
+                "esbId": "2011082755",
+                "gameDetailId": "10160000-0554-6778-66c6-ab70f8e0fe87",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0827-548d-79f8-b680cae4a0ec",
+                "esbId": "2011082754",
+                "gameDetailId": "10160000-0554-661d-9cb1-abf8617cde59",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0827-5339-3985-4e8d2a087292",
+                "esbId": "2011082753",
+                "gameDetailId": "10160000-0554-65b5-18ed-cd3dbea663d2",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0827-512c-63a2-b0e2162c00b7",
+                "esbId": "2011082751",
+                "gameDetailId": "10160000-0554-626c-3caa-797b6f9941fc",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0826-53c0-f5cd-52ba88ef9e1b",
+                "esbId": "2011082653",
+                "gameDetailId": "10160000-0554-5898-555f-6b18c5f5c233",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-26T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0826-5240-995d-f4bf6bc4a63f",
+                "esbId": "2011082652",
+                "gameDetailId": "10160000-0554-6033-00db-65c4f3e9aea6",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-26T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0825-5370-9145-b5130332ae5a",
+                "esbId": "2011082553",
+                "gameDetailId": "10160000-0554-555f-1583-483249fac2cb",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0825-52f7-1e1c-e8fc514a9795",
+                "esbId": "2011082552",
+                "gameDetailId": "10160000-0554-5799-f750-93edc8aa41c7",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0825-51f0-a985-cc1985c5e719",
+                "esbId": "2011082551",
+                "gameDetailId": "10160000-0554-56dd-be75-419bd6202638",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2011-08-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0822-51cc-7f33-a825fcb37d88",
+                "esbId": "2011082251",
+                "gameDetailId": "10160000-0554-54b9-f14e-9b5da1512dd6",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-22T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0821-529a-a66b-c801db60607d",
+                "esbId": "2011082152",
+                "gameDetailId": "10160000-0554-49c6-6534-064dd2447aaa",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0821-516a-ea4b-512ea4094e90",
+                "esbId": "2011082151",
+                "gameDetailId": "10160000-0554-5333-1d8a-b0de713472ce",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0820-55c9-3950-5ad5bda36539",
+                "esbId": "2011082055",
+                "gameDetailId": "10160000-0554-52b4-2f6b-f5ad4f22741e",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0820-5452-a16f-eea6519414c4",
+                "esbId": "2011082054",
+                "gameDetailId": "10160000-0554-514d-d9d7-9a436e23141c",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0820-53c3-9872-7175cfe8d7bc",
+                "esbId": "2011082053",
+                "gameDetailId": "10160000-0554-503c-09db-740c27f73ab7",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0820-52e3-3308-3e3f27126cb5",
+                "esbId": "2011082052",
+                "gameDetailId": "10160000-0554-4817-c1ed-303de11e0f1a",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0820-5129-62e2-47098453885d",
+                "esbId": "2011082051",
+                "gameDetailId": "10160000-0554-47f3-a26a-7cb36112bcfd",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0819-5648-25a3-07fc6a6b36d9",
+                "esbId": "2011081956",
+                "gameDetailId": "10160000-0554-4170-0131-d9855d021aeb",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-19T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0819-5519-f621-71f03577b42e",
+                "esbId": "2011081955",
+                "gameDetailId": "10160000-0554-468f-222e-617c37769c06",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-19T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0819-54fc-825f-313bf7239610",
+                "esbId": "2011081954",
+                "gameDetailId": "10160000-0554-455c-d52e-4ca791d0c4d2",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-19T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0819-5311-1330-76f6ae183db4",
+                "esbId": "2011081953",
+                "gameDetailId": "10160000-0554-4445-7573-a5739e14bf32",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-19T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0819-52fa-3bab-d5f116827e06",
+                "esbId": "2011081952",
+                "gameDetailId": "10160000-0554-437e-ac10-2a4107fcaef3",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-19T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0819-5181-749b-7d39e1c99e1e",
+                "esbId": "2011081951",
+                "gameDetailId": "10160000-0554-4258-85ea-07b9cd966f5e",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-19T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0818-527a-3453-1d64cb680cb5",
+                "esbId": "2011081852",
+                "gameDetailId": "10160000-0554-3918-8963-25eb8fdd7569",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0818-5173-34aa-603474db5229",
+                "esbId": "2011081851",
+                "gameDetailId": "10160000-0554-40f0-6081-fd6bb613a40f",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2011-08-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0815-51a8-1c84-aabd9b4de75f",
+                "esbId": "2011081551",
+                "gameDetailId": "10160000-0554-3860-d5a4-5b62cae6a3b7",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-15T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0813-5583-d9c4-8e30ede30ad4",
+                "esbId": "2011081355",
+                "gameDetailId": "10160000-0554-3738-fc77-09133acfc423",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0813-54fa-af9b-0e5f01e27b3e",
+                "esbId": "2011081354",
+                "gameDetailId": "10160000-0554-36ae-7463-d90edea1af5b",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0813-53a5-c0ce-e225b5eae12c",
+                "esbId": "2011081353",
+                "gameDetailId": "10160000-0554-3554-143d-1a6559e7df05",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0813-522b-62ab-4d68d403295c",
+                "esbId": "2011081352",
+                "gameDetailId": "10160000-0554-3423-c89c-93d749b8cd16",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0813-51ae-c723-dc768b534c8a",
+                "esbId": "2011081351",
+                "gameDetailId": "10160000-0554-3377-46c8-86ce32036984",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0812-5536-f75b-386cc6a42a45",
+                "esbId": "2011081255",
+                "gameDetailId": "10160000-0554-288b-e5b0-8e708b7017da",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-12T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0812-5481-e912-8ebc9d13481d",
+                "esbId": "2011081254",
+                "gameDetailId": "10160000-0554-32b2-e846-899b28d052eb",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-12T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0812-53a3-0037-f3561f9d3093",
+                "esbId": "2011081253",
+                "gameDetailId": "10160000-0554-3176-da0c-4f21d0934895",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-12T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0812-5234-6431-6093e63a58e8",
+                "esbId": "2011081252",
+                "gameDetailId": "10160000-0554-307e-5238-276b8782b94c",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-12T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0812-51e2-924b-f2b1dcd5f243",
+                "esbId": "2011081251",
+                "gameDetailId": "10160000-0554-2984-9831-25b4b2a455c4",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-12T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0811-55bb-cd57-636b4c34b4dc",
+                "esbId": "2011081155",
+                "gameDetailId": "10160000-0554-275c-8eed-592e4992c8ba",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0811-5445-7eb5-fcc4bcaf486b",
+                "esbId": "2011081154",
+                "gameDetailId": "10160000-0554-264d-dead-6176726e8114",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0811-5368-3ea7-2332324cedd9",
+                "esbId": "2011081153",
+                "gameDetailId": "10160000-0554-2333-dfe2-f1cb63be0327",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0811-52c1-124e-448511a8573b",
+                "esbId": "2011081152",
+                "gameDetailId": "10160000-0554-2521-1091-5668d20b7abf",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012011-0811-513c-c2d6-61f700211e9e",
+                "esbId": "2011081151",
+                "gameDetailId": "10160000-0554-2424-5e64-1f2967da2787",
+                "week": {
+                  "seasonValue": 2011,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2011-08-11T09:00:00.000Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

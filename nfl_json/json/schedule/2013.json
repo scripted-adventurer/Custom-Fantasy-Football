@@ -1,0 +1,4341 @@
+{
+  "data": {
+    "viewer": {
+      "league": {
+        "games": {
+          "edges": [
+            {
+              "node": {
+                "id": "10012013-0804-00d4-85dd-5a88ac5890af",
+                "esbId": "2013080400",
+                "gameDetailId": "10160000-0560-936e-6465-24ba1c6d497e",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 0
+                },
+                "gameTime": "2013-08-05T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0808-00ae-6829-d453e78edfd5",
+                "esbId": "2013080800",
+                "gameDetailId": "10160000-0560-95c9-5cf0-c62fcb57f5f5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-08T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0808-015f-a474-ac19736eb860",
+                "esbId": "2013080801",
+                "gameDetailId": "10160000-0560-9749-0cd0-11785eed22a3",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-09T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0808-02c6-7054-8838fb9def51",
+                "esbId": "2013080802",
+                "gameDetailId": "10160000-0560-966d-028a-2ab2c52aa506",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-09T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0808-03da-9c30-c0e64639eb6c",
+                "esbId": "2013080803",
+                "gameDetailId": "10160000-0560-94ab-8b14-6b496b9c290f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-09T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0808-041f-f994-508ec13e2cdb",
+                "esbId": "2013080804",
+                "gameDetailId": "10160000-0560-9865-b4d3-0c9a7de79a7a",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-09T01:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0808-057b-7a7f-a7279a833f74",
+                "esbId": "2013080805",
+                "gameDetailId": "10160000-0560-99cd-0197-72b8ce19810c",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-09T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0809-00ef-a75e-36da0804ebcb",
+                "esbId": "2013080900",
+                "gameDetailId": "10160000-0561-0170-245b-db23e65de108",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-09T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0809-0178-54a9-4d8306645023",
+                "esbId": "2013080901",
+                "gameDetailId": "10160000-0561-00ef-63b7-1dc07f143ac8",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-09T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0809-02ee-36e9-0fa9f4401736",
+                "esbId": "2013080902",
+                "gameDetailId": "10160000-0561-0285-57e4-54bf0e0dbf5f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-09T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0809-039d-32c4-8cef4d0da75e",
+                "esbId": "2013080903",
+                "gameDetailId": "10160000-0561-043c-98a2-5a5c9067c32a",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-10T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0809-047e-8091-31c9b8c31313",
+                "esbId": "2013080904",
+                "gameDetailId": "10160000-0561-03a0-a734-80721d341fbe",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-10T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0809-05d9-bb83-42730420089f",
+                "esbId": "2013080905",
+                "gameDetailId": "10160000-0561-0660-5114-595007f9c13f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-10T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0809-062b-0716-fc8567bf9d99",
+                "esbId": "2013080906",
+                "gameDetailId": "10160000-0561-05d3-634e-d38c44e255b7",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-10T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0809-077e-e98e-f4a95fb202b4",
+                "esbId": "2013080907",
+                "gameDetailId": "10160000-0561-0730-2f0e-d5c1cb780619",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-10T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0810-009c-6549-c8af441ae3b6",
+                "esbId": "2013081000",
+                "gameDetailId": "10160000-0561-086a-27f2-de74bcd81afa",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-10T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0811-00db-6cab-7e7e2f753c52",
+                "esbId": "2013081100",
+                "gameDetailId": "10160000-0561-0958-c2b4-5926c24f61ca",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-08-11T17:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0815-009a-d3aa-80d17e9bc20f",
+                "esbId": "2013081500",
+                "gameDetailId": "10160000-0561-11a4-21cf-f2618ee5ca65",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-15T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0815-0168-5509-2e7466bfbbe4",
+                "esbId": "2013081501",
+                "gameDetailId": "10160000-0561-1244-70c9-3c89edee0bd9",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-15T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0815-02fc-5eed-450ea063b760",
+                "esbId": "2013081502",
+                "gameDetailId": "10160000-0561-1347-4c0b-1523292481ca",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-15T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0815-035c-b0cd-f028fec3ce51",
+                "esbId": "2013081503",
+                "gameDetailId": "10160000-0561-10b1-bb80-a88c7b1df046",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-16T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0816-0019-a7a7-26ba0a20486e",
+                "esbId": "2013081600",
+                "gameDetailId": "10160000-0561-1596-d7f7-7f74483160c0",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-16T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0816-01bc-0da5-80aa41d64136",
+                "esbId": "2013081601",
+                "gameDetailId": "10160000-0561-1480-4867-056b49c92a0f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-17T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0816-028c-acaf-1eacbb6fedaf",
+                "esbId": "2013081602",
+                "gameDetailId": "10160000-0561-1743-52b5-f6fb696e7840",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-17T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0816-037d-8d2d-7d70504937fa",
+                "esbId": "2013081603",
+                "gameDetailId": "10160000-0561-1683-2524-343d0254b6bf",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-17T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0817-0091-963a-3b244982ff2c",
+                "esbId": "2013081700",
+                "gameDetailId": "10160000-0561-1842-14cb-e88d96a7e381",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-17T20:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0817-01a6-1401-faf5b89827d8",
+                "esbId": "2013081701",
+                "gameDetailId": "10160000-0561-198d-5e28-678b9bc2df31",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-17T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0817-02e4-6ddf-c93ef2ad8125",
+                "esbId": "2013081702",
+                "gameDetailId": "10160000-0561-20e0-6265-e19861127239",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-17T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0817-0354-8fcb-b42d28fbd27d",
+                "esbId": "2013081703",
+                "gameDetailId": "10160000-0561-2189-8b68-be9f430a4c61",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-18T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0817-048c-8992-3d75475dd812",
+                "esbId": "2013081704",
+                "gameDetailId": "10160000-0561-22e7-69c6-6349c9b535b1",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-18T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0817-0577-72c7-29ff19889d50",
+                "esbId": "2013081705",
+                "gameDetailId": "10160000-0561-2333-df7e-37bb133f5e88",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-18T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0818-001e-a3c7-407fdff4ddac",
+                "esbId": "2013081800",
+                "gameDetailId": "10160000-0561-242d-56ac-6807d97bce99",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-18T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0819-0021-c276-ac839980434b",
+                "esbId": "2013081900",
+                "gameDetailId": "10160000-0561-252f-52c4-c662a1eff557",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-08-20T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0822-0061-1822-c7e9360fb7ae",
+                "esbId": "2013082200",
+                "gameDetailId": "10160000-0561-275b-0863-ef7ccd60b4b7",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-22T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0822-018e-9d7d-ee1d9ac1ecad",
+                "esbId": "2013082201",
+                "gameDetailId": "10160000-0561-2633-eb7b-e253fcffccf2",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-23T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0823-0052-6301-04bffa764820",
+                "esbId": "2013082300",
+                "gameDetailId": "10160000-0561-28bc-b989-919409c52687",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-24T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0823-01da-7939-07d22f6c76a2",
+                "esbId": "2013082301",
+                "gameDetailId": "10160000-0561-296e-c389-f7e64a34b206",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-24T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0824-00a8-6a4e-3b8d5c781958",
+                "esbId": "2013082400",
+                "gameDetailId": "10160000-0561-3170-717d-61c42a3ce1f0",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-24T20:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0824-01d5-8f26-c6dcdbed5c48",
+                "esbId": "2013082401",
+                "gameDetailId": "10160000-0561-331f-40ff-b8abf6d10687",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-24T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0824-0257-b5fb-afcb78f21636",
+                "esbId": "2013082402",
+                "gameDetailId": "10160000-0561-326f-f6e3-69679017f4c5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-24T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0824-03d7-c186-07057841d63a",
+                "esbId": "2013082403",
+                "gameDetailId": "10160000-0561-35b9-bd36-d6cf179fe8fd",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-24T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0824-04d7-faaa-ea02e1071bd2",
+                "esbId": "2013082404",
+                "gameDetailId": "10160000-0561-3423-6624-7d7cf0126723",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-24T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0824-05aa-5d38-6aa2b69c81aa",
+                "esbId": "2013082405",
+                "gameDetailId": "10160000-0561-3631-4484-4c526e0a84db",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-24T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0824-066e-2e45-5b203a902ed6",
+                "esbId": "2013082406",
+                "gameDetailId": "10160000-0561-38db-6f4c-4a67c2169914",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-25T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0824-0737-31bc-30aaa2dbbbaf",
+                "esbId": "2013082407",
+                "gameDetailId": "10160000-0561-3091-c38c-eb1df561af48",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-25T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0824-08e3-1cc2-3ef6a115a231",
+                "esbId": "2013082408",
+                "gameDetailId": "10160000-0561-3768-c0e7-960e3f79f5c0",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-25T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0824-09e5-1065-6e7024dd02d2",
+                "esbId": "2013082409",
+                "gameDetailId": "10160000-0561-3971-6304-05d5705d66c9",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-25T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0825-008f-38a6-9418d33e76b7",
+                "esbId": "2013082500",
+                "gameDetailId": "10160000-0561-40ee-589b-d7594295d287",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-25T20:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0825-01a7-8b1c-d19f5e6cdd61",
+                "esbId": "2013082501",
+                "gameDetailId": "10160000-0561-41fc-15fd-c2679228ff49",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-08-26T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-008f-e0e7-69ad6856ba16",
+                "esbId": "2013082900",
+                "gameDetailId": "10160000-0561-443c-4969-b3528eb8a70d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-29T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-015a-dd70-97c1afeec5f8",
+                "esbId": "2013082901",
+                "gameDetailId": "10160000-0561-4274-adfb-8d901d476feb",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-29T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-0269-4306-538566eeefa7",
+                "esbId": "2013082902",
+                "gameDetailId": "10160000-0561-4327-2afa-9e4514cd22dc",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-29T23:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-0375-3828-466cfbdf078b",
+                "esbId": "2013082903",
+                "gameDetailId": "10160000-0561-47b0-f56e-234c2ec95272",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-29T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-044c-1a15-8b7984b6c162",
+                "esbId": "2013082904",
+                "gameDetailId": "10160000-0561-4930-c805-468311a3c104",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-29T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-0551-32cb-dafb7f8e982b",
+                "esbId": "2013082905",
+                "gameDetailId": "10160000-0561-4681-15d0-10d95d1b6f74",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-29T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-06d1-e6a1-6db7be55ef45",
+                "esbId": "2013082906",
+                "gameDetailId": "10160000-0561-45aa-743f-1744a3f12d5c",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-29T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-07a7-4c8a-3d7b6b9c4e5f",
+                "esbId": "2013082907",
+                "gameDetailId": "10160000-0561-4844-77ab-cf1a4609d795",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-29T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-0820-991d-811852f6f8c4",
+                "esbId": "2013082908",
+                "gameDetailId": "10160000-0561-52ea-ed40-19e4800b724d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-30T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-0952-dba0-1953af3e4e53",
+                "esbId": "2013082909",
+                "gameDetailId": "10160000-0561-54c7-adec-238c20dcedf8",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-30T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-1081-d22d-6984f61b43e2",
+                "esbId": "2013082910",
+                "gameDetailId": "10160000-0561-5016-948b-d48b7ed76ce1",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-30T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-11d2-13f5-ea73b14a6129",
+                "esbId": "2013082911",
+                "gameDetailId": "10160000-0561-53b8-4d8d-67281fb14cd6",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-30T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-12a7-1b73-b6913811703c",
+                "esbId": "2013082912",
+                "gameDetailId": "10160000-0561-51f0-2413-386d7dd68525",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-30T00:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-137d-f227-eb970035bd65",
+                "esbId": "2013082913",
+                "gameDetailId": "10160000-0561-5570-380f-a747f5989e7d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-30T01:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-14f0-fa88-8a4179bb107d",
+                "esbId": "2013082914",
+                "gameDetailId": "10160000-0561-5681-0658-b6d40b6ae840",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-30T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0829-157b-69d9-dccf10f4aad4",
+                "esbId": "2013082915",
+                "gameDetailId": "10160000-0561-574f-2397-9e0eacd64f78",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-08-30T02:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0905-00dd-2347-a0f5a1020474",
+                "esbId": "2013090500",
+                "gameDetailId": "10160000-0558-37d7-9ba4-d981afde21f2",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-06T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0908-00a1-afea-a668d6e489a4",
+                "esbId": "2013090800",
+                "gameDetailId": "10160000-0558-3852-bba2-91953b4cf708",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0908-0149-c1a7-2ec13fae4be3",
+                "esbId": "2013090801",
+                "gameDetailId": "10160000-0558-3955-c8dd-49d3f7c37f65",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0908-0247-f2d2-f814d369613a",
+                "esbId": "2013090802",
+                "gameDetailId": "10160000-0558-407b-538c-d9353d55f538",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0908-0336-133f-08ae3c94560c",
+                "esbId": "2013090803",
+                "gameDetailId": "10160000-0558-4179-a04b-1188f9cfbe9f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0908-04f5-2bf3-ca23f105bcd2",
+                "esbId": "2013090804",
+                "gameDetailId": "10160000-0558-4252-9373-91f54f7d0e0f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0908-05b1-e4da-f84d1a59ad36",
+                "esbId": "2013090805",
+                "gameDetailId": "10160000-0558-4395-b8bb-fad704a0823d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0908-06c3-ca4c-1ba6d945e4e0",
+                "esbId": "2013090806",
+                "gameDetailId": "10160000-0558-44b5-b898-ecc987d62bf2",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0908-07b9-a60c-9606054e01be",
+                "esbId": "2013090807",
+                "gameDetailId": "10160000-0558-46ee-1b92-61b744d86879",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0908-0844-d922-988f702d7f6a",
+                "esbId": "2013090808",
+                "gameDetailId": "10160000-0558-4512-7d36-b18107282e6b",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0908-0984-757d-7710c9d82f35",
+                "esbId": "2013090809",
+                "gameDetailId": "10160000-0558-47c0-2b05-abe787b8af6f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-08T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0908-10d8-e0f2-fd193bb643b2",
+                "esbId": "2013090810",
+                "gameDetailId": "10160000-0558-482b-b492-39e91080e61e",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-08T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0908-115c-58f0-793a98a0328a",
+                "esbId": "2013090811",
+                "gameDetailId": "10160000-0558-491d-f0db-431da386013d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-08T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0908-1266-7424-ed67bc2c6054",
+                "esbId": "2013090812",
+                "gameDetailId": "10160000-0558-50bc-b441-fe745edca029",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-09T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0909-0030-1b6b-5d3a5f328e1a",
+                "esbId": "2013090900",
+                "gameDetailId": "10160000-0558-5148-dcaf-80676b9be851",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-09T23:10:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0909-01cd-ac55-0765694a06c9",
+                "esbId": "2013090901",
+                "gameDetailId": "10160000-0558-52a2-8a78-ee0dd9f377b4",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-09-10T02:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0912-00bb-64d6-4e618bce25b4",
+                "esbId": "2013091200",
+                "gameDetailId": "10160000-0558-5335-b9e2-33f33a785f25",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-13T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-00c0-eb45-61cfa942b5d7",
+                "esbId": "2013091500",
+                "gameDetailId": "10160000-0558-543c-1853-6849316c9c60",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-01b8-0e69-0e260e382c2e",
+                "esbId": "2013091501",
+                "gameDetailId": "10160000-0558-551b-6735-4be27c11eeeb",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-0216-98fc-d9a2c043f4a6",
+                "esbId": "2013091502",
+                "gameDetailId": "10160000-0558-5610-22b1-ada71c79819d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-03c7-7636-797c187851e9",
+                "esbId": "2013091503",
+                "gameDetailId": "10160000-0558-57e1-bc1f-dc8a921c5586",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-0473-d740-4cee94f8a6ac",
+                "esbId": "2013091504",
+                "gameDetailId": "10160000-0558-58e8-80e0-d72c2458e469",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-05cd-6f23-3a775d57131a",
+                "esbId": "2013091505",
+                "gameDetailId": "10160000-0558-59fc-e9a0-70ac97490062",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-06c4-f3b4-b0ad7c205d4e",
+                "esbId": "2013091506",
+                "gameDetailId": "10160000-0558-608b-b9a9-dc9bcb1d1550",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-07d6-92ce-253fc2795a3d",
+                "esbId": "2013091507",
+                "gameDetailId": "10160000-0558-61ae-43d7-a71f3772c9b1",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-0816-a226-d76f06fc3b46",
+                "esbId": "2013091508",
+                "gameDetailId": "10160000-0558-6260-5b44-a6d5c28cea81",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-15T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-095d-518a-94350b1519c4",
+                "esbId": "2013091509",
+                "gameDetailId": "10160000-0558-639c-4036-84e68fbdd9b7",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-15T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-104e-1f26-fe0a10bfc891",
+                "esbId": "2013091510",
+                "gameDetailId": "10160000-0558-6461-71ca-7d2c6c3f56ba",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-15T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-1119-fecd-22dac630f38b",
+                "esbId": "2013091511",
+                "gameDetailId": "10160000-0558-6533-0015-f88fb3d7b21a",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-15T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-12a7-15d3-d3c0de8bb91d",
+                "esbId": "2013091512",
+                "gameDetailId": "10160000-0558-661f-b8f2-7212b868efa0",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-15T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0915-1398-ee3b-cf171b29ce6e",
+                "esbId": "2013091513",
+                "gameDetailId": "10160000-0558-67ab-b4dd-87e767295c69",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-16T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0916-0028-e495-836bb4740012",
+                "esbId": "2013091600",
+                "gameDetailId": "10160000-0558-68a8-9dc7-92cf7cc97b31",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-09-17T00:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0919-00b8-ada0-0a5f0206e524",
+                "esbId": "2013091900",
+                "gameDetailId": "10160000-0558-69df-f8a1-8fed1a68c07c",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-20T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-0029-dbc6-218ad1bfc4c4",
+                "esbId": "2013092200",
+                "gameDetailId": "10160000-0558-706b-e2bd-931f7757384d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-0155-3a14-514b3fc6d0a4",
+                "esbId": "2013092201",
+                "gameDetailId": "10160000-0558-7172-5e2a-5050f88b303b",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-0290-1438-2d2e15b91f4f",
+                "esbId": "2013092202",
+                "gameDetailId": "10160000-0558-738a-5ba7-d1f3c3406599",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-0379-baa6-88fce03f02ac",
+                "esbId": "2013092203",
+                "gameDetailId": "10160000-0558-79df-730a-ffcfbb79cd55",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-22T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-0428-bfa4-67f10608de6f",
+                "esbId": "2013092204",
+                "gameDetailId": "10160000-0558-7464-1a76-44c193e8f3fb",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-0527-83dc-8abc150b8d43",
+                "esbId": "2013092205",
+                "gameDetailId": "10160000-0558-80c0-88bd-04a2d25c7bb0",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-22T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-06f2-531f-f845dae594fe",
+                "esbId": "2013092206",
+                "gameDetailId": "10160000-0558-7566-74ec-a2f0b8372656",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-0730-40d0-598acb9a1960",
+                "esbId": "2013092207",
+                "gameDetailId": "10160000-0558-76ad-ed35-98676b021bc5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-084f-b728-39b66c7bae64",
+                "esbId": "2013092208",
+                "gameDetailId": "10160000-0558-77ac-af9e-13998e9f8d84",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-096e-9863-babb1ab552cc",
+                "esbId": "2013092209",
+                "gameDetailId": "10160000-0558-7874-3041-eba3e19ed98f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-1067-4e96-8693b69ef05c",
+                "esbId": "2013092210",
+                "gameDetailId": "10160000-0558-7270-79f2-c3bd82f0a18f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-22T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-1123-68a4-347d8a8ee7ee",
+                "esbId": "2013092211",
+                "gameDetailId": "10160000-0558-8161-191c-771a4cdaea33",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-22T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-129c-e5aa-45840538dc2c",
+                "esbId": "2013092212",
+                "gameDetailId": "10160000-0558-82ae-826f-d01d52b87a44",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-22T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0922-1372-d90b-bf36a47b6a96",
+                "esbId": "2013092213",
+                "gameDetailId": "10160000-0558-8377-dee4-2b3f83b35763",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-23T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0923-0071-4e35-24f2bd551675",
+                "esbId": "2013092300",
+                "gameDetailId": "10160000-0558-84b2-0f85-228a6374dbd7",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-09-24T00:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0926-002e-3437-239c684209e7",
+                "esbId": "2013092600",
+                "gameDetailId": "10160000-0558-85dc-8cac-c966fa0a5da3",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-27T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0929-00c8-18e9-89f865879679",
+                "esbId": "2013092900",
+                "gameDetailId": "10160000-0558-86c4-32c4-5d7c22c048ab",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0929-01d6-2cea-d0f8f526977d",
+                "esbId": "2013092901",
+                "gameDetailId": "10160000-0558-8758-474b-411111b6ae3b",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0929-02d8-c941-833ec641cf35",
+                "esbId": "2013092902",
+                "gameDetailId": "10160000-0558-8821-8a65-16eec14e2115",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0929-037f-2b6a-535b329019d5",
+                "esbId": "2013092903",
+                "gameDetailId": "10160000-0558-8945-1f37-de25a42be94f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0929-0493-cd4c-64afeb88ef3d",
+                "esbId": "2013092904",
+                "gameDetailId": "10160000-0558-9018-1e94-2d7180ca2eae",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0929-05fc-7a2b-6d947f2296c7",
+                "esbId": "2013092905",
+                "gameDetailId": "10160000-0558-911b-eb0e-6182f9fdf1d7",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0929-0620-3de6-f9a6c15b8361",
+                "esbId": "2013092906",
+                "gameDetailId": "10160000-0558-923a-9811-5a21accad139",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0929-073e-f737-01df9b788492",
+                "esbId": "2013092907",
+                "gameDetailId": "10160000-0558-9315-c17f-6339b4e71a8c",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-29T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0929-087d-7dd7-ad25a988ed63",
+                "esbId": "2013092908",
+                "gameDetailId": "10160000-0558-941d-8da1-661639cb4c92",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-29T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0929-09c3-0acd-540802294ea2",
+                "esbId": "2013092909",
+                "gameDetailId": "10160000-0558-9511-e17a-1565cb86994f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-29T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0929-10f8-5abb-790bb68b12bc",
+                "esbId": "2013092910",
+                "gameDetailId": "10160000-0558-96e6-9507-48bfae4d4e86",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-29T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0929-115b-af75-364218e9d84b",
+                "esbId": "2013092911",
+                "gameDetailId": "10160000-0558-97e9-8eb3-c034a21c2eef",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-29T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0929-12b8-b0bb-bb507ff6af6c",
+                "esbId": "2013092912",
+                "gameDetailId": "10160000-0558-9887-a9e1-dbfe62136ca1",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-09-30T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0930-0046-37fa-5bdd7035fb2a",
+                "esbId": "2013093000",
+                "gameDetailId": "10160000-0558-9920-b6f5-0e90e242dc5e",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-10-01T00:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1003-0052-7cc4-5156062cc600",
+                "esbId": "2013100300",
+                "gameDetailId": "10160000-0559-00cf-5d5e-968a1484bae7",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-04T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1006-00ce-c357-3e04b6d02ded",
+                "esbId": "2013100600",
+                "gameDetailId": "10160000-0559-017e-308b-9e44fd9e5943",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-06T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1006-0141-8359-52843ff6c08d",
+                "esbId": "2013100601",
+                "gameDetailId": "10160000-0559-0246-2f8f-8abfbd4919e9",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-06T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1006-022d-6d27-dc33f513835d",
+                "esbId": "2013100602",
+                "gameDetailId": "10160000-0559-03fc-9782-1e9321b79f4f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-06T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1006-0398-d111-d0f571555b87",
+                "esbId": "2013100603",
+                "gameDetailId": "10160000-0559-04bb-a97e-f57941309338",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-06T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1006-0448-2d73-a0259de02e85",
+                "esbId": "2013100604",
+                "gameDetailId": "10160000-0559-0562-c8b3-741d39103866",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-06T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1006-0525-c457-027899c843f7",
+                "esbId": "2013100605",
+                "gameDetailId": "10160000-0559-06ba-a8bc-305a955581aa",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-06T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1006-066e-7544-84ce1170b439",
+                "esbId": "2013100606",
+                "gameDetailId": "10160000-0559-0765-a79b-1e0a8212c92f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-06T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1006-0744-d66d-0798ea9a0a41",
+                "esbId": "2013100607",
+                "gameDetailId": "10160000-0559-08f7-f143-c21a77297dc5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-06T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1006-0864-e3b3-8c64c1f7b912",
+                "esbId": "2013100608",
+                "gameDetailId": "10160000-0559-098a-862d-7ad730646ab8",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-06T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1006-098d-8d14-6be3ccdc4117",
+                "esbId": "2013100609",
+                "gameDetailId": "10160000-0559-1090-9ea6-583759c0bbd6",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-06T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1006-10b0-2a87-dcf687827edf",
+                "esbId": "2013100610",
+                "gameDetailId": "10160000-0559-11d9-026f-cdd79368795a",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-07T03:35:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1006-1126-eb9c-87f141ded9bc",
+                "esbId": "2013100611",
+                "gameDetailId": "10160000-0559-122f-ad9a-37cf79631c0a",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-07T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1007-001c-e7c0-bed9761f4068",
+                "esbId": "2013100700",
+                "gameDetailId": "10160000-0559-1342-500e-c74669700c83",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2013-10-08T00:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1010-00cb-ff18-f94fc011081b",
+                "esbId": "2013101000",
+                "gameDetailId": "10160000-0559-1430-f562-d0e89c002e43",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-11T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1013-0017-d51f-c2c0e67eb68c",
+                "esbId": "2013101300",
+                "gameDetailId": "10160000-0559-15e2-d8fb-42abc2191ac8",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1013-0134-90ba-05c8231c61ea",
+                "esbId": "2013101301",
+                "gameDetailId": "10160000-0559-168a-bcf4-1af08c8671e5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1013-0298-dd50-baed013d21a1",
+                "esbId": "2013101302",
+                "gameDetailId": "10160000-0559-17a8-a6bb-f239ebbcec8e",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1013-032a-770d-094399208997",
+                "esbId": "2013101303",
+                "gameDetailId": "10160000-0559-18e6-486c-eb856874d6c4",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1013-043d-af3f-b77762bb19a9",
+                "esbId": "2013101304",
+                "gameDetailId": "10160000-0559-19f8-a197-fb8c8f4ded53",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1013-0547-d4b7-f9050348a9ba",
+                "esbId": "2013101305",
+                "gameDetailId": "10160000-0559-20b1-9132-723965e3c7f3",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1013-062f-c66a-d1c31494e82c",
+                "esbId": "2013101306",
+                "gameDetailId": "10160000-0559-218c-2ecd-b2387acdc4bf",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1013-07d6-0aa8-9a1271a6fc3a",
+                "esbId": "2013101307",
+                "gameDetailId": "10160000-0559-2216-c04b-f8b2059c8dc5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1013-0844-f238-c609274d2e93",
+                "esbId": "2013101308",
+                "gameDetailId": "10160000-0559-2346-b448-c1ae3a9bc00d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-13T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1013-096c-a654-e3e3bec06419",
+                "esbId": "2013101309",
+                "gameDetailId": "10160000-0559-2459-baae-3a74f9c40880",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-13T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1013-10c2-27fa-d1c1f51d57b8",
+                "esbId": "2013101310",
+                "gameDetailId": "10160000-0559-2510-c89e-dcb5b2ab0537",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-13T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1013-11bd-f2fc-35c757709022",
+                "esbId": "2013101311",
+                "gameDetailId": "10160000-0559-26a3-3e57-ecd6cc896a2b",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-13T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1013-12c3-2780-c3685efce4bc",
+                "esbId": "2013101312",
+                "gameDetailId": "10160000-0559-275c-75e7-94e8f77049c7",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-14T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1014-0072-777b-f40a9a05ff37",
+                "esbId": "2013101400",
+                "gameDetailId": "10160000-0559-28ac-8437-85cff093557c",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2013-10-15T00:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1017-0031-6b44-e16a5fad9d39",
+                "esbId": "2013101700",
+                "gameDetailId": "10160000-0559-29d1-8d6c-916dfe39e6fc",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-18T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1020-005c-bc73-a3afc1b27f1c",
+                "esbId": "2013102000",
+                "gameDetailId": "10160000-0559-30ff-19a4-665466a9092c",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1020-0192-6a99-7b397510a8c3",
+                "esbId": "2013102001",
+                "gameDetailId": "10160000-0559-3196-83c2-cfc009fc53e8",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1020-0248-69e9-9cb66415ca56",
+                "esbId": "2013102002",
+                "gameDetailId": "10160000-0559-32db-a12e-d652a4983d88",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1020-0347-f3eb-63d716a72174",
+                "esbId": "2013102003",
+                "gameDetailId": "10160000-0559-404a-cfae-321f9b95c78d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-20T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1020-04d8-ea15-943f03b5cec1",
+                "esbId": "2013102004",
+                "gameDetailId": "10160000-0559-335d-d2ad-1c88ec1111a5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1020-0527-b51c-ad0635147c2b",
+                "esbId": "2013102005",
+                "gameDetailId": "10160000-0559-34f7-42bf-bb33076743e1",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-20T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1020-069d-47dd-d79cf6e84bb8",
+                "esbId": "2013102006",
+                "gameDetailId": "10160000-0559-3557-99b7-fa8d2ddec064",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1020-0733-0aa9-115641417dc7",
+                "esbId": "2013102007",
+                "gameDetailId": "10160000-0559-363a-d929-26b18301ea22",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1020-08ce-8172-5a5c27d86a5b",
+                "esbId": "2013102008",
+                "gameDetailId": "10160000-0559-3742-1051-f63fedefa4ce",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1020-09f4-a24f-ec9304b04368",
+                "esbId": "2013102009",
+                "gameDetailId": "10160000-0559-38cd-9065-c4c65f9a5202",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1020-1013-0784-3784a503b781",
+                "esbId": "2013102010",
+                "gameDetailId": "10160000-0559-39dd-9155-91e4b4fb5f48",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-20T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1020-117d-540c-14e8d6f96721",
+                "esbId": "2013102011",
+                "gameDetailId": "10160000-0559-4141-541f-27ac63c50ccb",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-20T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1020-12d6-3096-83fc747637b3",
+                "esbId": "2013102012",
+                "gameDetailId": "10160000-0559-42bb-68b5-bcb8c04b8a1a",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-21T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1021-00bc-9e6e-133e1703b6cb",
+                "esbId": "2013102100",
+                "gameDetailId": "10160000-0559-4313-ee1c-e19b5016cb8f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2013-10-22T00:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1024-00b4-2766-77456b733982",
+                "esbId": "2013102400",
+                "gameDetailId": "10160000-0559-4482-6ed5-59b37c1dd95f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2013-10-25T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1027-00ae-a89e-3d5a781700c8",
+                "esbId": "2013102700",
+                "gameDetailId": "10160000-0559-456f-7b27-249cc5613ff3",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2013-10-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1027-01b2-72e9-026021f011d6",
+                "esbId": "2013102701",
+                "gameDetailId": "10160000-0559-4619-b39c-bdefb957ec83",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2013-10-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1027-0231-e2d0-090198b76b67",
+                "esbId": "2013102702",
+                "gameDetailId": "10160000-0559-4758-db37-db27ebb253e4",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2013-10-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1027-03ee-c771-f41663cb14e9",
+                "esbId": "2013102703",
+                "gameDetailId": "10160000-0559-4861-612d-84ff1fb3aedc",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2013-10-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1027-04bf-45ca-a595c4067595",
+                "esbId": "2013102704",
+                "gameDetailId": "10160000-0559-49cb-b83e-10e7412285e1",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2013-10-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1027-0523-a983-fc6d6c65c90e",
+                "esbId": "2013102705",
+                "gameDetailId": "10160000-0559-50c2-cbeb-45dae8f19e30",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2013-10-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1027-06ce-42b1-b41110cdea72",
+                "esbId": "2013102706",
+                "gameDetailId": "10160000-0559-5196-ab65-cee2a8bef32a",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2013-10-27T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1027-07c8-ea4a-8dd3fbaa4cb6",
+                "esbId": "2013102707",
+                "gameDetailId": "10160000-0559-5265-69aa-28285de7d9bc",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2013-10-27T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1027-08eb-98f7-2811fe715fb6",
+                "esbId": "2013102708",
+                "gameDetailId": "10160000-0559-53ca-24cf-f5250d0dc312",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2013-10-27T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1027-0984-3c96-f3578cd15943",
+                "esbId": "2013102709",
+                "gameDetailId": "10160000-0559-549d-d24e-4576dbf60eac",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2013-10-27T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1027-10c9-2459-f102d5984af3",
+                "esbId": "2013102710",
+                "gameDetailId": "10160000-0559-5594-f9e9-9316d635c26b",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2013-10-28T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1028-00de-7d32-a60e9f98140d",
+                "esbId": "2013102800",
+                "gameDetailId": "10160000-0559-56bb-db7b-48b3400a2a40",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2013-10-29T00:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1031-0084-1656-26e1428b168d",
+                "esbId": "2013103100",
+                "gameDetailId": "10160000-0559-572c-fbc2-8a88dafaf845",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2013-11-01T00:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1103-0070-d411-d6aa59949127",
+                "esbId": "2013110300",
+                "gameDetailId": "10160000-0559-58e1-bc1b-0c6cabd13c18",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2013-11-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1103-0172-0010-979218a3b607",
+                "esbId": "2013110301",
+                "gameDetailId": "10160000-0559-59d1-6a3d-627854f6b351",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2013-11-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1103-023d-ee1b-bea14693d3d6",
+                "esbId": "2013110302",
+                "gameDetailId": "10160000-0559-609e-2675-f1ca27aa07fa",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2013-11-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1103-03ed-a7c1-a46e5afd54e0",
+                "esbId": "2013110303",
+                "gameDetailId": "10160000-0559-61b1-34c0-a00a9e618e30",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2013-11-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1103-04f9-9e7a-5c16b18e8901",
+                "esbId": "2013110304",
+                "gameDetailId": "10160000-0559-629e-fef9-0e00ca1e24c5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2013-11-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1103-05ea-267a-6ef95581d3f4",
+                "esbId": "2013110305",
+                "gameDetailId": "10160000-0559-63b7-da40-b56e01f21afa",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2013-11-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1103-064c-b32d-89b7aa2eb4eb",
+                "esbId": "2013110306",
+                "gameDetailId": "10160000-0559-6453-5664-979eba379252",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2013-11-03T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1103-07f1-7e76-944a12a16e7f",
+                "esbId": "2013110307",
+                "gameDetailId": "10160000-0559-658b-9646-b061ccf94ad2",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2013-11-03T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1103-0885-1f7d-b26c22637b2b",
+                "esbId": "2013110308",
+                "gameDetailId": "10160000-0559-66f0-dd8e-0fc786eda23a",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2013-11-03T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1103-09f2-2d2b-2acd76590c62",
+                "esbId": "2013110309",
+                "gameDetailId": "10160000-0559-67c5-c7ef-d24668195daa",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2013-11-03T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1103-10ee-af78-f1431c57ce90",
+                "esbId": "2013110310",
+                "gameDetailId": "10160000-0559-68b8-f1ca-59279713ce9b",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2013-11-04T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1104-00f9-94fa-d84a1945108a",
+                "esbId": "2013110400",
+                "gameDetailId": "10160000-0559-69a3-57aa-c643f688b221",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2013-11-05T01:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1107-0080-1a02-18cb1d642a48",
+                "esbId": "2013110700",
+                "gameDetailId": "10160000-0559-7053-6979-daa518b45cb0",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-08T01:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1110-00a1-4d46-5ae613179167",
+                "esbId": "2013111000",
+                "gameDetailId": "10160000-0559-7112-230b-8fa97106854b",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1110-0142-5313-a53ec1bf9d86",
+                "esbId": "2013111001",
+                "gameDetailId": "10160000-0559-721b-12b7-25b66ead10c9",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1110-0223-043d-6180cb5636cd",
+                "esbId": "2013111002",
+                "gameDetailId": "10160000-0559-7319-9dc0-4d206fd47ad5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1110-0336-29a2-404147b76677",
+                "esbId": "2013111003",
+                "gameDetailId": "10160000-0559-7428-c597-f8d468518c46",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1110-04dd-4151-e07838bd9c53",
+                "esbId": "2013111004",
+                "gameDetailId": "10160000-0559-7528-d491-21c2c2c7d351",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1110-05bc-b722-b123f31fa6d4",
+                "esbId": "2013111005",
+                "gameDetailId": "10160000-0559-76fe-e9b8-c7e0956ff971",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1110-0657-8fa9-bbc4be9578c0",
+                "esbId": "2013111006",
+                "gameDetailId": "10160000-0559-77d1-77b1-5ec5580f6f0b",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1110-0799-5fec-211195dbb118",
+                "esbId": "2013111007",
+                "gameDetailId": "10160000-0559-78ee-29bf-701bafe16125",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-10T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1110-08b1-3359-d8be7bb98484",
+                "esbId": "2013111008",
+                "gameDetailId": "10160000-0559-794c-c1e0-54bf0b03e457",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-10T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1110-0980-620b-3317d1c20394",
+                "esbId": "2013111009",
+                "gameDetailId": "10160000-0559-80a0-f9e6-48769d37e256",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-10T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1110-10f6-4c6c-20cb6be0fdd0",
+                "esbId": "2013111010",
+                "gameDetailId": "10160000-0559-8169-5301-e25fa4f0224a",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-10T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1110-1136-58b4-db6d95e5f9e1",
+                "esbId": "2013111011",
+                "gameDetailId": "10160000-0559-82f6-83f8-e02682235d4e",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-11T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1111-0099-83a7-97e56dbcbbac",
+                "esbId": "2013111100",
+                "gameDetailId": "10160000-0559-835d-3bd5-3e6e0496f263",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2013-11-12T01:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1114-002d-3ca0-238bcc55f53d",
+                "esbId": "2013111400",
+                "gameDetailId": "10160000-0559-8433-2efd-8cffc49d1dd5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-15T01:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1117-00da-4534-13f68a810121",
+                "esbId": "2013111700",
+                "gameDetailId": "10160000-0559-8585-99cb-3db739384f29",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1117-01a9-88aa-cc1d490ca671",
+                "esbId": "2013111701",
+                "gameDetailId": "10160000-0559-86d7-0395-051114da58f2",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1117-0230-c08f-401759b48826",
+                "esbId": "2013111702",
+                "gameDetailId": "10160000-0559-87a4-d627-f904f22cb970",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1117-03b2-50a9-c044291897a1",
+                "esbId": "2013111703",
+                "gameDetailId": "10160000-0559-88a1-5dc6-53fe9c52019d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1117-04f9-1437-a95bdd4e40aa",
+                "esbId": "2013111704",
+                "gameDetailId": "10160000-0559-899b-5415-3539d17c61e4",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1117-053e-f5cc-d556c2a8f340",
+                "esbId": "2013111705",
+                "gameDetailId": "10160000-0559-90bb-e0af-1d401110fd79",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-17T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1117-069c-d513-877bb1dd6e6c",
+                "esbId": "2013111706",
+                "gameDetailId": "10160000-0559-9137-5371-d5fab05e8554",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1117-076d-c46f-6b528a4b69f8",
+                "esbId": "2013111707",
+                "gameDetailId": "10160000-0559-9287-8684-b9f0a4d7b670",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1117-08b6-be36-73ec27cf8967",
+                "esbId": "2013111708",
+                "gameDetailId": "10160000-0559-938d-9f24-c41af5a0b8c3",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-17T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1117-0972-a4f1-66d18261a38c",
+                "esbId": "2013111709",
+                "gameDetailId": "10160000-0559-943a-f1de-e4dd1ae0d211",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-18T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1117-104b-fc80-5f0f18d96211",
+                "esbId": "2013111710",
+                "gameDetailId": "10160000-0559-95f8-e5e4-8711e8992844",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-17T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1117-11b3-26f5-12ce055522e5",
+                "esbId": "2013111711",
+                "gameDetailId": "10160000-0559-96a1-d796-c62c7febc8cb",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-17T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1117-1221-b9b0-f8ec00c7de10",
+                "esbId": "2013111712",
+                "gameDetailId": "10160000-0559-977b-530d-f4fb32e4d6b2",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-17T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1118-005a-5f30-aab4f22fff82",
+                "esbId": "2013111800",
+                "gameDetailId": "10160000-0559-98ba-e23a-10aa9d78a4fd",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2013-11-19T01:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1121-0093-3afa-716ab1e8208d",
+                "esbId": "2013112100",
+                "gameDetailId": "10160000-0559-9972-760d-20a2f64ef377",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-22T01:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1124-00d2-c0e8-547378130c70",
+                "esbId": "2013112400",
+                "gameDetailId": "10160000-0560-00b7-77b5-30783412f407",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1124-0137-5fb0-4da29a2ec1ca",
+                "esbId": "2013112401",
+                "gameDetailId": "10160000-0560-01ec-d3c8-28e2c4aaaad8",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1124-0258-7b74-9415dca4edc1",
+                "esbId": "2013112402",
+                "gameDetailId": "10160000-0560-02c1-932c-d233e8d0b818",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1124-03a3-1638-98289d0b28f4",
+                "esbId": "2013112403",
+                "gameDetailId": "10160000-0560-0317-ac4e-fe3529dbe201",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1124-04fe-6374-0772b02d8e12",
+                "esbId": "2013112404",
+                "gameDetailId": "10160000-0560-047b-e8b0-df6de2ab68ac",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1124-0544-2a13-c5034583d5b1",
+                "esbId": "2013112405",
+                "gameDetailId": "10160000-0560-05e5-d93a-d4db6db5a7ae",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1124-0688-a61b-96c302977395",
+                "esbId": "2013112406",
+                "gameDetailId": "10160000-0560-06fb-89e2-998b34f19b2d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1124-07c2-bb4a-0d75b4c57179",
+                "esbId": "2013112407",
+                "gameDetailId": "10160000-0560-071a-7196-2a8550448921",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-24T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1124-0879-032b-ac872a5823ae",
+                "esbId": "2013112408",
+                "gameDetailId": "10160000-0560-0885-b789-4522ac419949",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-24T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1124-09f6-8984-688c5244c5f7",
+                "esbId": "2013112409",
+                "gameDetailId": "10160000-0560-0976-8374-9e892771a6ee",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-24T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1124-10f2-0dd9-2b982cf47cf8",
+                "esbId": "2013112410",
+                "gameDetailId": "10160000-0560-10fd-8f7e-b13a6f4c56fd",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-24T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1124-1193-3f1b-aa536705faec",
+                "esbId": "2013112411",
+                "gameDetailId": "10160000-0560-119a-904a-80418d68a363",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-25T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1125-007f-31d4-46f7651c1e72",
+                "esbId": "2013112500",
+                "gameDetailId": "10160000-0560-12e7-4fc4-44a3b3d38996",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2013-11-26T01:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1128-00b7-af87-c65e2a21bf2e",
+                "esbId": "2013112800",
+                "gameDetailId": "10160000-0560-13e1-7f31-4df78b6f68e2",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-11-28T17:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1128-01f0-f9ba-9da230b4b0d9",
+                "esbId": "2013112801",
+                "gameDetailId": "10160000-0560-1488-7d12-242192942e3f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-11-28T21:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1128-025e-6986-daf44587198f",
+                "esbId": "2013112802",
+                "gameDetailId": "10160000-0560-1577-c6f8-59554b949fbe",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-11-29T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1201-00c0-e11f-cd3b5f0c8d52",
+                "esbId": "2013120100",
+                "gameDetailId": "10160000-0560-1663-3741-7ab6fc101277",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-12-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1201-0125-52a9-d629516595c7",
+                "esbId": "2013120101",
+                "gameDetailId": "10160000-0560-174f-08c0-cf2f7d3cee42",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-12-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1201-02e7-c3d8-e260463032f4",
+                "esbId": "2013120102",
+                "gameDetailId": "10160000-0560-1883-42af-1ec092da141e",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-12-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1201-03de-5a6c-019cc6c4778b",
+                "esbId": "2013120103",
+                "gameDetailId": "10160000-0560-1940-db7d-1c4b97cdf915",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-12-01T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1201-0418-0118-f048b3401a86",
+                "esbId": "2013120104",
+                "gameDetailId": "10160000-0560-2027-916a-417dbc2d7c91",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-12-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1201-0524-1211-bd5d87c802f5",
+                "esbId": "2013120105",
+                "gameDetailId": "10160000-0560-21a4-2a29-0ad54cadb0d5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-12-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1201-06a0-d7a8-e48a38f7acec",
+                "esbId": "2013120106",
+                "gameDetailId": "10160000-0560-22bd-126e-3f3d147a93e7",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-12-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1201-074c-9d31-08d70be7fbae",
+                "esbId": "2013120107",
+                "gameDetailId": "10160000-0560-235f-7269-450d2c5d7e21",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-12-01T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1201-08ae-c2fa-f5f6fb8d4348",
+                "esbId": "2013120108",
+                "gameDetailId": "10160000-0560-2480-5cc0-21d9b2091bef",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-12-01T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1201-0935-9601-7c9730267861",
+                "esbId": "2013120109",
+                "gameDetailId": "10160000-0560-252e-0bcd-942bf199d867",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-12-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1201-1043-197d-2b702b90a520",
+                "esbId": "2013120110",
+                "gameDetailId": "10160000-0560-26b6-39bb-11cedd56709a",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-12-01T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1201-11f9-e9d8-6153f09dd6c9",
+                "esbId": "2013120111",
+                "gameDetailId": "10160000-0560-27cb-50bf-b3ea9c534f5c",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-12-02T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1202-0039-b62d-80eaeeb58fd6",
+                "esbId": "2013120200",
+                "gameDetailId": "10160000-0560-2858-5699-23277dc49ab3",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2013-12-03T01:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1205-00c2-c7fe-904818864689",
+                "esbId": "2013120500",
+                "gameDetailId": "10160000-0560-296f-667b-787e7627e46e",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-06T01:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-0050-dd08-0b9fbf58ae92",
+                "esbId": "2013120800",
+                "gameDetailId": "10160000-0560-3067-eef6-904f02774909",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-011c-c954-f9b94c1f5a18",
+                "esbId": "2013120801",
+                "gameDetailId": "10160000-0560-3199-266d-88766ecad8e5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-028f-2fc0-db25047ff300",
+                "esbId": "2013120802",
+                "gameDetailId": "10160000-0560-3226-36ea-3d968709a173",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-03dd-31b1-3f239285472b",
+                "esbId": "2013120803",
+                "gameDetailId": "10160000-0560-3349-58ea-658eeb2bbb1e",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-049d-e649-1b4724e21e56",
+                "esbId": "2013120804",
+                "gameDetailId": "10160000-0560-34f6-9fc0-d16711f3bbf7",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-09T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-05fc-279c-751ebc2983d0",
+                "esbId": "2013120805",
+                "gameDetailId": "10160000-0560-3523-1a4e-90bd2539d0f2",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-0683-125f-163b9ec03d8e",
+                "esbId": "2013120806",
+                "gameDetailId": "10160000-0560-3667-269c-cfc9753ef98c",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-07fd-60fa-18f7a9f8ddc7",
+                "esbId": "2013120807",
+                "gameDetailId": "10160000-0560-3721-1579-35caf607dcd7",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-089b-94b8-96304ac0976b",
+                "esbId": "2013120808",
+                "gameDetailId": "10160000-0560-38a2-16b6-72bef1527811",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-098d-95f4-6a7b0b782717",
+                "esbId": "2013120809",
+                "gameDetailId": "10160000-0560-3945-51d0-2bdd8ba665eb",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-08T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-10a5-8498-12f7f22e31e3",
+                "esbId": "2013120810",
+                "gameDetailId": "10160000-0560-40e8-c8de-29f7d70c0acb",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-08T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-1138-8a41-0b408ca09bfb",
+                "esbId": "2013120811",
+                "gameDetailId": "10160000-0560-4126-6685-eb8bb9a27fee",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-08T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-123d-886a-e0ba6c2087c9",
+                "esbId": "2013120812",
+                "gameDetailId": "10160000-0560-42b8-8316-53cccc79db89",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-08T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1208-13cb-7777-3f0ec1aa28d9",
+                "esbId": "2013120813",
+                "gameDetailId": "10160000-0560-4351-62c0-a33c48cc5d9b",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1209-004c-8682-8b679dc3baff",
+                "esbId": "2013120900",
+                "gameDetailId": "10160000-0560-44e1-4df9-f990e443c21c",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2013-12-10T01:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1212-001e-4258-946d5d719639",
+                "esbId": "2013121200",
+                "gameDetailId": "10160000-0560-4511-6229-d8920cc03f88",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-13T01:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-0098-f362-9eec205640e0",
+                "esbId": "2013121500",
+                "gameDetailId": "10160000-0560-46ce-6167-84259095cb2b",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-01c0-353b-5e86b8f429db",
+                "esbId": "2013121501",
+                "gameDetailId": "10160000-0560-479d-0352-79eb37e13337",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-0291-db06-45b09eebf822",
+                "esbId": "2013121502",
+                "gameDetailId": "10160000-0560-4854-4151-574cf0350ca9",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-0391-30eb-09dd19de7210",
+                "esbId": "2013121503",
+                "gameDetailId": "10160000-0560-4915-55c6-07b90eb81af6",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-04db-1b21-f9d32c09a534",
+                "esbId": "2013121504",
+                "gameDetailId": "10160000-0560-50f7-6789-fcae4d0110c0",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-05eb-fb1a-6a0ea2cc0e76",
+                "esbId": "2013121505",
+                "gameDetailId": "10160000-0560-51f0-02c6-234f980d88fa",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-06b7-7b76-b83f71247d43",
+                "esbId": "2013121506",
+                "gameDetailId": "10160000-0560-5238-47a7-29afa1977284",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-074a-ed34-edcacf7389c1",
+                "esbId": "2013121507",
+                "gameDetailId": "10160000-0560-5385-1758-0ceaec5e0de0",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-15T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-08f2-55c1-5d67fe70d8c3",
+                "esbId": "2013121508",
+                "gameDetailId": "10160000-0560-54a6-ee82-5280650acae0",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-091d-c199-6fbcd4b9617f",
+                "esbId": "2013121509",
+                "gameDetailId": "10160000-0560-55fb-e437-997d63e1fa06",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-15T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-10ef-a6da-6103d9c4b378",
+                "esbId": "2013121510",
+                "gameDetailId": "10160000-0560-5682-0858-302a3ceea73f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-15T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-1163-7a51-5079fdec5561",
+                "esbId": "2013121511",
+                "gameDetailId": "10160000-0560-5767-59a5-39818de3e559",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-15T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-12e1-7b74-e219585a534d",
+                "esbId": "2013121512",
+                "gameDetailId": "10160000-0560-5845-8a2c-1ccd75bc2437",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-15T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1215-132c-41de-e3268f71cb08",
+                "esbId": "2013121513",
+                "gameDetailId": "10160000-0560-59b2-7565-fcd61047fc59",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-16T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1216-006a-6b56-56f6d159bb44",
+                "esbId": "2013121600",
+                "gameDetailId": "10160000-0560-60dc-965d-0544aad6936f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2013-12-17T01:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-00cf-f147-918da720b330",
+                "esbId": "2013122200",
+                "gameDetailId": "10160000-0560-61d5-c475-6a1c1a5b0c4e",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-01b9-ec8e-eb2361625a76",
+                "esbId": "2013122201",
+                "gameDetailId": "10160000-0560-62de-abc6-d198331b8d9d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-02cc-15be-2325b170bb55",
+                "esbId": "2013122202",
+                "gameDetailId": "10160000-0560-63d2-150d-a71e68c201f5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-03ac-2e99-97101eee20b7",
+                "esbId": "2013122203",
+                "gameDetailId": "10160000-0560-641b-c5ee-0f10ae686045",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-045a-0d08-f484287851fe",
+                "esbId": "2013122204",
+                "gameDetailId": "10160000-0560-6563-887e-3224612f255a",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-054d-5f5f-9508fec0137b",
+                "esbId": "2013122205",
+                "gameDetailId": "10160000-0560-66d3-d0e0-9823fd430651",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-0654-88ac-bbb005e1bf61",
+                "esbId": "2013122206",
+                "gameDetailId": "10160000-0560-67b9-74b2-976d99edfc0a",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-07a6-0a83-eb861496fe8a",
+                "esbId": "2013122207",
+                "gameDetailId": "10160000-0560-6833-aeda-f01d9632f8d5",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-23T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-088c-480b-e99adcd78b0c",
+                "esbId": "2013122208",
+                "gameDetailId": "10160000-0560-6980-f228-b89a149a1b86",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-09b7-c53d-71584bce0510",
+                "esbId": "2013122209",
+                "gameDetailId": "10160000-0560-70cb-198e-f739d5afe5f3",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-108f-6cfd-49559e22238c",
+                "esbId": "2013122210",
+                "gameDetailId": "10160000-0560-71ce-91e7-86a429bf96e9",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-1125-7984-000a1a8eaee3",
+                "esbId": "2013122211",
+                "gameDetailId": "10160000-0560-72ca-c8f4-d7b01d156ae1",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-12e6-4b8e-a0f0536858e0",
+                "esbId": "2013122212",
+                "gameDetailId": "10160000-0560-73ba-edb4-ec9fdb379495",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-1330-ce85-a6012d5c8a54",
+                "esbId": "2013122213",
+                "gameDetailId": "10160000-0560-7490-06ef-d2f6f2e58fbb",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1222-1423-6c19-abf113b5257f",
+                "esbId": "2013122214",
+                "gameDetailId": "10160000-0560-7590-91f7-0edf2fcefa4c",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-22T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1223-004f-98fb-a300294735f5",
+                "esbId": "2013122300",
+                "gameDetailId": "10160000-0560-764e-e3ee-31e68deb9ed9",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2013-12-24T01:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-00df-fa51-a712ccc7e2e3",
+                "esbId": "2013122900",
+                "gameDetailId": "10160000-0560-77b2-5642-4c09167dfa71",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-0182-cfe7-9853f53cad9f",
+                "esbId": "2013122901",
+                "gameDetailId": "10160000-0560-78fc-fc59-4bf5b9945ccd",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-029f-dcf9-bfc4eb5a0d84",
+                "esbId": "2013122902",
+                "gameDetailId": "10160000-0560-799e-2cea-c5014115fa1b",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-03f0-efa0-6084e76f60f0",
+                "esbId": "2013122903",
+                "gameDetailId": "10160000-0560-8062-d633-01e4edd7d1fa",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-30T01:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-0468-e237-95bef55fdadd",
+                "esbId": "2013122904",
+                "gameDetailId": "10160000-0560-8186-a799-b979eab120aa",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-05d1-ee3f-6a0051d54a13",
+                "esbId": "2013122905",
+                "gameDetailId": "10160000-0560-8298-d699-698a3e866a06",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-061a-b597-ff840ade03f2",
+                "esbId": "2013122906",
+                "gameDetailId": "10160000-0560-83af-f94b-6b60c47f65b1",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-075b-1713-a87f05d4faeb",
+                "esbId": "2013122907",
+                "gameDetailId": "10160000-0560-84dd-7a7d-390a5bc8e18a",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-08ec-8316-8f6df7b9243b",
+                "esbId": "2013122908",
+                "gameDetailId": "10160000-0560-85fa-a50d-0636a8e8f90b",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-0958-55fa-865cfbc03651",
+                "esbId": "2013122909",
+                "gameDetailId": "10160000-0560-8617-19b5-89a5cd3731eb",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-107f-197c-3a6a43b92a2b",
+                "esbId": "2013122910",
+                "gameDetailId": "10160000-0560-8796-dad0-3b491c4940f3",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-1122-cb70-6de69e26d41d",
+                "esbId": "2013122911",
+                "gameDetailId": "10160000-0560-883c-47e0-638a332dc937",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-12c5-6139-e9295973a335",
+                "esbId": "2013122912",
+                "gameDetailId": "10160000-0560-893d-929d-be9c9657d258",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-134d-d6fe-70006a8b2f90",
+                "esbId": "2013122913",
+                "gameDetailId": "10160000-0560-9019-a8bf-3e0b36ca09fa",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-1461-2688-a43f49f47dd3",
+                "esbId": "2013122914",
+                "gameDetailId": "10160000-0560-917c-ebd7-218b3bc18c26",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-1229-15a0-cc49-9d83a0296239",
+                "esbId": "2013122915",
+                "gameDetailId": "10160000-0560-92d6-8fb0-89ad15d8374d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2013-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012014-0104-0028-6699-808a652b2b43",
+                "esbId": "2014010400",
+                "gameDetailId": "10160000-0561-5810-e1a0-3c05f074b8c3",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2014-01-04T21:35:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012014-0104-01aa-e313-4b89a16ee352",
+                "esbId": "2014010401",
+                "gameDetailId": "10160000-0561-5911-a9c5-edc09e4ace0d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2014-01-05T01:10:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012014-0105-0017-2f5b-2dbc2616c491",
+                "esbId": "2014010500",
+                "gameDetailId": "10160000-0561-6029-cf78-46ab8e2d3a3b",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2014-01-05T18:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012014-0105-0143-69ab-cffc8047c30e",
+                "esbId": "2014010501",
+                "gameDetailId": "10160000-0561-6172-5f31-b09c7382e7a2",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2014-01-05T21:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012014-0111-005a-d3ff-480f5ed721c9",
+                "esbId": "2014011100",
+                "gameDetailId": "10160000-0561-6267-e08c-915b7bad3ecf",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2014-01-11T21:35:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012014-0111-01cd-495c-32398fb328d3",
+                "esbId": "2014011101",
+                "gameDetailId": "10160000-0561-6358-c534-5f285dec273f",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2014-01-12T01:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012014-0112-0070-b820-982d617a6fd5",
+                "esbId": "2014011200",
+                "gameDetailId": "10160000-0561-64ce-6d74-99f22cc61237",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2014-01-12T18:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012014-0112-01a3-4233-1c9fdecc4dcb",
+                "esbId": "2014011201",
+                "gameDetailId": "10160000-0561-655c-1dec-cb8f1fa1d3d8",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2014-01-12T21:40:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012014-0119-0031-e1cb-ef0a59126781",
+                "esbId": "2014011900",
+                "gameDetailId": "10160000-0561-6612-ee8d-b3c3e0545373",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "POST",
+                  "weekValue": 3
+                },
+                "gameTime": "2014-01-19T20:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012014-0119-0153-949b-c4b575af5f4c",
+                "esbId": "2014011901",
+                "gameDetailId": "10160000-0561-67be-d9c5-cad3b2ab4a4d",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "POST",
+                  "weekValue": 3
+                },
+                "gameTime": "2014-01-19T23:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012014-0126-00f9-925f-5912d95ea791",
+                "esbId": "2014012600",
+                "gameDetailId": "10160000-0561-68f8-c30f-1a09ad0ff8f8",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "PRO",
+                  "weekValue": 1
+                },
+                "gameTime": "2014-01-27T00:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012014-0202-00a8-5550-fbffa4f7d8ed",
+                "esbId": "2014020200",
+                "gameDetailId": "10160000-0561-6942-24e9-309d14c1f9d4",
+                "week": {
+                  "seasonValue": 2013,
+                  "seasonType": "POST",
+                  "weekValue": 4
+                },
+                "gameTime": "2014-02-02T23:30:00.000Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

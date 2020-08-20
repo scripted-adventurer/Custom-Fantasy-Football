@@ -1,0 +1,3340 @@
+{
+  "data": {
+    "viewer": {
+      "league": {
+        "games": {
+          "edges": [
+            {
+              "node": {
+                "id": "10012021-0103-157a-d72b-c62672b9becd",
+                "esbId": "2021010315",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-14c1-4258-a8e7482b10ce",
+                "esbId": "2021010314",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-13cb-9f4c-bde393f7520e",
+                "esbId": "2021010313",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-12bd-603b-a68f670c99a6",
+                "esbId": "2021010312",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-11a6-753d-fe2e2ab2775b",
+                "esbId": "2021010311",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-1075-2031-aac0472201f7",
+                "esbId": "2021010310",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-099c-655f-6bfb51ea23fa",
+                "esbId": "2021010309",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-081c-a21d-fc36a804322d",
+                "esbId": "2021010308",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-07c7-0878-7e798807a9b9",
+                "esbId": "2021010307",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-063e-51d9-0c44efa65f65",
+                "esbId": "2021010306",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-0555-9f5a-08e4ea048f6f",
+                "esbId": "2021010305",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-0427-50a0-a55f94b36bd8",
+                "esbId": "2021010304",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-03b4-2117-d4418e26122c",
+                "esbId": "2021010303",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-0216-5e58-0a924a4c6e67",
+                "esbId": "2021010302",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-01e7-a2c9-9a0ca173d34f",
+                "esbId": "2021010301",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012021-0103-00e7-5581-baa2e0df3f47",
+                "esbId": "2021010300",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2021-01-03T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1228-0012-2f5f-7e476d3079de",
+                "esbId": "2020122800",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-29T01:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-13b2-2938-fc2cc09f79a7",
+                "esbId": "2020122713",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-28T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-12dc-7dd0-57575792a01c",
+                "esbId": "2020122712",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-27T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-11f3-65ec-900c87911023",
+                "esbId": "2020122711",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-27T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-109b-5b2a-acbbdc2253c2",
+                "esbId": "2020122710",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-27T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-0933-b463-bc8e89ad5a71",
+                "esbId": "2020122709",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-27T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-08af-09c2-1d794746dfe1",
+                "esbId": "2020122708",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-27T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-073e-78d7-7e7ea493b400",
+                "esbId": "2020122707",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-27T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-0696-59e9-46c0ea9d7226",
+                "esbId": "2020122706",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-27T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-0574-84d3-4901af55a843",
+                "esbId": "2020122705",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-27T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-04e4-dfa9-ce0ece97eb3b",
+                "esbId": "2020122704",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-27T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-03d0-9566-c512b2318845",
+                "esbId": "2020122703",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-27T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-0249-2c7e-8e80a9f98a16",
+                "esbId": "2020122702",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-27T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-01a5-cb5c-8aef770123f8",
+                "esbId": "2020122701",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-27T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1227-0073-9fcc-c15ac9597006",
+                "esbId": "2020122700",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-27T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1225-001f-42cf-ead38c9c4612",
+                "esbId": "2020122500",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2020-12-25T21:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1221-009e-cd83-92cdcf55eca8",
+                "esbId": "2020122100",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-22T01:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-13fb-48b6-73db779a4e03",
+                "esbId": "2020122013",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-21T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-1257-7134-14a9ec40cec3",
+                "esbId": "2020122012",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-20T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-11da-f4f7-c296a8c8ec9a",
+                "esbId": "2020122011",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-20T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-1042-1bc4-10ba01628156",
+                "esbId": "2020122010",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-20T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-0982-bc26-a4e1dec6468c",
+                "esbId": "2020122009",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-20T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-08d3-6789-a4f8f0bdcce7",
+                "esbId": "2020122008",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-20T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-075a-cd3f-fe318bba6911",
+                "esbId": "2020122007",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-20T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-06f4-5cf7-63230a68e4f6",
+                "esbId": "2020122006",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-20T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-0584-4b72-b10970af87ba",
+                "esbId": "2020122005",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-20T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-04da-d3c2-9ed6167b1f76",
+                "esbId": "2020122004",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-20T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-0395-ee2d-2755b9fb2e06",
+                "esbId": "2020122003",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-20T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-0218-43d9-d4d66fdc90d2",
+                "esbId": "2020122002",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-20T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-01c5-bc69-0c19e7c00ec8",
+                "esbId": "2020122001",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-20T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1220-00c8-16fe-6b371a1f5417",
+                "esbId": "2020122000",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-20T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1217-0046-b2fc-566c471e23cc",
+                "esbId": "2020121700",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2020-12-18T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1214-0010-6ac5-5fb5ef183372",
+                "esbId": "2020121400",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-15T01:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-138f-fd07-602d2eea0d84",
+                "esbId": "2020121313",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-14T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-129d-0d75-fac854fb4c23",
+                "esbId": "2020121312",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-13T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-11ea-4e0a-ece039fccfab",
+                "esbId": "2020121311",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-13T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-10f5-4064-12bb1e159cac",
+                "esbId": "2020121310",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-13T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-091f-f6c8-1ac0a5b8141c",
+                "esbId": "2020121309",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-13T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-0887-a7bd-acf8aa690d81",
+                "esbId": "2020121308",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-13T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-07fb-d990-56627bf42ae8",
+                "esbId": "2020121307",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-13T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-06fd-9169-582a28041c87",
+                "esbId": "2020121306",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-13T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-056e-157c-cba60f70d27a",
+                "esbId": "2020121305",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-13T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-048b-783c-e352ce354861",
+                "esbId": "2020121304",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-13T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-03b0-6a7e-d9a281bcc662",
+                "esbId": "2020121303",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-13T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-0289-84cf-348352ae32ee",
+                "esbId": "2020121302",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-13T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-0130-809e-216fb3e8a77c",
+                "esbId": "2020121301",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-13T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1213-0014-9eba-570313719bfa",
+                "esbId": "2020121300",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-13T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1210-004d-40ee-16e1d5e565fb",
+                "esbId": "2020121000",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2020-12-11T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1207-0071-7dab-3fed11c871e6",
+                "esbId": "2020120700",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-08T01:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1206-1217-e024-3286bb810d03",
+                "esbId": "2020120612",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-07T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1206-1119-5656-6febbbdaaece",
+                "esbId": "2020120611",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-06T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1206-107d-7823-5b8390dd5e77",
+                "esbId": "2020120610",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-06T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1206-0982-2b99-6852db97abc1",
+                "esbId": "2020120609",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-06T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1206-08f0-041c-f31325a4078d",
+                "esbId": "2020120608",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-06T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1206-07b4-7f0e-37f415740c06",
+                "esbId": "2020120607",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-06T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1206-0666-5d25-9be1db67a6cc",
+                "esbId": "2020120606",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-06T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1206-05c5-f2e1-5382beba18e4",
+                "esbId": "2020120605",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-06T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1206-04f7-c36b-fa12bceb8eef",
+                "esbId": "2020120604",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-06T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1206-035e-60fc-4c5768db2c26",
+                "esbId": "2020120603",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-06T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1206-028b-6b9f-f5e7f64da014",
+                "esbId": "2020120602",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-06T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1206-019a-5404-c3c96ae59b88",
+                "esbId": "2020120601",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-06T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1206-008d-fd0e-3e477f4e7f6a",
+                "esbId": "2020120600",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-06T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1203-00c1-6cb1-857f21123229",
+                "esbId": "2020120300",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2020-12-04T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1130-0072-75b4-d766c9dfb007",
+                "esbId": "2020113000",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-12-01T01:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1129-1198-d981-de33e95f0e66",
+                "esbId": "2020112911",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-30T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1129-1087-0eb5-50336d274480",
+                "esbId": "2020112910",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1129-09cb-038d-31480c706e59",
+                "esbId": "2020112909",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-29T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1129-0824-824c-68f5c661a6a2",
+                "esbId": "2020112908",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-29T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1129-0795-54c9-96c5dd3c30d4",
+                "esbId": "2020112907",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1129-06a3-eeff-58ab5c5ce500",
+                "esbId": "2020112906",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1129-051c-0b2e-d922a707ea3a",
+                "esbId": "2020112905",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1129-04a1-df0a-f7dcf193246a",
+                "esbId": "2020112904",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1129-036d-9b3f-dc1f49d5041c",
+                "esbId": "2020112903",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1129-0218-4d2f-386a23901f26",
+                "esbId": "2020112902",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1129-01e0-6063-d238a68d3e83",
+                "esbId": "2020112901",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1129-0052-5ece-f4791abb4060",
+                "esbId": "2020112900",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1126-0233-760c-ee75e700e83d",
+                "esbId": "2020112602",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-27T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1126-0110-0c14-45ab57a82909",
+                "esbId": "2020112601",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-26T21:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1126-0097-6a47-3738061bb47d",
+                "esbId": "2020112600",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2020-11-26T17:30:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1123-0016-ce89-d187047c7972",
+                "esbId": "2020112300",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2020-11-24T01:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1122-1021-05d1-1211fb340ace",
+                "esbId": "2020112210",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2020-11-23T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1122-0995-ae59-3016a18ee23d",
+                "esbId": "2020112209",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2020-11-22T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1122-08f8-bcf3-2391ed1162e8",
+                "esbId": "2020112208",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2020-11-22T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1122-0768-2a4a-919f82d8176f",
+                "esbId": "2020112207",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2020-11-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1122-069f-b8d7-ca5b06192146",
+                "esbId": "2020112206",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2020-11-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1122-0563-c369-fc100b5cd205",
+                "esbId": "2020112205",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2020-11-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1122-04d5-e818-51df3347c730",
+                "esbId": "2020112204",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2020-11-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1122-03d8-d123-7296e7469aa7",
+                "esbId": "2020112203",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2020-11-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1122-0296-26ab-9f4b1144763c",
+                "esbId": "2020112202",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2020-11-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1122-013a-e97d-0677c677baca",
+                "esbId": "2020112201",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2020-11-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1122-00a0-e089-d10c4990f95f",
+                "esbId": "2020112200",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2020-11-22T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1119-0099-9c00-74e0c3b8e26a",
+                "esbId": "2020111900",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2020-11-20T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1116-0014-0c15-75dd41483dda",
+                "esbId": "2020111600",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-17T01:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1115-116c-094d-82e65f07ae20",
+                "esbId": "2020111511",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-16T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1115-10c0-ab6d-c7c625785284",
+                "esbId": "2020111510",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-15T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1115-095d-a431-104e77674502",
+                "esbId": "2020111509",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-15T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1115-08d0-daa0-6e74b4a8b69f",
+                "esbId": "2020111508",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-15T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1115-074b-e4de-15d8d4ae9cd8",
+                "esbId": "2020111507",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-15T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1115-06ac-0455-ecb8d1122b39",
+                "esbId": "2020111506",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-15T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1115-05da-e27a-581f5ac17110",
+                "esbId": "2020111505",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1115-0457-b488-28f6925be29f",
+                "esbId": "2020111504",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1115-03d6-3a59-0e6ba515f7b3",
+                "esbId": "2020111503",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1115-0246-e855-3bd0ab665585",
+                "esbId": "2020111502",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1115-01d2-ba05-b7f16be294fc",
+                "esbId": "2020111501",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1115-0071-1e36-fece27e24b3e",
+                "esbId": "2020111500",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-15T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1112-00db-86cb-8f0ee8d68f3b",
+                "esbId": "2020111200",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2020-11-13T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1109-0067-ef92-13c04d3585e5",
+                "esbId": "2020110900",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-10T01:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1108-11a8-a18f-0d5ffede0c33",
+                "esbId": "2020110811",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-09T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1108-103b-d862-9b3f6abb3615",
+                "esbId": "2020110810",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-08T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1108-092d-06af-d96f325ffe22",
+                "esbId": "2020110809",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-08T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1108-086a-1d8c-d92155936af3",
+                "esbId": "2020110808",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-08T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1108-0778-a16b-495b491a3b25",
+                "esbId": "2020110807",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1108-0666-a6b4-05e1efb867bd",
+                "esbId": "2020110806",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1108-0537-a365-170e5f2299cf",
+                "esbId": "2020110805",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1108-04aa-09e6-31a723859ad6",
+                "esbId": "2020110804",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1108-0378-015e-150231fae00b",
+                "esbId": "2020110803",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1108-02f3-6da6-03a22b95458b",
+                "esbId": "2020110802",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1108-016b-7ea7-ed90211e0343",
+                "esbId": "2020110801",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1108-004b-0b5e-93e65c47b51c",
+                "esbId": "2020110800",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-08T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1105-0036-4915-104a4b2ba68a",
+                "esbId": "2020110500",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2020-11-06T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1102-00de-204b-b5a23808156c",
+                "esbId": "2020110200",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2020-11-03T01:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1101-10be-31f1-f19363e006c7",
+                "esbId": "2020110110",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2020-11-02T01:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1101-09d3-814e-4f6b984d3594",
+                "esbId": "2020110109",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2020-11-01T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1101-08a0-8782-0833f94b0d70",
+                "esbId": "2020110108",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2020-11-01T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1101-071f-f3d5-28839848abec",
+                "esbId": "2020110107",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2020-11-01T21:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1101-066f-99c0-248a79404d23",
+                "esbId": "2020110106",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2020-11-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1101-0523-f273-d6eb13c043eb",
+                "esbId": "2020110105",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2020-11-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1101-04a2-7e15-680a173dc2cf",
+                "esbId": "2020110104",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2020-11-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1101-031e-44a5-32a2509aecc4",
+                "esbId": "2020110103",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2020-11-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1101-0255-5725-8161182ef34b",
+                "esbId": "2020110102",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2020-11-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1101-0134-56fb-e99cf77628d2",
+                "esbId": "2020110101",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2020-11-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1101-00cc-1b67-0ad6a0ba8f5d",
+                "esbId": "2020110100",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2020-11-01T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1029-0024-44c6-f1aae5000bf9",
+                "esbId": "2020102900",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2020-10-30T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1026-0094-4b8c-7041b5b0a2ee",
+                "esbId": "2020102600",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-27T00:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1025-1158-3d43-a816c674eaac",
+                "esbId": "2020102511",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-26T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1025-1090-b2a3-605ed50f8dde",
+                "esbId": "2020102510",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-25T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1025-09f7-7c6d-de0d84be7f81",
+                "esbId": "2020102509",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-25T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1025-082f-fb02-7cc212b13e6e",
+                "esbId": "2020102508",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-25T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1025-07b9-809e-dfd579713920",
+                "esbId": "2020102507",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-25T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1025-06ef-d6e1-ea0b4850c4b7",
+                "esbId": "2020102506",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-25T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1025-0510-396d-fe7d539f21ca",
+                "esbId": "2020102505",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-25T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1025-047f-d080-403e69ff7461",
+                "esbId": "2020102504",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-25T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1025-0319-5ac4-50144cd10959",
+                "esbId": "2020102503",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-25T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1025-02c4-6e65-eb612b837f35",
+                "esbId": "2020102502",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-25T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1025-0185-c1c7-34b7cb4297b7",
+                "esbId": "2020102501",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-25T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1025-00bf-a9df-226eb8878b45",
+                "esbId": "2020102500",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-25T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1022-002d-2b6d-e5c6619cbf32",
+                "esbId": "2020102200",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2020-10-23T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1019-00db-b6ee-02fef7a3109c",
+                "esbId": "2020101900",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-20T00:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1018-11ca-bcff-752dcc4163ab",
+                "esbId": "2020101811",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-19T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1018-108a-a5c9-87f6fde0c9ad",
+                "esbId": "2020101810",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-18T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1018-0935-fc7f-79fed5cfe1bc",
+                "esbId": "2020101809",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-18T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1018-082f-e11b-13e433b1d633",
+                "esbId": "2020101808",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-18T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1018-07a3-2d77-cdec683a6e21",
+                "esbId": "2020101807",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-18T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1018-06ee-5fc3-e7ed7390206e",
+                "esbId": "2020101806",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-18T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1018-05d8-f557-2d02c4a2c819",
+                "esbId": "2020101805",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-18T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1018-0476-5398-1b45a44716d6",
+                "esbId": "2020101804",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-18T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1018-031b-9ad7-7ab1df5c928d",
+                "esbId": "2020101803",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-18T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1018-02c5-c709-a1cffd6ce390",
+                "esbId": "2020101802",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-18T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1018-01d6-7319-fd174e54d808",
+                "esbId": "2020101801",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-18T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1018-00d4-0da4-c4f3f25a8260",
+                "esbId": "2020101800",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-18T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1015-00b5-a1e3-9c3c43130337",
+                "esbId": "2020101500",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2020-10-16T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1012-00c9-8b07-b47b67116d22",
+                "esbId": "2020101200",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-13T00:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1011-1259-ea9c-05be12d75eb0",
+                "esbId": "2020101112",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-12T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1011-11ce-52b2-3b95e6dd526c",
+                "esbId": "2020101111",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-11T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1011-10ad-731c-9d532d2b4e8c",
+                "esbId": "2020101110",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-11T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1011-09d5-5d0e-506611494647",
+                "esbId": "2020101109",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-11T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1011-08d9-4dd9-2964cefd7d8e",
+                "esbId": "2020101108",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-11T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1011-0740-cbec-4dc80fe98dab",
+                "esbId": "2020101107",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-11T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1011-0628-0ad0-6a9bbf606671",
+                "esbId": "2020101106",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-11T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1011-0516-9753-28a1381bc67a",
+                "esbId": "2020101105",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-11T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1011-045b-e414-0c8d4ee8de72",
+                "esbId": "2020101104",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-11T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1011-039e-9daf-2a483104928b",
+                "esbId": "2020101103",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-11T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1011-0229-6ce7-a60226aa9661",
+                "esbId": "2020101102",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-11T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1011-0188-6082-7224edb72b35",
+                "esbId": "2020101101",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-11T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1011-00d8-25cf-df9eea798b7a",
+                "esbId": "2020101100",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-11T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1008-003f-2e38-a561dbdd4627",
+                "esbId": "2020100800",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2020-10-09T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1005-00ff-f551-5e175b80d73d",
+                "esbId": "2020100500",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-06T00:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-1393-d56d-e312ff82a605",
+                "esbId": "2020100413",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-05T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-1253-1f42-cce056cefc24",
+                "esbId": "2020100412",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-04T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-114c-fd56-788238e0f4aa",
+                "esbId": "2020100411",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-04T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-104e-0e15-d4d17b93d296",
+                "esbId": "2020100410",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-04T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-092e-5926-764b31e83e5a",
+                "esbId": "2020100409",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-04T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-08a9-d769-fbd98bf9f820",
+                "esbId": "2020100408",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-04T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-0797-8bfb-a0c948fd9fab",
+                "esbId": "2020100407",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-04T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-0696-e95b-60d77b9197ac",
+                "esbId": "2020100406",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-04T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-0511-247b-1971a6c069a9",
+                "esbId": "2020100405",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-04T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-0480-3d0e-906a548a04d5",
+                "esbId": "2020100404",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-04T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-03c5-3d41-ff37805f4bdc",
+                "esbId": "2020100403",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-04T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-0297-f664-19c94fdc421f",
+                "esbId": "2020100402",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-04T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-01c9-fe84-6c7b77301a20",
+                "esbId": "2020100401",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-04T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1004-005f-a8c1-0e5973a17923",
+                "esbId": "2020100400",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-04T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-1001-001c-3b20-98706f3dfda9",
+                "esbId": "2020100100",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2020-10-02T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0928-00e5-85af-690e14014bc4",
+                "esbId": "2020092800",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-29T00:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-1395-5776-9a1ee51fa946",
+                "esbId": "2020092713",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-28T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-12dc-d068-0a057248b6f7",
+                "esbId": "2020092712",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-27T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-1132-09e4-18af3652f420",
+                "esbId": "2020092711",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-27T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-10ce-1258-e10b176aeaa9",
+                "esbId": "2020092710",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-27T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-09d7-9133-732e24fa238a",
+                "esbId": "2020092709",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-27T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-08c2-4019-eab0742a7406",
+                "esbId": "2020092708",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-27T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-073c-cba9-a78c8d32ba7a",
+                "esbId": "2020092707",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-06d1-eb8f-4284a5ade981",
+                "esbId": "2020092706",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-0591-a12a-0ae86f03579b",
+                "esbId": "2020092705",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-0414-aae1-3900394bb10e",
+                "esbId": "2020092704",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-03d2-93b4-bf9fde1bbdf0",
+                "esbId": "2020092703",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-02f9-68aa-4af6caf1d51f",
+                "esbId": "2020092702",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-01e8-4b54-3767326fe40a",
+                "esbId": "2020092701",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0927-003b-1f92-0e1c44795f7b",
+                "esbId": "2020092700",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-27T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0924-006b-5a73-bbdde3104d7d",
+                "esbId": "2020092400",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2020-09-25T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0921-00a7-1585-f2fccdff9628",
+                "esbId": "2020092100",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-22T00:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-13b3-ae97-bbadeaca98f9",
+                "esbId": "2020092013",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-21T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-1211-4bc3-4e82de245153",
+                "esbId": "2020092012",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-20T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-11cc-663f-3bdbdf34f622",
+                "esbId": "2020092011",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-20T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-10fd-bde8-1d9ad5c0fa56",
+                "esbId": "2020092010",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-20T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-095e-152a-06bdcefdbe48",
+                "esbId": "2020092009",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-083d-f56c-89ba300b7391",
+                "esbId": "2020092008",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-07ea-ea96-671dd575a513",
+                "esbId": "2020092007",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-0661-9186-21e1266366f7",
+                "esbId": "2020092006",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-05db-b9cb-2ac46914b74f",
+                "esbId": "2020092005",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-04c6-f540-c91f934e8b27",
+                "esbId": "2020092004",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-034d-c35e-e48361f350a7",
+                "esbId": "2020092003",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-02b2-3b9b-d67853347c11",
+                "esbId": "2020092002",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-019e-c574-77ef9d055808",
+                "esbId": "2020092001",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0920-00f3-a0c0-993729846d9d",
+                "esbId": "2020092000",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-20T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0917-001c-99a4-1894084007f3",
+                "esbId": "2020091700",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2020-09-18T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0914-01b7-b22d-2e9003c78414",
+                "esbId": "2020091401",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-15T02:10:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0914-006c-3137-bf4fd425611c",
+                "esbId": "2020091400",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-14T23:15:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0913-12e2-7ccd-8083b8eae02a",
+                "esbId": "2020091312",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-14T00:20:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0913-1151-b440-3bd7f60a42ca",
+                "esbId": "2020091311",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-13T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0913-1035-120e-5eaf886bf2ed",
+                "esbId": "2020091310",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-13T20:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0913-0970-4b0c-d1e1f11bb7ad",
+                "esbId": "2020091309",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-13T20:05:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0913-089c-b3d7-197a4bdcadc2",
+                "esbId": "2020091308",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0913-075e-9749-420f31163e13",
+                "esbId": "2020091307",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0913-06b4-a7e3-b5e6528ee7a8",
+                "esbId": "2020091306",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0913-053f-161b-490753f947be",
+                "esbId": "2020091305",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0913-04ca-c00e-7d26a62450ea",
+                "esbId": "2020091304",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0913-0352-8263-da5e43a66693",
+                "esbId": "2020091303",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0913-0283-b513-2d7aec512dfd",
+                "esbId": "2020091302",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0913-01bf-d20b-55d75ae2084e",
+                "esbId": "2020091301",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0913-003f-f697-b52f49882730",
+                "esbId": "2020091300",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-13T17:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012020-0910-004e-d9e7-1b07484306e5",
+                "esbId": "2020091000",
+                "gameDetailId": null,
+                "week": {
+                  "seasonValue": 2020,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2020-09-11T00:20:00.000Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

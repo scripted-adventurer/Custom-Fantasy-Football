@@ -1,0 +1,4341 @@
+{
+  "data": {
+    "viewer": {
+      "league": {
+        "games": {
+          "edges": [
+            {
+              "node": {
+                "id": "10012012-0805-519f-8e0f-bce9dbed20cd",
+                "esbId": "2012080551",
+                "gameDetailId": "10160000-0557-6017-b480-d0e79c4d1dd0",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 0
+                },
+                "gameTime": "2012-08-05T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0809-51ae-6a79-6c02e1e207ea",
+                "esbId": "2012080951",
+                "gameDetailId": "10160000-0557-62a1-4550-2e9fafa4a48a",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0809-52cc-cc45-cd23c938867b",
+                "esbId": "2012080952",
+                "gameDetailId": "10160000-0557-639d-c35d-d7667841e40d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0809-5327-f7e9-a4ad4710e357",
+                "esbId": "2012080953",
+                "gameDetailId": "10160000-0557-6485-d5ac-55378bb011f6",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0809-54a5-5e00-0d7782232c87",
+                "esbId": "2012080954",
+                "gameDetailId": "10160000-0557-6530-81d2-8e91daa25f69",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0809-5515-0ea2-f16dcfc270ef",
+                "esbId": "2012080955",
+                "gameDetailId": "10160000-0557-61ad-209c-31a2ddc77f2c",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0809-56e0-ecac-360d2ae4c88b",
+                "esbId": "2012080956",
+                "gameDetailId": "10160000-0557-662b-d586-0292d5bea798",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0810-51c3-c4e4-d3d72709f550",
+                "esbId": "2012081051",
+                "gameDetailId": "10160000-0557-689f-ce47-52f2683d048e",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-10T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0810-523e-df3b-063cd0831f2b",
+                "esbId": "2012081052",
+                "gameDetailId": "10160000-0557-692b-6282-7cef4b4345ab",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-10T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0810-5367-8086-fcc69e7b351f",
+                "esbId": "2012081053",
+                "gameDetailId": "10160000-0557-732f-50fe-c80db7070fca",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-10T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0810-5417-6354-3099e7c9f7d6",
+                "esbId": "2012081054",
+                "gameDetailId": "10160000-0557-67ae-8c08-1a95d5c367bc",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-10T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0810-5581-b695-21546f263ac2",
+                "esbId": "2012081055",
+                "gameDetailId": "10160000-0557-70a3-d70e-3a178c3571ce",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-10T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0810-5635-7fe8-340821b64baa",
+                "esbId": "2012081056",
+                "gameDetailId": "10160000-0557-7150-1da1-85e5f31050ae",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-10T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0811-518c-cf69-de315341eaae",
+                "esbId": "2012081151",
+                "gameDetailId": "10160000-0557-724e-84a5-f0eda3cdd810",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0811-52f2-9597-44d80b0321c6",
+                "esbId": "2012081152",
+                "gameDetailId": "10160000-0557-74da-e668-2b21ac0efa8d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0812-51f0-5af5-b8d120a2676e",
+                "esbId": "2012081251",
+                "gameDetailId": "10160000-0557-75be-07d3-868bbb8471e9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-12T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0813-51ee-77ca-1688442956e3",
+                "esbId": "2012081351",
+                "gameDetailId": "10160000-0557-76ac-9563-ebaa93e1f49e",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-08-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0816-51df-8013-9a4557ad50c0",
+                "esbId": "2012081651",
+                "gameDetailId": "10160000-0557-774a-bcda-e8307350db2a",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0816-5275-c568-89ed2cc14294",
+                "esbId": "2012081652",
+                "gameDetailId": "10160000-0557-7825-0663-9baf556d53d8",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0817-515f-31c9-239bb8c2b8c9",
+                "esbId": "2012081751",
+                "gameDetailId": "10160000-0557-81ec-3c38-5533ff0bc436",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-17T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0817-5216-1a96-311e20ae290f",
+                "esbId": "2012081752",
+                "gameDetailId": "10160000-0557-801e-ae8f-f9212494cfed",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-17T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0817-535d-57d6-450deba379ed",
+                "esbId": "2012081753",
+                "gameDetailId": "10160000-0557-79ff-fe50-6387b076a669",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-17T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0817-54d0-2367-337e631c9947",
+                "esbId": "2012081754",
+                "gameDetailId": "10160000-0557-8244-e5c9-9cb50ed45c5c",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-17T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0817-55e5-5076-8a1b9e23bf55",
+                "esbId": "2012081755",
+                "gameDetailId": "10160000-0557-87c7-1195-2adfb6c53719",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-17T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0817-56ae-baf7-b060e7c9c8e0",
+                "esbId": "2012081756",
+                "gameDetailId": "10160000-0557-8358-bf71-10f63abfded5",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-17T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0818-5159-cad8-94d97240346c",
+                "esbId": "2012081851",
+                "gameDetailId": "10160000-0557-841c-a778-ad28f565746d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0818-52e6-af86-e82a8661c6db",
+                "esbId": "2012081852",
+                "gameDetailId": "10160000-0557-8541-3ef9-4bf14ed9f3b4",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0818-53e5-b435-b7cd4aa4da42",
+                "esbId": "2012081853",
+                "gameDetailId": "10160000-0557-8668-b9e4-5b1b76f0c9c0",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0818-54af-c67e-edd6ea639b36",
+                "esbId": "2012081854",
+                "gameDetailId": "10160000-0557-88c8-bf0f-b307baca664a",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0818-55f5-d3d7-4aba080fac54",
+                "esbId": "2012081855",
+                "gameDetailId": "10160000-0557-898b-b806-46bf363463fb",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0818-5658-d3ed-7189e83b23ae",
+                "esbId": "2012081856",
+                "gameDetailId": "10160000-0557-90be-5b5e-1bc561060310",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0819-5121-94f6-f0766f87eb58",
+                "esbId": "2012081951",
+                "gameDetailId": "10160000-0557-91f2-5ecf-6c04a8c3c512",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-19T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0820-51b1-e354-534d10127f28",
+                "esbId": "2012082051",
+                "gameDetailId": "10160000-0557-9295-985e-51a56eb98586",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-08-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0823-51bf-ba29-b2e055d96599",
+                "esbId": "2012082351",
+                "gameDetailId": "10160000-0557-9472-1136-4485f4a6606d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0823-52c9-a7fc-eccb17f291df",
+                "esbId": "2012082352",
+                "gameDetailId": "10160000-0557-95f4-7e05-e30b689af9bb",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0823-5311-eb18-f77df616b085",
+                "esbId": "2012082353",
+                "gameDetailId": "10160000-0557-934e-6415-5b9d8c69ec85",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0824-51d7-b8be-929fe30cff04",
+                "esbId": "2012082451",
+                "gameDetailId": "10160000-0557-97a4-9e96-2776c53e08d5",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0824-52af-0cb9-2314fa3fd112",
+                "esbId": "2012082452",
+                "gameDetailId": "10160000-0557-9821-4b16-f555a18506fe",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0824-53d7-9e4d-98cee7711913",
+                "esbId": "2012082453",
+                "gameDetailId": "10160000-0558-05b5-abe1-b68a5c678f73",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0824-548e-d1f0-ee0698edb371",
+                "esbId": "2012082454",
+                "gameDetailId": "10160000-0557-967a-b988-e87b22b69fc7",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0824-55e2-8518-5d3a3b2369b0",
+                "esbId": "2012082455",
+                "gameDetailId": "10160000-0557-9977-5320-769c80cd5c26",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0824-5662-48b5-b3c3c114a429",
+                "esbId": "2012082456",
+                "gameDetailId": "10160000-0558-002d-a298-0ebaf4e4ac67",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0825-51d6-6ca2-f7cf7f316ae6",
+                "esbId": "2012082551",
+                "gameDetailId": "10160000-0558-02c6-ccef-fdd9bf7215ea",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0825-5247-a516-eb3526d63ac9",
+                "esbId": "2012082552",
+                "gameDetailId": "10160000-0558-03f4-928a-f57bed5f3a00",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0825-5343-ca57-2f17b898f2d2",
+                "esbId": "2012082553",
+                "gameDetailId": "10160000-0558-0466-50ba-d847121e2760",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0825-54cf-11b3-72789072d693",
+                "esbId": "2012082554",
+                "gameDetailId": "10160000-0558-012b-4dd6-4c8e75b58812",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0825-5558-2e5c-e432b916d71f",
+                "esbId": "2012082555",
+                "gameDetailId": "10160000-0558-06e7-d7ec-5c2c8eaf07ab",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0826-513a-7d68-70a90e5d69ba",
+                "esbId": "2012082651",
+                "gameDetailId": "10160000-0558-0714-cadd-3fecb6e33537",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-26T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0826-526e-7e43-bb97cb7c7f8b",
+                "esbId": "2012082652",
+                "gameDetailId": "10160000-0558-083e-bc82-dd21cd4a206e",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-08-26T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0829-51d5-574d-6670fb529217",
+                "esbId": "2012082951",
+                "gameDetailId": "10160000-0558-09b6-2973-acd27b7e2ea3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-29T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0829-5276-dba5-4403bd9b5431",
+                "esbId": "2012082952",
+                "gameDetailId": "10160000-0558-1071-5cf7-30162be274d4",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-29T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0829-5367-5c0e-7c3e7d322bb0",
+                "esbId": "2012082953",
+                "gameDetailId": "10160000-0558-11b4-655b-20f3e8c99ce1",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-29T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0830-516e-10a6-9cea797a125e",
+                "esbId": "2012083051",
+                "gameDetailId": "10160000-0558-12b8-b7d2-1ecf0cc368b9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0830-52b1-2186-628b1d2d0aae",
+                "esbId": "2012083052",
+                "gameDetailId": "10160000-0558-2483-ce0e-bfde351f0996",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0830-5392-74aa-208409c2094d",
+                "esbId": "2012083053",
+                "gameDetailId": "10160000-0558-137a-078f-27bb08a2a0a1",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0830-54b4-8e0c-0da5df20efde",
+                "esbId": "2012083054",
+                "gameDetailId": "10160000-0558-145a-73b0-1b2b1c17b114",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0830-5569-940f-9534e5380011",
+                "esbId": "2012083055",
+                "gameDetailId": "10160000-0558-1523-ed66-1b7ebed5e8a4",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0830-5682-31c0-431886536938",
+                "esbId": "2012083056",
+                "gameDetailId": "10160000-0558-1654-8a4f-6ee5ac33d4b3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0830-57a0-a9c5-a98ff88428bb",
+                "esbId": "2012083057",
+                "gameDetailId": "10160000-0558-19eb-2a65-9b2f27b795c8",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0830-584d-7adb-bd3c079f8c52",
+                "esbId": "2012083058",
+                "gameDetailId": "10160000-0558-189b-1ffb-54296ab2ba7d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0830-5912-cede-db98abe89d06",
+                "esbId": "2012083059",
+                "gameDetailId": "10160000-0558-1725-573e-4dfee76e5d44",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0830-60b4-ac14-33494b9c4440",
+                "esbId": "2012083060",
+                "gameDetailId": "10160000-0558-20b6-24c7-c4176146c04f",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0830-6121-2e74-8344acf7eaf7",
+                "esbId": "2012083061",
+                "gameDetailId": "10160000-0558-2133-34b1-2e5f13afcb79",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0830-6294-d876-17e95fdee0ec",
+                "esbId": "2012083062",
+                "gameDetailId": "10160000-0558-227d-843f-d9d39fd0d0c8",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0830-6328-c1af-441d0e41881e",
+                "esbId": "2012083063",
+                "gameDetailId": "10160000-0558-2317-6d4a-ab48a58be7d0",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRE",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-08-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0905-0027-c93d-2a27a30b22e7",
+                "esbId": "2012090500",
+                "gameDetailId": "10160000-0555-0460-fdc2-b2ed4b370a0c",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-05T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0909-003a-dd9f-db3624f7222a",
+                "esbId": "2012090900",
+                "gameDetailId": "10160000-0555-053c-815c-bf3d7d41df51",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0909-01b5-fac5-0d65ba8da3e6",
+                "esbId": "2012090901",
+                "gameDetailId": "10160000-0555-10c1-ad95-f51a5faa4893",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0909-023e-070a-77b435552fe8",
+                "esbId": "2012090902",
+                "gameDetailId": "10160000-0555-1274-cc2c-f3495b05eda9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0909-03fa-3456-8a2c9e5d2d6c",
+                "esbId": "2012090903",
+                "gameDetailId": "10160000-0555-08cf-0d22-f674a50c35ba",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0909-04e9-329a-ec0ea4b59100",
+                "esbId": "2012090904",
+                "gameDetailId": "10160000-0555-13c0-58d5-fd792e1e483b",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0909-05d2-a784-7497ad7ef052",
+                "esbId": "2012090905",
+                "gameDetailId": "10160000-0555-0726-f2c5-4535375a587a",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0909-0698-35ed-764bb4f40ad3",
+                "esbId": "2012090906",
+                "gameDetailId": "10160000-0555-11bf-70b0-cee42b5e5019",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0909-07eb-15ea-fc9ab10d6491",
+                "esbId": "2012090907",
+                "gameDetailId": "10160000-0555-061e-61da-592f5aed4e2a",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0909-08bb-fd6d-0839971c22bb",
+                "esbId": "2012090908",
+                "gameDetailId": "10160000-0555-09b0-fa26-a285eca07beb",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0909-0932-21d6-ae9e95730a47",
+                "esbId": "2012090909",
+                "gameDetailId": "10160000-0555-15c6-e683-5770b20f3fd5",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0909-10f1-6c57-3832af0517d0",
+                "esbId": "2012090910",
+                "gameDetailId": "10160000-0555-148c-5519-5c6c26aa75ac",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0909-111e-1cf3-c908c7b8fb6a",
+                "esbId": "2012090911",
+                "gameDetailId": "10160000-0555-1691-b0dd-0be18affeb30",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0909-121f-31bf-6a885e77f701",
+                "esbId": "2012090912",
+                "gameDetailId": "10160000-0555-17ca-967e-7cb8f508afc2",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0910-00ef-37dc-71dd49beb289",
+                "esbId": "2012091000",
+                "gameDetailId": "10160000-0555-1821-dc90-09b60f39ccea",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-10T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0910-0194-6297-c3b0a8a8ed29",
+                "esbId": "2012091001",
+                "gameDetailId": "10160000-0555-19f5-aee1-6033223c4f54",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 1
+                },
+                "gameTime": "2012-09-10T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0913-0012-7495-d8776271803a",
+                "esbId": "2012091300",
+                "gameDetailId": "10160000-0555-208f-0853-7828a490c731",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-0041-88b2-42a86850e651",
+                "esbId": "2012091600",
+                "gameDetailId": "10160000-0555-2783-40c4-ba1ff5b81469",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-0128-5996-02807ce5b0c2",
+                "esbId": "2012091601",
+                "gameDetailId": "10160000-0555-2251-a4ac-9f5bc4a9e1f3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-0281-1eb9-53d2c15833d9",
+                "esbId": "2012091602",
+                "gameDetailId": "10160000-0555-26db-8040-34a320fc8bdf",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-03f7-6dcf-0b3e0c963f2d",
+                "esbId": "2012091603",
+                "gameDetailId": "10160000-0555-2463-b8ac-ff06c1ceccf8",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-04ee-c8a1-f1b063ba7dd7",
+                "esbId": "2012091604",
+                "gameDetailId": "10160000-0555-28a3-7ddd-838de71009b7",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-0554-2a7e-30a0b86b62c8",
+                "esbId": "2012091605",
+                "gameDetailId": "10160000-0555-21af-1e8c-d55a12e07fe2",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-06b1-e5ee-93d8d1b391f0",
+                "esbId": "2012091606",
+                "gameDetailId": "10160000-0555-2365-7743-70a0ca6987f9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-07ba-146b-71aa87cb2705",
+                "esbId": "2012091607",
+                "gameDetailId": "10160000-0555-2527-3f04-d7118b3faac6",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-0814-b3b0-79452269060d",
+                "esbId": "2012091608",
+                "gameDetailId": "10160000-0555-3058-3f86-097bcf29d8eb",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-0998-ddda-3b69c1864c98",
+                "esbId": "2012091609",
+                "gameDetailId": "10160000-0555-29e9-15df-fa3ddde48cb2",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-1041-cd06-ee41cade573f",
+                "esbId": "2012091610",
+                "gameDetailId": "10160000-0555-32d3-3a4d-690213f6d773",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-113f-5875-291972779836",
+                "esbId": "2012091611",
+                "gameDetailId": "10160000-0555-3393-e487-f0c7bb34dbfa",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-1233-28d5-da3752fe7d15",
+                "esbId": "2012091612",
+                "gameDetailId": "10160000-0555-318e-63d9-6a4738261e31",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0916-13a2-ed89-06d83b9fcc57",
+                "esbId": "2012091613",
+                "gameDetailId": "10160000-0555-34ee-009d-de6567d4b4b3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0917-00a1-25dd-4a47ccf3e559",
+                "esbId": "2012091700",
+                "gameDetailId": "10160000-0555-35eb-984a-65a0b04d3fe3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 2
+                },
+                "gameTime": "2012-09-17T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0920-007d-70fe-ac29a12b48ed",
+                "esbId": "2012092000",
+                "gameDetailId": "10160000-0555-3628-ca2e-21c210cfeeac",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-00d3-2329-8617bcab6dba",
+                "esbId": "2012092300",
+                "gameDetailId": "10160000-0555-393d-57bc-60ef796d84e3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-0186-8148-9e1c122582a4",
+                "esbId": "2012092301",
+                "gameDetailId": "10160000-0555-37fb-5043-3e42fb309c91",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-02f2-6f27-14a5c5e634ec",
+                "esbId": "2012092302",
+                "gameDetailId": "10160000-0555-422b-73d8-bd6665c3522c",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-03bc-a33f-0391ca0465ea",
+                "esbId": "2012092303",
+                "gameDetailId": "10160000-0555-44fa-4cf5-928108ac43f9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-04c6-4bd3-fbbdf20cf24d",
+                "esbId": "2012092304",
+                "gameDetailId": "10160000-0555-45e5-6e9c-3933ffd500b9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-05ef-bfd4-62a80ba090c9",
+                "esbId": "2012092305",
+                "gameDetailId": "10160000-0555-4327-5f21-d4f548aa99a2",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-0619-1f54-b4c6641efa03",
+                "esbId": "2012092306",
+                "gameDetailId": "10160000-0555-41da-de30-d93f9599c0f8",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-0760-bd8d-8d8822d68b52",
+                "esbId": "2012092307",
+                "gameDetailId": "10160000-0555-3840-90e2-1c59a6b4376a",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-081d-4a8e-0c354766ae40",
+                "esbId": "2012092308",
+                "gameDetailId": "10160000-0555-40e1-9fba-08adf8c17ef3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-0983-16fc-87e5113fe1b7",
+                "esbId": "2012092309",
+                "gameDetailId": "10160000-0555-469b-07ed-7cd79b5d8661",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-10ae-d272-74188952c213",
+                "esbId": "2012092310",
+                "gameDetailId": "10160000-0555-47d3-206e-8bc6f5ea705d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-1192-6c3b-ff5844966068",
+                "esbId": "2012092311",
+                "gameDetailId": "10160000-0555-4856-5b7a-e2e51b3371a8",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-12d9-9253-193193683fcc",
+                "esbId": "2012092312",
+                "gameDetailId": "10160000-0555-49fc-63ef-874f40341ce1",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0923-138a-942c-4f8a8f557215",
+                "esbId": "2012092313",
+                "gameDetailId": "10160000-0555-502e-e74e-1f52a65f36af",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0924-00eb-53fb-b731eac89aa9",
+                "esbId": "2012092400",
+                "gameDetailId": "10160000-0555-51e1-0275-d35d750c55a4",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 3
+                },
+                "gameTime": "2012-09-24T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0927-0061-e6c5-0226d098ac35",
+                "esbId": "2012092700",
+                "gameDetailId": "10160000-0555-5226-8fb8-376456d65b37",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0930-009c-7c18-4d7a8f96cca5",
+                "esbId": "2012093000",
+                "gameDetailId": "10160000-0555-54ce-9425-076bbe1e5240",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0930-01cb-4324-857259d3d53e",
+                "esbId": "2012093001",
+                "gameDetailId": "10160000-0555-56e6-6e7f-d16df1446855",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0930-02b7-44f2-df787efbcc55",
+                "esbId": "2012093002",
+                "gameDetailId": "10160000-0555-583f-0dc5-b339c70073c4",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0930-03f5-71d6-87b20f335c24",
+                "esbId": "2012093003",
+                "gameDetailId": "10160000-0555-55eb-fca8-626baf570820",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0930-047e-f83c-b6e4228483ac",
+                "esbId": "2012093004",
+                "gameDetailId": "10160000-0555-534f-0d2e-cd2838e8361c",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0930-0579-a912-4debad1a4ff7",
+                "esbId": "2012093005",
+                "gameDetailId": "10160000-0555-60ee-0ccd-9d48bf57fca9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0930-06ad-0c2f-e45c63fa219f",
+                "esbId": "2012093006",
+                "gameDetailId": "10160000-0555-59fd-8886-ce268ff81230",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0930-077e-bc9a-a8ae5e5a1d59",
+                "esbId": "2012093007",
+                "gameDetailId": "10160000-0555-6226-9c8c-196f354acb76",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0930-081f-7997-224937b372ae",
+                "esbId": "2012093008",
+                "gameDetailId": "10160000-0555-63a5-905d-ce64b4c5362a",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0930-094b-aab8-3adf65eb64f1",
+                "esbId": "2012093009",
+                "gameDetailId": "10160000-0555-572b-63de-41ffb2eb8708",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0930-10d9-68dd-30e7a0308026",
+                "esbId": "2012093010",
+                "gameDetailId": "10160000-0555-6414-2a3e-f0655a20652c",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0930-114a-1db7-28c3449e936c",
+                "esbId": "2012093011",
+                "gameDetailId": "10160000-0555-61da-2760-616820641a07",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-0930-1278-a054-9880d6c4eeba",
+                "esbId": "2012093012",
+                "gameDetailId": "10160000-0555-65eb-43cb-a8eab2e5c1c8",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-09-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1001-0023-e133-1be0b1ca8152",
+                "esbId": "2012100100",
+                "gameDetailId": "10160000-0555-667d-dc69-ef0f54cb9995",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 4
+                },
+                "gameTime": "2012-10-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1004-003d-35ea-33394d6d2df7",
+                "esbId": "2012100400",
+                "gameDetailId": "10160000-0555-67a5-c093-246b7630d64b",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1007-001d-3a68-315c9c2bd05e",
+                "esbId": "2012100700",
+                "gameDetailId": "10160000-0555-7413-53ac-e7ae5cb57a3b",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1007-015a-8a69-f85908fcc5c8",
+                "esbId": "2012100701",
+                "gameDetailId": "10160000-0555-734a-bf22-f08896a528c6",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1007-0285-ba5c-0a7b87ed92cd",
+                "esbId": "2012100702",
+                "gameDetailId": "10160000-0555-69be-d408-5261d5be2e3c",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1007-03c6-8f12-2e621d6f2a7e",
+                "esbId": "2012100703",
+                "gameDetailId": "10160000-0555-72ea-4986-fe19b1e6535b",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1007-042d-666f-868b8bac1823",
+                "esbId": "2012100704",
+                "gameDetailId": "10160000-0555-71cc-5cb5-9e52a518fccd",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1007-05e5-a1da-319a006b8eb6",
+                "esbId": "2012100705",
+                "gameDetailId": "10160000-0555-68e6-b0dd-0904bb959304",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1007-063d-2af1-28a40f60315c",
+                "esbId": "2012100706",
+                "gameDetailId": "10160000-0555-70e0-fdeb-6878b830a83d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1007-07a1-1ce6-8c583d15999a",
+                "esbId": "2012100707",
+                "gameDetailId": "10160000-0555-75e9-5277-e342afa64050",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1007-0883-8b5c-bcd8ad0d3e8b",
+                "esbId": "2012100708",
+                "gameDetailId": "10160000-0555-7631-031a-10bdbd35b089",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1007-0958-440c-9157094706b1",
+                "esbId": "2012100709",
+                "gameDetailId": "10160000-0555-77d9-ee81-8a33192af879",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1007-1019-0470-abf3c0f15273",
+                "esbId": "2012100710",
+                "gameDetailId": "10160000-0555-787b-8a72-294e51cf063d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1007-11c1-06f0-6686dc0f4e4f",
+                "esbId": "2012100711",
+                "gameDetailId": "10160000-0555-79bb-5298-86a89f8faf5c",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-07T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1008-001f-a45a-a89d7f4f6f6f",
+                "esbId": "2012100800",
+                "gameDetailId": "10160000-0555-804c-3a88-2ab9ced9971d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 5
+                },
+                "gameTime": "2012-10-08T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1011-00f2-c05f-19332dd05982",
+                "esbId": "2012101100",
+                "gameDetailId": "10160000-0555-81bd-317a-423fa6d4c02d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1014-00d6-d067-b0e489e9e2d2",
+                "esbId": "2012101400",
+                "gameDetailId": "10160000-0555-82d7-e49b-ae0e0b13f41f",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1014-018a-2e38-0deb0c8a025c",
+                "esbId": "2012101401",
+                "gameDetailId": "10160000-0555-88f9-a8ab-9c3d97486895",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1014-02ca-e576-54a8555d1953",
+                "esbId": "2012101402",
+                "gameDetailId": "10160000-0555-867a-fcc2-e1bd4f3c7e09",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1014-03f7-38f1-189227ece240",
+                "esbId": "2012101403",
+                "gameDetailId": "10160000-0555-8448-4b67-bf5ced153b86",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1014-0481-4009-113d8e62893a",
+                "esbId": "2012101404",
+                "gameDetailId": "10160000-0555-874e-455d-be5a1830f181",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1014-055c-ca30-19a5c18f069f",
+                "esbId": "2012101405",
+                "gameDetailId": "10160000-0555-85f3-bfb2-edef1bb9d6be",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1014-0654-02cd-a07d43cf7343",
+                "esbId": "2012101406",
+                "gameDetailId": "10160000-0555-83dd-b4d2-feefcdf3dbd0",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1014-0755-5408-c69b50d78ea5",
+                "esbId": "2012101407",
+                "gameDetailId": "10160000-0555-89d0-ea1d-f16a436958b9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1014-0886-e5e6-579d7d129d4f",
+                "esbId": "2012101408",
+                "gameDetailId": "10160000-0555-9067-8d43-26b2f8ee308f",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1014-099b-6c56-fd783f789899",
+                "esbId": "2012101409",
+                "gameDetailId": "10160000-0555-912e-f0bf-0dadc123b906",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1014-10ff-aa45-612c89ae4c9c",
+                "esbId": "2012101410",
+                "gameDetailId": "10160000-0555-925a-5fdf-942e4df6ed3f",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1014-1182-5a5a-84e561bfb52c",
+                "esbId": "2012101411",
+                "gameDetailId": "10160000-0555-937e-4b28-c57e60c0c742",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-14T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1015-0032-fb61-3586d9bdfc9d",
+                "esbId": "2012101500",
+                "gameDetailId": "10160000-0555-946d-dc18-3779e3483817",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 6
+                },
+                "gameTime": "2012-10-15T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1018-0061-c4a2-b3280f5768a3",
+                "esbId": "2012101800",
+                "gameDetailId": "10160000-0555-95e1-7737-9ea3501808d7",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2012-10-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1021-00e8-569e-312ab21d5a54",
+                "esbId": "2012102100",
+                "gameDetailId": "10160000-0556-0119-0e9d-12188005b70e",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2012-10-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1021-016f-ff4a-0fa6d9cd0ac8",
+                "esbId": "2012102101",
+                "gameDetailId": "10160000-0556-00a3-d030-74d7b331ba1a",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2012-10-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1021-0297-1d5a-46ad9df68b67",
+                "esbId": "2012102102",
+                "gameDetailId": "10160000-0555-9798-5793-84c61aadb82e",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2012-10-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1021-03fa-e661-e840b921d2e6",
+                "esbId": "2012102103",
+                "gameDetailId": "10160000-0556-0397-f666-d3cbb7fb8a43",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2012-10-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1021-042d-3045-3dd1128c79ee",
+                "esbId": "2012102104",
+                "gameDetailId": "10160000-0556-0274-333f-c9e26fbff789",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2012-10-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1021-05c1-ff1c-38be2d33b3e6",
+                "esbId": "2012102105",
+                "gameDetailId": "10160000-0555-98d7-bd08-360b7f8098dc",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2012-10-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1021-06cf-9d47-f127287bbdc6",
+                "esbId": "2012102106",
+                "gameDetailId": "10160000-0555-99e6-1cbc-1f3d41701b20",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2012-10-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1021-077e-da67-8f030afc2bcd",
+                "esbId": "2012102107",
+                "gameDetailId": "10160000-0555-9639-7c41-038c97874af7",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2012-10-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1021-0860-7164-3fda12a79399",
+                "esbId": "2012102108",
+                "gameDetailId": "10160000-0556-0425-b73c-6c4c95826916",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2012-10-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1021-09a7-f4e2-5076067be593",
+                "esbId": "2012102109",
+                "gameDetailId": "10160000-0556-05c5-6dcd-66fcf52e068f",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2012-10-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1021-105a-ac3e-2f3e4fbf77ad",
+                "esbId": "2012102110",
+                "gameDetailId": "10160000-0556-063d-278d-53987c223047",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2012-10-21T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1022-00b9-305a-016aa4392a91",
+                "esbId": "2012102200",
+                "gameDetailId": "10160000-0556-074c-3111-0d612dff405c",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 7
+                },
+                "gameTime": "2012-10-22T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1025-00c0-6ab2-8cb3cbd31fdd",
+                "esbId": "2012102500",
+                "gameDetailId": "10160000-0556-08fb-8046-849672b950c3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1028-0072-231a-ce3401cb85a7",
+                "esbId": "2012102800",
+                "gameDetailId": "10160000-0556-12c3-60cd-9b8f72bd1564",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1028-0157-78f7-91fb636da35d",
+                "esbId": "2012102801",
+                "gameDetailId": "10160000-0556-135c-ff8d-cbfd4c861202",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1028-0221-7776-e8b465aa97ce",
+                "esbId": "2012102802",
+                "gameDetailId": "10160000-0556-106a-9aa4-f313bd138261",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1028-03ea-9905-9f1312a9b1ba",
+                "esbId": "2012102803",
+                "gameDetailId": "10160000-0556-1782-e235-4d944d677f89",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1028-049c-c6a8-a2bcfaa204b8",
+                "esbId": "2012102804",
+                "gameDetailId": "10160000-0556-168d-e34e-d544a19cb25a",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1028-05b4-7162-dfd293e33faa",
+                "esbId": "2012102805",
+                "gameDetailId": "10160000-0556-14f3-0489-98134b08f5fd",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1028-0620-e693-4421cb52a7cb",
+                "esbId": "2012102806",
+                "gameDetailId": "10160000-0556-09d1-d8ad-826cb6626ce9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1028-078d-b00d-3bf71779d533",
+                "esbId": "2012102807",
+                "gameDetailId": "10160000-0556-112e-9f2d-c2757ae6327c",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1028-0889-d213-24550f3b1e65",
+                "esbId": "2012102808",
+                "gameDetailId": "10160000-0556-153d-db49-70924a0b186d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1028-09d2-0632-9cd27644b307",
+                "esbId": "2012102809",
+                "gameDetailId": "10160000-0556-1832-0ada-b8ff0d8d571b",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1028-1051-0cbd-44d78e306a0a",
+                "esbId": "2012102810",
+                "gameDetailId": "10160000-0556-19f5-54a2-56b3837eb4cf",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1028-1171-56d6-eef6743ed383",
+                "esbId": "2012102811",
+                "gameDetailId": "10160000-0556-20c7-8a44-8c6e57744792",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-28T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1029-0092-904a-444cf27ebbe5",
+                "esbId": "2012102900",
+                "gameDetailId": "10160000-0556-219c-05a8-49694a65530b",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 8
+                },
+                "gameTime": "2012-10-29T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1101-009e-32fa-8015394ad730",
+                "esbId": "2012110100",
+                "gameDetailId": "10160000-0556-2226-58a1-19def083384a",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-01T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1104-0098-f4f4-1177f04a5b2d",
+                "esbId": "2012110400",
+                "gameDetailId": "10160000-0556-30a4-e7f2-1cde42f51b24",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1104-019c-1f46-a2a09fd3aa1b",
+                "esbId": "2012110401",
+                "gameDetailId": "10160000-0556-25f7-ac7b-36146b2fc8d6",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1104-0248-8e50-25f1b2f6db41",
+                "esbId": "2012110402",
+                "gameDetailId": "10160000-0556-282d-a60c-46ae3ff489b0",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1104-03fb-9208-f455efa94bf0",
+                "esbId": "2012110403",
+                "gameDetailId": "10160000-0556-2927-e3c5-64cdc458e598",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1104-04b5-fa08-3e6d0d9fae38",
+                "esbId": "2012110404",
+                "gameDetailId": "10160000-0556-2379-0245-d78ef933f24c",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1104-0520-ad73-28ba7e23ae63",
+                "esbId": "2012110405",
+                "gameDetailId": "10160000-0556-242d-f921-40fa17ea9f27",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1104-068d-1cd6-a327d6d7235b",
+                "esbId": "2012110406",
+                "gameDetailId": "10160000-0556-2680-da41-62677070f643",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1104-0774-af70-21fb5f59718a",
+                "esbId": "2012110407",
+                "gameDetailId": "10160000-0556-2727-a132-dd1840303426",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1104-087c-6a3b-9cbba56ea679",
+                "esbId": "2012110408",
+                "gameDetailId": "10160000-0556-32a1-131e-42510e730458",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1104-0926-e7c5-3c3ebd752902",
+                "esbId": "2012110409",
+                "gameDetailId": "10160000-0556-31d2-51e7-a56b8d179052",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1104-10b3-659c-54f12638155b",
+                "esbId": "2012110410",
+                "gameDetailId": "10160000-0556-3329-46fd-fe52478568df",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1104-11c1-f9b7-1a66cf77ca3c",
+                "esbId": "2012110411",
+                "gameDetailId": "10160000-0556-3442-33f2-e0ffbdabc857",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-04T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1105-0023-e243-70fbd59b680a",
+                "esbId": "2012110500",
+                "gameDetailId": "10160000-0556-35b3-ba8e-6d6c6f4953d9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 9
+                },
+                "gameTime": "2012-11-05T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1108-00b0-d6e0-2f79b6d33a6c",
+                "esbId": "2012110800",
+                "gameDetailId": "10160000-0556-361f-cb88-1f17737ef84c",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-08T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1111-008c-7e90-98b530d99b06",
+                "esbId": "2012111100",
+                "gameDetailId": "10160000-0556-388b-b219-9be2a3f6c50d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1111-01ae-359f-8a84a9515592",
+                "esbId": "2012111101",
+                "gameDetailId": "10160000-0556-44ed-9889-9af29eefebf2",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1111-02f1-1f12-5a5e7b51d9ce",
+                "esbId": "2012111102",
+                "gameDetailId": "10160000-0556-40d4-e214-d868d18fad78",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1111-0372-0363-00b86d01a254",
+                "esbId": "2012111103",
+                "gameDetailId": "10160000-0556-42cd-72f1-e309dcde2fc6",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1111-046e-0a93-ab05fbb24a8c",
+                "esbId": "2012111104",
+                "gameDetailId": "10160000-0556-37a4-c158-7287618f0e11",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1111-056d-6b05-90f5f723d761",
+                "esbId": "2012111105",
+                "gameDetailId": "10160000-0556-39fa-109a-847a11c9098d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1111-0619-067a-14c1f045be01",
+                "esbId": "2012111106",
+                "gameDetailId": "10160000-0556-43e6-b4f1-65a744514e64",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1111-073a-fe8e-60e72e2d14d2",
+                "esbId": "2012111107",
+                "gameDetailId": "10160000-0556-41d6-88ee-f832a416a2f1",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1111-0830-790d-fa925dade20d",
+                "esbId": "2012111108",
+                "gameDetailId": "10160000-0556-45a7-3ad7-134598a30837",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1111-0944-fe16-9ee73d235543",
+                "esbId": "2012111109",
+                "gameDetailId": "10160000-0556-467b-3a15-22fe8444b87d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1111-10d6-a7d5-4df0fe4b17e4",
+                "esbId": "2012111110",
+                "gameDetailId": "10160000-0556-47ba-ff8d-f36e7c927935",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1111-115c-e518-effc5bc58d5f",
+                "esbId": "2012111111",
+                "gameDetailId": "10160000-0556-4812-e75c-26bc14b920f3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-11T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1112-00b1-728f-a97a6f3d4a07",
+                "esbId": "2012111200",
+                "gameDetailId": "10160000-0556-496e-ac6e-83491ac61be5",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 10
+                },
+                "gameTime": "2012-11-12T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1115-00d7-7cef-331d8c6af9a8",
+                "esbId": "2012111500",
+                "gameDetailId": "10160000-0556-5049-a773-b0a4c19f87a5",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-15T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1118-0014-0123-78584b7296d0",
+                "esbId": "2012111800",
+                "gameDetailId": "10160000-0556-5950-1192-559be025155a",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1118-0196-032e-b06135c53e47",
+                "esbId": "2012111801",
+                "gameDetailId": "10160000-0556-5449-137f-628f9c83042d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1118-0278-0649-2e2a34a1b886",
+                "esbId": "2012111802",
+                "gameDetailId": "10160000-0556-51a6-ada5-f43eac776006",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1118-03da-641f-324bf08e1791",
+                "esbId": "2012111803",
+                "gameDetailId": "10160000-0556-5238-9881-a41920516a1d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1118-049e-a182-ee038d6b1c7b",
+                "esbId": "2012111804",
+                "gameDetailId": "10160000-0556-5368-549f-593322efe9b4",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1118-0573-d030-1611ab45bc83",
+                "esbId": "2012111805",
+                "gameDetailId": "10160000-0556-5828-b414-83de18d095a9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1118-0689-2a7c-9ca3960379cb",
+                "esbId": "2012111806",
+                "gameDetailId": "10160000-0556-57dd-46f6-0f5e1eafcbaa",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1118-07ee-8208-da607de1e33a",
+                "esbId": "2012111807",
+                "gameDetailId": "10160000-0556-55ff-2f30-432f765cf5ac",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1118-08c3-4dfa-de891ba237d5",
+                "esbId": "2012111808",
+                "gameDetailId": "10160000-0556-564d-a98c-2fcaf0a0c4f9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1118-0983-f8b9-f8a8f855ddc2",
+                "esbId": "2012111809",
+                "gameDetailId": "10160000-0556-6088-9041-bd029544bf0f",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1118-105a-9f95-b664e1a3d4f4",
+                "esbId": "2012111810",
+                "gameDetailId": "10160000-0556-61ab-a500-19dc3945421d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1118-11ca-3fa3-72d2fe0490eb",
+                "esbId": "2012111811",
+                "gameDetailId": "10160000-0556-625b-b2f5-59ef0ab0f8df",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-18T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1119-006c-c1db-854feebb4caa",
+                "esbId": "2012111900",
+                "gameDetailId": "10160000-0556-638f-5895-a318a4c33213",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 11
+                },
+                "gameTime": "2012-11-19T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1122-002f-6e7e-8d701bc31ebe",
+                "esbId": "2012112200",
+                "gameDetailId": "10160000-0556-6494-fe89-d6bfb5cb87ad",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-22T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1122-018f-f544-2ff97d6250c7",
+                "esbId": "2012112201",
+                "gameDetailId": "10160000-0556-6560-db3a-2e5aab16d2f3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-22T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1122-0287-4286-27a6cb34e02b",
+                "esbId": "2012112202",
+                "gameDetailId": "10160000-0556-6631-86d3-e831f5042e84",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-22T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1125-00af-e903-a1c3ac479037",
+                "esbId": "2012112500",
+                "gameDetailId": "10160000-0556-685f-589c-aaa4ba6996c9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1125-01c6-f1f1-720d4932c666",
+                "esbId": "2012112501",
+                "gameDetailId": "10160000-0556-696f-4aac-6c67017ae8cb",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1125-027b-b687-944441c01f8d",
+                "esbId": "2012112502",
+                "gameDetailId": "10160000-0556-7061-09ac-0d29d12fc202",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1125-03b5-416d-afeca73d5ef5",
+                "esbId": "2012112503",
+                "gameDetailId": "10160000-0556-71d9-e7a3-ce993a2b426a",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1125-04fe-54fa-393a4cbbfd8a",
+                "esbId": "2012112504",
+                "gameDetailId": "10160000-0556-728a-262f-51ebfc63d5a1",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1125-055a-999c-8c262a2923ee",
+                "esbId": "2012112505",
+                "gameDetailId": "10160000-0556-678a-11bb-58735c266f33",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1125-06b1-56ba-a87e9bc9ff99",
+                "esbId": "2012112506",
+                "gameDetailId": "10160000-0556-7496-bf97-acde222ef430",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1125-0771-f3ea-e07fb84a7c51",
+                "esbId": "2012112507",
+                "gameDetailId": "10160000-0556-73ec-fff0-d03d547615f9",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1125-08f5-fb4c-e8213a1c9670",
+                "esbId": "2012112508",
+                "gameDetailId": "10160000-0556-7597-d598-58da3480c0fb",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1125-095d-1fd0-6db90f54c776",
+                "esbId": "2012112509",
+                "gameDetailId": "10160000-0556-77f9-2e68-e425cd4ffb69",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1125-10b7-de0b-0333601dbd79",
+                "esbId": "2012112510",
+                "gameDetailId": "10160000-0556-7611-fcdc-c113111f3734",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1125-11d9-51da-af24984b3918",
+                "esbId": "2012112511",
+                "gameDetailId": "10160000-0556-7844-df5b-a58a92e0e23b",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-25T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1126-0037-ab0f-6ef214815021",
+                "esbId": "2012112600",
+                "gameDetailId": "10160000-0556-79b6-f9ce-9d41c26440f5",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 12
+                },
+                "gameTime": "2012-11-26T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1129-007d-3952-d792e369f5eb",
+                "esbId": "2012112900",
+                "gameDetailId": "10160000-0556-807d-0f1d-7990ea60a536",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-11-29T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-006d-890b-fe3dfbeaed17",
+                "esbId": "2012120200",
+                "gameDetailId": "10160000-0556-82ae-8ecf-a50357eeaa69",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-0187-88b7-9fe7f8f751e0",
+                "esbId": "2012120201",
+                "gameDetailId": "10160000-0556-8444-e752-225b71c6319d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-028f-a2f5-bd51f3959fc5",
+                "esbId": "2012120202",
+                "gameDetailId": "10160000-0556-88fe-36fc-ca883f4f0357",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-03ce-05e5-f11ca8416d2f",
+                "esbId": "2012120203",
+                "gameDetailId": "10160000-0556-8792-bf61-95ad2fdf5c4f",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-04c4-3776-f3bb3b203e7a",
+                "esbId": "2012120204",
+                "gameDetailId": "10160000-0556-853e-cbed-a6fd732d08f0",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-053c-8d0f-9eb86f3c555a",
+                "esbId": "2012120205",
+                "gameDetailId": "10160000-0556-839c-4d73-495d44499c7d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-0632-2ed9-89a845317586",
+                "esbId": "2012120206",
+                "gameDetailId": "10160000-0556-8186-43ab-f30cb338e5a0",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-07a2-f642-c7f075f45c75",
+                "esbId": "2012120207",
+                "gameDetailId": "10160000-0556-86ed-0306-c8c095d4159d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-08f7-0645-0a7cac0b7e57",
+                "esbId": "2012120208",
+                "gameDetailId": "10160000-0556-89fa-1872-d0fe0433f2ec",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-09c6-ecb7-6ea8950287b2",
+                "esbId": "2012120209",
+                "gameDetailId": "10160000-0556-90d9-ac28-b46769489785",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-1085-7acc-6eec93c1c46b",
+                "esbId": "2012120210",
+                "gameDetailId": "10160000-0556-9190-3be2-da3702da2fad",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-111d-34ba-59191ce40e3e",
+                "esbId": "2012120211",
+                "gameDetailId": "10160000-0556-9224-4c6c-62819d74cd15",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-1282-b2dd-5da76a7124ae",
+                "esbId": "2012120212",
+                "gameDetailId": "10160000-0556-939a-ce86-545a5c5cb3f2",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1202-135d-e2da-c8e2dbc9e2cc",
+                "esbId": "2012120213",
+                "gameDetailId": "10160000-0556-941c-ca62-61cc257c41cf",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-02T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1203-00ce-ce7c-aff0e85b34b3",
+                "esbId": "2012120300",
+                "gameDetailId": "10160000-0556-95d0-f167-c157f7c89985",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 13
+                },
+                "gameTime": "2012-12-03T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1206-00ea-324b-70323381b853",
+                "esbId": "2012120600",
+                "gameDetailId": "10160000-0556-96c0-8d5d-2a6b8e7fbe58",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-00c6-da12-2fafc0375bff",
+                "esbId": "2012120900",
+                "gameDetailId": "10160000-0557-062c-dba1-626e142f2a3f",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-01e6-e760-261b9dce9bbb",
+                "esbId": "2012120901",
+                "gameDetailId": "10160000-0557-007c-2be8-be960254e86e",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-0210-403b-16664a97232a",
+                "esbId": "2012120902",
+                "gameDetailId": "10160000-0557-0414-6df2-03f5b224f4d7",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-0396-b8ab-1b895633d785",
+                "esbId": "2012120903",
+                "gameDetailId": "10160000-0557-0140-30a6-5faa765a7166",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-04a6-2e54-0ac3b6b66648",
+                "esbId": "2012120904",
+                "gameDetailId": "10160000-0557-02b8-2f65-632d0dabba4d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-056d-279d-70dae53ab4a5",
+                "esbId": "2012120905",
+                "gameDetailId": "10160000-0557-0333-38de-433c79eec9d3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-06a8-a13e-ec48b5d84fc1",
+                "esbId": "2012120906",
+                "gameDetailId": "10160000-0556-9861-0beb-c6d6d595dfae",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-0778-50b6-546f3ed10df3",
+                "esbId": "2012120907",
+                "gameDetailId": "10160000-0557-05d5-e45e-94b8ca38f1ce",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-0817-df11-0eeb7e845d12",
+                "esbId": "2012120908",
+                "gameDetailId": "10160000-0556-978d-7353-04709fef0d05",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-0986-0934-6513c9a91d88",
+                "esbId": "2012120909",
+                "gameDetailId": "10160000-0556-99df-fe90-81792365971d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-1065-eee6-3a5e6d804942",
+                "esbId": "2012120910",
+                "gameDetailId": "10160000-0557-075b-b5cb-217a477dae78",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-11ad-d1a9-3ff0a5720ae7",
+                "esbId": "2012120911",
+                "gameDetailId": "10160000-0557-08e2-81aa-5684c5f8b25f",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-1213-3553-3f9a98d3c254",
+                "esbId": "2012120912",
+                "gameDetailId": "10160000-0557-0933-b416-3f462f397d69",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1209-135f-2d3d-db10b87fa42e",
+                "esbId": "2012120913",
+                "gameDetailId": "10160000-0557-106b-2698-0d6644d13f9f",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-09T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1210-0079-b41a-f6d9d5a14323",
+                "esbId": "2012121000",
+                "gameDetailId": "10160000-0557-1127-ef2f-366a457ebd06",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 14
+                },
+                "gameTime": "2012-12-10T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1213-00c8-ec4f-b6b83ad1d3d5",
+                "esbId": "2012121300",
+                "gameDetailId": "10160000-0557-1277-28c4-9b7c9614cc93",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-009b-0a9c-6149b6e6b1e4",
+                "esbId": "2012121600",
+                "gameDetailId": "10160000-0557-15e4-7d6d-4b9314dcbc9f",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-0123-4793-488ecb963e29",
+                "esbId": "2012121601",
+                "gameDetailId": "10160000-0557-1332-128b-e8567697dad0",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-0279-cfb5-21fa8ee2c5bb",
+                "esbId": "2012121602",
+                "gameDetailId": "10160000-0557-1926-68a3-571e0638ea12",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-03cf-32de-a15e4b323c9e",
+                "esbId": "2012121603",
+                "gameDetailId": "10160000-0557-209d-ad8a-220205ea3852",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-0494-b1c0-ac9cd650ec79",
+                "esbId": "2012121604",
+                "gameDetailId": "10160000-0557-16be-5aba-19dc4fbd4e8e",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-0567-0a83-8287efa890d3",
+                "esbId": "2012121605",
+                "gameDetailId": "10160000-0557-181c-260b-115f27b0d8fc",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-06c3-8cbb-4cb6b120be92",
+                "esbId": "2012121606",
+                "gameDetailId": "10160000-0557-142e-e39f-6f2a683fb583",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-07a0-4346-fd554fb62cf2",
+                "esbId": "2012121607",
+                "gameDetailId": "10160000-0557-175e-39f9-e133f66cbfd4",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-08e1-e8c4-6fdd1622e211",
+                "esbId": "2012121608",
+                "gameDetailId": "10160000-0557-213a-8ad6-86ae38f1c20a",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-09a4-c830-b87ba6f7c793",
+                "esbId": "2012121609",
+                "gameDetailId": "10160000-0557-2328-0e0a-6d6035e49230",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-1072-ad23-a7ef19cab121",
+                "esbId": "2012121610",
+                "gameDetailId": "10160000-0557-2248-0286-60f1aefbaac3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-1163-d5ad-32aae3af1685",
+                "esbId": "2012121611",
+                "gameDetailId": "10160000-0557-24be-80c7-abaa61dd74bb",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-12da-18f6-527531e22f3c",
+                "esbId": "2012121612",
+                "gameDetailId": "10160000-0557-25f9-3bd8-08d10b0cb98b",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1216-13d7-5070-12daaaa25c40",
+                "esbId": "2012121613",
+                "gameDetailId": "10160000-0557-2661-186f-182c038d1401",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-16T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1217-00b3-3e67-87dc7f2a6fc2",
+                "esbId": "2012121700",
+                "gameDetailId": "10160000-0557-2776-0d4a-8af5b55d0b65",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 15
+                },
+                "gameTime": "2012-12-17T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1222-00d4-9e0c-4b576c776579",
+                "esbId": "2012122200",
+                "gameDetailId": "10160000-0557-2861-47b4-30cfee9cb3e2",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-22T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-006f-a763-a49d8584c195",
+                "esbId": "2012122300",
+                "gameDetailId": "10160000-0557-32e2-16b0-9c73a65b0ec5",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-013e-aaf9-908da9266586",
+                "esbId": "2012122301",
+                "gameDetailId": "10160000-0557-3048-5717-64fc91eba1c0",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-02ec-a27d-14e59eb3d491",
+                "esbId": "2012122302",
+                "gameDetailId": "10160000-0557-36f7-1cc1-df5e81c65c60",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-03e7-af4c-3aebc7ab3c83",
+                "esbId": "2012122303",
+                "gameDetailId": "10160000-0557-3844-d145-05051ea9a019",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-043b-64b1-976193ad8eb7",
+                "esbId": "2012122304",
+                "gameDetailId": "10160000-0557-341a-5c37-8515b4700635",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-0567-2b4a-ae252c27fe66",
+                "esbId": "2012122305",
+                "gameDetailId": "10160000-0557-355b-bf1d-27827ba227fd",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-068f-fb3b-d7d161101f6f",
+                "esbId": "2012122306",
+                "gameDetailId": "10160000-0557-3133-4666-555655fef4c2",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-071f-8fa7-6873ee923db1",
+                "esbId": "2012122307",
+                "gameDetailId": "10160000-0557-3732-625c-7168a8907aaf",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-08dc-7039-941e1fd48820",
+                "esbId": "2012122308",
+                "gameDetailId": "10160000-0557-3982-9a0f-230ede61d602",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-0953-8329-6511fdd73085",
+                "esbId": "2012122309",
+                "gameDetailId": "10160000-0557-29cc-1c2a-0e6bd7d40504",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-1025-e5cd-4d6de26bd273",
+                "esbId": "2012122310",
+                "gameDetailId": "10160000-0557-3395-4f51-fafc36f43f4f",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-1122-7832-fc4fd1874a91",
+                "esbId": "2012122311",
+                "gameDetailId": "10160000-0557-40cb-5cd2-7f8cba43cf73",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-12fc-7257-664fef717ca6",
+                "esbId": "2012122312",
+                "gameDetailId": "10160000-0557-4155-52dc-bfbbb8c80457",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-134c-05fa-894e1d584dbb",
+                "esbId": "2012122313",
+                "gameDetailId": "10160000-0557-42ae-2ac1-a3152df4caa6",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1223-145e-afe6-3703ac57f02e",
+                "esbId": "2012122314",
+                "gameDetailId": "10160000-0557-43f2-8539-6f7d29b64ddb",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 16
+                },
+                "gameTime": "2012-12-23T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-00c8-b723-ab31770c098e",
+                "esbId": "2012123000",
+                "gameDetailId": "10160000-0557-45f6-5d9b-79b73e83f626",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-01a6-5df3-762203e77b43",
+                "esbId": "2012123001",
+                "gameDetailId": "10160000-0557-502d-5d9a-a9d3f900a014",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-02a8-8944-1fb50185f325",
+                "esbId": "2012123002",
+                "gameDetailId": "10160000-0557-46dc-5dd9-47568a34f8d8",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-0335-2b91-607e49d2f412",
+                "esbId": "2012123003",
+                "gameDetailId": "10160000-0557-53e1-eeb3-414dd1d0c012",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-042a-a21e-c56bc45e2f6b",
+                "esbId": "2012123004",
+                "gameDetailId": "10160000-0557-48ba-f136-dcc8c606d4ac",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-0546-5bbb-90a7e57ddf47",
+                "esbId": "2012123005",
+                "gameDetailId": "10160000-0557-54b3-fa2d-8c6b89d95297",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-0613-24b5-c4ed0a4fc497",
+                "esbId": "2012123006",
+                "gameDetailId": "10160000-0557-5268-2261-2c6303080429",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-07f9-80c2-1015f86ea862",
+                "esbId": "2012123007",
+                "gameDetailId": "10160000-0557-553f-a90f-512e563138ea",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-0898-d00c-52867564374a",
+                "esbId": "2012123008",
+                "gameDetailId": "10160000-0557-4740-b817-22afab08eaf3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-0962-9d33-ccbc5695ab7b",
+                "esbId": "2012123009",
+                "gameDetailId": "10160000-0557-4984-2918-268583f28ac5",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-10de-97d5-863704c3950f",
+                "esbId": "2012123010",
+                "gameDetailId": "10160000-0557-44cd-34f2-4dc61238e693",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-115b-423b-95d4da23e1d6",
+                "esbId": "2012123011",
+                "gameDetailId": "10160000-0557-513d-2559-979924d5859d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-12de-5afa-9e72ff005f08",
+                "esbId": "2012123012",
+                "gameDetailId": "10160000-0557-5672-1e8d-268fc45dd42c",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-1323-8f85-1dc45a3ce3e0",
+                "esbId": "2012123013",
+                "gameDetailId": "10160000-0557-578a-63e5-b37d3da8bfd3",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-14ac-b60c-7ce9030b24d2",
+                "esbId": "2012123014",
+                "gameDetailId": "10160000-0557-58e7-743e-c4e50e7f8a20",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012012-1230-1552-7d12-732926059140",
+                "esbId": "2012123015",
+                "gameDetailId": "10160000-0557-598e-de79-e7b9c98432d0",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2012-12-30T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0105-0066-2e48-9288d010800d",
+                "esbId": "2013010500",
+                "gameDetailId": "10160000-0558-2556-e8e6-f7a7ed61c2f1",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-01-05T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0105-0156-9103-310e54bb637a",
+                "esbId": "2013010501",
+                "gameDetailId": "10160000-0558-26ca-a95e-300c26d6a20e",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-01-05T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0106-0060-81a5-8a51820827bf",
+                "esbId": "2013010600",
+                "gameDetailId": "10160000-0558-2732-a158-d50c7158ca9d",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-01-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0106-0188-dfcb-b0424ede0b61",
+                "esbId": "2013010601",
+                "gameDetailId": "10160000-0558-286e-eec8-b29219244915",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "POST",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-01-06T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0112-00b3-6e81-cc137a8c006a",
+                "esbId": "2013011200",
+                "gameDetailId": "10160000-0558-29d1-0f6d-762107009d89",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-01-12T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0112-0186-7acd-94db7a5a3455",
+                "esbId": "2013011201",
+                "gameDetailId": "10160000-0558-3011-0a78-a91cc757aea0",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-01-12T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0113-00fc-9502-950a00bb8e6c",
+                "esbId": "2013011300",
+                "gameDetailId": "10160000-0558-3271-7a2f-469d1346eaae",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-01-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0113-017b-f066-d23bd9ff55e0",
+                "esbId": "2013011301",
+                "gameDetailId": "10160000-0558-31fc-be1b-850dc04c3110",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "POST",
+                  "weekValue": 2
+                },
+                "gameTime": "2013-01-13T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0120-00ae-4f29-86824b252a63",
+                "esbId": "2013012000",
+                "gameDetailId": "10160000-0558-3465-27a0-23bba0afff27",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "POST",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-01-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0120-01c3-f63a-fb8535bc2ca7",
+                "esbId": "2013012001",
+                "gameDetailId": "10160000-0558-3318-7623-63fd02218f2e",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "POST",
+                  "weekValue": 3
+                },
+                "gameTime": "2013-01-20T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0127-0050-26a5-b1d13fade5b6",
+                "esbId": "2013012700",
+                "gameDetailId": "10160000-0558-369c-1575-4caf5c0f0d18",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "PRO",
+                  "weekValue": 1
+                },
+                "gameTime": "2013-01-27T09:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012013-0203-00bb-9d76-3f7dbeaf2a5e",
+                "esbId": "2013020300",
+                "gameDetailId": "10160000-0558-35f7-68af-641604d10f0b",
+                "week": {
+                  "seasonValue": 2012,
+                  "seasonType": "POST",
+                  "weekValue": 4
+                },
+                "gameTime": "2013-02-03T09:00:00.000Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

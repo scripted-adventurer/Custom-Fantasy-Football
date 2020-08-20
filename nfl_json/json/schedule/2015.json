@@ -1,0 +1,4341 @@
+ {
+    "data": {
+      "viewer": {
+        "league": {
+          "games": {
+            "edges": [
+              {
+                "node": {
+                  "id": "10012015-0809-5169-e918-95e0852fc4f6",
+                  "esbId": "2015080951",
+                  "gameDetailId": "10160000-0567-5946-5dd9-454698a3be63",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 0
+                  },
+                  "gameTime": "2015-08-10T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0813-5169-126c-6f88f5062ccb",
+                  "esbId": "2015081351",
+                  "gameDetailId": "10160000-0567-60f1-a4bc-526176609b5b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-13T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0813-5249-9548-e05c4f285524",
+                  "esbId": "2015081352",
+                  "gameDetailId": "10160000-0567-61ee-da1f-146dd432fa1e",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-13T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0813-535e-49ef-f7028a92b9b3",
+                  "esbId": "2015081353",
+                  "gameDetailId": "10160000-0567-6221-ba44-f68f0082dccb",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-13T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0813-5411-1b92-ebcb1ab8e8f6",
+                  "esbId": "2015081354",
+                  "gameDetailId": "10160000-0567-6374-f3ad-6d65467ea7ec",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-14T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0813-5539-991e-3536be9d3dd2",
+                  "esbId": "2015081355",
+                  "gameDetailId": "10160000-0567-6480-875d-08c4c255047c",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-14T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0813-5699-5208-253201760168",
+                  "esbId": "2015081356",
+                  "gameDetailId": "10160000-0567-65f0-ff55-0b12bf68dd6a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-14T02:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0814-51bc-1c90-8c09a6782926",
+                  "esbId": "2015081451",
+                  "gameDetailId": "10160000-0567-66a9-5aad-3861a70a20fd",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-14T23:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0814-5231-7d07-a7d8b99501aa",
+                  "esbId": "2015081452",
+                  "gameDetailId": "10160000-0567-67aa-d8d3-34729a0708fb",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-14T23:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0814-53db-3081-76270d7a0fde",
+                  "esbId": "2015081453",
+                  "gameDetailId": "10160000-0567-6814-4a8d-fe249ea79fb8",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-14T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0814-5449-ff42-8f85bd6f86e1",
+                  "esbId": "2015081454",
+                  "gameDetailId": "10160000-0567-6987-4686-faa210c0a3d3",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-14T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0814-5537-b28c-f9b448bb9090",
+                  "esbId": "2015081455",
+                  "gameDetailId": "10160000-0567-7093-0683-8b82e3f36cf4",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-15T02:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0814-5625-e7df-de1d28f909f1",
+                  "esbId": "2015081456",
+                  "gameDetailId": "10160000-0567-71e9-3880-70e8d3779156",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-15T02:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0815-51c1-54d0-7e7f45ff881b",
+                  "esbId": "2015081551",
+                  "gameDetailId": "10160000-0567-7258-9c09-34394c0f7530",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-16T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0815-52fb-f4ef-bea0d0261e95",
+                  "esbId": "2015081552",
+                  "gameDetailId": "10160000-0567-73a2-777c-e44bc8c4fed2",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-16T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0815-53a3-2bb3-272d53c66783",
+                  "esbId": "2015081553",
+                  "gameDetailId": "10160000-0567-74b2-3189-1bf2aad25d9b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-16T01:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0816-51e3-5410-44fcc904f836",
+                  "esbId": "2015081651",
+                  "gameDetailId": "10160000-0567-757e-7369-cc0a94aed25e",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-08-16T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0820-5173-5680-931e9b54bfe3",
+                  "esbId": "2015082051",
+                  "gameDetailId": "10160000-0567-76fc-724a-7c9db39187bb",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-20T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0820-52ad-32fe-b41d477e8789",
+                  "esbId": "2015082052",
+                  "gameDetailId": "10160000-0567-7755-9afd-f8e2445d4687",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-21T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0821-5164-7d67-43d664e02570",
+                  "esbId": "2015082151",
+                  "gameDetailId": "10160000-0567-7815-b2bf-0b3e49132738",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-21T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0821-52b7-af16-a36b08a5b0e8",
+                  "esbId": "2015082152",
+                  "gameDetailId": "10160000-0567-7915-4f14-c5bbeb88bf1d",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-22T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0822-511d-af67-0137fb62b50e",
+                  "esbId": "2015082251",
+                  "gameDetailId": "10160000-0567-8062-646f-9ab33c091fbe",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-22T23:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0822-526c-0d26-53ced1d6e30a",
+                  "esbId": "2015082252",
+                  "gameDetailId": "10160000-0567-81c8-d748-e6e297b88a0e",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-22T23:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0822-5317-4334-73cd6639d4d5",
+                  "esbId": "2015082253",
+                  "gameDetailId": "10160000-0567-8214-07b7-e0cd9cb68a24",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-22T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0822-5413-5575-1a6d379d94c4",
+                  "esbId": "2015082254",
+                  "gameDetailId": "10160000-0567-8347-5ee6-0d87214359c5",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-22T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0822-55d2-e9be-b12dc13eb962",
+                  "esbId": "2015082255",
+                  "gameDetailId": "10160000-0567-842a-1516-006bcd0d8a1c",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-22T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0822-56de-35ab-d831e4125616",
+                  "esbId": "2015082256",
+                  "gameDetailId": "10160000-0567-8583-3b77-a842f3449851",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-23T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0822-5761-e9bc-1b3482a6fff9",
+                  "esbId": "2015082257",
+                  "gameDetailId": "10160000-0567-86ef-d8ab-06962d0c6865",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-23T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0822-58ac-1450-3242be918995",
+                  "esbId": "2015082258",
+                  "gameDetailId": "10160000-0567-877c-9526-378f1ef18eae",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-23T02:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0823-518e-ba61-6895f5aba22e",
+                  "esbId": "2015082351",
+                  "gameDetailId": "10160000-0567-8835-8c59-5a6c51553a1d",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-23T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0823-5260-0b80-2384a6a11ea1",
+                  "esbId": "2015082352",
+                  "gameDetailId": "10160000-0567-8990-44a2-c2d442d01805",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-24T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0823-531e-1095-c63e11507e2c",
+                  "esbId": "2015082353",
+                  "gameDetailId": "10160000-0567-90f8-56be-010e98f3092c",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-24T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0824-51b9-2334-af62db7e89a9",
+                  "esbId": "2015082451",
+                  "gameDetailId": "10160000-0567-911c-e1c5-ddf6e9533542",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-08-25T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0828-5188-f813-3330c5b11d95",
+                  "esbId": "2015082851",
+                  "gameDetailId": "10160000-0567-92b7-e040-cc6e2c62659e",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-28T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0828-52eb-b337-dd097b562c3b",
+                  "esbId": "2015082852",
+                  "gameDetailId": "10160000-0567-93b1-bb7e-290666907f11",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-29T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0828-534b-0302-21510ba8dcbf",
+                  "esbId": "2015082853",
+                  "gameDetailId": "10160000-0567-9418-9572-735087fcf4f1",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-29T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0829-519f-20c2-1f8cd0db0c00",
+                  "esbId": "2015082951",
+                  "gameDetailId": "10160000-0567-9590-5deb-a690ed358aa6",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-29T20:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0829-522c-6186-b0193bfcf301",
+                  "esbId": "2015082952",
+                  "gameDetailId": "10160000-0567-96cb-c424-e0181e2c4d8f",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-29T23:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0829-5352-3c9d-95567bb7b6f9",
+                  "esbId": "2015082953",
+                  "gameDetailId": "10160000-0567-9714-b416-51a6699b3bf7",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-29T23:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0829-543d-56ae-c2726c4b0a10",
+                  "esbId": "2015082954",
+                  "gameDetailId": "10160000-0567-98ef-91fc-87c210157ce3",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-29T23:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0829-5572-5272-d71cbce11a11",
+                  "esbId": "2015082955",
+                  "gameDetailId": "10160000-0567-99f6-f34c-b40fe70820fb",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-29T23:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0829-5629-668b-c2287ff95686",
+                  "esbId": "2015082956",
+                  "gameDetailId": "10160000-0568-00eb-0a65-981bfa8eadbc",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-29T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0829-57a2-86d2-2c1f65a0874f",
+                  "esbId": "2015082957",
+                  "gameDetailId": "10160000-0568-01ea-f0aa-7cf609758b60",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-29T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0829-58eb-73d7-d75d5888c0b2",
+                  "esbId": "2015082958",
+                  "gameDetailId": "10160000-0568-0288-cb12-a19cb698bb62",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-30T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0829-59cc-62b6-b1754bacb9ac",
+                  "esbId": "2015082959",
+                  "gameDetailId": "10160000-0568-03bd-333c-ad7bef7c000b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-30T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0829-60fe-61de-7f3ba071a70e",
+                  "esbId": "2015082960",
+                  "gameDetailId": "10160000-0568-04aa-90b3-a8f49b7049ab",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-30T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0829-616c-0743-3a5985369eb6",
+                  "esbId": "2015082961",
+                  "gameDetailId": "10160000-0568-0545-f219-daf92cb255f2",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-30T01:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0830-51ce-98d2-3c8995e834a7",
+                  "esbId": "2015083051",
+                  "gameDetailId": "10160000-0568-06ff-424a-4e20cf9214ba",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-30T20:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0830-526d-d359-0ac15e6d2c4e",
+                  "esbId": "2015083052",
+                  "gameDetailId": "10160000-0568-07ec-ee3f-5904ff38ef0f",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-08-31T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-517b-f152-18b0b10c2410",
+                  "esbId": "2015090351",
+                  "gameDetailId": "10160000-0568-085a-4289-549153a582ac",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-03T23:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-525e-0245-3ea4b852225d",
+                  "esbId": "2015090352",
+                  "gameDetailId": "10160000-0568-09f1-2808-c06c800d77d5",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-03T23:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-5387-3fb8-68289272916f",
+                  "esbId": "2015090353",
+                  "gameDetailId": "10160000-0568-10ba-6ed8-0ddeb6820eb4",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-03T23:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-548c-5dee-4fbb07c6e489",
+                  "esbId": "2015090354",
+                  "gameDetailId": "10160000-0568-11a8-12d3-f588e229160e",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-03T23:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-55ce-6bbd-66887a3d5886",
+                  "esbId": "2015090355",
+                  "gameDetailId": "10160000-0568-128d-4c9b-e8c1f3e4ca08",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-03T23:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-56d6-79ff-1ba76f65944f",
+                  "esbId": "2015090356",
+                  "gameDetailId": "10160000-0568-136c-92c2-e79b61ddcdca",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-03T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-5779-d93a-b1dd5919f539",
+                  "esbId": "2015090357",
+                  "gameDetailId": "10160000-0568-143c-7ecc-e3d1a6968f75",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-03T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-5896-a96c-c985e2aeeafd",
+                  "esbId": "2015090358",
+                  "gameDetailId": "10160000-0568-1571-a528-381d939bc501",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-03T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-592c-12d0-a26fd7f8385b",
+                  "esbId": "2015090359",
+                  "gameDetailId": "10160000-0568-1682-9b5e-ad6a1bbf5ab7",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-03T23:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-6087-4cc2-76f063c36858",
+                  "esbId": "2015090360",
+                  "gameDetailId": "10160000-0568-17ec-d6e7-6a030657a2fc",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-04T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-6131-0fa9-189abbec7b33",
+                  "esbId": "2015090361",
+                  "gameDetailId": "10160000-0568-18c6-dd38-72dec6a63b8b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-04T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-62f9-b2d3-1bffe2e54a74",
+                  "esbId": "2015090362",
+                  "gameDetailId": "10160000-0568-192e-d9ce-5a31cd00ed17",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-04T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-63f5-0a99-dc3061c05c39",
+                  "esbId": "2015090363",
+                  "gameDetailId": "10160000-0568-20df-8321-e8f112c03a0e",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-04T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-64a8-b34f-588ce56a6626",
+                  "esbId": "2015090364",
+                  "gameDetailId": "10160000-0568-21ed-056e-3ce3376be7e4",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-04T01:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-65ed-f9a1-0c2f5affa695",
+                  "esbId": "2015090365",
+                  "gameDetailId": "10160000-0568-22c4-d2da-24bfa7273f87",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-04T02:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0903-6695-8307-d3583e67fc95",
+                  "esbId": "2015090366",
+                  "gameDetailId": "10160000-0568-23cf-4136-660f1f0a6c05",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRE",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-09-04T02:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0910-001f-0988-f51e8eea770e",
+                  "esbId": "2015091000",
+                  "gameDetailId": "10160000-0565-0380-6f2e-362ee3782d92",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-11T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0913-00d1-c05e-9fdd9ad27aec",
+                  "esbId": "2015091300",
+                  "gameDetailId": "10160000-0565-051c-235a-0f56131c159f",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-13T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0913-016b-5cac-2f673cdb1559",
+                  "esbId": "2015091301",
+                  "gameDetailId": "10160000-0565-09a0-0106-88cfd6c394f6",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-13T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0913-023f-82f2-2a0dcaf0d493",
+                  "esbId": "2015091302",
+                  "gameDetailId": "10160000-0565-073a-1a81-2e354ea344b6",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-13T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0913-03a1-1564-daa1cffe7160",
+                  "esbId": "2015091303",
+                  "gameDetailId": "10160000-0565-1093-c263-5eaf06151c36",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-13T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0913-04e2-083c-69583175ca47",
+                  "esbId": "2015091304",
+                  "gameDetailId": "10160000-0565-0438-18d5-a3a419b8acf7",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-13T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0913-055b-ee29-e4679fa4d8d5",
+                  "esbId": "2015091305",
+                  "gameDetailId": "10160000-0565-0825-01fa-c4d7f8f63bed",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-13T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0913-06a0-4498-2f92fef9eea7",
+                  "esbId": "2015091306",
+                  "gameDetailId": "10160000-0565-0679-7fd8-d9d971d62a1a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-13T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0913-07a0-1b8e-0a1ce66f76d0",
+                  "esbId": "2015091307",
+                  "gameDetailId": "10160000-0565-11e1-0694-c5d537521c86",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-13T20:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0913-08d2-ba18-20b626af8382",
+                  "esbId": "2015091308",
+                  "gameDetailId": "10160000-0565-12a9-d361-0220f4baacb0",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-13T20:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0913-09a4-1137-8ec82c3543da",
+                  "esbId": "2015091309",
+                  "gameDetailId": "10160000-0565-13d0-1631-53a15abf3021",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-13T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0913-10e5-fa2b-99362624f39f",
+                  "esbId": "2015091310",
+                  "gameDetailId": "10160000-0565-144d-c34f-c2542935c291",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-13T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0913-117e-3268-346ab7f6b8d2",
+                  "esbId": "2015091311",
+                  "gameDetailId": "10160000-0565-158b-f04e-e330e406f4f4",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-13T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0913-122c-29a9-559205cacdca",
+                  "esbId": "2015091312",
+                  "gameDetailId": "10160000-0565-16e6-d232-6246f7cd639a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-14T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0914-00ee-9c4c-2380e672c582",
+                  "esbId": "2015091400",
+                  "gameDetailId": "10160000-0565-17df-4588-ecb64e6dfc53",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-14T23:10:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0914-0183-cef8-baf2951a275d",
+                  "esbId": "2015091401",
+                  "gameDetailId": "10160000-0565-1859-8fa7-3e87c9f93af2",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2015-09-15T02:20:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0917-008b-6bea-5b2aaf00f76c",
+                  "esbId": "2015091700",
+                  "gameDetailId": "10160000-0565-19a0-936b-f71561d06e04",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-18T00:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-00ee-5fc4-26c75a20d0cd",
+                  "esbId": "2015092000",
+                  "gameDetailId": "10160000-0565-21c6-59d7-65af1979b0dd",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-20T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-012c-2cec-da55f0e04285",
+                  "esbId": "2015092001",
+                  "gameDetailId": "10160000-0565-20dd-f755-86662a47277c",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-20T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-0241-9242-9868024f5b2c",
+                  "esbId": "2015092002",
+                  "gameDetailId": "10160000-0565-237d-36ec-ec704afaca77",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-20T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-03fd-bc44-640ec51f64cc",
+                  "esbId": "2015092003",
+                  "gameDetailId": "10160000-0565-2410-934c-305134b7a550",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-20T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-04fc-ebb0-c5b721284d0c",
+                  "esbId": "2015092004",
+                  "gameDetailId": "10160000-0565-272f-c509-925908efca46",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-20T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-0554-c9d8-7b0bb6095901",
+                  "esbId": "2015092005",
+                  "gameDetailId": "10160000-0565-29bc-743a-67413826e83b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-20T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-066f-37d4-24be93a3b068",
+                  "esbId": "2015092006",
+                  "gameDetailId": "10160000-0565-22b9-00d2-0e62a409be55",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-20T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-07e5-d4c6-76c7d9fcbd15",
+                  "esbId": "2015092007",
+                  "gameDetailId": "10160000-0565-25bb-62ac-c2b744617cd8",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-20T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-088a-5e05-f8ee1664f29f",
+                  "esbId": "2015092008",
+                  "gameDetailId": "10160000-0565-2687-81b4-afe723652b5d",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-20T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-0953-1a32-69c618e73095",
+                  "esbId": "2015092009",
+                  "gameDetailId": "10160000-0565-287b-3256-e90c9a09af11",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-20T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-105f-830d-fc6da84b167f",
+                  "esbId": "2015092010",
+                  "gameDetailId": "10160000-0565-31f5-3f90-d53045bc9f71",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-20T20:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-119c-6145-d418ca131f92",
+                  "esbId": "2015092011",
+                  "gameDetailId": "10160000-0565-30cd-eab0-1516c14e4484",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-20T20:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-12d4-3e4d-8c2b890d2c93",
+                  "esbId": "2015092012",
+                  "gameDetailId": "10160000-0565-32db-ce04-6dfe832e2b4a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-20T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0920-132a-81ea-ae1ff437a3f6",
+                  "esbId": "2015092013",
+                  "gameDetailId": "10160000-0565-337e-9090-e622d3763ce5",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-21T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0921-008a-d4ab-0fa5e613a25a",
+                  "esbId": "2015092100",
+                  "gameDetailId": "10160000-0565-3481-1c77-a27e0c7c088c",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2015-09-22T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0924-00a4-e695-1f17384df3c2",
+                  "esbId": "2015092400",
+                  "gameDetailId": "10160000-0565-35ba-64af-d9582818ca09",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-25T00:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-0092-4c30-b1959e4030f1",
+                  "esbId": "2015092700",
+                  "gameDetailId": "10160000-0565-39fe-43eb-7e394caf61ca",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-27T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-017c-9f5a-35cd1cfbfa83",
+                  "esbId": "2015092701",
+                  "gameDetailId": "10160000-0565-3753-cec1-e69dc5c68cd4",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-27T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-02ad-e3bd-753a2656bf9e",
+                  "esbId": "2015092702",
+                  "gameDetailId": "10160000-0565-438e-0abb-fa88413ef895",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-27T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-03b7-a27b-744c17a0e949",
+                  "esbId": "2015092703",
+                  "gameDetailId": "10160000-0565-4055-a2cb-e2e0f04067c6",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-27T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-0419-5c7a-02bdaf560e99",
+                  "esbId": "2015092704",
+                  "gameDetailId": "10160000-0565-41e1-e9b4-89ac6e084b09",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-27T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-05e0-78c8-cecdba059702",
+                  "esbId": "2015092705",
+                  "gameDetailId": "10160000-0565-44ef-ad0d-0bbeaa3562c9",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-27T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-06a4-c281-fd4c8db8c2dc",
+                  "esbId": "2015092706",
+                  "gameDetailId": "10160000-0565-428d-465c-888d5e5f4ba9",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-27T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-0715-377e-2d2592d7f9e9",
+                  "esbId": "2015092707",
+                  "gameDetailId": "10160000-0565-3616-2722-372d53b522df",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-27T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-08e3-57e9-d1b29f845e3d",
+                  "esbId": "2015092708",
+                  "gameDetailId": "10160000-0565-3879-34be-8fbdb09e0262",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-27T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-09a3-399c-74502edb7685",
+                  "esbId": "2015092709",
+                  "gameDetailId": "10160000-0565-4590-65df-4ad07a020a97",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-27T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-1035-3aaf-fefc1249f487",
+                  "esbId": "2015092710",
+                  "gameDetailId": "10160000-0565-4690-62c0-d6ed725f579a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-27T20:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-1175-31a3-57a24c7c9934",
+                  "esbId": "2015092711",
+                  "gameDetailId": "10160000-0565-484d-eaaa-7dc606c20adb",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-27T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-12d5-5263-d525fdd2eaec",
+                  "esbId": "2015092712",
+                  "gameDetailId": "10160000-0565-478b-6197-57bacb03cf0c",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-27T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0927-133b-330d-7051d8c39921",
+                  "esbId": "2015092713",
+                  "gameDetailId": "10160000-0565-49af-09dc-8900655fe0be",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-28T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-0928-0068-19ba-36800b92b20e",
+                  "esbId": "2015092800",
+                  "gameDetailId": "10160000-0565-5024-d494-34deb8bae508",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2015-09-29T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1001-00c5-a666-25e61e74fe40",
+                  "esbId": "2015100100",
+                  "gameDetailId": "10160000-0565-519d-e33f-548412fc8d03",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-02T00:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1004-00a2-316b-87491f4c4b5a",
+                  "esbId": "2015100400",
+                  "gameDetailId": "10160000-0565-52b9-772b-bc2b8ed8ad11",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-04T13:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1004-01a6-0cb2-1b57ad5ca270",
+                  "esbId": "2015100401",
+                  "gameDetailId": "10160000-0565-558a-0850-cabcf7fba9b3",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-04T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1004-02ab-e6da-dffa19b62466",
+                  "esbId": "2015100402",
+                  "gameDetailId": "10160000-0565-538b-1f73-f564e8ab5a49",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-04T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1004-036d-77b4-01916dbe2432",
+                  "esbId": "2015100403",
+                  "gameDetailId": "10160000-0565-567d-c456-b351bdc0c5f6",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-04T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1004-0445-ad55-9f59f4b117ce",
+                  "esbId": "2015100404",
+                  "gameDetailId": "10160000-0565-5716-25d9-85ac6a69226f",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-04T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1004-05be-a73c-3890172aadd0",
+                  "esbId": "2015100405",
+                  "gameDetailId": "10160000-0565-59d3-6bc7-dfa2a0ef7f98",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-04T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1004-06c0-ad85-4f0a6aae4495",
+                  "esbId": "2015100406",
+                  "gameDetailId": "10160000-0565-5830-0491-f7b0f9b4103b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-04T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1004-07f2-d9ea-ef0e14adc065",
+                  "esbId": "2015100407",
+                  "gameDetailId": "10160000-0565-54da-7055-79f55850e196",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-04T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1004-0841-dd38-d52c39d66828",
+                  "esbId": "2015100408",
+                  "gameDetailId": "10160000-0565-60f3-a6df-9040835cb5b8",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-04T20:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1004-094b-1583-ce06a9f44928",
+                  "esbId": "2015100409",
+                  "gameDetailId": "10160000-0565-63ad-ba79-31fdab3934d0",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-04T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1004-1070-e0cd-cc1cf9671c85",
+                  "esbId": "2015100410",
+                  "gameDetailId": "10160000-0565-61b5-6245-f29374549235",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-04T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1004-112f-5e88-705aa1915eaf",
+                  "esbId": "2015100411",
+                  "gameDetailId": "10160000-0565-6258-8e19-bf1eafd4e98b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-04T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1004-1249-af99-51c365e46a61",
+                  "esbId": "2015100412",
+                  "gameDetailId": "10160000-0565-6419-38ce-1fd9b1b19777",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-05T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1005-0093-390e-d9beda87a541",
+                  "esbId": "2015100500",
+                  "gameDetailId": "10160000-0565-65b5-119e-fb3f4ba67f36",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2015-10-06T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1008-00cc-4e41-bf80f584141c",
+                  "esbId": "2015100800",
+                  "gameDetailId": "10160000-0565-663a-03ab-db21e9956b05",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-09T00:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1011-00ed-a7f1-621669485431",
+                  "esbId": "2015101100",
+                  "gameDetailId": "10160000-0565-72bb-f6ee-bdcd17dbe441",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-11T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1011-01f9-7465-a50109fd3603",
+                  "esbId": "2015101101",
+                  "gameDetailId": "10160000-0565-71d8-1522-69944dc60217",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-11T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1011-0259-0bd2-f0080888ed72",
+                  "esbId": "2015101102",
+                  "gameDetailId": "10160000-0565-6914-11d9-e82f8192d196",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-11T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1011-0395-90cf-81de84ef551e",
+                  "esbId": "2015101103",
+                  "gameDetailId": "10160000-0565-6784-391e-9278f453e6c0",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-11T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1011-046b-3c7f-3b67b5899b1a",
+                  "esbId": "2015101104",
+                  "gameDetailId": "10160000-0565-7393-6a1a-8956c33a7a97",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-11T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1011-0540-b478-5c49aadf9951",
+                  "esbId": "2015101105",
+                  "gameDetailId": "10160000-0565-68de-b2fe-a3550efa3b49",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-11T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1011-0695-50e5-17747cccb160",
+                  "esbId": "2015101106",
+                  "gameDetailId": "10160000-0565-74b6-8786-a3bc30682068",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-11T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1011-07a8-5869-a181b8d080aa",
+                  "esbId": "2015101107",
+                  "gameDetailId": "10160000-0565-701b-9c91-79f707accea1",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-11T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1011-08f2-832d-4aac0553338b",
+                  "esbId": "2015101108",
+                  "gameDetailId": "10160000-0565-753e-64d9-eb2480b3c466",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-11T20:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1011-097b-9f78-3cae5fc00f9b",
+                  "esbId": "2015101109",
+                  "gameDetailId": "10160000-0565-7697-cc1c-a161f2ba5b9b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-11T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1011-1046-002e-a121bf81d749",
+                  "esbId": "2015101110",
+                  "gameDetailId": "10160000-0565-77be-6d66-b8c0cc03bd10",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-11T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1011-1187-3277-7395d7ab92f0",
+                  "esbId": "2015101111",
+                  "gameDetailId": "10160000-0565-7865-f574-267a4421178b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-12T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1012-006a-fbbc-e98d5b659144",
+                  "esbId": "2015101200",
+                  "gameDetailId": "10160000-0565-794b-5c6f-635475c85440",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 5
+                  },
+                  "gameTime": "2015-10-13T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1015-00b5-614b-bd5ed1de4d26",
+                  "esbId": "2015101500",
+                  "gameDetailId": "10160000-0565-80c9-c8d9-70bbad89cefd",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-16T00:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1018-0079-6d6c-e0a083d5cbb0",
+                  "esbId": "2015101800",
+                  "gameDetailId": "10160000-0565-83ce-f848-4745059135ac",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-18T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1018-0113-37d7-9cdf0b0d164b",
+                  "esbId": "2015101801",
+                  "gameDetailId": "10160000-0565-8620-57f9-b5be5bab6e67",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-18T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1018-02c8-22ad-4c55cc9f7bc4",
+                  "esbId": "2015101802",
+                  "gameDetailId": "10160000-0565-87fa-6eed-6ebb4abe5fc1",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-18T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1018-03cf-077b-09d2d16b6907",
+                  "esbId": "2015101803",
+                  "gameDetailId": "10160000-0565-8580-fedd-6efb50d66b92",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-18T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1018-04ee-1e26-4924d08734fd",
+                  "esbId": "2015101804",
+                  "gameDetailId": "10160000-0565-813f-e56b-860894707ffa",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-18T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1018-0587-9e26-4572dadbca3f",
+                  "esbId": "2015101805",
+                  "gameDetailId": "10160000-0565-8255-3d20-3e7b07eb63fa",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-18T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1018-06f1-c568-f80d1866222e",
+                  "esbId": "2015101806",
+                  "gameDetailId": "10160000-0565-88e3-da45-4023f3fb4262",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-18T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1018-0759-4759-11763d26643e",
+                  "esbId": "2015101807",
+                  "gameDetailId": "10160000-0565-849f-62dc-29a06c11c4cd",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-18T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1018-0878-ae14-c3b588f108f0",
+                  "esbId": "2015101808",
+                  "gameDetailId": "10160000-0565-8935-be5a-c8f6950b2045",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-18T20:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1018-09ce-e270-42bd25da1c16",
+                  "esbId": "2015101809",
+                  "gameDetailId": "10160000-0565-901e-20b9-4bb87df9b306",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-18T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1018-1044-2703-0f0ee3e8baea",
+                  "esbId": "2015101810",
+                  "gameDetailId": "10160000-0565-9131-36b5-9c960f9f7bd9",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-18T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1018-11ed-27bf-8c2b76eb83f1",
+                  "esbId": "2015101811",
+                  "gameDetailId": "10160000-0565-9238-12e7-fdcfb637c7fc",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-19T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1019-0028-3da4-ea0c5b8c7af5",
+                  "esbId": "2015101900",
+                  "gameDetailId": "10160000-0565-93f8-9101-364ba900d236",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 6
+                  },
+                  "gameTime": "2015-10-20T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1022-00ff-0e17-0f551ab03f3a",
+                  "esbId": "2015102200",
+                  "gameDetailId": "10160000-0565-9458-7da4-59af1a48c563",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-23T00:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1025-001b-337d-0995f0f3554f",
+                  "esbId": "2015102500",
+                  "gameDetailId": "10160000-0565-9586-77d0-f38fbf394c4e",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-25T13:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1025-0168-eea5-e67a5121cd79",
+                  "esbId": "2015102501",
+                  "gameDetailId": "10160000-0566-01ff-93e2-769c50399553",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-25T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1025-027f-2acd-5b3d86a08dad",
+                  "esbId": "2015102502",
+                  "gameDetailId": "10160000-0565-99d9-f704-5ca0dbf2a55b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-25T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1025-0386-dab6-14b831453467",
+                  "esbId": "2015102503",
+                  "gameDetailId": "10160000-0566-00e8-446b-2970c3d9fffa",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-25T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1025-0442-07b3-b1d759cefd83",
+                  "esbId": "2015102504",
+                  "gameDetailId": "10160000-0565-98da-26ae-42ac588c5f7c",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-25T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1025-05db-6bdb-87d15c861321",
+                  "esbId": "2015102505",
+                  "gameDetailId": "10160000-0566-0328-0f39-1f40dcb294e5",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-25T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1025-06ba-a47e-679cc51111da",
+                  "esbId": "2015102506",
+                  "gameDetailId": "10160000-0565-9616-b976-05f1d702c4e4",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-25T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1025-0792-1af1-054486f404ef",
+                  "esbId": "2015102507",
+                  "gameDetailId": "10160000-0565-97a2-083c-3e4eb3743f2f",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-25T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1025-0896-b7dc-2a987e00122f",
+                  "esbId": "2015102508",
+                  "gameDetailId": "10160000-0566-02ad-e5fa-12c9caedd496",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-25T17:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1025-093b-b9b0-e6dd38a90f6a",
+                  "esbId": "2015102509",
+                  "gameDetailId": "10160000-0566-044b-9b7c-56a006768fbc",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-25T20:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1025-1053-cb0e-33a43269b96f",
+                  "esbId": "2015102510",
+                  "gameDetailId": "10160000-0566-0587-164b-627bdad99094",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-25T20:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1025-1133-6858-a8201f670910",
+                  "esbId": "2015102511",
+                  "gameDetailId": "10160000-0566-06bc-de18-31c1bb63d6a5",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-26T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1026-0056-df57-df5f608c72f2",
+                  "esbId": "2015102600",
+                  "gameDetailId": "10160000-0566-0771-cd98-5fe4278fed91",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 7
+                  },
+                  "gameTime": "2015-10-27T00:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1029-007d-bd4e-4db7d5005c1c",
+                  "esbId": "2015102900",
+                  "gameDetailId": "10160000-0566-08d3-1075-ee0389730192",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-10-30T00:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1101-0063-5c5a-0b83d4e4976c",
+                  "esbId": "2015110100",
+                  "gameDetailId": "10160000-0566-094b-d512-5ebb27ac80f1",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-11-01T14:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1101-01b5-86a5-f18073115d1d",
+                  "esbId": "2015110101",
+                  "gameDetailId": "10160000-0566-11f1-791a-43ec092c76c6",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-11-01T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1101-024b-eeee-7f61d7429c0f",
+                  "esbId": "2015110102",
+                  "gameDetailId": "10160000-0566-1627-87e9-63e4e2cbc6ad",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-11-01T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1101-03a6-4810-6c1a556df900",
+                  "esbId": "2015110103",
+                  "gameDetailId": "10160000-0566-14dc-dd1f-8441224a8614",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-11-01T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1101-04f6-a4e1-ca247bf2eeb4",
+                  "esbId": "2015110104",
+                  "gameDetailId": "10160000-0566-1272-0da0-3db44d880626",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-11-01T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1101-05d8-890a-bcaef0c0b2d2",
+                  "esbId": "2015110105",
+                  "gameDetailId": "10160000-0566-1050-26c0-43fe665fb370",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-11-01T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1101-0689-ea3a-3c00d2dacd59",
+                  "esbId": "2015110106",
+                  "gameDetailId": "10160000-0566-1580-9a9c-e2486f9ac9e5",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-11-01T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1101-07e3-7b37-0fbf6f25460f",
+                  "esbId": "2015110107",
+                  "gameDetailId": "10160000-0566-17f3-a905-04f4a226c7fc",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-11-01T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1101-08ea-c91d-82e32fe1bc94",
+                  "esbId": "2015110108",
+                  "gameDetailId": "10160000-0566-1326-0b99-397e3c2e2b72",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-11-01T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1101-094e-1df5-da9584959d39",
+                  "esbId": "2015110109",
+                  "gameDetailId": "10160000-0566-18ee-f476-613eabc0231a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-11-01T21:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1101-1069-a696-5ea04df886cc",
+                  "esbId": "2015110110",
+                  "gameDetailId": "10160000-0566-1917-b1d1-3131650c4d99",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-11-01T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1101-1136-8451-13e0c75d9e2e",
+                  "esbId": "2015110111",
+                  "gameDetailId": "10160000-0566-20f7-f5fe-8940b75a130f",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-11-02T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1102-00cc-cd81-c1b3bc3b49fb",
+                  "esbId": "2015110200",
+                  "gameDetailId": "10160000-0566-21e1-e6e8-6a75456e6054",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 8
+                  },
+                  "gameTime": "2015-11-03T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1105-0083-a20f-aa65d0f706c3",
+                  "esbId": "2015110500",
+                  "gameDetailId": "10160000-0566-2229-f11a-ebc96372dd34",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 9
+                  },
+                  "gameTime": "2015-11-06T01:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1108-00e2-d5a9-5d00529788df",
+                  "esbId": "2015110800",
+                  "gameDetailId": "10160000-0566-25b7-7ddb-5ef2bec755c1",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 9
+                  },
+                  "gameTime": "2015-11-08T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1108-01ec-db6e-83fb09bbc850",
+                  "esbId": "2015110801",
+                  "gameDetailId": "10160000-0566-24bb-786b-2c7f4dc2238e",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 9
+                  },
+                  "gameTime": "2015-11-08T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1108-02d8-f737-57df21a87989",
+                  "esbId": "2015110802",
+                  "gameDetailId": "10160000-0566-2621-42a4-b134b6c17424",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 9
+                  },
+                  "gameTime": "2015-11-08T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1108-03b2-dc71-0640800d5d47",
+                  "esbId": "2015110803",
+                  "gameDetailId": "10160000-0566-2723-6757-2ffb1d29e997",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 9
+                  },
+                  "gameTime": "2015-11-08T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1108-04bf-a016-f0936aac2495",
+                  "esbId": "2015110804",
+                  "gameDetailId": "10160000-0566-2333-816a-4c4a881dd7af",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 9
+                  },
+                  "gameTime": "2015-11-08T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1108-0569-8b55-a7ea75550ca7",
+                  "esbId": "2015110805",
+                  "gameDetailId": "10160000-0566-284b-7e03-ffe048343e2f",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 9
+                  },
+                  "gameTime": "2015-11-08T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1108-06c4-d2cb-7abd5ce8bbb2",
+                  "esbId": "2015110806",
+                  "gameDetailId": "10160000-0566-29af-dc34-02c8ba7329ff",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 9
+                  },
+                  "gameTime": "2015-11-08T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1108-0762-23b0-06d197ebcce6",
+                  "esbId": "2015110807",
+                  "gameDetailId": "10160000-0566-3174-4630-01f261e11577",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 9
+                  },
+                  "gameTime": "2015-11-08T21:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1108-0851-8b9f-2063bf39f6c2",
+                  "esbId": "2015110808",
+                  "gameDetailId": "10160000-0566-3033-7360-2bf37cb021b4",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 9
+                  },
+                  "gameTime": "2015-11-08T21:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1108-0993-edca-e03d74598470",
+                  "esbId": "2015110809",
+                  "gameDetailId": "10160000-0566-321c-e207-962c3e14200e",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 9
+                  },
+                  "gameTime": "2015-11-08T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1108-1045-103d-72ad468df376",
+                  "esbId": "2015110810",
+                  "gameDetailId": "10160000-0566-339c-6a4f-729c23cfcc57",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 9
+                  },
+                  "gameTime": "2015-11-09T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1109-0016-5e04-e492d5dd5b9a",
+                  "esbId": "2015110900",
+                  "gameDetailId": "10160000-0566-348c-e93e-dcf915c8b7a4",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 9
+                  },
+                  "gameTime": "2015-11-10T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1112-00d6-8075-6c3d91b338e9",
+                  "esbId": "2015111200",
+                  "gameDetailId": "10160000-0566-35c5-7dec-862fc467f82c",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-13T01:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1115-00cd-0d34-1bb4dafcaf42",
+                  "esbId": "2015111500",
+                  "gameDetailId": "10160000-0566-43c5-9386-fc00cf8020cf",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-15T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1115-0179-bf6b-a76203df3377",
+                  "esbId": "2015111501",
+                  "gameDetailId": "10160000-0566-3735-0211-3936e18b98a8",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-15T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1115-0276-97fe-94f304e7ad19",
+                  "esbId": "2015111502",
+                  "gameDetailId": "10160000-0566-41b6-c580-9031cec4e7b8",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-15T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1115-03d7-e9a8-6b5d6a3134d4",
+                  "esbId": "2015111503",
+                  "gameDetailId": "10160000-0566-427d-279d-18759ebac71f",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-15T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1115-04bf-3eae-c092e7518ed0",
+                  "esbId": "2015111504",
+                  "gameDetailId": "10160000-0566-408d-6d98-f4b1db213af8",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-15T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1115-05b2-d24f-47df91edf435",
+                  "esbId": "2015111505",
+                  "gameDetailId": "10160000-0566-38d7-cf2c-a7dd586613d9",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-15T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1115-063f-a978-22935af28044",
+                  "esbId": "2015111506",
+                  "gameDetailId": "10160000-0566-362e-df78-4bd091c8cb80",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-15T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1115-0759-da70-1ded2e4d9dcd",
+                  "esbId": "2015111507",
+                  "gameDetailId": "10160000-0566-39c1-9c02-6ab533bd0ea6",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-15T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1115-083f-eb9d-bde04f047b9a",
+                  "esbId": "2015111508",
+                  "gameDetailId": "10160000-0566-44ef-b103-bc4f880d4e85",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-15T21:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1115-0918-04d6-2a16b4ca86c3",
+                  "esbId": "2015111509",
+                  "gameDetailId": "10160000-0566-4639-ecab-d05b2a307cfd",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-15T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1115-102f-d474-dfe96315879a",
+                  "esbId": "2015111510",
+                  "gameDetailId": "10160000-0566-45d3-66d5-5adc7112a1ef",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-15T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1115-11c1-30c9-3ab238ecd52a",
+                  "esbId": "2015111511",
+                  "gameDetailId": "10160000-0566-4787-68c6-1b7b080b238c",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-16T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1116-0090-ad3d-b5e6315637f0",
+                  "esbId": "2015111600",
+                  "gameDetailId": "10160000-0566-48b7-9dc4-1aa666559791",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 10
+                  },
+                  "gameTime": "2015-11-17T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1119-00cd-a53c-26e94c07d91a",
+                  "esbId": "2015111900",
+                  "gameDetailId": "10160000-0566-4933-e16e-de12160793e8",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-20T01:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1122-00a4-697d-cc60b0e03fea",
+                  "esbId": "2015112200",
+                  "gameDetailId": "10160000-0566-53e9-81e9-06d7b08076d8",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-22T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1122-0135-f0f7-bc2f2cb9cacd",
+                  "esbId": "2015112201",
+                  "gameDetailId": "10160000-0566-546d-9dea-97af384f6d30",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-22T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1122-027d-aec2-d85167a7aeeb",
+                  "esbId": "2015112202",
+                  "gameDetailId": "10160000-0566-50b8-e947-a2ca12b84926",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-22T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1122-039b-fc8b-d12992fbf265",
+                  "esbId": "2015112203",
+                  "gameDetailId": "10160000-0566-5594-87bb-7fc3f4c0a9c3",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-22T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1122-042d-691c-62f16d434f13",
+                  "esbId": "2015112204",
+                  "gameDetailId": "10160000-0566-5880-fa30-458f53084a68",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-22T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1122-0559-54b8-b815ef4044ab",
+                  "esbId": "2015112205",
+                  "gameDetailId": "10160000-0566-5776-47d1-b0292a58e32a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-22T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1122-06a9-aaad-2b80d2e030d6",
+                  "esbId": "2015112206",
+                  "gameDetailId": "10160000-0566-52fe-e40e-b34849250b0d",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-22T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1122-07b9-061b-ec06898dd5a6",
+                  "esbId": "2015112207",
+                  "gameDetailId": "10160000-0566-56f9-48ea-4146bd0b0c7c",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-22T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1122-08a1-ba3c-c8fcc8ca0f11",
+                  "esbId": "2015112208",
+                  "gameDetailId": "10160000-0566-51b0-460a-7c9c37d5d8bb",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-22T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1122-09bb-22ce-326b2a179d55",
+                  "esbId": "2015112209",
+                  "gameDetailId": "10160000-0566-59c9-08c1-c885183ef5d2",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-23T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1122-1012-439c-6dc2db760d41",
+                  "esbId": "2015112210",
+                  "gameDetailId": "10160000-0566-6073-371a-261581514255",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-22T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1122-11aa-713e-483a6faacec2",
+                  "esbId": "2015112211",
+                  "gameDetailId": "10160000-0566-61d1-d4e6-8e0f09c40981",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-22T21:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1123-0059-e6e9-9b83976ad45a",
+                  "esbId": "2015112300",
+                  "gameDetailId": "10160000-0566-6282-9371-69e6f741b8eb",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 11
+                  },
+                  "gameTime": "2015-11-24T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1126-00da-00da-c78ad886c565",
+                  "esbId": "2015112600",
+                  "gameDetailId": "10160000-0566-6356-bd21-044ef02bfd64",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-26T17:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1126-018f-f344-eade0b92a945",
+                  "esbId": "2015112601",
+                  "gameDetailId": "10160000-0566-641a-4702-614c3d960888",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-26T21:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1126-025a-51bf-794eb6e09a01",
+                  "esbId": "2015112602",
+                  "gameDetailId": "10160000-0566-6577-77e4-f8dcac2f6b63",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-27T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1129-00ca-ab59-6b52c9a04d14",
+                  "esbId": "2015112900",
+                  "gameDetailId": "10160000-0566-74a7-7c65-9d0ec4afea0e",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-29T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1129-011c-e84e-607a6cac9c6f",
+                  "esbId": "2015112901",
+                  "gameDetailId": "10160000-0566-6621-1989-93c27d034378",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-29T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1129-021e-7dd3-67ee3c27e88c",
+                  "esbId": "2015112902",
+                  "gameDetailId": "10160000-0566-6761-f554-550ff08b094f",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-29T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1129-03ac-2b51-41694d5a5425",
+                  "esbId": "2015112903",
+                  "gameDetailId": "10160000-0566-6875-9582-2cd23e081897",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-29T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1129-046d-d5da-76661bc135b8",
+                  "esbId": "2015112904",
+                  "gameDetailId": "10160000-0566-6954-48c4-63e18e97ce77",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-29T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1129-0538-2b3f-53a18b56938b",
+                  "esbId": "2015112905",
+                  "gameDetailId": "10160000-0566-724d-a880-3a7947febdc4",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-29T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1129-069c-06d3-0dad881b31ba",
+                  "esbId": "2015112906",
+                  "gameDetailId": "10160000-0566-7070-94b4-ad7a10f8447d",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-29T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1129-075c-8acc-0d1b5e3c5262",
+                  "esbId": "2015112907",
+                  "gameDetailId": "10160000-0566-73bf-3b4c-94571f441061",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-29T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1129-08d3-94c6-d3c3720ba833",
+                  "esbId": "2015112908",
+                  "gameDetailId": "10160000-0566-7169-e0bb-163ce6f27b3c",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-29T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1129-097c-d603-5e9b15c66bff",
+                  "esbId": "2015112909",
+                  "gameDetailId": "10160000-0566-75e3-8552-4d0475522469",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-29T21:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1129-1010-7a55-44b2d33af34f",
+                  "esbId": "2015112910",
+                  "gameDetailId": "10160000-0566-76a6-0ab0-04e3ba82d565",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-29T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1129-1188-4c37-2f6a7b4e13fd",
+                  "esbId": "2015112911",
+                  "gameDetailId": "10160000-0566-774a-b1b4-07c10a51a2bd",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-11-30T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1130-00ca-9123-d29f71f9fd0e",
+                  "esbId": "2015113000",
+                  "gameDetailId": "10160000-0566-78f8-43c0-3b1a4be4ca1c",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 12
+                  },
+                  "gameTime": "2015-12-01T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1203-00d1-39e4-7fd036131c1f",
+                  "esbId": "2015120300",
+                  "gameDetailId": "10160000-0566-79d6-33d2-76ddc7de0ea4",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-04T01:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-00b3-48de-2987e6227b49",
+                  "esbId": "2015120600",
+                  "gameDetailId": "10160000-0566-86fb-9306-0ac36917cf74",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-06T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-01a1-6dc4-5efd57aec67e",
+                  "esbId": "2015120601",
+                  "gameDetailId": "10160000-0566-8054-5290-0abcffe4f89b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-06T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-0265-b028-26c9e7f759bb",
+                  "esbId": "2015120602",
+                  "gameDetailId": "10160000-0566-83ac-eebd-7282f4af8992",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-06T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-03f4-62da-4d38b8b7dd36",
+                  "esbId": "2015120603",
+                  "gameDetailId": "10160000-0566-821e-e9b9-9d48e39e2ee9",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-06T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-0491-82e3-23fb917ec85d",
+                  "esbId": "2015120604",
+                  "gameDetailId": "10160000-0566-8988-9935-ae900e63b97c",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-06T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-0572-e15d-2f002979b2e7",
+                  "esbId": "2015120605",
+                  "gameDetailId": "10160000-0566-819f-3d20-6dd1c642de50",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-06T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-06aa-106f-f2bc86b1a377",
+                  "esbId": "2015120606",
+                  "gameDetailId": "10160000-0566-8462-5169-3221134db00e",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-06T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-079b-6f12-d12f5155126c",
+                  "esbId": "2015120607",
+                  "gameDetailId": "10160000-0566-8535-e641-f7c079a9121d",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-06T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-0851-cadb-259c0d882644",
+                  "esbId": "2015120608",
+                  "gameDetailId": "10160000-0566-889c-b729-9ddc7fd1ebfa",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-06T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-09eb-80b2-3382b0d7d9f4",
+                  "esbId": "2015120609",
+                  "gameDetailId": "10160000-0566-87fc-37f6-70b5a91bbd2d",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-06T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-1056-c0f1-9e102a870e4c",
+                  "esbId": "2015120610",
+                  "gameDetailId": "10160000-0566-9032-feff-76111c72b651",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-06T21:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-1129-18aa-c58f70d3d369",
+                  "esbId": "2015120611",
+                  "gameDetailId": "10160000-0566-9187-a588-8ff5ba92a4ab",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-06T21:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-12e3-81d7-c29262f9c425",
+                  "esbId": "2015120612",
+                  "gameDetailId": "10160000-0566-921b-e58d-a4b4a2dd1ef0",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-06T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1206-135e-6d4b-4d7ac2a1f936",
+                  "esbId": "2015120613",
+                  "gameDetailId": "10160000-0566-93e4-88f6-95cd435ae144",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-07T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1207-00f3-c433-6c645ec6a732",
+                  "esbId": "2015120700",
+                  "gameDetailId": "10160000-0566-94aa-87f9-7cf993ad1915",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 13
+                  },
+                  "gameTime": "2015-12-08T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1210-00c3-daf9-c1a5d393647b",
+                  "esbId": "2015121000",
+                  "gameDetailId": "10160000-0566-9558-4406-fcd4ec3840da",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-11T01:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-00a9-8ef2-7aa888788695",
+                  "esbId": "2015121300",
+                  "gameDetailId": "10160000-0567-043e-1d6b-82bd12fe7555",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-13T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-01f6-688c-7030600725e5",
+                  "esbId": "2015121301",
+                  "gameDetailId": "10160000-0567-03f6-d92b-5add53661b0e",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-13T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-0283-550c-f1496c3989a2",
+                  "esbId": "2015121302",
+                  "gameDetailId": "10160000-0566-98fa-b34c-4d7548a8ab71",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-13T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-03ef-faa7-5aa440c915a3",
+                  "esbId": "2015121303",
+                  "gameDetailId": "10160000-0567-00bf-c6bf-76db84825434",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-14T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-048d-9c9a-7522d850df57",
+                  "esbId": "2015121304",
+                  "gameDetailId": "10160000-0567-01a6-6b37-53a4b78abdf5",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-13T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-0510-20dc-18e4dc6f7c68",
+                  "esbId": "2015121305",
+                  "gameDetailId": "10160000-0567-0225-e30a-b0fb6e5bc823",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-13T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-06b6-d5e4-46d3f942e694",
+                  "esbId": "2015121306",
+                  "gameDetailId": "10160000-0566-97ee-cd5f-14ca9ec92944",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-13T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-07ee-e01b-537b701edaf5",
+                  "esbId": "2015121307",
+                  "gameDetailId": "10160000-0566-9629-05aa-944ded50c61b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-13T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-08f7-3770-5e53e81346e2",
+                  "esbId": "2015121308",
+                  "gameDetailId": "10160000-0567-067d-cc20-223ee34afdd7",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-13T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-0920-5048-f88ba749da98",
+                  "esbId": "2015121309",
+                  "gameDetailId": "10160000-0567-0564-6c3f-df6ec4d145d1",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-13T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-101c-01b4-903954c7e2ed",
+                  "esbId": "2015121310",
+                  "gameDetailId": "10160000-0566-99f1-66bc-72f006ef7866",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-13T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-119c-3661-55ac903a5b89",
+                  "esbId": "2015121311",
+                  "gameDetailId": "10160000-0567-0772-d681-ad50ce445be6",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-13T21:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-1250-00b4-24227ef8922b",
+                  "esbId": "2015121312",
+                  "gameDetailId": "10160000-0567-0830-9932-10213ad49772",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-13T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1213-13e8-b9d0-71bd34c907e9",
+                  "esbId": "2015121313",
+                  "gameDetailId": "10160000-0567-091e-1ab3-8429d41907cd",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-13T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1214-00bd-caed-a93113327388",
+                  "esbId": "2015121400",
+                  "gameDetailId": "10160000-0567-1032-e588-0b078de8ac78",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 14
+                  },
+                  "gameTime": "2015-12-15T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1217-0050-5d41-6cc131cc0097",
+                  "esbId": "2015121700",
+                  "gameDetailId": "10160000-0567-117d-b621-efceebb9cd06",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-18T01:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1219-00f7-1575-a66ebf713103",
+                  "esbId": "2015121900",
+                  "gameDetailId": "10160000-0567-12dc-56b4-c169574d694d",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-20T01:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1220-00fa-3ca7-26b387ce04e9",
+                  "esbId": "2015122000",
+                  "gameDetailId": "10160000-0567-1884-4c0e-514190b2661d",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-20T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1220-0189-1393-ab0652da9e35",
+                  "esbId": "2015122001",
+                  "gameDetailId": "10160000-0567-196a-eff9-f0ee370da766",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-21T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1220-0250-72cf-44c4798d3838",
+                  "esbId": "2015122002",
+                  "gameDetailId": "10160000-0567-16f2-192e-d70c9c58601a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-20T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1220-0319-e2eb-ecc105c1ee99",
+                  "esbId": "2015122003",
+                  "gameDetailId": "10160000-0567-1588-f896-8026b925ab0e",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-20T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1220-0454-5599-8a115959b0e6",
+                  "esbId": "2015122004",
+                  "gameDetailId": "10160000-0567-14dc-a00f-f5d5aaf0adff",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-20T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1220-0566-e7c9-23a1acd69224",
+                  "esbId": "2015122005",
+                  "gameDetailId": "10160000-0567-1732-0737-2156532d22c9",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-20T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1220-069a-bd4f-5188047c4c55",
+                  "esbId": "2015122006",
+                  "gameDetailId": "10160000-0567-1375-c0af-c8818e4ccadd",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-20T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1220-071a-4b68-39c96f8fd6df",
+                  "esbId": "2015122007",
+                  "gameDetailId": "10160000-0567-20e7-a0bd-4f193aaa47df",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-20T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1220-0858-fb74-760c7d568898",
+                  "esbId": "2015122008",
+                  "gameDetailId": "10160000-0567-224f-bfac-17fee7d2ec42",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-20T21:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1220-09b6-a21a-ff512bee5b67",
+                  "esbId": "2015122009",
+                  "gameDetailId": "10160000-0567-21ef-8642-5542b0ac13d4",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-20T21:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1220-1030-6ce7-8981cfd446e5",
+                  "esbId": "2015122010",
+                  "gameDetailId": "10160000-0567-23ed-5086-94120e585859",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-20T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1220-11aa-7c11-455e2ae78c21",
+                  "esbId": "2015122011",
+                  "gameDetailId": "10160000-0567-24b2-1560-47dfb4153a5d",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-20T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1220-129d-b9f7-80106d1f91a9",
+                  "esbId": "2015122012",
+                  "gameDetailId": "10160000-0567-252a-4620-17caa8b8a199",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-20T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1221-008b-0599-775dcc95d0b1",
+                  "esbId": "2015122100",
+                  "gameDetailId": "10160000-0567-2635-2708-4b46727e6d13",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 15
+                  },
+                  "gameTime": "2015-12-22T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1224-007e-2c46-1816a13a60a4",
+                  "esbId": "2015122400",
+                  "gameDetailId": "10160000-0567-27e4-2b85-2002c73208ea",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-25T01:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1226-0013-8952-d5cc221617a3",
+                  "esbId": "2015122600",
+                  "gameDetailId": "10160000-0567-2876-b5c9-a37d60a2983a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-27T01:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1227-0024-0b45-0530cbf46a03",
+                  "esbId": "2015122700",
+                  "gameDetailId": "10160000-0567-355c-dfc7-62cfe3903202",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-27T21:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1227-01fd-4552-010f70965df3",
+                  "esbId": "2015122701",
+                  "gameDetailId": "10160000-0567-3368-db3d-7f7ec3e06a7a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-27T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1227-02e9-3c5c-268a389d9df3",
+                  "esbId": "2015122702",
+                  "gameDetailId": "10160000-0567-361d-a2bc-8bdd276a9750",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-27T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1227-03b5-3b8f-c8d3c817fd9a",
+                  "esbId": "2015122703",
+                  "gameDetailId": "10160000-0567-38af-d726-c4ecd1063a9a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-27T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1227-04a4-cefd-bd791c474544",
+                  "esbId": "2015122704",
+                  "gameDetailId": "10160000-0567-3213-405a-6323d5893dd1",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-27T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1227-05ff-caca-ef436ea0727d",
+                  "esbId": "2015122705",
+                  "gameDetailId": "10160000-0567-312e-904a-6b590f35e1e6",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-27T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1227-0687-56de-6ac060dfccef",
+                  "esbId": "2015122706",
+                  "gameDetailId": "10160000-0567-34eb-8aca-af73f2f67518",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-28T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1227-078c-f3c2-ed80cb49a91a",
+                  "esbId": "2015122707",
+                  "gameDetailId": "10160000-0567-29e7-989f-625c46ebe26b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-27T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1227-08f7-e928-c6f34e5d6e7b",
+                  "esbId": "2015122708",
+                  "gameDetailId": "10160000-0567-3758-3894-85993baf2895",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-27T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1227-099e-e949-fb0ce9af214b",
+                  "esbId": "2015122709",
+                  "gameDetailId": "10160000-0567-3028-6857-dd3a8391eb9b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-27T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1227-10de-96bf-c1b15e6a64ad",
+                  "esbId": "2015122710",
+                  "gameDetailId": "10160000-0567-397c-333b-07acf3bc8a98",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-27T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1227-1180-05d7-d5e5f92c8d08",
+                  "esbId": "2015122711",
+                  "gameDetailId": "10160000-0567-407a-5e68-4e13858dc394",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-27T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1227-122e-63d3-118837d21d9f",
+                  "esbId": "2015122712",
+                  "gameDetailId": "10160000-0567-412e-dee1-f52f73929c11",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-27T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012015-1228-00e1-627b-5fded3ca2de1",
+                  "esbId": "2015122800",
+                  "gameDetailId": "10160000-0567-42d6-46ab-24483682dd7a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 16
+                  },
+                  "gameTime": "2015-12-29T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-00f2-6f5a-0e81b53516e0",
+                  "esbId": "2016010300",
+                  "gameDetailId": "10160000-0567-44a0-095c-8ea329feebd6",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-01bf-f74d-c8c2d7203c16",
+                  "esbId": "2016010301",
+                  "gameDetailId": "10160000-0567-54c8-6971-014374099201",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-0239-ac17-eb5a72047b2c",
+                  "esbId": "2016010302",
+                  "gameDetailId": "10160000-0567-477e-855c-30718b9f842a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-03b3-444e-ad8e7415de16",
+                  "esbId": "2016010303",
+                  "gameDetailId": "10160000-0567-487f-ab64-be7e9f8aedb4",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-0489-0406-1d94dd28a239",
+                  "esbId": "2016010304",
+                  "gameDetailId": "10160000-0567-5140-4743-a0c938b928b8",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-059b-9b4b-bfc410dcc597",
+                  "esbId": "2016010305",
+                  "gameDetailId": "10160000-0567-529c-4903-dca19b54a95a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-0661-1d84-bf7beb46bc4f",
+                  "esbId": "2016010306",
+                  "gameDetailId": "10160000-0567-5381-b667-6b5e0cdc26b2",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-0766-3e16-01f4f7c92b27",
+                  "esbId": "2016010307",
+                  "gameDetailId": "10160000-0567-499a-e918-eeeffd5a58ec",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-08af-3281-51fe8bbb1a69",
+                  "esbId": "2016010308",
+                  "gameDetailId": "10160000-0567-5563-fbc1-a37dc1b49a23",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-096c-44b7-90125015a3fc",
+                  "esbId": "2016010309",
+                  "gameDetailId": "10160000-0567-4672-35ee-8b65267426e1",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-102f-ef4f-b493803d4f40",
+                  "esbId": "2016010310",
+                  "gameDetailId": "10160000-0567-5038-d465-253a9788d6b3",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-04T01:30:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-115a-87e5-6749ea35374a",
+                  "esbId": "2016010311",
+                  "gameDetailId": "10160000-0567-43a2-971c-2e900570935d",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T18:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-12d2-a6c1-c84f51080a4c",
+                  "esbId": "2016010312",
+                  "gameDetailId": "10160000-0567-459b-fc6a-8e313d0a6d1b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-1357-5ca6-7501b5ed4529",
+                  "esbId": "2016010313",
+                  "gameDetailId": "10160000-0567-57ef-6ec5-2cf15a69f048",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-14ab-9d44-46eabf1643ab",
+                  "esbId": "2016010314",
+                  "gameDetailId": "10160000-0567-56ff-d0a0-928a1cf6f410",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0103-15fa-d8e2-e69dd31bca9f",
+                  "esbId": "2016010315",
+                  "gameDetailId": "10160000-0567-5852-857d-150b390fde5d",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "REG",
+                    "weekValue": 17
+                  },
+                  "gameTime": "2016-01-03T21:25:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0109-0041-ccf5-d7c53faea6b2",
+                  "esbId": "2016010900",
+                  "gameDetailId": "10160000-0568-24ad-a077-1b8786cab889",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "POST",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2016-01-09T21:35:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0109-011b-b01b-f0cc372d3e51",
+                  "esbId": "2016010901",
+                  "gameDetailId": "10160000-0568-25e2-ea61-fe7201c8cab2",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "POST",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2016-01-10T01:15:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0110-0099-81cf-5fe94f1d100e",
+                  "esbId": "2016011000",
+                  "gameDetailId": "10160000-0568-2629-9a6d-3b1a6a928fd9",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "POST",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2016-01-10T18:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0110-01a6-7952-00d6d4e83288",
+                  "esbId": "2016011001",
+                  "gameDetailId": "10160000-0568-274a-a12a-7a1db8010acc",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "POST",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2016-01-10T21:40:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0116-00b2-d4c9-02d2eabf997f",
+                  "esbId": "2016011600",
+                  "gameDetailId": "10160000-0568-2879-50c3-5178ba40cd9b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "POST",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2016-01-16T21:35:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0116-016c-64e5-89f352e67cc2",
+                  "esbId": "2016011601",
+                  "gameDetailId": "10160000-0568-29f0-99c6-e51c3629b03b",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "POST",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2016-01-17T01:15:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0117-0026-e25e-27e08e37a066",
+                  "esbId": "2016011700",
+                  "gameDetailId": "10160000-0568-3025-6804-3d743af9129a",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "POST",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2016-01-17T18:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0117-01a9-27a1-bb940be830c7",
+                  "esbId": "2016011701",
+                  "gameDetailId": "10160000-0568-3191-7326-96119a72c300",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "POST",
+                    "weekValue": 2
+                  },
+                  "gameTime": "2016-01-17T21:40:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0124-00ea-aa58-a072fa25eaef",
+                  "esbId": "2016012400",
+                  "gameDetailId": "10160000-0568-322a-009a-22b648b53672",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "POST",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2016-01-24T20:05:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0124-011b-c649-68bd31c163b9",
+                  "esbId": "2016012401",
+                  "gameDetailId": "10160000-0568-3393-48ac-1cc812038269",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "POST",
+                    "weekValue": 3
+                  },
+                  "gameTime": "2016-01-24T23:40:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0131-00e5-5585-e90cd302694c",
+                  "esbId": "2016013100",
+                  "gameDetailId": "10160000-0568-351d-f655-cf93c9ae62a3",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "PRO",
+                    "weekValue": 1
+                  },
+                  "gameTime": "2016-02-01T00:00:00.000Z"
+                }
+              },
+              {
+                "node": {
+                  "id": "10012016-0207-0053-41d9-193aafc21e5e",
+                  "esbId": "2016020700",
+                  "gameDetailId": "10160000-0568-344e-b1f8-6fc2abd2e052",
+                  "week": {
+                    "seasonValue": 2015,
+                    "seasonType": "POST",
+                    "weekValue": 4
+                  },
+                  "gameTime": "2016-02-07T23:30:00.000Z"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
