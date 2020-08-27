@@ -57,8 +57,8 @@ Conditions are user defined booleans, which all must be true for the stat to cou
 In the JSON format used by the API, this stat would look like this: 
 
 ```
-{"name":"25+ yard completions", "stat":"passing_cmp", "conditions":
-[{stat":"passing_yds", "comparison":">=", "value":25}], "multiplier":1}
+{"name":"25+ yard completions", "field":"passing_cmp", "conditions":
+[{"field":"passing_yds", "comparison":">=", "value":25}], "multiplier":1}
 ```
 
 When you request stats info from the API, the engine will search the database for plays where play_player passing_yds was greater than or equal to 25, and provide for each player a sum of the associated play_player passing_cmp values for all matching rows. The associated SQL query executed on the backend would look something like this:
@@ -352,13 +352,13 @@ Passwords must match.
   "scoring_settings": [
     {
       "name": "passing yards",
-      "stat": "passing_yds",
+      "field": "passing_yds",
       "conditions": [],
       "multiplier": 0.04
     },
     {
       "name": "passing TDs",
-      "stat": "passing_tds",
+      "field": "passing_tds",
       "conditions": [],
       "multiplier": 4
     }
@@ -431,13 +431,13 @@ Requesting user must be the admin of the league.
   "data": [
     {
       "name": "passing yards",
-      "stat": "passing_yds",
+      "field": "passing_yds",
       "conditions": [],
       "multiplier": 0.04
     },
     {
       "name": "passing TDs",
-      "stat": "passing_tds",
+      "field": "passing_tds",
       "conditions": [],
       "multiplier": 4
     }

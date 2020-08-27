@@ -1,0 +1,224 @@
+{
+  "teams": [
+    {
+      "id": "ARI",
+      "name": "Arizona Cardinals",
+      "active": true
+    },
+    {
+      "id": "ATL",
+      "name": "Atlanta Falcons",
+      "active": true
+    },
+    {
+      "id": "BAL",
+      "name": "Baltimore Ravens",
+      "active": true
+    },
+    {
+      "id": "BUF",
+      "name": "Buffalo Bills",
+      "active": true
+    },
+    {
+      "id": "CAR",
+      "name": "Carolina Panthers",
+      "active": true
+    },
+    {
+      "id": "CHI",
+      "name": "Chicago Bears",
+      "active": true
+    },
+    {
+      "id": "CIN",
+      "name": "Cincinnati Bengals",
+      "active": true
+    },
+    {
+      "id": "CLE",
+      "name": "Cleveland Browns",
+      "active": true
+    },
+    {
+      "id": "DAL",
+      "name": "Dallas Cowboys",
+      "active": true
+    },
+    {
+      "id": "DEN",
+      "name": "Denver Broncos",
+      "active": true
+    },
+    {
+      "id": "DET",
+      "name": "Detroit Lions",
+      "active": true
+    },
+    {
+      "id": "GB",
+      "name": "Green Bay Packers",
+      "active": true
+    },
+    {
+      "id": "HOU",
+      "name": "Houston Texans",
+      "active": true
+    },
+    {
+      "id": "IND",
+      "name": "Indianapolis Colts",
+      "active": true
+    },
+    {
+      "id": "JAC",
+      "name": "Jacksonville Jaguars",
+      "active": false
+    },
+    {
+      "id": "JAX",
+      "name": "Jacksonville Jaguars",
+      "active": true
+    },
+    {
+      "id": "KC",
+      "name": "Kansas City Chiefs",
+      "active": true
+    },
+    {
+      "id": "LA",
+      "name": "Los Angeles Rams",
+      "active": true
+    },
+    {
+      "id": "LAC",
+      "name": "Los Angeles Chargers",
+      "active": true
+    },
+    {
+      "id": "LV",
+      "name": "Las Vegas Raiders",
+      "active": true
+    },
+    {
+      "id": "MIA",
+      "name": "Miami Dolphins",
+      "active": true
+    },
+    {
+      "id": "MIN",
+      "name": "Minnesota Vikings",
+      "active": true
+    },
+    {
+      "id": "NE",
+      "name": "New England Patriots",
+      "active": true
+    },
+    {
+      "id": "NO",
+      "name": "New Orleans Saints",
+      "active": true
+    },
+    {
+      "id": "NYG",
+      "name": "New York Giants",
+      "active": true
+    },
+    {
+      "id": "NYJ",
+      "name": "New York Jets",
+      "active": true
+    },
+    {
+      "id": "OAK",
+      "name": "Oakland Raiders",
+      "active": false
+    },
+    {
+      "id": "PHI",
+      "name": "Philadelphia Eagles",
+      "active": true
+    },
+    {
+      "id": "PIT",
+      "name": "Pittsburgh Steelers",
+      "active": true
+    },
+    {
+      "id": "SD",
+      "name": "San Diego Chargers",
+      "active": false
+    },
+    {
+      "id": "SEA",
+      "name": "Seattle Seahawks",
+      "active": true
+    },
+    {
+      "id": "SF",
+      "name": "San Francisco 49ers",
+      "active": true
+    },
+    {
+      "id": "STL",
+      "name": "St. Louis Rams",
+      "active": false
+    },
+    {
+      "id": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "active": true
+    },
+    {
+      "id": "TEN",
+      "name": "Tennessee Titans",
+      "active": true
+    },
+    {
+      "id": "WAS",
+      "name": "Washington Redskins",
+      "active": true
+    },
+    {
+      "id": "APR",
+      "name": "AFC Pro Bowl",
+      "active": false
+    },
+    {
+      "id": "NPR",
+      "name": "NFC Pro Bowl",
+      "active": false
+    },
+    {
+      "id": "SAN",
+      "name": "Team Sanders",
+      "active": false
+    },
+    {
+      "id": "RIC",
+      "name": "Team Rice",
+      "active": false
+    },
+    {
+      "id": "CRT",
+      "name": "Team Carter",
+      "active": false
+    },
+    {
+      "id": "IRV",
+      "name": "Team Irvin",
+      "active": false
+    },
+    {
+      "id": "AFC",
+      "name": "AFC Pro Bowl",
+      "active": false
+    },
+    {
+      "id": "NFC",
+      "name": "NFC Pro Bowl",
+      "active": false
+    }
+  ]
+}
