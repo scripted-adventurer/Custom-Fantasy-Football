@@ -1,0 +1,266 @@
+[
+{
+    "model": "data.team",
+    "pk": "ARI",
+    "fields": {
+        "name": "Arizona Cardinals",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "ATL",
+    "fields": {
+        "name": "Atlanta Falcons",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "BAL",
+    "fields": {
+        "name": "Baltimore Ravens",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "BUF",
+    "fields": {
+        "name": "Buffalo Bills",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "CAR",
+    "fields": {
+        "name": "Carolina Panthers",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "CHI",
+    "fields": {
+        "name": "Chicago Bears",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "CIN",
+    "fields": {
+        "name": "Cincinnati Bengals",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "CLE",
+    "fields": {
+        "name": "Cleveland Browns",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "DAL",
+    "fields": {
+        "name": "Dallas Cowboys",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "DEN",
+    "fields": {
+        "name": "Denver Broncos",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "DET",
+    "fields": {
+        "name": "Detroit Lions",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "GB",
+    "fields": {
+        "name": "Green Bay Packers",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "HOU",
+    "fields": {
+        "name": "Houston Texans",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "IND",
+    "fields": {
+        "name": "Indianapolis Colts",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "JAX",
+    "fields": {
+        "name": "Jacksonville Jaguars",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "KC",
+    "fields": {
+        "name": "Kansas City Chiefs",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "LV",
+    "fields": {
+        "name": "Las Vegas Raiders",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "LA",
+    "fields": {
+        "name": "Los Angeles Rams",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "LAC",
+    "fields": {
+        "name": "Los Angeles Chargers",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "MIA",
+    "fields": {
+        "name": "Miami Dolphins",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "MIN",
+    "fields": {
+        "name": "Minnesota Vikings",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "NE",
+    "fields": {
+        "name": "New England Patriots",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "NO",
+    "fields": {
+        "name": "New Orleans Saints",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "NYG",
+    "fields": {
+        "name": "New York Giants",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "NYJ",
+    "fields": {
+        "name": "New York Jets",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "OAK",
+    "fields": {
+        "name": "Oakland Raiders",
+        "active": false
+    }
+},
+{
+    "model": "data.team",
+    "pk": "PHI",
+    "fields": {
+        "name": "Philadelphia Eagles",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "PIT",
+    "fields": {
+        "name": "Pittsburgh Steelers",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "SEA",
+    "fields": {
+        "name": "Seattle Seahawks",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "SF",
+    "fields": {
+        "name": "San Francisco 49ers",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "TB",
+    "fields": {
+        "name": "Tampa Bay Buccaneers",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "TEN",
+    "fields": {
+        "name": "Tennessee Titans",
+        "active": true
+    }
+},
+{
+    "model": "data.team",
+    "pk": "WAS",
+    "fields": {
+        "name": "Washington Redskins",
+        "active": true
+    }
+}
+]

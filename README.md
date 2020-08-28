@@ -10,7 +10,7 @@ Ever felt like the reason you can't win your fantasy football league is because 
 
 - nfl_json: Syncs data between the NFL.com API and locally stored JSON files
 - mongodb_backend: One of two backend options for the application. Syncs stats data from the JSON files into MongoDB and provides methods to implement all the API requests.
-- postgres_backend: One of two backend options for the application. Syncs stats data from the JSON files into a Postgres db and provides methods to implement all the API requests (using Django).
+- postgres_backend: One of two backend options for the application. Syncs stats data from the JSON files into Postgres and provides methods to implement all the API requests (using Django).
 - api: The Flask module that powers the API requests. Uses either mongodb_backend or postgres_backend, depending on which is configured. 
 - frontend: A React single page application that provides all UI functionality. 
 

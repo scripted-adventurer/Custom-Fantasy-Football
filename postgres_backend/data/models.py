@@ -1,6 +1,16 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+import os
+import datetime
+import pytz
+
+import importlib.util
+spec = importlib.util.spec_from_file_location("common", 
+  f"{os.environ['CUSTOM_FF_PATH']}/api/flaskr/common.py")
+common = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(common)
+
 class SeasonType(models.TextChoices):
   PRE = 'PRE'
   REG = 'REG'
@@ -48,8 +58,8 @@ class Game(models.Model):
     return hash(('Game', self.game_id))
   def data_dict(self):
     return {'id': self.game_id, 'start_time': 
-      self.start_time.strftime("%Y-%m-%d %H:%M"), 'season_type': 
-      self.season_type, 'season_year': self.season_year, 'week': self.week, 
+      self.start_time.strftime("%Y-%m-%d %H:%M"), 'season_type': self.season_type, 
+      'season_year': self.season_year, 'week': self.week, 
       'home_team': self.home_team.team_id, 'away_team': self.away_team.team_id,
       'home_score': self.home_score, 'away_score': self.away_score}
 
@@ -78,11 +88,11 @@ class Drive(models.Model):
     return f"{{Drive {self.drive_id} from Game '{self.game.game_id}'}}"
   def __eq__(self, other):
     if isinstance(other, Drive):
-      return (self.game == other.game and self.drive_id == other.drive_id)
+      return (self.id == other.id)
     else:
       return NotImplemented  
   def __hash__(self):
-    return hash(('Drive', self.game, self.drive_id))
+    return hash(('Drive', self.id))
 
 class Play(models.Model):
   drive = models.ForeignKey('Drive', models.CASCADE)
@@ -100,19 +110,18 @@ class Play(models.Model):
   yards_to_go = models.SmallIntegerField(null=True)
 
   def __repr__(self):
-    return (f"{{'model': 'Play', 'game_id': '{self.game.game_id}', "
-    f"'drive_id': {self.drive_id}, 'play_id': {self.play_id}}}")
+    return (f"{{'model': 'Play', 'game_id': '{self.drive.game.game_id}', "
+    f"'drive_id': {self.drive.drive_id}, 'play_id': {self.play_id}}}")
   def __str__(self):
-    return (f"{{Play {self.play_id} from Drive {self.drive_id} from Game "
-    f"'{self.game.game_id}'}}")
+    return (f"{{Play {self.play_id} from Drive {self.drive.drive_id} from Game "
+    f"'{self.drive.game.game_id}'}}")
   def __eq__(self, other):
     if isinstance(other, Play):
-      return (self.game == other.game and self.drive_id == other.drive_id 
-        and self.play_id == other.play_id)
+      return (self.id == other.id)
     else:
       return NotImplemented  
   def __hash__(self):
-    return hash(('Play', self.game, self.drive_id, self.play_id))
+    return hash(('Play', self.id))
 
 class PlayPlayer(models.Model):
   play = models.ForeignKey('Play', models.CASCADE)
@@ -230,20 +239,19 @@ class PlayPlayer(models.Model):
 
   def __repr__(self):
     return (f"{{'model': 'PlayPlayer', 'player': '{self.player.player_id}', "
-    f"'game_id': '{self.game.game_id}', 'drive_id': {self.drive_id}, "
-    f"'play_id': {self.play_id}}}")
+      f"'game_id': '{self.play.drive.game.game_id}', 'drive_id': "
+      f"{self.play.drive.drive_id}, 'play_id': {self.play.play_id}}}")
   def __str__(self):
-    return (f"{{Player '{self.player.player_id}' from Play {self.play_id} from Drive "
-    f"{self.drive_id} from Game '{self.game.game_id}'}}")
+    return (f"{{Player '{self.player.player_id}' from Play {self.play.play_id} "
+      f"from Drive {self.play.drive.drive_id} from Game "
+      f"'{self.play.drive.game.game_id}'}}")
   def __eq__(self, other):
     if isinstance(other, PlayPlayer):
-      return (self.player == other.player and self.game == other.game and 
-        self.drive_id == other.drive_id and self.play_id == other.play_id)
+      return (self.id == other.id)
     else:
       return NotImplemented  
   def __hash__(self):
-    return hash(('PlayPlayer', self.player, self.game, self.drive_id, 
-      self.play_id))
+    return hash(('PlayPlayer', self.id))
 
 class Player(models.Model):
   player_id = models.CharField(primary_key=True, max_length=36)
@@ -256,7 +264,7 @@ class Player(models.Model):
   def __repr__(self):
     return f"{{'model': 'Player', 'player_id': '{self.player_id}'}}"
   def __str__(self):
-    return f"{{{self.full_name} {self.position} {self.team.team_id}}}"
+    return f"{{{self.name} {self.position} {self.team.team_id}}}"
   def __eq__(self, other):
     if isinstance(other, Player):
       return (self.player_id == other.player_id)
@@ -265,16 +273,17 @@ class Player(models.Model):
   def __hash__(self):
     return hash(('Player', self.player_id))
   def data_dict(self):
-    return {'id': self.player_id, 'name': self.full_name, 'team': 
+    return {'id': self.player_id, 'name': self.name, 'team': 
       self.team.team_id, 'position': self.position, 'status': self.status}
   def is_locked(self):
-    now = datetime.datetime.now(pytz.utc)
-    season_type, season_year, week = get_current_week()
+    now = datetime.datetime.now(pytz.UTC)
+    season_year, season_type, week = common.CurrentWeek().find(now)
     this_game = (Game.objects.filter(home_team=self.team, 
       season_type=season_type, season_year=season_year, week=week) | 
       (Game.objects.filter(away_team=self.team, season_type=season_type, 
       season_year=season_year, week=week)))
-    if len(this_game) == 1 and this_game[0].start_time < now:
+    game_start = this_game[0].start_time.replace(tzinfo=pytz.UTC)
+    if len(this_game) == 1 and game_start < now:
       return True
     else:
       return False
@@ -287,7 +296,7 @@ class Team(models.Model):
   def __repr__(self):
     return f"{{'model': 'Team', 'team_id': '{self.team_id}'}}"
   def __str__(self):
-    return f"{{{self.city} {self.name}}}"
+    return f"{{{self.name}}}"
   def __eq__(self, other):
     if isinstance(other, Team):
       return (self.team_id == other.team_id)
@@ -296,7 +305,7 @@ class Team(models.Model):
   def __hash__(self):
     return hash(('Team', self.team_id))
   def data_dict(self):
-    return {'id': self.team_id, 'name': self.city + ' ' + self.name}
+    return {'id': self.team_id, 'name': self.name}
 
 class League(models.Model):
   name = models.TextField()
@@ -330,7 +339,7 @@ class League(models.Model):
   def correct_password(self, password):
     if not password:
       return False
-    if (Utility().custom_hash(password) == self.password):
+    if (common.Utility().custom_hash(password) == self.password):
       return True
     else:
       return False
@@ -385,7 +394,7 @@ class League(models.Model):
     if not password:
       return False
     else:
-      self.password = Utility().custom_hash(password)
+      self.password = common.Utility().custom_hash(password)
       self.save()
   def get_members(self):
     return [member.user.username for member in 
@@ -540,23 +549,21 @@ class StatCondition(models.Model):
 
   def __repr__(self):
     return (f"{{'model': 'StatCondition', 'league': " +
-    f"'{self.league_stat.league.name}', 'stat': '{self.league_stat.name}', "
-    f"'table': '{self.table}', 'column': '{self.column}', 'comparison': "
-    f"'{self.comparison}', 'value': {self.value}}}")
+      f"'{self.league_stat.league.name}', 'stat': '{self.league_stat.name}', "
+      f"'field': '{self.field}', 'comparison': '{self.comparison}', "
+      f"'value': {self.value}}}")
   def __str__(self):
-    return (f"{{Condition {self.table}.{self.column}{self.comparison}"
-    f"{self.value} for '{self.league_stat.name}' in League "
-    f"'{self.league_stat.league.name}'}}")
+    return (f"{{Condition {self.field}{self.comparison}{self.value} for "
+      f"'{self.league_stat.name}' in League '{self.league_stat.league.name}'}}")
   def __eq__(self, other):
     if isinstance(other, StatCondition):
-      return (self.league_stat == other.league_stat and self.table == 
-        other.table and self.column == other.column and 
-        self.comparison == other.comparison and self.value == other.value)
+      return (self.league_stat == other.league_stat and self.field == other.field 
+        and self.comparison == other.comparison and self.value == other.value)
     else:
       return NotImplemented  
   def __hash__(self):
-    return hash(('StatCondition', self.league_stat, self.table, self.column, 
-      self.comparison, self.value))
+    return hash(('StatCondition', self.league_stat, self.field, self.comparison, 
+      self.value))
 
 class Member(models.Model):
   user = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -580,20 +587,23 @@ class Member(models.Model):
     return self.admin
   def get_lineup(self, season_type='', season_year='', week=''):
     if not season_type or not season_year or not week:
-      season_type, season_year, week = get_current_week()
+      now = datetime.datetime.now(pytz.UTC)
+      season_year, season_type, week = common.CurrentWeek().find(now)
     lineup_entries = Lineup.objects.filter(member=self, season_type=season_type, 
       season_year=season_year, week=week).order_by('player__position')
     return [entry.player.data_dict() for entry in lineup_entries]
   def lineup_delete(self, player_id, season_type='', season_year='', week=''):
     if not season_type or not season_year or not week:
-      season_type, season_year, week = get_current_week()
+      now = datetime.datetime.now(pytz.UTC)
+      season_year, season_type, week = common.CurrentWeek().find(now)
     row = Lineup.objects.filter(member=self, season_type=season_type, 
       season_year=season_year, week=week, player_id=player_id)
     if len(row) == 1:
       row[0].delete()
   def lineup_add(self, player_id, season_type='', season_year='', week=''):
     if not season_type or not season_year or not week:
-      season_type, season_year, week = get_current_week()
+      now = datetime.datetime.now(pytz.UTC)
+      season_year, season_type, week = common.CurrentWeek().find(now)
     Lineup.objects.create(member=self, season_type=season_type, 
       season_year=season_year, week=week, player_id=player_id)      
 

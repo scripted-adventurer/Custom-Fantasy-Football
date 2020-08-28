@@ -1,0 +1,3460 @@
+[
+{
+    "model": "data.play",
+    "pk": 544349,
+    "fields": {
+        "drive": 76743,
+        "play_id": 36,
+        "time": "15:00",
+        "down": 0,
+        "start_yardline": "GB 35",
+        "end_yardline": "DET 25",
+        "first_down": false,
+        "penalty": false,
+        "description": "2-M.Crosby kicks 65 yards from GB 35 to end zone, Touchback.",
+        "play_type": "KICK_OFF",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 0
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544350,
+    "fields": {
+        "drive": 76743,
+        "play_id": 57,
+        "time": "15:00",
+        "down": 1,
+        "start_yardline": "DET 25",
+        "end_yardline": "DET 40",
+        "first_down": true,
+        "penalty": true,
+        "description": "(15:00) (Shotgun) 10-D.Blough pass incomplete short left to 19-K.Golladay (20-K.King) [55-Z.Smith]. PENALTY on GB-55-Z.Smith, Roughing the Passer, 15 yards, enforced at DET 25 - No Play.",
+        "play_type": "PENALTY",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544351,
+    "fields": {
+        "drive": 76743,
+        "play_id": 91,
+        "time": "14:57",
+        "down": 1,
+        "start_yardline": "DET 40",
+        "end_yardline": "50",
+        "first_down": true,
+        "penalty": false,
+        "description": "(14:57) 33-K.Johnson up the middle to 50 for 10 yards (35-I.Campbell).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544352,
+    "fields": {
+        "drive": 76743,
+        "play_id": 112,
+        "time": "14:25",
+        "down": 1,
+        "start_yardline": "50",
+        "end_yardline": "DET 47",
+        "first_down": false,
+        "penalty": false,
+        "description": "(14:25) 43-B.Scarbrough left end to DET 47 for -3 yards (38-T.Williams; 55-Z.Smith).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544353,
+    "fields": {
+        "drive": 76743,
+        "play_id": 133,
+        "time": "13:49",
+        "down": 2,
+        "start_yardline": "DET 47",
+        "end_yardline": "GB 44",
+        "first_down": false,
+        "penalty": false,
+        "description": "(13:49) (Shotgun) 10-D.Blough pass short right to 80-D.Amendola to GB 44 for 9 yards (23-J.Alexander).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 13
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544354,
+    "fields": {
+        "drive": 76743,
+        "play_id": 157,
+        "time": "13:28",
+        "down": 3,
+        "start_yardline": "GB 44",
+        "end_yardline": "GB 44",
+        "first_down": false,
+        "penalty": false,
+        "description": "(13:28) (No Huddle, Shotgun) 10-D.Blough pass incomplete short right to 15-C.Lacy.",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 4
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544355,
+    "fields": {
+        "drive": 76743,
+        "play_id": 179,
+        "time": "13:25",
+        "down": 4,
+        "start_yardline": "GB 44",
+        "end_yardline": "GB 44",
+        "first_down": false,
+        "penalty": false,
+        "description": "(13:25) 6-S.Martin punts 44 yards to end zone, Center-48-D.Muhlbach, Touchback.",
+        "play_type": "PUNT",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 4
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544356,
+    "fields": {
+        "drive": 76744,
+        "play_id": 205,
+        "time": "13:16",
+        "down": 1,
+        "start_yardline": "GB 20",
+        "end_yardline": "GB 20",
+        "first_down": false,
+        "penalty": false,
+        "description": "(13:16) (Shotgun) 12-A.Rodgers pass incomplete deep middle to 80-J.Graham.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544357,
+    "fields": {
+        "drive": 76744,
+        "play_id": 227,
+        "time": "13:11",
+        "down": 2,
+        "start_yardline": "GB 20",
+        "end_yardline": "GB 22",
+        "first_down": false,
+        "penalty": false,
+        "description": "(13:11) 33-A.Jones left end to GB 22 for 2 yards (29-R.Melvin).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544358,
+    "fields": {
+        "drive": 76744,
+        "play_id": 258,
+        "time": "12:27",
+        "down": 3,
+        "start_yardline": "GB 22",
+        "end_yardline": "GB 22",
+        "first_down": false,
+        "penalty": false,
+        "description": "(12:27) (Shotgun) 12-A.Rodgers pass incomplete deep right to 83-M.Valdes-Scantling.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 8
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544359,
+    "fields": {
+        "drive": 76744,
+        "play_id": 280,
+        "time": "12:21",
+        "down": 4,
+        "start_yardline": "GB 22",
+        "end_yardline": "DET 27",
+        "first_down": false,
+        "penalty": false,
+        "description": "(12:21) 6-J.Scott punts 51 yards to DET 27, Center-43-H.Bradley, fair catch by 39-J.Agnew.",
+        "play_type": "PUNT",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 8
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544360,
+    "fields": {
+        "drive": 76745,
+        "play_id": 308,
+        "time": "12:13",
+        "down": 1,
+        "start_yardline": "DET 27",
+        "end_yardline": "DET 27",
+        "first_down": false,
+        "penalty": false,
+        "description": "(12:13) (Shotgun) 10-D.Blough pass incomplete short middle to 19-K.Golladay.",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544361,
+    "fields": {
+        "drive": 76745,
+        "play_id": 330,
+        "time": "12:10",
+        "down": 2,
+        "start_yardline": "DET 27",
+        "end_yardline": "DET 29",
+        "first_down": false,
+        "penalty": false,
+        "description": "(12:10) (Shotgun) 33-K.Johnson right tackle to DET 29 for 2 yards (97-K.Clark).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544362,
+    "fields": {
+        "drive": 76745,
+        "play_id": 351,
+        "time": "11:29",
+        "down": 3,
+        "start_yardline": "DET 29",
+        "end_yardline": "DET 46",
+        "first_down": true,
+        "penalty": false,
+        "description": "(11:29) (Shotgun) 10-D.Blough pass deep middle to 19-K.Golladay to DET 46 for 17 yards (31-A.Amos).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 8
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544363,
+    "fields": {
+        "drive": 76745,
+        "play_id": 375,
+        "time": "10:56",
+        "down": 1,
+        "start_yardline": "DET 46",
+        "end_yardline": "DET 36",
+        "first_down": false,
+        "penalty": true,
+        "description": "(10:56) 33-K.Johnson up the middle ran ob at GB 34 for 20 yards (23-J.Alexander). PENALTY on DET-65-T.Crosby, Offensive Holding, 10 yards, enforced at DET 46 - No Play.",
+        "play_type": "PENALTY",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544364,
+    "fields": {
+        "drive": 76745,
+        "play_id": 412,
+        "time": "10:27",
+        "down": 1,
+        "start_yardline": "DET 36",
+        "end_yardline": "GB 49",
+        "first_down": false,
+        "penalty": false,
+        "description": "(10:27) (Shotgun) 43-B.Scarbrough up the middle to GB 49 for 15 yards (50-B.Martinez).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 20
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544365,
+    "fields": {
+        "drive": 76745,
+        "play_id": 433,
+        "time": "09:52",
+        "down": 2,
+        "start_yardline": "GB 49",
+        "end_yardline": "GB 36",
+        "first_down": true,
+        "penalty": false,
+        "description": "(9:52) (Shotgun) 10-D.Blough pass short left to 19-K.Golladay to GB 36 for 13 yards (20-K.King).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 5
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544366,
+    "fields": {
+        "drive": 76745,
+        "play_id": 457,
+        "time": "09:18",
+        "down": 1,
+        "start_yardline": "GB 36",
+        "end_yardline": "GB 33",
+        "first_down": false,
+        "penalty": false,
+        "description": "(9:18) 43-B.Scarbrough up the middle to GB 33 for 3 yards (51-K.Fackrell).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544367,
+    "fields": {
+        "drive": 76745,
+        "play_id": 478,
+        "time": "08:45",
+        "down": 2,
+        "start_yardline": "GB 33",
+        "end_yardline": "GB 19",
+        "first_down": true,
+        "penalty": false,
+        "description": "(8:45) 31-T.Johnson left end pushed ob at GB 19 for 14 yards (51-K.Fackrell).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544368,
+    "fields": {
+        "drive": 76745,
+        "play_id": 504,
+        "time": "08:07",
+        "down": 1,
+        "start_yardline": "GB 19",
+        "end_yardline": "",
+        "first_down": true,
+        "penalty": false,
+        "description": "(8:07) (Shotgun) 80-D.Amendola pass short left to 10-D.Blough for 19 yards, TOUCHDOWN.",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544369,
+    "fields": {
+        "drive": 76745,
+        "play_id": 529,
+        "time": "07:59",
+        "down": 0,
+        "start_yardline": "GB 15",
+        "end_yardline": "",
+        "first_down": false,
+        "penalty": false,
+        "description": "5-M.Prater extra point is GOOD, Center-48-D.Muhlbach, Holder-6-S.Martin.",
+        "play_type": "XP_KICK",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 0
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544370,
+    "fields": {
+        "drive": 76746,
+        "play_id": 545,
+        "time": "07:59",
+        "down": 0,
+        "start_yardline": "DET 35",
+        "end_yardline": "GB 43",
+        "first_down": false,
+        "penalty": false,
+        "description": "6-S.Martin kicks 55 yards from DET 35 to GB 10. 32-T.Ervin to GB 43 for 33 yards (21-T.Walker).",
+        "play_type": "KICK_OFF",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 0
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544371,
+    "fields": {
+        "drive": 76746,
+        "play_id": 569,
+        "time": "07:53",
+        "down": 1,
+        "start_yardline": "GB 43",
+        "end_yardline": "GB 43",
+        "first_down": false,
+        "penalty": false,
+        "description": "(7:53) (Shotgun) 12-A.Rodgers pass incomplete short left to 33-A.Jones.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544372,
+    "fields": {
+        "drive": 76746,
+        "play_id": 591,
+        "time": "07:49",
+        "down": 2,
+        "start_yardline": "GB 43",
+        "end_yardline": "GB 43",
+        "first_down": false,
+        "penalty": false,
+        "description": "(7:49) 12-A.Rodgers pass incomplete short right. ball thrown away",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544373,
+    "fields": {
+        "drive": 76746,
+        "play_id": 613,
+        "time": "07:41",
+        "down": 3,
+        "start_yardline": "GB 43",
+        "end_yardline": "DET 40",
+        "first_down": true,
+        "penalty": false,
+        "description": "(7:41) (Shotgun) 12-A.Rodgers pass deep right to 17-D.Adams ran ob at DET 40 for 17 yards.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544374,
+    "fields": {
+        "drive": 76746,
+        "play_id": 646,
+        "time": "07:08",
+        "down": 1,
+        "start_yardline": "DET 40",
+        "end_yardline": "DET 38",
+        "first_down": false,
+        "penalty": false,
+        "description": "(7:08) (Shotgun) 33-A.Jones up the middle to DET 38 for 2 yards (27-J.Coleman).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544375,
+    "fields": {
+        "drive": 76746,
+        "play_id": 667,
+        "time": "06:22",
+        "down": 2,
+        "start_yardline": "DET 38",
+        "end_yardline": "DET 31",
+        "first_down": false,
+        "penalty": false,
+        "description": "(6:22) 33-A.Jones up the middle to DET 31 for 7 yards (44-J.Reeves-Maybin; 90-T.Flowers).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 8
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544376,
+    "fields": {
+        "drive": 76746,
+        "play_id": 689,
+        "time": "05:35",
+        "down": 3,
+        "start_yardline": "DET 31",
+        "end_yardline": "DET 31",
+        "first_down": false,
+        "penalty": false,
+        "description": "(5:35) 33-A.Jones up the middle to DET 31 for no gain (98-D.Harrison Sr.).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 1
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544377,
+    "fields": {
+        "drive": 76746,
+        "play_id": 710,
+        "time": "04:51",
+        "down": 4,
+        "start_yardline": "DET 31",
+        "end_yardline": "DET 29",
+        "first_down": true,
+        "penalty": false,
+        "description": "(4:51) 33-A.Jones up the middle to DET 29 for 2 yards (54-S.Longa; 99-J.Atkins).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 1
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544378,
+    "fields": {
+        "drive": 76746,
+        "play_id": 731,
+        "time": "04:09",
+        "down": 1,
+        "start_yardline": "DET 29",
+        "end_yardline": "DET 29",
+        "first_down": false,
+        "penalty": false,
+        "description": "(4:09) (Shotgun) 12-A.Rodgers pass incomplete deep left to 32-T.Ervin.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544379,
+    "fields": {
+        "drive": 76746,
+        "play_id": 753,
+        "time": "04:04",
+        "down": 2,
+        "start_yardline": "DET 29",
+        "end_yardline": "DET 25",
+        "first_down": false,
+        "penalty": false,
+        "description": "(4:04) 22-D.Williams left end to DET 25 for 4 yards (29-R.Melvin). DET-29-R.Melvin was injured during the play.",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544380,
+    "fields": {
+        "drive": 76746,
+        "play_id": 774,
+        "time": "03:22",
+        "down": 3,
+        "start_yardline": "DET 25",
+        "end_yardline": "DET 35",
+        "first_down": false,
+        "penalty": true,
+        "description": "(3:22) (Shotgun) 12-A.Rodgers pass short left to 33-A.Jones to DET 19 for 6 yards (32-T.Wilson). PENALTY on GB-17-D.Adams, Offensive Pass Interference, 10 yards, enforced at DET 25 - No Play.",
+        "play_type": "PENALTY",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 6
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544381,
+    "fields": {
+        "drive": 76746,
+        "play_id": 817,
+        "time": "03:02",
+        "down": 3,
+        "start_yardline": "DET 35",
+        "end_yardline": "DET 40",
+        "first_down": false,
+        "penalty": true,
+        "description": "(3:02) PENALTY on GB, Illegal Substitution, 5 yards, enforced at DET 35 - No Play.",
+        "play_type": "PENALTY",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 16
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544382,
+    "fields": {
+        "drive": 76746,
+        "play_id": 840,
+        "time": "02:41",
+        "down": 3,
+        "start_yardline": "DET 40",
+        "end_yardline": "DET 40",
+        "first_down": false,
+        "penalty": false,
+        "description": "(2:41) (Shotgun) 12-A.Rodgers pass incomplete short middle to 83-M.Valdes-Scantling.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 21
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544383,
+    "fields": {
+        "drive": 76746,
+        "play_id": 862,
+        "time": "02:36",
+        "down": 4,
+        "start_yardline": "DET 40",
+        "end_yardline": "DET 7",
+        "first_down": false,
+        "penalty": false,
+        "description": "(2:36) 6-J.Scott punts 33 yards to DET 7, Center-43-H.Bradley, downed by GB-29-K.Hollman.",
+        "play_type": "PUNT",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 21
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544384,
+    "fields": {
+        "drive": 76747,
+        "play_id": 890,
+        "time": "02:27",
+        "down": 1,
+        "start_yardline": "DET 7",
+        "end_yardline": "DET 7",
+        "first_down": false,
+        "penalty": false,
+        "description": "(2:27) (Shotgun) 43-B.Scarbrough up the middle to DET 7 for no gain (50-B.Martinez).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544385,
+    "fields": {
+        "drive": 76747,
+        "play_id": 911,
+        "time": "01:49",
+        "down": 2,
+        "start_yardline": "DET 7",
+        "end_yardline": "DET 15",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:49) (Shotgun) 43-B.Scarbrough up the middle to DET 15 for 8 yards (50-B.Martinez).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544386,
+    "fields": {
+        "drive": 76747,
+        "play_id": 932,
+        "time": "01:18",
+        "down": 3,
+        "start_yardline": "DET 15",
+        "end_yardline": "DET 15",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:18) (Shotgun) 10-D.Blough pass incomplete short right to 41-J.McKissic.",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 2
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544387,
+    "fields": {
+        "drive": 76747,
+        "play_id": 954,
+        "time": "01:13",
+        "down": 4,
+        "start_yardline": "DET 15",
+        "end_yardline": "GB 37",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:13) 6-S.Martin punts 48 yards to GB 37, Center-48-D.Muhlbach, fair catch by 32-T.Ervin.",
+        "play_type": "PUNT",
+        "pos_team": "DET",
+        "quarter": 1,
+        "yards_to_go": 2
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544388,
+    "fields": {
+        "drive": 76748,
+        "play_id": 982,
+        "time": "01:05",
+        "down": 1,
+        "start_yardline": "GB 37",
+        "end_yardline": "GB 39",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:05) 33-A.Jones left tackle to GB 39 for 2 yards (98-D.Harrison Sr.).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544389,
+    "fields": {
+        "drive": 76748,
+        "play_id": 1003,
+        "time": "00:23",
+        "down": 2,
+        "start_yardline": "GB 39",
+        "end_yardline": "GB 43",
+        "first_down": false,
+        "penalty": false,
+        "description": "(:23) 33-A.Jones left tackle to GB 43 for 4 yards (95-R.Okwara; 98-D.Harrison Sr.).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 1,
+        "yards_to_go": 8
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544390,
+    "fields": {
+        "drive": 76748,
+        "play_id": 1041,
+        "time": "15:00",
+        "down": 3,
+        "start_yardline": "GB 43",
+        "end_yardline": "DET 45",
+        "first_down": true,
+        "penalty": false,
+        "description": "(15:00) (Shotgun) 12-A.Rodgers pass short left to 33-A.Jones pushed ob at DET 45 for 12 yards (29-R.Melvin).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 4
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544391,
+    "fields": {
+        "drive": 76748,
+        "play_id": 1074,
+        "time": "14:25",
+        "down": 1,
+        "start_yardline": "DET 45",
+        "end_yardline": "DET 43",
+        "first_down": false,
+        "penalty": false,
+        "description": "(14:25) (Shotgun) 33-A.Jones up the middle to DET 43 for 2 yards (94-A.Bryant; 98-D.Harrison Sr.).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544392,
+    "fields": {
+        "drive": 76748,
+        "play_id": 1095,
+        "time": "13:44",
+        "down": 2,
+        "start_yardline": "DET 43",
+        "end_yardline": "DET 43",
+        "first_down": false,
+        "penalty": false,
+        "description": "(13:44) (Shotgun) 12-A.Rodgers pass deep right to 17-D.Adams ran ob at DET 26 for 17 yards. Detroit challenged the pass completion ruling, and the play was REVERSED. (Shotgun) 12-A.Rodgers pass incomplete deep right to 17-D.Adams.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 8
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544393,
+    "fields": {
+        "drive": 76748,
+        "play_id": 1167,
+        "time": "13:40",
+        "down": 3,
+        "start_yardline": "DET 43",
+        "end_yardline": "GB 46",
+        "first_down": false,
+        "penalty": false,
+        "description": "(13:40) (Shotgun) 12-A.Rodgers sacked at GB 46 for -11 yards (25-W.Harris).",
+        "play_type": "SACK",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 8
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544394,
+    "fields": {
+        "drive": 76748,
+        "play_id": 1186,
+        "time": "12:55",
+        "down": 4,
+        "start_yardline": "GB 46",
+        "end_yardline": "DET 10",
+        "first_down": false,
+        "penalty": false,
+        "description": "(12:55) 6-J.Scott punts 44 yards to DET 10, Center-43-H.Bradley, downed by GB-37-J.Jackson.",
+        "play_type": "PUNT",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 19
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544395,
+    "fields": {
+        "drive": 76749,
+        "play_id": 1214,
+        "time": "12:45",
+        "down": 1,
+        "start_yardline": "DET 10",
+        "end_yardline": "DET 24",
+        "first_down": true,
+        "penalty": false,
+        "description": "(12:45) 33-K.Johnson up the middle to DET 24 for 14 yards (26-D.Savage).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544396,
+    "fields": {
+        "drive": 76749,
+        "play_id": 1235,
+        "time": "12:05",
+        "down": 1,
+        "start_yardline": "DET 24",
+        "end_yardline": "DET 22",
+        "first_down": false,
+        "penalty": false,
+        "description": "(12:05) (Shotgun) 33-K.Johnson right tackle to DET 22 for -2 yards (97-K.Clark).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544397,
+    "fields": {
+        "drive": 76749,
+        "play_id": 1256,
+        "time": "11:31",
+        "down": 2,
+        "start_yardline": "DET 22",
+        "end_yardline": "DET 20",
+        "first_down": false,
+        "penalty": false,
+        "description": "(11:31) (Shotgun) 10-D.Blough pass short right to 83-J.James to DET 20 for -2 yards (31-A.Amos).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 12
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544398,
+    "fields": {
+        "drive": 76749,
+        "play_id": 1280,
+        "time": "10:51",
+        "down": 3,
+        "start_yardline": "DET 20",
+        "end_yardline": "DET 20",
+        "first_down": false,
+        "penalty": false,
+        "description": "(10:51) (Shotgun) 10-D.Blough pass incomplete short right to 80-D.Amendola (23-J.Alexander).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 14
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544399,
+    "fields": {
+        "drive": 76749,
+        "play_id": 1302,
+        "time": "10:44",
+        "down": 4,
+        "start_yardline": "DET 20",
+        "end_yardline": "GB 34",
+        "first_down": false,
+        "penalty": false,
+        "description": "(10:44) 6-S.Martin punts 46 yards to GB 34, Center-48-D.Muhlbach, fair catch by 32-T.Ervin.",
+        "play_type": "PUNT",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 14
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544400,
+    "fields": {
+        "drive": 76750,
+        "play_id": 1330,
+        "time": "10:36",
+        "down": 1,
+        "start_yardline": "GB 34",
+        "end_yardline": "GB 48",
+        "first_down": true,
+        "penalty": false,
+        "description": "(10:36) 33-A.Jones up the middle to GB 48 for 14 yards (29-R.Melvin).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544401,
+    "fields": {
+        "drive": 76750,
+        "play_id": 1351,
+        "time": "10:01",
+        "down": 1,
+        "start_yardline": "GB 48",
+        "end_yardline": "DET 49",
+        "first_down": false,
+        "penalty": false,
+        "description": "(10:01) 33-A.Jones left tackle to DET 49 for 3 yards (29-R.Melvin).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544402,
+    "fields": {
+        "drive": 76750,
+        "play_id": 1372,
+        "time": "09:25",
+        "down": 2,
+        "start_yardline": "DET 49",
+        "end_yardline": "DET 49",
+        "first_down": false,
+        "penalty": false,
+        "description": "(9:25) 12-A.Rodgers pass incomplete deep left to 13-A.Lazard.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544403,
+    "fields": {
+        "drive": 76750,
+        "play_id": 1394,
+        "time": "09:19",
+        "down": 3,
+        "start_yardline": "DET 49",
+        "end_yardline": "DET 49",
+        "first_down": false,
+        "penalty": false,
+        "description": "(9:19) (Shotgun) 12-A.Rodgers pass incomplete deep left to 83-M.Valdes-Scantling (23-D.Slay) [90-T.Flowers].",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544404,
+    "fields": {
+        "drive": 76750,
+        "play_id": 1416,
+        "time": "09:13",
+        "down": 4,
+        "start_yardline": "DET 49",
+        "end_yardline": "DET 49",
+        "first_down": false,
+        "penalty": false,
+        "description": "(9:13) 6-J.Scott punts 49 yards to end zone, Center-43-H.Bradley, Touchback.",
+        "play_type": "PUNT",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544405,
+    "fields": {
+        "drive": 76751,
+        "play_id": 1442,
+        "time": "09:05",
+        "down": 1,
+        "start_yardline": "DET 20",
+        "end_yardline": "DET 27",
+        "first_down": false,
+        "penalty": false,
+        "description": "(9:05) 10-D.Blough pass short right to 83-J.James to DET 27 for 7 yards (23-J.Alexander).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544406,
+    "fields": {
+        "drive": 76751,
+        "play_id": 1466,
+        "time": "08:27",
+        "down": 2,
+        "start_yardline": "DET 27",
+        "end_yardline": "GB 31",
+        "first_down": true,
+        "penalty": false,
+        "description": "(8:27) 70-D.Skipper reported in as eligible.  10-D.Blough pass deep middle to 19-K.Golladay to GB 31 for 42 yards (23-J.Alexander).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 3
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544407,
+    "fields": {
+        "drive": 76751,
+        "play_id": 1492,
+        "time": "07:39",
+        "down": 1,
+        "start_yardline": "GB 31",
+        "end_yardline": "GB 41",
+        "first_down": false,
+        "penalty": true,
+        "description": "(7:39) (Shotgun) 10-D.Blough pass incomplete deep right to 83-J.James. PENALTY on DET-65-T.Crosby, Offensive Holding, 10 yards, enforced at GB 31 - No Play.",
+        "play_type": "PENALTY",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544408,
+    "fields": {
+        "drive": 76751,
+        "play_id": 1525,
+        "time": "07:32",
+        "down": 1,
+        "start_yardline": "GB 41",
+        "end_yardline": "GB 41",
+        "first_down": false,
+        "penalty": false,
+        "description": "(7:32) (Shotgun) 10-D.Blough pass incomplete short left to 82-L.Thomas (20-K.King).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 20
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544409,
+    "fields": {
+        "drive": 76751,
+        "play_id": 1547,
+        "time": "07:27",
+        "down": 2,
+        "start_yardline": "GB 41",
+        "end_yardline": "GB 26",
+        "first_down": false,
+        "penalty": false,
+        "description": "(7:27) (Shotgun) 10-D.Blough pass short right to 82-L.Thomas to GB 26 for 15 yards (26-D.Savage).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 20
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544410,
+    "fields": {
+        "drive": 76751,
+        "play_id": 1571,
+        "time": "06:48",
+        "down": 3,
+        "start_yardline": "GB 26",
+        "end_yardline": "GB 19",
+        "first_down": true,
+        "penalty": false,
+        "description": "(6:48) (Shotgun) 10-D.Blough pass short right to 15-C.Lacy to GB 19 for 7 yards (50-B.Martinez).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 5
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544411,
+    "fields": {
+        "drive": 76751,
+        "play_id": 1595,
+        "time": "06:04",
+        "down": 1,
+        "start_yardline": "GB 19",
+        "end_yardline": "GB 21",
+        "first_down": false,
+        "penalty": false,
+        "description": "(6:04) 33-K.Johnson right end to GB 21 for -2 yards (26-D.Savage).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544412,
+    "fields": {
+        "drive": 76751,
+        "play_id": 1616,
+        "time": "05:27",
+        "down": 2,
+        "start_yardline": "GB 21",
+        "end_yardline": "GB 7",
+        "first_down": true,
+        "penalty": true,
+        "description": "(5:27) (Shotgun) 10-D.Blough pass short left to 80-D.Amendola to GB 14 for 7 yards (23-J.Alexander). PENALTY on GB-23-J.Alexander, Unnecessary Roughness, 7 yards, enforced at GB 14.",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 12
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544413,
+    "fields": {
+        "drive": 76751,
+        "play_id": 1668,
+        "time": "05:05",
+        "down": 1,
+        "start_yardline": "GB 7",
+        "end_yardline": "GB 6",
+        "first_down": false,
+        "penalty": false,
+        "description": "(5:05) 33-K.Johnson up the middle to GB 6 for 1 yard (97-K.Clark; 20-K.King).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544414,
+    "fields": {
+        "drive": 76751,
+        "play_id": 1689,
+        "time": "04:23",
+        "down": 2,
+        "start_yardline": "GB 6",
+        "end_yardline": "GB 6",
+        "first_down": false,
+        "penalty": false,
+        "description": "(4:23) (Shotgun) 10-D.Blough pass incomplete short left to 15-C.Lacy [55-Z.Smith].",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 6
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544415,
+    "fields": {
+        "drive": 76751,
+        "play_id": 1711,
+        "time": "04:16",
+        "down": 3,
+        "start_yardline": "GB 6",
+        "end_yardline": "GB 1",
+        "first_down": false,
+        "penalty": false,
+        "description": "(4:16) (Shotgun) 10-D.Blough scrambles left tackle to GB 1 for 5 yards (39-C.Sullivan).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 6
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544416,
+    "fields": {
+        "drive": 76751,
+        "play_id": 1732,
+        "time": "03:17",
+        "down": 4,
+        "start_yardline": "GB 1",
+        "end_yardline": "",
+        "first_down": true,
+        "penalty": false,
+        "description": "(3:17) 33-K.Johnson left tackle for 1 yard, TOUCHDOWN.",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 1
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544417,
+    "fields": {
+        "drive": 76751,
+        "play_id": 1754,
+        "time": "03:13",
+        "down": 0,
+        "start_yardline": "GB 15",
+        "end_yardline": "",
+        "first_down": false,
+        "penalty": false,
+        "description": "5-M.Prater extra point is GOOD, Center-48-D.Muhlbach, Holder-6-S.Martin.",
+        "play_type": "XP_KICK",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 0
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544418,
+    "fields": {
+        "drive": 76752,
+        "play_id": 1770,
+        "time": "03:13",
+        "down": 0,
+        "start_yardline": "DET 35",
+        "end_yardline": "GB 10",
+        "first_down": false,
+        "penalty": true,
+        "description": "6-S.Martin kicks 61 yards from DET 35 to GB 4. 32-T.Ervin to GB 20 for 16 yards (53-J.Cabinda). PENALTY on GB-87-J.Sternberger, Illegal Block Above the Waist, 10 yards, enforced at GB 20.",
+        "play_type": "KICK_OFF",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 0
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544419,
+    "fields": {
+        "drive": 76752,
+        "play_id": 1803,
+        "time": "03:08",
+        "down": 1,
+        "start_yardline": "GB 10",
+        "end_yardline": "GB 10",
+        "first_down": false,
+        "penalty": false,
+        "description": "(3:08) 12-A.Rodgers pass incomplete deep left to 33-A.Jones. GB-33-A.Jones was injured during the play.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544420,
+    "fields": {
+        "drive": 76752,
+        "play_id": 1828,
+        "time": "03:01",
+        "down": 2,
+        "start_yardline": "GB 10",
+        "end_yardline": "GB 14",
+        "first_down": false,
+        "penalty": false,
+        "description": "(3:01) (Shotgun) 12-A.Rodgers pass short left to 80-J.Graham ran ob at GB 14 for 4 yards (32-T.Wilson).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544421,
+    "fields": {
+        "drive": 76752,
+        "play_id": 1862,
+        "time": "02:50",
+        "down": 3,
+        "start_yardline": "GB 14",
+        "end_yardline": "GB 32",
+        "first_down": true,
+        "penalty": true,
+        "description": "(2:50) (No Huddle) 12-A.Rodgers pass deep middle to 80-J.Graham to GB 32 for 18 yards (21-T.Walker). Penalty on DET, Defensive Too Many Men on Field, declined.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 6
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544422,
+    "fields": {
+        "drive": 76752,
+        "play_id": 1897,
+        "time": "02:27",
+        "down": 1,
+        "start_yardline": "GB 32",
+        "end_yardline": "GB 37",
+        "first_down": false,
+        "penalty": false,
+        "description": "(2:27) (Shotgun) 22-D.Williams up the middle to GB 37 for 5 yards (99-J.Atkins).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544423,
+    "fields": {
+        "drive": 76752,
+        "play_id": 1935,
+        "time": "02:00",
+        "down": 2,
+        "start_yardline": "GB 37",
+        "end_yardline": "DET 30",
+        "first_down": true,
+        "penalty": false,
+        "description": "(2:00) (Shotgun) 12-A.Rodgers pass deep right to 17-D.Adams pushed ob at DET 30 for 33 yards (23-D.Slay).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 5
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544424,
+    "fields": {
+        "drive": 76752,
+        "play_id": 1969,
+        "time": "01:55",
+        "down": 1,
+        "start_yardline": "DET 30",
+        "end_yardline": "DET 20",
+        "first_down": true,
+        "penalty": false,
+        "description": "(1:55) (Shotgun) 32-T.Ervin left tackle to DET 20 for 10 yards (25-W.Harris).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544425,
+    "fields": {
+        "drive": 76752,
+        "play_id": 1990,
+        "time": "01:12",
+        "down": 1,
+        "start_yardline": "DET 20",
+        "end_yardline": "DET 14",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:12) (Shotgun) 12-A.Rodgers pass short left to 81-G.Allison to DET 14 for 6 yards (27-J.Coleman, 29-R.Melvin). FUMBLES (27-J.Coleman), ball out of bounds at DET 14.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544426,
+    "fields": {
+        "drive": 76752,
+        "play_id": 2023,
+        "time": "00:34",
+        "down": 2,
+        "start_yardline": "DET 14",
+        "end_yardline": "DET 14",
+        "first_down": false,
+        "penalty": false,
+        "description": "(:34) (Shotgun) 12-A.Rodgers pass incomplete short left to 17-D.Adams.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 4
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544427,
+    "fields": {
+        "drive": 76752,
+        "play_id": 2045,
+        "time": "00:30",
+        "down": 3,
+        "start_yardline": "DET 14",
+        "end_yardline": "DET 14",
+        "first_down": false,
+        "penalty": false,
+        "description": "(:30) (Shotgun) 12-A.Rodgers pass incomplete short right to 33-A.Jones.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 4
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544428,
+    "fields": {
+        "drive": 76752,
+        "play_id": 2067,
+        "time": "00:24",
+        "down": 4,
+        "start_yardline": "DET 14",
+        "end_yardline": "",
+        "first_down": false,
+        "penalty": false,
+        "description": "(:24) 2-M.Crosby 32 yard field goal is GOOD, Center-43-H.Bradley, Holder-6-J.Scott.",
+        "play_type": "FIELD_GOAL",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 4
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544429,
+    "fields": {
+        "drive": 76753,
+        "play_id": 2086,
+        "time": "00:20",
+        "down": 0,
+        "start_yardline": "GB 35",
+        "end_yardline": "DET 25",
+        "first_down": false,
+        "penalty": false,
+        "description": "2-M.Crosby kicks 65 yards from GB 35 to end zone, Touchback.",
+        "play_type": "KICK_OFF",
+        "pos_team": "GB",
+        "quarter": 2,
+        "yards_to_go": 0
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544430,
+    "fields": {
+        "drive": 76753,
+        "play_id": 2110,
+        "time": "00:20",
+        "down": 1,
+        "start_yardline": "DET 25",
+        "end_yardline": "GB 35",
+        "first_down": true,
+        "penalty": false,
+        "description": "(:20) (Shotgun) 31-T.Johnson right tackle ran ob at GB 35 for 40 yards (31-A.Amos).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544431,
+    "fields": {
+        "drive": 76753,
+        "play_id": 2136,
+        "time": "00:11",
+        "down": 1,
+        "start_yardline": "GB 35",
+        "end_yardline": "GB 35",
+        "first_down": false,
+        "penalty": false,
+        "description": "(:11) (Shotgun) 10-D.Blough pass incomplete short middle to 31-T.Johnson.",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544432,
+    "fields": {
+        "drive": 76753,
+        "play_id": 2158,
+        "time": "00:07",
+        "down": 2,
+        "start_yardline": "GB 35",
+        "end_yardline": "GB 24",
+        "first_down": true,
+        "penalty": false,
+        "description": "(:07) (Shotgun) 31-T.Johnson up the middle to GB 24 for 11 yards (31-A.Amos).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544433,
+    "fields": {
+        "drive": 76753,
+        "play_id": 2196,
+        "time": "00:03",
+        "down": 1,
+        "start_yardline": "GB 24",
+        "end_yardline": "",
+        "first_down": false,
+        "penalty": false,
+        "description": "(:03) 5-M.Prater 42 yard field goal is GOOD, Center-48-D.Muhlbach, Holder-6-S.Martin.",
+        "play_type": "FIELD_GOAL",
+        "pos_team": "DET",
+        "quarter": 2,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544434,
+    "fields": {
+        "drive": 76754,
+        "play_id": 2230,
+        "time": "15:00",
+        "down": 0,
+        "start_yardline": "DET 35",
+        "end_yardline": "GB 29",
+        "first_down": false,
+        "penalty": false,
+        "description": "6-S.Martin kicks 53 yards from DET 35 to GB 12. 32-T.Ervin to GB 29 for 17 yards (35-M.Killebrew).",
+        "play_type": "KICK_OFF",
+        "pos_team": "DET",
+        "quarter": 3,
+        "yards_to_go": 0
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544435,
+    "fields": {
+        "drive": 76754,
+        "play_id": 2254,
+        "time": "14:56",
+        "down": 1,
+        "start_yardline": "GB 29",
+        "end_yardline": "GB 30",
+        "first_down": false,
+        "penalty": false,
+        "description": "(14:56) 33-A.Jones left end pushed ob at GB 30 for 1 yard (54-S.Longa).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544436,
+    "fields": {
+        "drive": 76754,
+        "play_id": 2280,
+        "time": "14:24",
+        "down": 2,
+        "start_yardline": "GB 30",
+        "end_yardline": "GB 30",
+        "first_down": false,
+        "penalty": false,
+        "description": "(14:24) 12-A.Rodgers pass incomplete deep middle to 13-A.Lazard.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 9
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544437,
+    "fields": {
+        "drive": 76754,
+        "play_id": 2302,
+        "time": "14:17",
+        "down": 3,
+        "start_yardline": "GB 30",
+        "end_yardline": "50",
+        "first_down": true,
+        "penalty": false,
+        "description": "(14:17) (Shotgun) 12-A.Rodgers pass short right to 80-J.Graham ran ob at 50 for 20 yards (21-T.Walker).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 9
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544438,
+    "fields": {
+        "drive": 76754,
+        "play_id": 2331,
+        "time": "13:46",
+        "down": 1,
+        "start_yardline": "50",
+        "end_yardline": "DET 45",
+        "first_down": false,
+        "penalty": false,
+        "description": "(13:46) (Shotgun) 33-A.Jones up the middle to DET 45 for 5 yards (44-J.Reeves-Maybin).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544439,
+    "fields": {
+        "drive": 76754,
+        "play_id": 2352,
+        "time": "13:02",
+        "down": 2,
+        "start_yardline": "DET 45",
+        "end_yardline": "DET 36",
+        "first_down": true,
+        "penalty": false,
+        "description": "(13:02) 33-A.Jones left end pushed ob at DET 36 for 9 yards (21-T.Walker).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 5
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544440,
+    "fields": {
+        "drive": 76754,
+        "play_id": 2378,
+        "time": "12:23",
+        "down": 1,
+        "start_yardline": "DET 36",
+        "end_yardline": "DET 41",
+        "first_down": false,
+        "penalty": true,
+        "description": "(12:23) (Shotgun) PENALTY on GB-75-B.Bulaga, False Start, 5 yards, enforced at DET 36 - No Play.",
+        "play_type": "PENALTY",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544441,
+    "fields": {
+        "drive": 76754,
+        "play_id": 2401,
+        "time": "12:02",
+        "down": 1,
+        "start_yardline": "DET 41",
+        "end_yardline": "DET 41",
+        "first_down": false,
+        "penalty": false,
+        "description": "(12:02) (Shotgun) 12-A.Rodgers pass incomplete deep right to 13-A.Lazard.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 15
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544442,
+    "fields": {
+        "drive": 76754,
+        "play_id": 2423,
+        "time": "11:53",
+        "down": 2,
+        "start_yardline": "DET 41",
+        "end_yardline": "DET 33",
+        "first_down": false,
+        "penalty": false,
+        "description": "(11:53) (Shotgun) 12-A.Rodgers pass short left to 83-M.Valdes-Scantling pushed ob at DET 33 for 8 yards (35-M.Killebrew).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 15
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544443,
+    "fields": {
+        "drive": 76754,
+        "play_id": 2452,
+        "time": "11:15",
+        "down": 3,
+        "start_yardline": "DET 33",
+        "end_yardline": "DET 33",
+        "first_down": false,
+        "penalty": false,
+        "description": "(11:15) (No Huddle, Shotgun) 12-A.Rodgers pass incomplete deep left to 32-T.Ervin.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544444,
+    "fields": {
+        "drive": 76754,
+        "play_id": 2474,
+        "time": "11:09",
+        "down": 4,
+        "start_yardline": "DET 33",
+        "end_yardline": "DET 33",
+        "first_down": false,
+        "penalty": false,
+        "description": "(11:09) 2-M.Crosby 51 yard field goal is No Good, Wide Left, Center-43-H.Bradley, Holder-6-J.Scott.",
+        "play_type": "FIELD_GOAL",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544445,
+    "fields": {
+        "drive": 76755,
+        "play_id": 2495,
+        "time": "11:04",
+        "down": 1,
+        "start_yardline": "DET 41",
+        "end_yardline": "DET 45",
+        "first_down": false,
+        "penalty": false,
+        "description": "(11:04) (Shotgun) 43-B.Scarbrough right tackle to DET 45 for 4 yards (50-B.Martinez; 97-K.Clark).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544446,
+    "fields": {
+        "drive": 76755,
+        "play_id": 2516,
+        "time": "10:32",
+        "down": 2,
+        "start_yardline": "DET 45",
+        "end_yardline": "GB 46",
+        "first_down": true,
+        "penalty": false,
+        "description": "(10:32) (Shotgun) 43-B.Scarbrough up the middle to GB 46 for 9 yards (91-P.Smith).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 3,
+        "yards_to_go": 6
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544447,
+    "fields": {
+        "drive": 76755,
+        "play_id": 2537,
+        "time": "09:55",
+        "down": 1,
+        "start_yardline": "GB 46",
+        "end_yardline": "GB 46",
+        "first_down": false,
+        "penalty": false,
+        "description": "(9:55) 10-D.Blough pass incomplete short right to 15-C.Lacy.",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544448,
+    "fields": {
+        "drive": 76755,
+        "play_id": 2571,
+        "time": "09:49",
+        "down": 2,
+        "start_yardline": "GB 46",
+        "end_yardline": "GB 46",
+        "first_down": false,
+        "penalty": false,
+        "description": "(9:49) 10-D.Blough pass incomplete short right to 83-J.James (91-P.Smith).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544449,
+    "fields": {
+        "drive": 76755,
+        "play_id": 2593,
+        "time": "09:45",
+        "down": 3,
+        "start_yardline": "GB 46",
+        "end_yardline": "GB 42",
+        "first_down": false,
+        "penalty": false,
+        "description": "(9:45) (Shotgun) 10-D.Blough pass short right to 41-J.McKissic pushed ob at GB 42 for 4 yards (39-C.Sullivan).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544450,
+    "fields": {
+        "drive": 76755,
+        "play_id": 2622,
+        "time": "09:09",
+        "down": 4,
+        "start_yardline": "GB 42",
+        "end_yardline": "GB 5",
+        "first_down": false,
+        "penalty": false,
+        "description": "(9:09) 6-S.Martin punts 37 yards to GB 5, Center-48-D.Muhlbach, downed by DET-49-C.Moore.",
+        "play_type": "PUNT",
+        "pos_team": "DET",
+        "quarter": 3,
+        "yards_to_go": 6
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544451,
+    "fields": {
+        "drive": 76756,
+        "play_id": 2650,
+        "time": "09:00",
+        "down": 1,
+        "start_yardline": "GB 5",
+        "end_yardline": "GB 15",
+        "first_down": true,
+        "penalty": false,
+        "description": "(9:00) (Shotgun) 12-A.Rodgers pass short right to 13-A.Lazard pushed ob at GB 15 for 10 yards (29-R.Melvin).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544452,
+    "fields": {
+        "drive": 76756,
+        "play_id": 2679,
+        "time": "08:36",
+        "down": 1,
+        "start_yardline": "GB 15",
+        "end_yardline": "GB 20",
+        "first_down": false,
+        "penalty": false,
+        "description": "(8:36) (Shotgun) 33-A.Jones up the middle to GB 20 for 5 yards (32-T.Wilson; 75-F.Herron). DET-75-F.Herron was injured during the play. He is Out.",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544453,
+    "fields": {
+        "drive": 76756,
+        "play_id": 2700,
+        "time": "08:03",
+        "down": 2,
+        "start_yardline": "GB 20",
+        "end_yardline": "GB 32",
+        "first_down": true,
+        "penalty": false,
+        "description": "(8:03) 12-A.Rodgers pass short left to 89-M.Lewis to GB 32 for 12 yards (94-A.Bryant).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 5
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544454,
+    "fields": {
+        "drive": 76756,
+        "play_id": 2728,
+        "time": "07:21",
+        "down": 1,
+        "start_yardline": "GB 32",
+        "end_yardline": "GB 37",
+        "first_down": false,
+        "penalty": false,
+        "description": "(7:21) (Shotgun) 33-A.Jones up the middle to GB 37 for 5 yards (54-S.Longa).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544455,
+    "fields": {
+        "drive": 76756,
+        "play_id": 2749,
+        "time": "06:42",
+        "down": 2,
+        "start_yardline": "GB 37",
+        "end_yardline": "DET 45",
+        "first_down": true,
+        "penalty": false,
+        "description": "(6:42) 12-A.Rodgers pass deep right to 13-A.Lazard ran ob at DET 45 for 18 yards.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 5
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544456,
+    "fields": {
+        "drive": 76756,
+        "play_id": 2778,
+        "time": "06:05",
+        "down": 1,
+        "start_yardline": "DET 45",
+        "end_yardline": "DET 38",
+        "first_down": false,
+        "penalty": false,
+        "description": "(6:05) (Shotgun) 12-A.Rodgers pass short right to 16-J.Kumerow ran ob at DET 38 for 7 yards.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544457,
+    "fields": {
+        "drive": 76756,
+        "play_id": 2807,
+        "time": "05:32",
+        "down": 2,
+        "start_yardline": "DET 38",
+        "end_yardline": "DET 31",
+        "first_down": true,
+        "penalty": false,
+        "description": "(5:32) (Shotgun) 12-A.Rodgers pass short right to 80-J.Graham ran ob at DET 31 for 7 yards (29-R.Melvin).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 3
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544458,
+    "fields": {
+        "drive": 76756,
+        "play_id": 2836,
+        "time": "04:54",
+        "down": 1,
+        "start_yardline": "DET 31",
+        "end_yardline": "DET 25",
+        "first_down": false,
+        "penalty": false,
+        "description": "(4:54) (Shotgun) 12-A.Rodgers pass short middle to 17-D.Adams to DET 25 for 6 yards (24-A.Oruwariye).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544459,
+    "fields": {
+        "drive": 76756,
+        "play_id": 2860,
+        "time": "04:12",
+        "down": 2,
+        "start_yardline": "DET 25",
+        "end_yardline": "DET 20",
+        "first_down": true,
+        "penalty": false,
+        "description": "(4:12) 12-A.Rodgers pass short left to 32-T.Ervin to DET 20 for 5 yards (35-M.Killebrew).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 4
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544460,
+    "fields": {
+        "drive": 76756,
+        "play_id": 2884,
+        "time": "03:25",
+        "down": 1,
+        "start_yardline": "DET 20",
+        "end_yardline": "DET 20",
+        "first_down": false,
+        "penalty": false,
+        "description": "(3:25) (Shotgun) 12-A.Rodgers pass incomplete deep middle to 17-D.Adams (21-T.Walker).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544461,
+    "fields": {
+        "drive": 76756,
+        "play_id": 2906,
+        "time": "03:21",
+        "down": 2,
+        "start_yardline": "DET 20",
+        "end_yardline": "DET 20",
+        "first_down": false,
+        "penalty": false,
+        "description": "(3:21) (Shotgun) 12-A.Rodgers pass incomplete deep right to 13-A.Lazard.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544462,
+    "fields": {
+        "drive": 76756,
+        "play_id": 2945,
+        "time": "03:16",
+        "down": 3,
+        "start_yardline": "DET 20",
+        "end_yardline": "",
+        "first_down": true,
+        "penalty": false,
+        "description": "(3:16) (Shotgun) 12-A.Rodgers pass deep right to 17-D.Adams for 20 yards, TOUCHDOWN.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544463,
+    "fields": {
+        "drive": 76756,
+        "play_id": 2970,
+        "time": "03:10",
+        "down": 0,
+        "start_yardline": "DET 15",
+        "end_yardline": "",
+        "first_down": false,
+        "penalty": false,
+        "description": "2-M.Crosby extra point is GOOD, Center-43-H.Bradley, Holder-6-J.Scott.",
+        "play_type": "XP_KICK",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 0
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544464,
+    "fields": {
+        "drive": 76757,
+        "play_id": 2986,
+        "time": "03:10",
+        "down": 0,
+        "start_yardline": "GB 35",
+        "end_yardline": "DET 25",
+        "first_down": false,
+        "penalty": false,
+        "description": "2-M.Crosby kicks 65 yards from GB 35 to end zone, Touchback.",
+        "play_type": "KICK_OFF",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 0
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544465,
+    "fields": {
+        "drive": 76757,
+        "play_id": 3007,
+        "time": "03:10",
+        "down": 1,
+        "start_yardline": "DET 25",
+        "end_yardline": "DET 28",
+        "first_down": false,
+        "penalty": false,
+        "description": "(3:10) 33-K.Johnson up the middle to DET 28 for 3 yards (96-K.Keke).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544466,
+    "fields": {
+        "drive": 76757,
+        "play_id": 3028,
+        "time": "02:37",
+        "down": 2,
+        "start_yardline": "DET 28",
+        "end_yardline": "DET 26",
+        "first_down": false,
+        "penalty": false,
+        "description": "(2:37) (Shotgun) 10-D.Blough pass short left to 39-J.Agnew to DET 26 for -2 yards (38-T.Williams).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 3,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544467,
+    "fields": {
+        "drive": 76757,
+        "play_id": 3052,
+        "time": "01:56",
+        "down": 3,
+        "start_yardline": "DET 26",
+        "end_yardline": "DET 26",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:56) (Shotgun) 10-D.Blough pass incomplete deep left to 15-C.Lacy (38-T.Williams).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 3,
+        "yards_to_go": 9
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544468,
+    "fields": {
+        "drive": 76757,
+        "play_id": 3074,
+        "time": "01:50",
+        "down": 4,
+        "start_yardline": "DET 26",
+        "end_yardline": "GB 27",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:50) 6-S.Martin punts 48 yards to GB 26, Center-48-D.Muhlbach. 32-T.Ervin to GB 27 for 1 yard (82-L.Thomas).",
+        "play_type": "PUNT",
+        "pos_team": "DET",
+        "quarter": 3,
+        "yards_to_go": 9
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544469,
+    "fields": {
+        "drive": 76758,
+        "play_id": 3099,
+        "time": "01:39",
+        "down": 1,
+        "start_yardline": "GB 27",
+        "end_yardline": "GB 31",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:39) 33-A.Jones up the middle to GB 31 for 4 yards (21-T.Walker; 75-F.Herron).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544470,
+    "fields": {
+        "drive": 76758,
+        "play_id": 3120,
+        "time": "00:53",
+        "down": 2,
+        "start_yardline": "GB 31",
+        "end_yardline": "GB 38",
+        "first_down": true,
+        "penalty": false,
+        "description": "(:53) (Shotgun) 12-A.Rodgers pass short left to 81-G.Allison pushed ob at GB 38 for 7 yards (27-J.Coleman).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 6
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544471,
+    "fields": {
+        "drive": 76758,
+        "play_id": 3149,
+        "time": "00:19",
+        "down": 1,
+        "start_yardline": "GB 38",
+        "end_yardline": "GB 42",
+        "first_down": false,
+        "penalty": false,
+        "description": "(:19) 12-A.Rodgers pass short left to 17-D.Adams to GB 42 for 4 yards (24-A.Oruwariye).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 3,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544472,
+    "fields": {
+        "drive": 76758,
+        "play_id": 3190,
+        "time": "15:00",
+        "down": 2,
+        "start_yardline": "GB 42",
+        "end_yardline": "GB 42",
+        "first_down": false,
+        "penalty": false,
+        "description": "(15:00) 12-A.Rodgers pass incomplete deep left to 80-J.Graham.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 6
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544473,
+    "fields": {
+        "drive": 76758,
+        "play_id": 3212,
+        "time": "14:54",
+        "down": 3,
+        "start_yardline": "GB 42",
+        "end_yardline": "DET 48",
+        "first_down": true,
+        "penalty": false,
+        "description": "(14:54) (Shotgun) 12-A.Rodgers pass short right to 17-D.Adams pushed ob at DET 48 for 10 yards (23-D.Slay).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 6
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544474,
+    "fields": {
+        "drive": 76758,
+        "play_id": 3246,
+        "time": "14:15",
+        "down": 1,
+        "start_yardline": "DET 48",
+        "end_yardline": "DET 37",
+        "first_down": true,
+        "penalty": false,
+        "description": "(14:15) (Shotgun) 33-A.Jones up the middle to DET 37 for 11 yards (32-T.Wilson).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544475,
+    "fields": {
+        "drive": 76758,
+        "play_id": 3267,
+        "time": "13:40",
+        "down": 1,
+        "start_yardline": "DET 37",
+        "end_yardline": "DET 28",
+        "first_down": false,
+        "penalty": false,
+        "description": "(13:40) 12-A.Rodgers pass short right to 85-R.Tonyan ran ob at DET 28 for 9 yards.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544476,
+    "fields": {
+        "drive": 76758,
+        "play_id": 3296,
+        "time": "13:05",
+        "down": 2,
+        "start_yardline": "DET 28",
+        "end_yardline": "DET 22",
+        "first_down": true,
+        "penalty": false,
+        "description": "(13:05) (No Huddle, Shotgun) 33-A.Jones up the middle to DET 22 for 6 yards (32-T.Wilson; 95-R.Okwara).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 1
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544477,
+    "fields": {
+        "drive": 76758,
+        "play_id": 3317,
+        "time": "12:24",
+        "down": 1,
+        "start_yardline": "DET 22",
+        "end_yardline": "DET 22",
+        "first_down": false,
+        "penalty": false,
+        "description": "(12:24) (Shotgun) 12-A.Rodgers pass incomplete short right to 81-G.Allison.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544478,
+    "fields": {
+        "drive": 76758,
+        "play_id": 3339,
+        "time": "12:21",
+        "down": 2,
+        "start_yardline": "DET 22",
+        "end_yardline": "DET 22",
+        "first_down": false,
+        "penalty": false,
+        "description": "(12:21) (Shotgun) 12-A.Rodgers pass incomplete short left to 33-A.Jones (32-T.Wilson).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544479,
+    "fields": {
+        "drive": 76758,
+        "play_id": 3378,
+        "time": "12:16",
+        "down": 3,
+        "start_yardline": "DET 22",
+        "end_yardline": "DET 22",
+        "first_down": false,
+        "penalty": false,
+        "description": "(12:16) (Shotgun) 12-A.Rodgers pass incomplete deep middle to 80-J.Graham (21-T.Walker).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544480,
+    "fields": {
+        "drive": 76758,
+        "play_id": 3400,
+        "time": "12:11",
+        "down": 4,
+        "start_yardline": "DET 22",
+        "end_yardline": "",
+        "first_down": false,
+        "penalty": false,
+        "description": "(12:11) 2-M.Crosby 40 yard field goal is GOOD, Center-43-H.Bradley, Holder-6-J.Scott.",
+        "play_type": "FIELD_GOAL",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544481,
+    "fields": {
+        "drive": 76759,
+        "play_id": 3419,
+        "time": "12:07",
+        "down": 0,
+        "start_yardline": "GB 35",
+        "end_yardline": "DET 25",
+        "first_down": false,
+        "penalty": false,
+        "description": "2-M.Crosby kicks 65 yards from GB 35 to end zone, Touchback.",
+        "play_type": "KICK_OFF",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 0
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544482,
+    "fields": {
+        "drive": 76759,
+        "play_id": 3443,
+        "time": "12:07",
+        "down": 1,
+        "start_yardline": "DET 25",
+        "end_yardline": "GB 45",
+        "first_down": true,
+        "penalty": true,
+        "description": "(12:07) 10-D.Blough pass incomplete deep left to 15-C.Lacy. PENALTY on GB-23-J.Alexander, Defensive Pass Interference, 30 yards, enforced at DET 25 - No Play.",
+        "play_type": "PENALTY",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544483,
+    "fields": {
+        "drive": 76759,
+        "play_id": 3476,
+        "time": "12:01",
+        "down": 1,
+        "start_yardline": "GB 45",
+        "end_yardline": "GB 42",
+        "first_down": false,
+        "penalty": false,
+        "description": "(12:01) (Shotgun) 33-K.Johnson up the middle to GB 42 for 3 yards (50-B.Martinez; 97-K.Clark).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544484,
+    "fields": {
+        "drive": 76759,
+        "play_id": 3497,
+        "time": "11:26",
+        "down": 2,
+        "start_yardline": "GB 42",
+        "end_yardline": "GB 42",
+        "first_down": false,
+        "penalty": false,
+        "description": "(11:26) 10-D.Blough pass incomplete deep left to 80-D.Amendola.",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544485,
+    "fields": {
+        "drive": 76759,
+        "play_id": 3519,
+        "time": "11:20",
+        "down": 3,
+        "start_yardline": "GB 42",
+        "end_yardline": "GB 37",
+        "first_down": false,
+        "penalty": true,
+        "description": "(11:20) (Shotgun) PENALTY on GB-91-P.Smith, Neutral Zone Infraction, 5 yards, enforced at GB 42 - No Play.",
+        "play_type": "PENALTY",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544486,
+    "fields": {
+        "drive": 76759,
+        "play_id": 3542,
+        "time": "11:20",
+        "down": 3,
+        "start_yardline": "GB 37",
+        "end_yardline": "GB 37",
+        "first_down": false,
+        "penalty": false,
+        "description": "(11:20) (Shotgun) 10-D.Blough pass incomplete deep left. Ball thrown away.",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 2
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544487,
+    "fields": {
+        "drive": 76759,
+        "play_id": 3568,
+        "time": "11:13",
+        "down": 4,
+        "start_yardline": "GB 37",
+        "end_yardline": "",
+        "first_down": false,
+        "penalty": false,
+        "description": "(11:13) 5-M.Prater 56 yard field goal is GOOD, Center-48-D.Muhlbach, Holder-6-S.Martin.",
+        "play_type": "FIELD_GOAL",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 2
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544488,
+    "fields": {
+        "drive": 76760,
+        "play_id": 3587,
+        "time": "11:08",
+        "down": 0,
+        "start_yardline": "DET 35",
+        "end_yardline": "GB 23",
+        "first_down": false,
+        "penalty": false,
+        "description": "6-S.Martin kicks 65 yards from DET 35 to GB 0. 32-T.Ervin pushed ob at GB 23 for 23 yards (21-T.Walker).",
+        "play_type": "KICK_OFF",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 0
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544489,
+    "fields": {
+        "drive": 76760,
+        "play_id": 3614,
+        "time": "11:02",
+        "down": 1,
+        "start_yardline": "GB 23",
+        "end_yardline": "GB 23",
+        "first_down": false,
+        "penalty": false,
+        "description": "(11:02) (Shotgun) 12-A.Rodgers pass incomplete deep middle to 17-D.Adams.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544490,
+    "fields": {
+        "drive": 76760,
+        "play_id": 3636,
+        "time": "10:56",
+        "down": 2,
+        "start_yardline": "GB 23",
+        "end_yardline": "GB 23",
+        "first_down": false,
+        "penalty": false,
+        "description": "(10:56) (Shotgun) 12-A.Rodgers pass incomplete short left to 83-M.Valdes-Scantling.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544491,
+    "fields": {
+        "drive": 76760,
+        "play_id": 3658,
+        "time": "10:50",
+        "down": 3,
+        "start_yardline": "GB 23",
+        "end_yardline": "GB 23",
+        "first_down": false,
+        "penalty": false,
+        "description": "(10:50) (Shotgun) 12-A.Rodgers pass incomplete short middle to 85-R.Tonyan (25-W.Harris).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544492,
+    "fields": {
+        "drive": 76760,
+        "play_id": 3680,
+        "time": "10:46",
+        "down": 4,
+        "start_yardline": "GB 23",
+        "end_yardline": "DET 44",
+        "first_down": false,
+        "penalty": false,
+        "description": "(10:46) 6-J.Scott punts 44 yards to DET 33, Center-43-H.Bradley. 39-J.Agnew to DET 44 for 11 yards (51-K.Fackrell).",
+        "play_type": "PUNT",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544493,
+    "fields": {
+        "drive": 76761,
+        "play_id": 3705,
+        "time": "10:36",
+        "down": 1,
+        "start_yardline": "DET 44",
+        "end_yardline": "DET 48",
+        "first_down": false,
+        "penalty": false,
+        "description": "(10:36) 43-B.Scarbrough left tackle to DET 48 for 4 yards (20-K.King).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544494,
+    "fields": {
+        "drive": 76761,
+        "play_id": 3726,
+        "time": "10:01",
+        "down": 2,
+        "start_yardline": "DET 48",
+        "end_yardline": "50",
+        "first_down": false,
+        "penalty": false,
+        "description": "(10:01) 43-B.Scarbrough right end to 50 for 2 yards (94-D.Lowry).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 6
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544495,
+    "fields": {
+        "drive": 76761,
+        "play_id": 3747,
+        "time": "09:28",
+        "down": 3,
+        "start_yardline": "50",
+        "end_yardline": "GB 44",
+        "first_down": true,
+        "penalty": false,
+        "description": "(9:28) (Shotgun) 10-D.Blough scrambles right end to GB 44 for 6 yards (97-K.Clark).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 4
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544496,
+    "fields": {
+        "drive": 76761,
+        "play_id": 3768,
+        "time": "08:46",
+        "down": 1,
+        "start_yardline": "GB 44",
+        "end_yardline": "DET 49",
+        "first_down": false,
+        "penalty": false,
+        "description": "(8:46) 10-D.Blough sacked at DET 49 for -7 yards (50-B.Martinez).",
+        "play_type": "SACK",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544497,
+    "fields": {
+        "drive": 76761,
+        "play_id": 3787,
+        "time": "08:03",
+        "down": 2,
+        "start_yardline": "DET 49",
+        "end_yardline": "DET 40",
+        "first_down": false,
+        "penalty": true,
+        "description": "(8:03) (Shotgun) 10-D.Blough pass deep middle intended for 15-C.Lacy INTERCEPTED by 50-B.Martinez at GB 23. 50-B.Martinez ran ob at GB 45 for 22 yards (83-J.James). PENALTY on DET-80-D.Amendola, Unnecessary Roughness, 15 yards, enforced at GB 45.",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 17
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544498,
+    "fields": {
+        "drive": 76762,
+        "play_id": 3829,
+        "time": "07:52",
+        "down": 1,
+        "start_yardline": "DET 40",
+        "end_yardline": "DET 37",
+        "first_down": false,
+        "penalty": false,
+        "description": "(7:52) (Shotgun) 33-A.Jones up the middle to DET 37 for 3 yards (94-A.Bryant; 44-J.Reeves-Maybin).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544499,
+    "fields": {
+        "drive": 76762,
+        "play_id": 3850,
+        "time": "07:18",
+        "down": 2,
+        "start_yardline": "DET 37",
+        "end_yardline": "DET 31",
+        "first_down": false,
+        "penalty": false,
+        "description": "(7:18) 33-A.Jones left tackle to DET 31 for 6 yards (35-M.Killebrew).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544500,
+    "fields": {
+        "drive": 76762,
+        "play_id": 3871,
+        "time": "06:40",
+        "down": 3,
+        "start_yardline": "DET 31",
+        "end_yardline": "DET 31",
+        "first_down": false,
+        "penalty": false,
+        "description": "(6:40) (Shotgun) 33-A.Jones up the middle to DET 31 for no gain (99-J.Atkins; 94-A.Bryant).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 1
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544501,
+    "fields": {
+        "drive": 76762,
+        "play_id": 3892,
+        "time": "05:57",
+        "down": 4,
+        "start_yardline": "DET 31",
+        "end_yardline": "DET 28",
+        "first_down": true,
+        "penalty": false,
+        "description": "(5:57) (Shotgun) 12-A.Rodgers pass short left to 17-D.Adams ran ob at DET 28 for 3 yards (23-D.Slay). DET-94-A.Bryant was injured during the play.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 1
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544502,
+    "fields": {
+        "drive": 76762,
+        "play_id": 3921,
+        "time": "05:33",
+        "down": 1,
+        "start_yardline": "DET 28",
+        "end_yardline": "DET 28",
+        "first_down": false,
+        "penalty": false,
+        "description": "(5:33) (Shotgun) 12-A.Rodgers pass incomplete deep right to 17-D.Adams.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544503,
+    "fields": {
+        "drive": 76762,
+        "play_id": 3947,
+        "time": "05:28",
+        "down": 2,
+        "start_yardline": "DET 28",
+        "end_yardline": "DET 28",
+        "first_down": false,
+        "penalty": false,
+        "description": "(5:28) (Shotgun) 12-A.Rodgers pass incomplete short right to 17-D.Adams.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544504,
+    "fields": {
+        "drive": 76762,
+        "play_id": 3969,
+        "time": "05:24",
+        "down": 3,
+        "start_yardline": "DET 28",
+        "end_yardline": "",
+        "first_down": true,
+        "penalty": false,
+        "description": "(5:24) (Shotgun) 12-A.Rodgers pass deep middle to 13-A.Lazard for 28 yards, TOUCHDOWN [95-R.Okwara]. The Replay Official reviewed the runner broke the plane ruling, and the play was Upheld. The ruling on the field stands.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544505,
+    "fields": {
+        "drive": 76762,
+        "play_id": 3994,
+        "time": "05:19",
+        "down": 0,
+        "start_yardline": "DET 15",
+        "end_yardline": "",
+        "first_down": false,
+        "penalty": false,
+        "description": "2-M.Crosby extra point is GOOD, Center-43-H.Bradley, Holder-6-J.Scott.",
+        "play_type": "XP_KICK",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 0
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544506,
+    "fields": {
+        "drive": 76763,
+        "play_id": 4040,
+        "time": "05:19",
+        "down": 0,
+        "start_yardline": "GB 35",
+        "end_yardline": "DET 25",
+        "first_down": false,
+        "penalty": false,
+        "description": "2-M.Crosby kicks 65 yards from GB 35 to end zone, Touchback.",
+        "play_type": "KICK_OFF",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 0
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544507,
+    "fields": {
+        "drive": 76763,
+        "play_id": 4064,
+        "time": "05:19",
+        "down": 1,
+        "start_yardline": "DET 25",
+        "end_yardline": "DET 45",
+        "first_down": true,
+        "penalty": false,
+        "description": "(5:19) (Shotgun) 33-K.Johnson left tackle to DET 45 for 20 yards (31-A.Amos).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544508,
+    "fields": {
+        "drive": 76763,
+        "play_id": 4085,
+        "time": "04:39",
+        "down": 1,
+        "start_yardline": "DET 45",
+        "end_yardline": "DET 48",
+        "first_down": false,
+        "penalty": false,
+        "description": "(4:39) (Shotgun) 33-K.Johnson left tackle to DET 48 for 3 yards (94-D.Lowry).",
+        "play_type": "RUSH",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544509,
+    "fields": {
+        "drive": 76763,
+        "play_id": 4106,
+        "time": "03:56",
+        "down": 2,
+        "start_yardline": "DET 48",
+        "end_yardline": "DET 48",
+        "first_down": false,
+        "penalty": false,
+        "description": "(3:56) 10-D.Blough pass incomplete deep right to 39-J.Agnew.",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544510,
+    "fields": {
+        "drive": 76763,
+        "play_id": 4128,
+        "time": "03:49",
+        "down": 3,
+        "start_yardline": "DET 48",
+        "end_yardline": "DET 48",
+        "first_down": false,
+        "penalty": false,
+        "description": "(3:49) (Shotgun) 10-D.Blough pass incomplete short middle to 82-L.Thomas [55-Z.Smith].",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544511,
+    "fields": {
+        "drive": 76763,
+        "play_id": 4150,
+        "time": "03:45",
+        "down": 4,
+        "start_yardline": "DET 48",
+        "end_yardline": "GB 26",
+        "first_down": false,
+        "penalty": false,
+        "description": "(3:45) 6-S.Martin punts 42 yards to GB 10, Center-48-D.Muhlbach. 32-T.Ervin to GB 26 for 16 yards (82-L.Thomas).",
+        "play_type": "PUNT",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544512,
+    "fields": {
+        "drive": 76764,
+        "play_id": 4175,
+        "time": "03:34",
+        "down": 1,
+        "start_yardline": "GB 26",
+        "end_yardline": "GB 26",
+        "first_down": false,
+        "penalty": false,
+        "description": "(3:34) (Shotgun) 33-A.Jones up the middle to GB 26 for no gain (99-J.Atkins).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544513,
+    "fields": {
+        "drive": 76764,
+        "play_id": 4196,
+        "time": "02:48",
+        "down": 2,
+        "start_yardline": "GB 26",
+        "end_yardline": "GB 27",
+        "first_down": false,
+        "penalty": false,
+        "description": "(2:48) 33-A.Jones left end pushed ob at GB 27 for 1 yard (44-J.Reeves-Maybin).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544514,
+    "fields": {
+        "drive": 76764,
+        "play_id": 4222,
+        "time": "02:44",
+        "down": 3,
+        "start_yardline": "GB 27",
+        "end_yardline": "GB 40",
+        "first_down": true,
+        "penalty": false,
+        "description": "(2:44) (Shotgun) 12-A.Rodgers pass short right to 13-A.Lazard to GB 40 for 13 yards (24-A.Oruwariye). GB-13-A.Lazard was injured during the play.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 9
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544515,
+    "fields": {
+        "drive": 76764,
+        "play_id": 4246,
+        "time": "02:08",
+        "down": 1,
+        "start_yardline": "GB 40",
+        "end_yardline": "GB 40",
+        "first_down": false,
+        "penalty": false,
+        "description": "(2:08) 12-A.Rodgers pass short right to 85-R.Tonyan pushed ob at GB 40 for no gain (25-W.Harris) [57-A.Pittman].",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544516,
+    "fields": {
+        "drive": 76764,
+        "play_id": 4279,
+        "time": "02:02",
+        "down": 2,
+        "start_yardline": "GB 40",
+        "end_yardline": "GB 30",
+        "first_down": false,
+        "penalty": true,
+        "description": "(2:02) (Shotgun) 12-A.Rodgers pass incomplete deep right to 16-J.Kumerow (24-A.Oruwariye). PENALTY on GB-16-J.Kumerow, Offensive Pass Interference, 10 yards, enforced at GB 40 - No Play.",
+        "play_type": "PENALTY",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544517,
+    "fields": {
+        "drive": 76764,
+        "play_id": 4329,
+        "time": "01:55",
+        "down": 2,
+        "start_yardline": "GB 30",
+        "end_yardline": "GB 30",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:55) (Shotgun) 12-A.Rodgers pass incomplete deep middle to 83-M.Valdes-Scantling.",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 20
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544518,
+    "fields": {
+        "drive": 76764,
+        "play_id": 4351,
+        "time": "01:49",
+        "down": 3,
+        "start_yardline": "GB 30",
+        "end_yardline": "DET 26",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:49) (Shotgun) 12-A.Rodgers pass deep left intended for 16-J.Kumerow INTERCEPTED by 24-A.Oruwariye at DET 26. 24-A.Oruwariye to DET 26 for no gain (16-J.Kumerow).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 20
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544519,
+    "fields": {
+        "drive": 76765,
+        "play_id": 4377,
+        "time": "01:40",
+        "down": 1,
+        "start_yardline": "DET 26",
+        "end_yardline": "DET 31",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:40) (Shotgun) 10-D.Blough pass short right to 15-C.Lacy pushed ob at DET 31 for 5 yards (23-J.Alexander).",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544520,
+    "fields": {
+        "drive": 76765,
+        "play_id": 4406,
+        "time": "01:36",
+        "down": 2,
+        "start_yardline": "DET 31",
+        "end_yardline": "DET 31",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:36) (Shotgun) 10-D.Blough pass incomplete short left to 31-T.Johnson.",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 5
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544521,
+    "fields": {
+        "drive": 76765,
+        "play_id": 4428,
+        "time": "01:32",
+        "down": 3,
+        "start_yardline": "DET 31",
+        "end_yardline": "DET 31",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:32) (Shotgun) 10-D.Blough pass incomplete short middle to 14-T.Fulgham.",
+        "play_type": "PASS",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 5
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544522,
+    "fields": {
+        "drive": 76765,
+        "play_id": 4450,
+        "time": "01:27",
+        "down": 4,
+        "start_yardline": "DET 31",
+        "end_yardline": "GB 17",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:27) 6-S.Martin punts 52 yards to GB 17, Center-48-D.Muhlbach, fair catch by 32-T.Ervin.",
+        "play_type": "PUNT",
+        "pos_team": "DET",
+        "quarter": 4,
+        "yards_to_go": 5
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544523,
+    "fields": {
+        "drive": 76766,
+        "play_id": 4478,
+        "time": "01:20",
+        "down": 1,
+        "start_yardline": "GB 17",
+        "end_yardline": "GB 34",
+        "first_down": true,
+        "penalty": true,
+        "description": "(1:20) (Shotgun) 12-A.Rodgers scrambles left tackle to GB 19 for 2 yards (32-T.Wilson). PENALTY on DET-32-T.Wilson, Unnecessary Roughness, 15 yards, enforced at GB 19.",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544524,
+    "fields": {
+        "drive": 76766,
+        "play_id": 4510,
+        "time": "01:13",
+        "down": 1,
+        "start_yardline": "GB 34",
+        "end_yardline": "GB 38",
+        "first_down": false,
+        "penalty": false,
+        "description": "(1:13) (Shotgun) 12-A.Rodgers pass short right to 81-G.Allison to GB 38 for 4 yards (29-R.Melvin).",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544525,
+    "fields": {
+        "drive": 76766,
+        "play_id": 4534,
+        "time": "00:50",
+        "down": 2,
+        "start_yardline": "GB 38",
+        "end_yardline": "GB 49",
+        "first_down": true,
+        "penalty": false,
+        "description": "(:50) (No Huddle, Shotgun) 12-A.Rodgers pass short right to 83-M.Valdes-Scantling pushed ob at GB 49 for 11 yards (24-A.Oruwariye) [90-T.Flowers].",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 6
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544526,
+    "fields": {
+        "drive": 76766,
+        "play_id": 4563,
+        "time": "00:45",
+        "down": 1,
+        "start_yardline": "GB 49",
+        "end_yardline": "DET 20",
+        "first_down": true,
+        "penalty": false,
+        "description": "(:45) (Shotgun) 12-A.Rodgers pass short middle to 33-A.Jones to DET 20 for 31 yards (25-W.Harris) [95-R.Okwara].",
+        "play_type": "PASS",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544527,
+    "fields": {
+        "drive": 76766,
+        "play_id": 4604,
+        "time": "00:33",
+        "down": 1,
+        "start_yardline": "DET 20",
+        "end_yardline": "DET 17",
+        "first_down": false,
+        "penalty": false,
+        "description": "(:33) 33-A.Jones up the middle to DET 17 for 3 yards (57-A.Pittman; 32-T.Wilson).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 10
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544528,
+    "fields": {
+        "drive": 76766,
+        "play_id": 4642,
+        "time": "00:29",
+        "down": 2,
+        "start_yardline": "DET 17",
+        "end_yardline": "DET 14",
+        "first_down": false,
+        "penalty": false,
+        "description": "(:29) 33-A.Jones right tackle to DET 14 for 3 yards (99-J.Atkins).",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 7
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544529,
+    "fields": {
+        "drive": 76766,
+        "play_id": 4680,
+        "time": "00:26",
+        "down": 3,
+        "start_yardline": "DET 14",
+        "end_yardline": "DET 15",
+        "first_down": false,
+        "penalty": false,
+        "description": "(:26) 12-A.Rodgers kneels to DET 15 for -1 yards.",
+        "play_type": "RUSH",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 4
+    }
+},
+{
+    "model": "data.play",
+    "pk": 544530,
+    "fields": {
+        "drive": 76766,
+        "play_id": 4718,
+        "time": "00:03",
+        "down": 4,
+        "start_yardline": "DET 15",
+        "end_yardline": "",
+        "first_down": false,
+        "penalty": false,
+        "description": "(:03) 2-M.Crosby 33 yard field goal is GOOD, Center-43-H.Bradley, Holder-6-J.Scott.",
+        "play_type": "FIELD_GOAL",
+        "pos_team": "GB",
+        "quarter": 4,
+        "yards_to_go": 5
+    }
+}
+]

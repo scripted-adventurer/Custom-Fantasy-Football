@@ -19,7 +19,7 @@ class Servicer:
     self.url_data = url_data
     self.response = {'success': True}
     self.errors = []
-    self.response_status = 200
+    self.response_code = 200
     # select the correct backend module
     if USE_MONGO_BACKEND:
       self.view = mongo_views.View()
@@ -32,7 +32,7 @@ class Servicer:
     # checks that the request contains all required data.
     for param in self.required_data:
       if param not in self.request_data:
-        self.response_status = 400
+        self.response_code = 400
         self.errors.append(f"Missing data for {param}")
   def _call_backend(self):
     # makes the request to the backend and updates it's response according to
@@ -47,5 +47,5 @@ class Servicer:
     if self.errors:
       self.response['success'] = False
       self.response['errors'] = self.errors
-    return Response(jsonify(self.response), status=self.response_status, 
+    return Response(jsonify(self.response), status=self.response_code, 
       mimetype='application/json')  

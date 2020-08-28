@@ -136,6 +136,7 @@ def create_app():
 
   @app.route('/users', methods=['POST'])
   def users():
+    # check for matched passwords 
     return servicer.Servicer(endpoint='create_user', request=request, 
       required_params=['username', 'password1', 'password2']).response()
 

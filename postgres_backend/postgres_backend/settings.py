@@ -134,14 +134,14 @@ REG - Regular season
 PRO - Pro Bowl
 POST - Postseason '''
 INCLUDED_SEASONS = {
-    2011: ['PRE', 'REG', 'PRO', 'POST'],
-    2012: ['PRE', 'REG', 'PRO', 'POST'],
-    2013: ['PRE', 'REG', 'PRO', 'POST'],
-    2014: ['PRE', 'REG', 'PRO', 'POST'],
-    2015: ['PRE', 'REG', 'PRO', 'POST'],
-    2016: ['PRE', 'REG', 'PRO', 'POST'],
-    2017: ['PRE', 'REG', 'PRO', 'POST'],
-    2018: ['PRE', 'REG', 'PRO', 'POST'],
+    # 2011: ['PRE', 'REG', 'PRO', 'POST'],
+    # 2012: ['PRE', 'REG', 'PRO', 'POST'],
+    # 2013: ['PRE', 'REG', 'PRO', 'POST'],
+    # 2014: ['PRE', 'REG', 'PRO', 'POST'],
+    # 2015: ['PRE', 'REG', 'PRO', 'POST'],
+    # 2016: ['PRE', 'REG', 'PRO', 'POST'],
+    # 2017: ['PRE', 'REG', 'PRO', 'POST'],
+    # 2018: ['PRE', 'REG', 'PRO', 'POST'],
     2019: ['PRE', 'REG', 'PRO', 'POST'],
     2020: ['PRE', 'REG', 'PRO', 'POST']
 }
