@@ -1,15 +1,16 @@
 from django.test import TestCase
-import data.models as db_models
-from .test_data import TestData
 
 import datetime
 from freezegun import freeze_time
 import os
 import pytz
 
+import data.models as db_models
+from .setup import TestData
+
 import importlib.util
 spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/api/flaskr/common.py")
+  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
 common = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(common)
 
@@ -298,8 +299,7 @@ class ModelsTest(TestCase):
     self.data.create('Lineup', member=self.data.member[1], season_type='REG', 
       season_year=2019, week=17, player_id='3200434f-5570-9400-e1ae-f835abb5963e')
     # current
-    now = datetime.datetime.now(pytz.UTC)
-    season_year, season_type, week = common.CurrentWeek().find(now)
+    season_year, season_type, week = db_models.get_current_week()
     self.data.create('Lineup', member=self.data.member[1], season_type=season_type, 
       season_year=season_year, week=week, 
       player_id='3200524f-4433-9293-a3cf-ad7758d03003')

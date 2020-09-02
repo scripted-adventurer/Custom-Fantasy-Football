@@ -455,7 +455,7 @@ Requesting user must be the admin of the league.
 Requesting user must be the admin of the league.
 <br><br>
 
-**URI:** /api/league/{league_name}/scores?seasonType=Regular&seasonYear=2019&week=17&sort=desc<br>
+**URI:** /api/league/{league_name}/scores?seasonType=REG&seasonYear=2019&week=17&sort=desc<br>
 **Method:** GET<br>
 **Sample response:**
 ```
@@ -487,7 +487,7 @@ Requesting user must be the admin of the league.
 **Requirements:** Requesting user must be a member of the league.
 <br><br>
 
-**URI:** /api/{league_name}/stats?playerId=00-0023459&seasonType=Regular&seasonYear=2019&week=17&sort=desc<br>
+**URI:** /api/{league_name}/stats?playerId=00-0023459&seasonType=REG&seasonYear=2019&week=17&sort=desc<br>
 **Method:** GET<br>
 **Sample responses:**
 ```
@@ -811,7 +811,7 @@ Requesting user must be a member of the league.
 {
   "success": true,
   "current_week": {
-    "season_type": "Regular",
+    "season_type": "REG",
     "season_year": 2019,
     "week": 17
   }
@@ -821,7 +821,7 @@ Requesting user must be a member of the league.
 **Requirements:** None
 <br><br>
 
-**URI:** /api/games?seasonType=Regular&seasonYear=2019&week=17<br>
+**URI:** /api/games?seasonType=REG&seasonYear=2019&week=17<br>
 **Method:** GET<br>
 **Sample response:**
 ```
@@ -831,7 +831,7 @@ Requesting user must be a member of the league.
     {
       "id": "2019122900",
       "start_time": "2019-12-29 21:25",
-      "season_type": "Regular",
+      "season_type": "REG",
       "season_year": 2019,
       "week": 17,
       "home_team": "BAL",
@@ -842,7 +842,7 @@ Requesting user must be a member of the league.
     {
       "id": "2019122901",
       "start_time": "2019-12-29 18:00",
-      "season_type": "Regular",
+      "season_type": "REG",
       "season_year": 2019,
       "week": 17,
       "home_team": "BUF",
@@ -853,7 +853,7 @@ Requesting user must be a member of the league.
     {
       "id": "2019122902",
       "start_time": "2019-12-29 18:00",
-      "season_type": "Regular",
+      "season_type": "REG",
       "season_year": 2019,
       "week": 17,
       "home_team": "CAR",

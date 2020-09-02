@@ -1,81 +1,116 @@
-from django.contrib.auth import authenticate, login, logout
-from django.contrib.auth.models import User
+# -*- coding: utf-8 -*-
+from django.http import JsonResponse
+from django.db import transaction
+from django.shortcuts import render
 
-import data.models as db_models
+import os
+
+from data.view_classes.games import Games 
+from data.view_classes.league import League 
+from data.view_classes.league_member import LeagueMember
+from data.view_classes.league_member_lineup import LeagueMemberLineup
+from data.view_classes.league_members import LeagueMembers
+from data.view_classes.league_scores import LeagueScores 
+from data.view_classes.league_stats import LeagueStats
+from data.view_classes.leagues import Leagues 
+from data.view_classes.player import Player 
+from data.view_classes.players import Players 
+from data.view_classes.session import Session 
+from data.view_classes.team import Team
+from data.view_classes.teams import Teams 
+from data.view_classes.user import User 
+from data.view_classes.users import Users 
+from data.view_classes.week import Week
 
 import importlib.util
-spec = importlib.util.spec_from_file_location("errors", 
-  f"{os.environ['CUSTOM_FF_PATH']}/api/flaskr/errors.py")
-errors = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(errors)
+spec = importlib.util.spec_from_file_location("common", 
+  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
+common = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(common)
+Errors = common.Errors
 
-class Views:
-  '''A base class to implement views that the backend inherits from. All the methods
-  in this class must be implemented by the backend.'''
-  def __init__(self):
-    # each method should return data in one of these
-    self.data = {}
-    self.errors = []
-  # this is probably going to need to be special 
-  def login(self, username, password):
-    user = authenticate(self.request, username=username, password=password)
-    if user is not None:
-      login(self.request, user)
-    else:
-      self.errors.append(errors.Errors().bad_data('Username and/or password'))
-    return {'data': self.data, 'errors': self.errors}
-  def logout(self):
-    logout(self.request)
-  def create_user(self, username, password1, password2, email=''):
-    if len(User.objects.filter(username=username)):
-      self.errors.append(errors.Errors().name_taken('Username'))
-    user = User.objects.create_user(username, email, password1)
-    login(self.request, user)
-    return {'data': self.data, 'errors': self.errors}
-  def get_user(self):
-    return {'data': self.data, 'errors': self.errors}  
-  def delete_user(self, password1):
-    return {'data': self.data, 'errors': self.errors}
-  def update_user_password(self, property, data):
-    return {'data': self.data, 'errors': self.errors}
-  def create_league(self, new_league_name, password1, password2):
-    return {'data': self.data, 'errors': self.errors}
-  def get_league(self, league_name):
-    return {'data': self.data, 'errors': self.errors}
-  def update_league_password(self, league_name, property, data):
-    return {'data': self.data, 'errors': self.errors}
-  def update_league_lineup(self, league_name, property, data):
-    return {'data': self.data, 'errors': self.errors} 
-  def update_league_scoring(self, league_name, property, data):
-    return {'data': self.data, 'errors': self.errors}
-  def get_league_scores(self, league_name, season_type='', season_year='', week=''):
-    return {'data': self.data, 'errors': self.errors}
-  def get_league_stats(self, league_name, season_type='', season_year='', week=''):
-    return {'data': self.data, 'errors': self.errors}
-  def join_league(self, league_name, password):
-    return {'data': self.data, 'errors': self.errors}
-  def get_member_info(self, league_name):
-    return {'data': self.data, 'errors': self.errors}
-  def leave_league(self, league_name, password):
-    return {'data': self.data, 'errors': self.errors}
-  def remove_from_league(self, league_name, username):
-    return {'data': self.data, 'errors': self.errors}
-  def get_lineup(self, league_name):
-    return {'data': self.data, 'errors': self.errors} 
-  def edit_lineup(self, league_name, lineup):
-    return {'data': self.data, 'errors': self.errors}   
-  def player_query(self, query):
-    return {'data': self.data, 'errors': self.errors} 
-  def available_players(self, available):
-    return {'data': self.data, 'errors': self.errors}
-  def get_player(self, player_id):
-    return {'data': self.data, 'errors': self.errors}
-  def get_team(self, team_id):
-    return {'data': self.data, 'errors': self.errors}
-  def get_teams(self):
-    return {'data': self.data, 'errors': self.errors}
-  def get_week(self):
-    return {'data': self.data, 'errors': self.errors}             
-  def get_games(self, season_type='', season_year='', week=''):
-    return {'data': self.data, 'errors': self.errors}
-  
+def games(request):
+  view = Games(request, login_required=True)
+  return view.router()
+
+def league(request, league_name):
+  view = League(request, login_required=True, league_name=league_name)
+  return view.router()
+
+def league_member(request, league_name):
+  view = LeagueMember(request, login_required=True, league_name=league_name)
+  return view.router()
+
+# needed for the PUT case as multiple db calls are made to update the lineup
+@transaction.atomic
+def league_member_lineup(request, league_name):
+  view = LeagueMemberLineup(request, login_required=True, league_name=league_name)
+  return view.router() 
+
+def league_members(request, league_name):
+  view = LeagueMembers(request, login_required=True, league_name=league_name)
+  return view.router()
+
+def league_scores(request, league_name):
+  view = LeagueScores(request, login_required=True, league_name=league_name)
+  return view.router()
+
+def league_stats(request, league_name):
+  view = LeagueStats(request, login_required=True, league_name=league_name)
+  return view.router()  
+
+def leagues(request):
+  view = Leagues(request, login_required=True)
+  return view.router()
+
+def player(request):
+  view = Player(request, login_required=True)
+  return view.router()
+
+def players(request):
+  view = Players(request, login_required=True)
+  return view.router()     
+
+def session(request):
+  view = Session(request, login_required=False)
+  return view.router()
+
+def team(request):
+  view = Team(request, login_required=True)
+  return view.router()
+
+def teams(request):
+  view = Teams(request, login_required=True)
+  return view.router()
+
+def user(request):
+  view = User(request, login_required=True)
+  return view.router()      
+
+def users(request):
+  view = Users(request, login_required=False)
+  return view.router() 
+
+def week(request):
+  view = Week(request, login_required=True)
+  return view.router()  
+
+def http_400(request, exception):
+  response = {'success': False, 'errors': [Errors().http_400()]}
+  return JsonResponse(response, status=400)
+
+def csrf_failure(request, reason=""):
+  response = {'success': False, 'errors': [Errors().bad_csrf()]}
+  return JsonResponse(response, status=403)
+
+def http_403(request, exception):
+  response = {'success': False, 'errors': [Errors().http_403()]}
+  return JsonResponse(response, status=403)  
+
+def http_404(request, exception):
+  response = {'success': False, 'errors': [Errors().http_404()]}
+  return JsonResponse(response, status=404)
+
+def http_500(request):
+  response = {'success': False, 'errors': [Errors().http_500()]}
+  return JsonResponse(response, status=500)

@@ -7,9 +7,28 @@ import pytz
 
 import importlib.util
 spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/api/flaskr/common.py")
+  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
 common = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(common)
+CurrentWeek = common.CurrentWeek
+Utility = common.Utility
+
+def get_current_week():
+  now = datetime.datetime.now(pytz.UTC)
+  return (CurrentWeek().find(now))
+
+def get_safe(model_name, **kwargs):
+  # a modified get() function that returns a single matching object if one exists
+  # or None otherwise (doesn't raise an Exception)
+  models = {'Game': Game, 'Player': Player, 'Team': Team, 'League': League, 
+    'LeagueStat': LeagueStat, 'Lineup': Lineup, 'Member': Member, 
+    'StatCondition': StatCondition, 'User': User}
+  model = models[model_name]
+  data = model.objects.filter(**kwargs)
+  if len(data) == 1:
+    return data[0]
+  else:
+    return None
 
 class SeasonType(models.TextChoices):
   PRE = 'PRE'
@@ -276,13 +295,13 @@ class Player(models.Model):
     return {'id': self.player_id, 'name': self.name, 'team': 
       self.team.team_id, 'position': self.position, 'status': self.status}
   def is_locked(self):
-    now = datetime.datetime.now(pytz.UTC)
-    season_year, season_type, week = common.CurrentWeek().find(now)
+    season_year, season_type, week = get_current_week()
     this_game = (Game.objects.filter(home_team=self.team, 
       season_type=season_type, season_year=season_year, week=week) | 
       (Game.objects.filter(away_team=self.team, season_type=season_type, 
       season_year=season_year, week=week)))
     game_start = this_game[0].start_time.replace(tzinfo=pytz.UTC)
+    now = datetime.datetime.now(pytz.UTC)
     if len(this_game) == 1 and game_start < now:
       return True
     else:
@@ -339,7 +358,7 @@ class League(models.Model):
   def correct_password(self, password):
     if not password:
       return False
-    if (common.Utility().custom_hash(password) == self.password):
+    if (Utility().custom_hash(password) == self.password):
       return True
     else:
       return False
@@ -394,7 +413,7 @@ class League(models.Model):
     if not password:
       return False
     else:
-      self.password = common.Utility().custom_hash(password)
+      self.password = Utility().custom_hash(password)
       self.save()
   def get_members(self):
     return [member.user.username for member in 
@@ -587,23 +606,20 @@ class Member(models.Model):
     return self.admin
   def get_lineup(self, season_type='', season_year='', week=''):
     if not season_type or not season_year or not week:
-      now = datetime.datetime.now(pytz.UTC)
-      season_year, season_type, week = common.CurrentWeek().find(now)
+      season_year, season_type, week = get_current_week()
     lineup_entries = Lineup.objects.filter(member=self, season_type=season_type, 
       season_year=season_year, week=week).order_by('player__position')
     return [entry.player.data_dict() for entry in lineup_entries]
   def lineup_delete(self, player_id, season_type='', season_year='', week=''):
     if not season_type or not season_year or not week:
-      now = datetime.datetime.now(pytz.UTC)
-      season_year, season_type, week = common.CurrentWeek().find(now)
+      season_year, season_type, week = get_current_week()
     row = Lineup.objects.filter(member=self, season_type=season_type, 
       season_year=season_year, week=week, player_id=player_id)
     if len(row) == 1:
       row[0].delete()
   def lineup_add(self, player_id, season_type='', season_year='', week=''):
     if not season_type or not season_year or not week:
-      now = datetime.datetime.now(pytz.UTC)
-      season_year, season_type, week = common.CurrentWeek().find(now)
+      season_year, season_type, week = get_current_week()
     Lineup.objects.create(member=self, season_type=season_type, 
       season_year=season_year, week=week, player_id=player_id)      
 

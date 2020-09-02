@@ -1,0 +1,353 @@
+test_case	test_id	uri	method	request	username	status_code	full_json_response	json_expression	parsed_json_response
+games	unauthorized	/api/games	GET			401			
+games	unauthorized	/api/games	HEAD			401			
+games	unauthorized	/api/games	POST			401			
+games	unauthorized	/api/games	PUT			401			
+games	unauthorized	/api/games	DELETE			401			
+games	unauthorized	/api/games	OPTIONS			401			
+games	unauthorized	/api/games	TRACE			401			
+games	unauthorized	/api/games	PATCH			401			
+games	disallowed method	/api/games	HEAD		test_user_0	405			
+games	disallowed method	/api/games	POST		test_user_0	405			
+games	disallowed method	/api/games	PUT		test_user_0	405			
+games	disallowed method	/api/games	DELETE		test_user_0	405			
+games	disallowed method	/api/games	OPTIONS		test_user_0	405			
+games	disallowed method	/api/games	TRACE		test_user_0	405			
+games	disallowed method	/api/games	PATCH		test_user_0	405			
+games	invalid season type	/api/games?seasonType=PRA&seasonYear=2019&week=17	GET		test_user_0	400	{"success": false, "errors": ["season type is missing or invalid."]}		
+games	invalid season year	/api/games?seasonType=REG&seasonYear=2000&week=17	GET		test_user_0	400	{"success": false, "errors": ["season year is missing or invalid."]}		
+games	invalid week	/api/games?seasonType=REG&seasonYear=2019&week=20	GET		test_user_0	400	{"success": false, "errors": ["week is missing or invalid."]}		
+games	valid – current	/api/games	GET		test_user_0	200		success	[true]
+games	valid – specific week	/api/games?seasonType=REG&seasonYear=2019&week=17	GET		test_user_0	200		games[*].id	["10160000-0581-4046-b36d-71a9dc294989", "10160000-0581-4191-65e2-636042b146a2", "10160000-0581-42a6-7ad4-b6ce07df420c", "10160000-0581-439e-5962-787e83670452", "10160000-0581-4493-e406-c82cf623910b", "10160000-0581-45c0-455c-8dcc2dd0671b", "10160000-0581-4680-ba82-12e629d4584f", "10160000-0581-473e-eb94-1a778636026a", "10160000-0581-48bf-97b6-ba88c25425db", "10160000-0581-497c-03ab-631399c8edb5", "10160000-0581-50f0-2784-54117f77ace2", "10160000-0581-51ec-daf8-313de0e71617", "10160000-0581-52cd-7bcb-655ad442bbc7", "10160000-0581-53f8-15d7-52fbf40781c2", "10160000-0581-548a-6756-cb2d2d18c1c2", "10160000-0581-554b-2f66-33a0afe446bb"]
+league	unauthorized	/api/league/test_league_0	GET			401			
+league	unauthorized	/api/league/test_league_0	HEAD			401			
+league	unauthorized	/api/league/test_league_0	POST			401			
+league	unauthorized	/api/league/test_league_0	PUT			401			
+league	unauthorized	/api/league/test_league_0	DELETE			401			
+league	unauthorized	/api/league/test_league_0	OPTIONS			401			
+league	unauthorized	/api/league/test_league_0	TRACE			401			
+league	unauthorized	/api/league/test_league_0	PATCH			401			
+league	disallowed method	/api/league/test_league_0	HEAD		test_user_0	405			
+league	disallowed method	/api/league/test_league_0	POST		test_user_0	405			
+league	disallowed method	/api/league/test_league_0	PUT		test_user_0	405			
+league	disallowed method	/api/league/test_league_0	DELETE		test_user_0	405			
+league	disallowed method	/api/league/test_league_0	OPTIONS		test_user_0	405			
+league	disallowed method	/api/league/test_league_0	TRACE		test_user_0	405			
+league	league name invalid	/api/league/invalid	GET		test_user_1	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league	user is not member	/api/league/test_league_0	GET		test_user_2	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league	missing property	/api/league/test_league_0	PATCH	{"data": {"password1": "new_password", "password2": "new_password"}}	test_user_1	400	{"success": false, "errors": ["property is missing or invalid."]}		
+league	invalid property	/api/league/test_league_0	PATCH	{"property": "invalid", "data": {"password1": "new_password", "password2": "new_password"}}	test_user_1	400	{"success": false, "errors": ["property is missing or invalid."]}		
+league	league name invalid	/api/league/invalid	PATCH	{"property": "password", "data": {"password1": "new_password", "password2": "new_password"}}	test_user_1	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league	user is not member	/api/league/test_league_0	PATCH	{"property": "password", "data": {"password1": "new_password", "password2": "new_password"}}	test_user_2	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league	user is not admin	/api/league/test_league_0	PATCH	{"property": "password", "data": {"password1": "new_password", "password2": "new_password"}}	test_user_0	403	{"success": false, "errors": ["That action requires admin privileges."]}		
+league	missing password1	/api/league/test_league_0	PATCH	{"property": "password", "data": {"password2": "new_password"}}	test_user_1	400	{"success": false, "errors": ["password1 is missing or invalid."]}		
+league	missing password2	/api/league/test_league_0	PATCH	{"property": "password", "data": {"password1": "new_password"}}	test_user_1	400	{"success": false, "errors": ["password2 is missing or invalid."]}		
+league	unmatched passwords	/api/league/test_league_0	PATCH	{"property": "password", "data": {"password1": "new_password", "password2": "new_password1"}}	test_user_1	400	{"success": false, "errors": ["Passwords don't match."]}		
+league	valid	/api/league/test_league_0	PATCH	{"property": "password", "data": {"password1": "new_password", "password2": "new_password"}}	test_user_1	200	{"success": true}		
+league	lineup invalid format	/api/league/test_league_0	PATCH	{"property": "lineup_settings", "data": ["K", 1, "QB", 1, "RB", 2, "TE", 1, "WR", 2]}	test_user_1	400	{"success": false, "errors": ["data is missing or invalid."]}		
+league	lineup invalid number	/api/league/test_league_0	PATCH	{"property": "lineup_settings", "data": {"K": 1, "QB": "one", "RB": 2, "TE": 1, "WR": 2}}	test_user_1	400	{"success": false, "errors": ["QB is invalid or is not formatted properly."]}		
+league	lineup invalid position	/api/league/test_league_0	PATCH	{"property": "lineup_settings", "data": {"K": 1, "EX": 1, "RB": 2, "TE": 1, "WR": 2}}	test_user_1	400	{"success": false, "errors": ["EX is invalid or is not formatted properly."]}		
+league	scoring invalid format	/api/league/test_league_0	PATCH	{"property": "scoring_settings", "data": {"name": "fg made 50+ yards", "field": "kicking_fgm", "conditions": [{"field": "kicking_fgm_yds", "comparison": ">=", "value": 50}], "multiplier": 3.0}}	test_user_1	400	{"success": false, "errors": ["data is missing or invalid."]}		
+league	scoring invalid field	/api/league/test_league_0	PATCH	{"property": "scoring_settings", "data": [{"name": "fg made 50+ yards", "field": "invalid", "conditions": [{"field": "kicking_fgm_yds", "comparison": ">=", "value": 50}], "multiplier": 3.0}]}	test_user_1	400	{"success": false, "errors": ["field is missing or invalid."]}		
+league	scoring invalid multiplier	/api/league/test_league_0	PATCH	{"property": "scoring_settings", "data": [{"name": "fg made 50+ yards", "field": "kicking_fgm", "conditions": [{"field": "kicking_fgm_yds", "comparison": ">=", "value": 50}], "multiplier": "three"}]}	test_user_1	400	{"success": false, "errors": ["multiplier is missing or invalid."]}		
+league	scoring invalid condition field	/api/league/test_league_0	PATCH	{"property": "scoring_settings", "data": [{"name": "fg made 50+ yards", "field": "kicking_fgm", "conditions": [{"field": "invalid", "comparison": ">=", "value": 50}], "multiplier": 3.0}]}	test_user_1	400	{"success": false, "errors": ["field is missing or invalid."]}		
+league	scoring invalid condition comparison	/api/league/test_league_0	PATCH	{"property": "scoring_settings", "data": [{"name": "fg made 50+ yards", "field": "kicking_fgm", "conditions": [{"field": "kicking_fgm_yds", "comparison": "gt", "value": 50}], "multiplier": 3.0}]}	test_user_1	400	{"success": false, "errors": ["comparison is missing or invalid."]}		
+league	scoring invalid condition value	/api/league/test_league_0	PATCH	{"property": "scoring_settings", "data": [{"name": "fg made 50+ yards", "field": "kicking_fgm", "conditions": [{"field": "kicking_fgm_yds", "comparison": ">=", "value": "fifty"}], "multiplier": 3.0}]}	test_user_1	400	{"success": false, "errors": ["value is missing or invalid."]}		
+league	set initial lineup settings	/api/league/test_league_0	PATCH	{"property": "lineup_settings", "data": {"K": 1, "QB": 1, "RB": 2, "TE": 1, "WR": 2}}	test_user_1	200	{"success": true}		
+league	set initial scoring settings	/api/league/test_league_0	PATCH	{"property": "scoring_settings", "data": [{"name": "passing yards", "field": "passing_yds", "conditions": [], "multiplier": 0.04}, {"name": "fg made 40-49 yards", "field": "kicking_fgm", "conditions": [{"field": "kicking_fgm_yds", "comparison": ">=", "value": 40}, {"field": "kicking_fgm_yds", "comparison": "<", "value": 50}], "multiplier": 2.0}, {"name": "fg made 50+ yards", "field": "kicking_fgm", "conditions": [{"field": "kicking_fgm_yds", "comparison": ">=", "value": 50}], "multiplier": 3.0}]}	test_user_1	200	{"success": true}		
+league	get initial settings	/api/league/test_league_0	GET		test_user_1	200	{"success": true, "members": ["test_user_0", "test_user_1"], "lineup_settings": {"K": 1, "QB": 1, "RB": 2, "TE": 1, "WR": 2}, "scoring_settings": [{"name": "passing yards", "field": "passing_yds", "conditions": [], "multiplier": 0.04}, {"name": "fg made 40-49 yards", "field": "kicking_fgm", "conditions": [{"field": "kicking_fgm_yds", "comparison": ">=", "value": 40}, {"field": "kicking_fgm_yds", "comparison": "<", "value": 50}], "multiplier": 2.0}, {"name": "fg made 50+ yards", "field": "kicking_fgm", "conditions": [{"field": "kicking_fgm_yds", "comparison": ">=", "value": 50}], "multiplier": 3.0}]}		
+league	set updated lineup settings	/api/league/test_league_0	PATCH	{"property": "lineup_settings", "data": {"DB": 2, "DL": 2, "LB": 2, "OL": 2, "P": 1}}	test_user_1	200	{"success": true}		
+league	set updated scoring settings	/api/league/test_league_0	PATCH	{"property": "scoring_settings", "data": [{"name": "rushing yards", "field": "rushing_yds", "conditions": [], "multiplier": 0.1}, {"name": "pick sixes", "field": "passing_int", "conditions": [{"field": "defense_int_tds", "comparison": "=", "value": 1}], "multiplier": -3.0}, {"name": "big catches", "field": "receiving_rec", "conditions": [{"field": "receiving_yds", "comparison": ">=", "value": 20}], "multiplier": 3.0}]}	test_user_1	200	{"success": true}		
+league	get updated settings	/api/league/test_league_0	GET		test_user_1	200	{"success": true, "members": ["test_user_0", "test_user_1"], "lineup_settings": {"DB": 2, "DL": 2, "LB": 2, "OL": 2, "P": 1}, "scoring_settings": [{"name": "rushing yards", "field": "rushing_yds", "conditions": [], "multiplier": 0.1}, {"name": "pick sixes", "field": "passing_int", "conditions": [{"field": "defense_int_tds", "comparison": "=", "value": 1}], "multiplier": -3.0}, {"name": "big catches", "field": "receiving_rec", "conditions": [{"field": "receiving_yds", "comparison": ">=", "value": 20}], "multiplier": 3.0}]}		
+league	reset lineup settings	/api/league/test_league_0	PATCH	{"property": "lineup_settings", "data": {}}	test_user_1	200	{"success": true}		
+league	reset scoring settings	/api/league/test_league_0	PATCH	{"property": "scoring_settings", "data": []}	test_user_1	200	{"success": true}		
+league	get reset settings	/api/league/test_league_0	GET		test_user_1	200	{"success": true, "members": ["test_user_0", "test_user_1"], "lineup_settings": {}, "scoring_settings": []}		
+league_member	unauthorized	/api/league/test_league_0/member	GET			401			
+league_member	unauthorized	/api/league/test_league_0/member	HEAD			401			
+league_member	unauthorized	/api/league/test_league_0/member	POST			401			
+league_member	unauthorized	/api/league/test_league_0/member	PUT			401			
+league_member	unauthorized	/api/league/test_league_0/member	DELETE			401			
+league_member	unauthorized	/api/league/test_league_0/member	OPTIONS			401			
+league_member	unauthorized	/api/league/test_league_0/member	TRACE			401			
+league_member	unauthorized	/api/league/test_league_0/member	PATCH			401			
+league_member	disallowed method	/api/league/test_league_0/member	HEAD		test_user_0	405			
+league_member	disallowed method	/api/league/test_league_0/member	POST		test_user_0	405			
+league_member	disallowed method	/api/league/test_league_0/member	PUT		test_user_0	405			
+league_member	disallowed method	/api/league/test_league_0/member	OPTIONS		test_user_0	405			
+league_member	disallowed method	/api/league/test_league_0/member	TRACE		test_user_0	405			
+league_member	disallowed method	/api/league/test_league_0/member	PATCH		test_user_0	405			
+league_member	invalid league	/api/league/invalid/member	GET		test_user_0	400			
+league_member	not member	/api/league/test_league_0/member	GET		test_user_3	400			
+league_member	valid, admin	/api/league/test_league_0/member	GET		test_user_0	200	{"success": true, "admin": true}		
+league_member	valid, not admin	/api/league/test_league_0/member	GET		test_user_1	200	{"success": true, "admin": false}		
+league_member	invalid request	/api/league/test_league_0/member	DELETE	{}	test_user_2	400	{"success": false, "errors": ["HTTP 400: Bad request"]}		
+league_member	invalid league	/api/league/invalid/member	DELETE	{"password": "password"}	test_user_2	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league_member	not member	/api/league/test_league_0/member	DELETE	{"password": "password"}	test_user_3	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league_member	wrong password	/api/league/test_league_0/member	DELETE	{"password": "wrong_password"}	test_user_2	400	{"success": false, "errors": ["password is missing or invalid."]}		
+league_member	valid, self	/api/league/test_league_0/member	DELETE	{"password": "password"}	test_user_2	200	{"success": true}		
+league_member	other, not admin	/api/league/test_league_0/member	DELETE	{"username": "test_user_0"}	test_user_1	403	{"success": false, "errors": ["That action requires admin privileges."]}		
+league_member	other, invalid username	/api/league/test_league_0/member	DELETE	{"username": "invalid"}	test_user_0	400	{"success": false, "errors": ["username is missing or invalid."]}		
+league_member	other, valid	/api/league/test_league_0/member	DELETE	{"username": "test_user_1"}	test_user_0	200	{"success": true}		
+league_member_lineup	unauthorized	/api/league/test_league_0/member/lineup	GET			401			
+league_member_lineup	unauthorized	/api/league/test_league_0/member/lineup	HEAD			401			
+league_member_lineup	unauthorized	/api/league/test_league_0/member/lineup	POST			401			
+league_member_lineup	unauthorized	/api/league/test_league_0/member/lineup	PUT			401			
+league_member_lineup	unauthorized	/api/league/test_league_0/member/lineup	DELETE			401			
+league_member_lineup	unauthorized	/api/league/test_league_0/member/lineup	OPTIONS			401			
+league_member_lineup	unauthorized	/api/league/test_league_0/member/lineup	TRACE			401			
+league_member_lineup	unauthorized	/api/league/test_league_0/member/lineup	PATCH			401			
+league_member_lineup	disallowed method	/api/league/test_league_0/member/lineup	HEAD		test_user_0	405			
+league_member_lineup	disallowed method	/api/league/test_league_0/member/lineup	POST		test_user_0	405			
+league_member_lineup	disallowed method	/api/league/test_league_0/member/lineup	DELETE		test_user_0	405			
+league_member_lineup	disallowed method	/api/league/test_league_0/member/lineup	OPTIONS		test_user_0	405			
+league_member_lineup	disallowed method	/api/league/test_league_0/member/lineup	TRACE		test_user_0	405			
+league_member_lineup	disallowed method	/api/league/test_league_0/member/lineup	PATCH		test_user_0	405			
+league_member_lineup	invalid league	/api/league/invalid/member/lineup	GET		test_user_0	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league_member_lineup	not member	/api/league/test_league_0/member/lineup	GET		test_user_2	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league_member_lineup	empty lineup	/api/league/test_league_0/member/lineup	GET		test_user_0	200	{"success": true, "lineup": []}		
+league_member_lineup	invalid league	/api/league/invalid/member/lineup	PUT	{"lineup": ["32005455-4322-4643-f70e-a24b7ce9db07", "32005745-4e61-5770-9c68-1652f876bc72", "32004241-5219-2674-af43-1519254e563d", "3200454c-4c28-9284-cdcc-74694c8d1749", "32004552-5480-0920-32a6-165b5a77814e", "32005748-4972-2063-1ea8-adb8ac89fa9d", "32004b55-5053-4597-b958-87408c31956f"]}	test_user_0	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league_member_lineup	missing data	/api/league/test_league_0/member/lineup	PUT	{}	test_user_0	400	{"success": false, "errors": ["lineup is missing or invalid."]}		
+league_member_lineup	not member	/api/league/test_league_0/member/lineup	PUT	{"lineup": ["32005455-4322-4643-f70e-a24b7ce9db07", "32005745-4e61-5770-9c68-1652f876bc72", "32004241-5219-2674-af43-1519254e563d", "3200454c-4c28-9284-cdcc-74694c8d1749", "32004552-5480-0920-32a6-165b5a77814e", "32005748-4972-2063-1ea8-adb8ac89fa9d", "32004b55-5053-4597-b958-87408c31956f"]}	test_user_2	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league_member_lineup	invalid player	/api/league/test_league_0/member/lineup	PUT	{"lineup": ["32005455-4322-4643-f70e-a24b7ce12345", "32005745-4e61-5770-9c68-1652f876bc72", "32004241-5219-2674-af43-1519254e563d", "3200454c-4c28-9284-cdcc-74694c8d1749", "32004552-5480-0920-32a6-165b5a77814e", "32005748-4972-2063-1ea8-adb8ac89fa9d", "32004b55-5053-4597-b958-87408c31956f"]}	test_user_0	400	{"success": false, "errors": ["32005455-4322-4643-f70e-a24b7ce12345 is invalid or is not formatted properly."]}		
+league_member_lineup	incorrect positions	/api/league/test_league_0/member/lineup	PUT	{"lineup": ["32005455-4322-4643-f70e-a24b7ce9db07", "32004d43-4d22-6186-f944-10ba09a79444", "32004241-5219-2674-af43-1519254e563d", "3200454c-4c28-9284-cdcc-74694c8d1749", "32004552-5480-0920-32a6-165b5a77814e", "32005748-4972-2063-1ea8-adb8ac89fa9d", "32004b55-5053-4597-b958-87408c31956f"]}	test_user_0	400	{"success": false, "errors": ["Lineup does not match league's lineup settings. Submitted: {'K': 2, 'RB': 2, 'TE': 1, 'WR': 2}. League settings: {'K': 1, 'QB': 1, 'RB': 2, 'TE': 1, 'WR': 2}"]}		
+league_member_lineup	initial lineup	/api/league/test_league_0/member/lineup	PUT	{"lineup": ["32005455-4322-4643-f70e-a24b7ce9db07", "32005745-4e61-5770-9c68-1652f876bc72", "32004241-5219-2674-af43-1519254e563d", "3200454c-4c28-9284-cdcc-74694c8d1749", "32004552-5480-0920-32a6-165b5a77814e", "32005748-4972-2063-1ea8-adb8ac89fa9d", "32004b55-5053-4597-b958-87408c31956f"]}	test_user_0	200	{"success": true}		
+league_member_lineup	initial lineup	/api/league/test_league_0/member/lineup	GET		test_user_0	200		lineup[*].id	["32005455-4322-4643-f70e-a24b7ce9db07", "32005745-4e61-5770-9c68-1652f876bc72", "32004241-5219-2674-af43-1519254e563d", "3200454c-4c28-9284-cdcc-74694c8d1749", "32004552-5480-0920-32a6-165b5a77814e", "32005748-4972-2063-1ea8-adb8ac89fa9d", "32004b55-5053-4597-b958-87408c31956f"]
+league_member_lineup	add locked player	/api/league/test_league_0/member/lineup	PUT	{"lineup": ["32005455-4322-4643-f70e-a24b7ce9db07", "3200524f-4433-9293-a3cf-ad7758d03003", "32004241-5219-2674-af43-1519254e563d", "3200454c-4c28-9284-cdcc-74694c8d1749", "32004552-5480-0920-32a6-165b5a77814e", "32005748-4972-2063-1ea8-adb8ac89fa9d", "32004b55-5053-4597-b958-87408c31956f"]}	test_user_0	400	{"success": false, "errors": ["Player 3200524f-4433-9293-a3cf-ad7758d03003 is currently locked for editing."]}		
+league_member_lineup	update locked player	/api/league/test_league_0/member/lineup	PUT	{"lineup": ["32005455-4322-4643-f70e-a24b7ce9db07", "32005745-4e61-5770-9c68-1652f876bc72", "32004241-5219-2674-af43-1519254e563d", "3200454c-4c28-9284-cdcc-74694c8d1749", "32004552-5480-0920-32a6-165b5a77814e", "32005748-4972-2063-1ea8-adb8ac89fa9d", "32004b55-5053-4597-b958-87408c31956f"]}	test_user_1	400	{"success": false, "errors": ["Player 32004b45-4c01-2458-b7b6-3a14cdb414dd is currently locked for editing."]}		
+league_member_lineup	edit lineup	/api/league/test_league_0/member/lineup	PUT	{"lineup": ["32005455-4322-4643-f70e-a24b7ce9db07", "32005745-4e61-5770-9c68-1652f876bc72", "32004241-5219-2674-af43-1519254e563d", "3200454c-4c28-9284-cdcc-74694c8d1749", "32004552-5480-0920-32a6-165b5a77814e", "32005748-4972-2063-1ea8-adb8ac89fa9d", "3200534d-4982-9709-6877-2f8181b1e986"]}	test_user_0	200	{"success": true}		
+league_member_lineup	get updated lineup	/api/league/test_league_0/member/lineup	GET		test_user_0	200		lineup[*].id	["32005455-4322-4643-f70e-a24b7ce9db07", "32005745-4e61-5770-9c68-1652f876bc72", "32004241-5219-2674-af43-1519254e563d", "3200454c-4c28-9284-cdcc-74694c8d1749", "32004552-5480-0920-32a6-165b5a77814e", "32005748-4972-2063-1ea8-adb8ac89fa9d", "3200534d-4982-9709-6877-2f8181b1e986"]
+league_members	unauthorized	/api/league/test_league_0/members	GET			401			
+league_members	unauthorized	/api/league/test_league_0/members	HEAD			401			
+league_members	unauthorized	/api/league/test_league_0/members	POST			401			
+league_members	unauthorized	/api/league/test_league_0/members	PUT			401			
+league_members	unauthorized	/api/league/test_league_0/members	DELETE			401			
+league_members	unauthorized	/api/league/test_league_0/members	OPTIONS			401			
+league_members	unauthorized	/api/league/test_league_0/members	TRACE			401			
+league_members	unauthorized	/api/league/test_league_0/members	PATCH			401			
+league_members	disallowed method	/api/league/test_league_0/members	GET		test_user_0	405			
+league_members	disallowed method	/api/league/test_league_0/members	HEAD		test_user_0	405			
+league_members	disallowed method	/api/league/test_league_0/members	PUT		test_user_0	405			
+league_members	disallowed method	/api/league/test_league_0/members	DELETE		test_user_0	405			
+league_members	disallowed method	/api/league/test_league_0/members	OPTIONS		test_user_0	405			
+league_members	disallowed method	/api/league/test_league_0/members	TRACE		test_user_0	405			
+league_members	disallowed method	/api/league/test_league_0/members	PATCH		test_user_0	405			
+league_members	missing password	/api/league/test_league_0/members	POST	{}	test_user_0	400	{"success": false, "errors": ["password is missing or invalid."]}		
+league_members	password empty	/api/league/test_league_0/members	POST	{"password": ""}	test_user_0	400	{"success": false, "errors": ["password is missing or invalid."]}		
+league_members	league name invalid	/api/league/test_league_1/members	POST	{"password": "password"}	test_user_0	400	{"success": false, "errors": ["league name is missing or invalid."]}		
+league_members	password is incorrect	/api/league/test_league_0/members	POST	{"password": "invalid"}	test_user_0	400	{"success": false, "errors": ["password is missing or invalid."]}		
+league_members	valid	/api/league/test_league_0/members	POST	{"password": "password"}	test_user_0	200	{"success": true}		
+league_scores	unauthorized	/api/league/test_league_0/scores	GET			401			
+league_scores	unauthorized	/api/league/test_league_0/scores	HEAD			401			
+league_scores	unauthorized	/api/league/test_league_0/scores	POST			401			
+league_scores	unauthorized	/api/league/test_league_0/scores	PUT			401			
+league_scores	unauthorized	/api/league/test_league_0/scores	DELETE			401			
+league_scores	unauthorized	/api/league/test_league_0/scores	OPTIONS			401			
+league_scores	unauthorized	/api/league/test_league_0/scores	TRACE			401			
+league_scores	unauthorized	/api/league/test_league_0/scores	PATCH			401			
+league_scores	disallowed method	/api/league/test_league_0/scores	HEAD		test_user_0	405			
+league_scores	disallowed method	/api/league/test_league_0/scores	POST		test_user_0	405			
+league_scores	disallowed method	/api/league/test_league_0/scores	PUT		test_user_0	405			
+league_scores	disallowed method	/api/league/test_league_0/scores	DELETE		test_user_0	405			
+league_scores	disallowed method	/api/league/test_league_0/scores	OPTIONS		test_user_0	405			
+league_scores	disallowed method	/api/league/test_league_0/scores	TRACE		test_user_0	405			
+league_scores	disallowed method	/api/league/test_league_0/scores	PATCH		test_user_0	405			
+league_scores	invalid league	/api/league/invalid/scores	GET		test_user_0	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league_scores	not member	/api/league/test_league_0/scores	GET		test_user_2	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league_scores	invalid season type	/api/league/test_league_0/scores?seasonType=PRA&seasonYear=2019&week=17	GET		test_user_0	400	{"success": false, "errors": ["season type is missing or invalid."]}		
+league_scores	invalid season year	/api/league/test_league_0/scores?seasonType=REG&seasonYear=2000&week=17	GET		test_user_0	400	{"success": false, "errors": ["season year is missing or invalid."]}		
+league_scores	invalid week	/api/league/test_league_0/scores?seasonType=REG&seasonYear=2019&week=20	GET		test_user_0	400	{"success": false, "errors": ["week is missing or invalid."]}		
+league_scores	valid past default sort	/api/league/test_league_0/scores?seasonType=REG&seasonYear=2019&week=17	GET		test_user_0	200		league_scores[*].user	["test_user_0", "test_user_1"]
+league_scores	valid past ascending sort	/api/league/test_league_0/scores?seasonType=REG&seasonYear=2019&week=17&sort=asc	GET		test_user_0	200		league_scores[*].user	["test_user_1", "test_user_0"]
+league_scores	valid current default sort	/api/league/test_league_0/scores	GET		test_user_0	200		success	[true]
+league_scores	valid current ascending sort	/api/league/test_league_0/scores?sort=asc	GET		test_user_0	200		success	[true]
+league_stats	unauthorized	/api/league/test_league_0/stats	GET			401			
+league_stats	unauthorized	/api/league/test_league_0/stats	HEAD			401			
+league_stats	unauthorized	/api/league/test_league_0/stats	POST			401			
+league_stats	unauthorized	/api/league/test_league_0/stats	PUT			401			
+league_stats	unauthorized	/api/league/test_league_0/stats	DELETE			401			
+league_stats	unauthorized	/api/league/test_league_0/stats	OPTIONS			401			
+league_stats	unauthorized	/api/league/test_league_0/stats	TRACE			401			
+league_stats	unauthorized	/api/league/test_league_0/stats	PATCH			401			
+league_stats	disallowed method	/api/league/test_league_0/stats	HEAD		test_user_0	405			
+league_stats	disallowed method	/api/league/test_league_0/stats	POST		test_user_0	405			
+league_stats	disallowed method	/api/league/test_league_0/stats	PUT		test_user_0	405			
+league_stats	disallowed method	/api/league/test_league_0/stats	DELETE		test_user_0	405			
+league_stats	disallowed method	/api/league/test_league_0/stats	OPTIONS		test_user_0	405			
+league_stats	disallowed method	/api/league/test_league_0/stats	TRACE		test_user_0	405			
+league_stats	disallowed method	/api/league/test_league_0/stats	PATCH		test_user_0	405			
+league_stats	invalid league	/api/league/invalid/stats	GET		test_user_0	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league_stats	not member	/api/league/test_league_0/stats	GET		test_user_2	400	{"success": false, "errors": ["League name is invalid or you are not a member."]}		
+league_stats	invalid season type	/api/league/test_league_0/stats?seasonType=PRA&seasonYear=2019&week=17	GET		test_user_0	400	{"success": false, "errors": ["season type is missing or invalid."]}		
+league_stats	invalid season year	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2000&week=17	GET		test_user_0	400	{"success": false, "errors": ["season year is missing or invalid."]}		
+league_stats	invalid week	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2019&week=20	GET		test_user_0	400	{"success": false, "errors": ["week is missing or invalid."]}		
+league_stats	invalid player ID	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2019&week=17&playerId=32005455-4322-4643-f70e-a24b7ce12345	GET		test_user_0	200	{"success": true, "stats": []}		
+league_stats	past all players	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2019&week=17	GET		test_user_0	200		stats[0].id	["3200524f-4433-9293-a3cf-ad7758d03003"]
+league_stats	past all players sort asc	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2019&week=17&sort=asc	GET		test_user_0	200		stats[0].id	["32004147-4e40-6291-2b0f-470a6817d947"]
+league_stats	past one player	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2019&week=17&playerId=32004352-4f36-9933-a863-d4bf2cc5772e	GET		test_user_0	200		stats[0].total	[11.0]
+league_stats	current all players	/api/league/test_league_0/stats	GET		test_user_0	200		success	[true]
+league_stats	current all players sort asc	/api/league/test_league_0/stats?sort=asc	GET		test_user_0	200		success	[true]
+league_stats	current one player	/api/league/test_league_0/stats?playerId=32005455-4322-4643-f70e-a24b7ce9db07	GET		test_user_0	200		success	[true]
+leagues	unauthorized	/api/leagues	GET			401			
+leagues	unauthorized	/api/leagues	HEAD			401			
+leagues	unauthorized	/api/leagues	POST			401			
+leagues	unauthorized	/api/leagues	PUT			401			
+leagues	unauthorized	/api/leagues	DELETE			401			
+leagues	unauthorized	/api/leagues	OPTIONS			401			
+leagues	unauthorized	/api/leagues	TRACE			401			
+leagues	unauthorized	/api/leagues	PATCH			401			
+leagues	disallowed method	/api/leagues	GET		test_user_0	405			
+leagues	disallowed method	/api/leagues	HEAD		test_user_0	405			
+leagues	disallowed method	/api/leagues	PUT		test_user_0	405			
+leagues	disallowed method	/api/leagues	DELETE		test_user_0	405			
+leagues	disallowed method	/api/leagues	OPTIONS		test_user_0	405			
+leagues	disallowed method	/api/leagues	TRACE		test_user_0	405			
+leagues	disallowed method	/api/leagues	PATCH		test_user_0	405			
+leagues	missing league name	/api/leagues	POST	{"password1": "password", "password2": "password"}	test_user_0	400	{"success": false, "errors": ["new_league_name is missing or invalid."]}		
+leagues	empty league name	/api/leagues	POST	{"new_league_name": "", "password1": "password", "password2": "password"}	test_user_0	400	{"success": false, "errors": ["new_league_name is missing or invalid."]}		
+leagues	missing password1	/api/leagues	POST	{"new_league_name": "new_league", "password2": "password"}	test_user_0	400	{"success": false, "errors": ["password1 is missing or invalid."]}		
+leagues	empty password1	/api/leagues	POST	{"new_league_name": "new_league", "password1": "", "password2": "password"}	test_user_0	400	{"success": false, "errors": ["password1 is missing or invalid."]}		
+leagues	missing password2	/api/leagues	POST	{"new_league_name": "new_league", "password1": "password"}	test_user_0	400	{"success": false, "errors": ["password2 is missing or invalid."]}		
+leagues	empty password2	/api/leagues	POST	{"new_league_name": "new_league", "password1": "password", "password2": ""}	test_user_0	400	{"success": false, "errors": ["password2 is missing or invalid."]}		
+leagues	unmatched passwords	/api/leagues	POST	{"new_league_name": "new_league", "password1": "password", "password2": "invalid_password"}	test_user_0	400	{"success": false, "errors": ["Passwords don't match."]}		
+leagues	league name taken	/api/leagues	POST	{"new_league_name": "test_league_0", "password1": "password", "password2": "password"}	test_user_0	400	{"success": false, "errors": ["League name is already taken."]}		
+leagues	valid	/api/leagues	POST	{"new_league_name": "new_league", "password1": "password", "password2": "password"}	test_user_0	200	{"success": true}		
+player	unauthorized	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	GET			401			
+player	unauthorized	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	HEAD			401			
+player	unauthorized	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	POST			401			
+player	unauthorized	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	PUT			401			
+player	unauthorized	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	DELETE			401			
+player	unauthorized	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	OPTIONS			401			
+player	unauthorized	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	TRACE			401			
+player	unauthorized	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	PATCH			401			
+player	disallowed method	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	HEAD		test_user_0	405			
+player	disallowed method	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	POST		test_user_0	405			
+player	disallowed method	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	PUT		test_user_0	405			
+player	disallowed method	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	DELETE		test_user_0	405			
+player	disallowed method	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	OPTIONS		test_user_0	405			
+player	disallowed method	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	TRACE		test_user_0	405			
+player	disallowed method	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	PATCH		test_user_0	405			
+player	missing player ID	/api/player	GET		test_user_0	400	{"success": false, "errors": ["HTTP 400: Bad request"]}		
+player	invalid player ID	/api/player?id=3200524f-4433-9293-a3cf-ad7758d12345	GET		test_user_0	400	{"success": false, "errors": ["player ID is missing or invalid."]}		
+player	valid	/api/player?id=3200524f-4433-9293-a3cf-ad7758d03003	GET		test_user_0	200	{"success": true, "player": {"id": "3200524f-4433-9293-a3cf-ad7758d03003", "name": "Aaron Rodgers", "team": "GB", "position": "QB", "status": "ACT"}}		
+players	unauthorized	/api/players?available=true	GET			401			
+players	unauthorized	/api/players?available=true	HEAD			401			
+players	unauthorized	/api/players?available=true	POST			401			
+players	unauthorized	/api/players?available=true	PUT			401			
+players	unauthorized	/api/players?available=true	DELETE			401			
+players	unauthorized	/api/players?available=true	OPTIONS			401			
+players	unauthorized	/api/players?available=true	TRACE			401			
+players	unauthorized	/api/players?available=true	PATCH			401			
+players	disallowed method	/api/players?available=true	HEAD		test_user_0	405			
+players	disallowed method	/api/players?available=true	POST		test_user_0	405			
+players	disallowed method	/api/players?available=true	PUT		test_user_0	405			
+players	disallowed method	/api/players?available=true	DELETE		test_user_0	405			
+players	disallowed method	/api/players?available=true	OPTIONS		test_user_0	405			
+players	disallowed method	/api/players?available=true	TRACE		test_user_0	405			
+players	disallowed method	/api/players?available=true	PATCH		test_user_0	405			
+players	missing query	/api/players	GET		test_user_0	400	{"success": false, "errors": ["HTTP 400: Bad request"]}		
+players	no results	/api/players?query=Qwijibox	GET		test_user_0	200	{"success": true, "players": []}		
+players	one result	/api/players?query=Aaron+Rogers	GET		test_user_0	200	{"success": true, "players": [{"id": "3200524f-4433-9293-a3cf-ad7758d03003", "name": "Aaron Rodgers", "team": "GB", "position": "QB"}]}		
+players	available players	/api/players?available=true	GET		test_user_0	200		success	[true]
+session	disallowed method	/api/session	GET			405			
+session	disallowed method	/api/session	HEAD			405			
+session	disallowed method	/api/session	PUT			405			
+session	disallowed method	/api/session	OPTIONS			405			
+session	disallowed method	/api/session	TRACE			405			
+session	disallowed method	/api/session	PATCH			405			
+session	missing username	/api/session	POST	{"password": "password"}		400	{"success": false, "errors": ["username is missing or invalid."]}		
+session	empty username	/api/session	POST	{"username": "", "password": "password"}		400	{"success": false, "errors": ["username is missing or invalid."]}		
+session	missing password	/api/session	POST	{"username": "test_user_0"}		400	{"success": false, "errors": ["password is missing or invalid."]}		
+session	empty password	/api/session	POST	{"username": "test_user_0", "password": ""}		400	{"success": false, "errors": ["password is missing or invalid."]}		
+session	invalid username	/api/session	POST	{"username": "test_user_X", "password": "password"}		200	{"success": false, "errors": ["username and/or password is missing or invalid."]}		
+session	invalid password	/api/session	POST	{"username": "test_user_0", "password": "invalid_password"}		200	{"success": false, "errors": ["username and/or password is missing or invalid."]}		
+session	valid	/api/session	POST	{"username": "test_user_0", "password": "password"}		200	{"success": true}		
+session	valid	/api/session	DELETE	{}	test_user_0	200	{"success": true}		
+team	unauthorized	/api/team?id=GB	GET			401			
+team	unauthorized	/api/team?id=GB	HEAD			401			
+team	unauthorized	/api/team?id=GB	POST			401			
+team	unauthorized	/api/team?id=GB	PUT			401			
+team	unauthorized	/api/team?id=GB	DELETE			401			
+team	unauthorized	/api/team?id=GB	OPTIONS			401			
+team	unauthorized	/api/team?id=GB	TRACE			401			
+team	unauthorized	/api/team?id=GB	PATCH			401			
+team	disallowed method	/api/team?id=GB	HEAD		test_user_0	405			
+team	disallowed method	/api/team?id=GB	POST		test_user_0	405			
+team	disallowed method	/api/team?id=GB	PUT		test_user_0	405			
+team	disallowed method	/api/team?id=GB	DELETE		test_user_0	405			
+team	disallowed method	/api/team?id=GB	OPTIONS		test_user_0	405			
+team	disallowed method	/api/team?id=GB	TRACE		test_user_0	405			
+team	disallowed method	/api/team?id=GB	PATCH		test_user_0	405			
+team	missing team ID	/api/team	GET		test_user_0	400	{"success": false, "errors": ["HTTP 400: Bad request"]}		
+team	invalid team ID	/api/team?id=EX	GET		test_user_0	400	{"success": false, "errors": ["team ID is missing or invalid."]}		
+team	valid	/api/team?id=GB	GET		test_user_0	200	{"success": true, "team": {"id": "GB", "name": "Green Bay Packers"}}		
+teams	unauthorized	/api/teams	GET			401			
+teams	unauthorized	/api/teams	HEAD			401			
+teams	unauthorized	/api/teams	POST			401			
+teams	unauthorized	/api/teams	PUT			401			
+teams	unauthorized	/api/teams	DELETE			401			
+teams	unauthorized	/api/teams	OPTIONS			401			
+teams	unauthorized	/api/teams	TRACE			401			
+teams	unauthorized	/api/teams	PATCH			401			
+teams	disallowed method	/api/teams	HEAD		test_user_0	405			
+teams	disallowed method	/api/teams	POST		test_user_0	405			
+teams	disallowed method	/api/teams	PUT		test_user_0	405			
+teams	disallowed method	/api/teams	DELETE		test_user_0	405			
+teams	disallowed method	/api/teams	OPTIONS		test_user_0	405			
+teams	disallowed method	/api/teams	TRACE		test_user_0	405			
+teams	disallowed method	/api/teams	PATCH		test_user_0	405			
+teams	valid	/api/teams	GET		test_user_0	200	{"success": true, "teams": [{"id": "ARI", "name": "Arizona Cardinals"}, {"id": "ATL", "name": "Atlanta Falcons"}, {"id": "BAL", "name": "Baltimore Ravens"}, {"id": "BUF", "name": "Buffalo Bills"}, {"id": "CAR", "name": "Carolina Panthers"}, {"id": "CHI", "name": "Chicago Bears"}, {"id": "CIN", "name": "Cincinnati Bengals"},{"id": "CLE", "name": "Cleveland Browns"}, {"id": "DAL", "name": "Dallas Cowboys"}, {"id": "DEN", "name": "Denver Broncos"}, {"id": "DET", "name": "Detroit Lions"}, {"id": "GB", "name": "Green Bay Packers"}, {"id": "HOU", "name": "Houston Texans"}, {"id": "IND", "name": "Indianapolis Colts"}, {"id": "JAX", "name": "Jacksonville Jaguars"}, {"id": "KC", "name": "Kansas City Chiefs"}, {"id": "LA", "name": "Los Angeles Rams"}, {"id": "LAC", "name": "Los Angeles Chargers"}, {"id": "LV", "name": "Las Vegas Raiders"}, {"id": "MIA", "name": "Miami Dolphins"}, {"id": "MIN", "name": "Minnesota Vikings"}, {"id": "NE", "name": "New England Patriots"}, {"id": "NO", "name": "New Orleans Saints"}, {"id": "NYG", "name": "New York Giants"}, {"id": "NYJ", "name": "New York Jets"}, {"id": "PHI", "name": "Philadelphia Eagles"}, {"id": "PIT", "name": "Pittsburgh Steelers"}, {"id": "SEA", "name": "Seattle Seahawks"}, {"id": "SF", "name": "San Francisco 49ers"}, {"id": "TB", "name": "Tampa Bay Buccaneers"}, {"id": "TEN", "name": "Tennessee Titans"}, {"id": "WAS", "name": "Washington Redskins"}]}		
+user	unauthorized	/api/user	GET			401			
+user	unauthorized	/api/user	HEAD			401			
+user	unauthorized	/api/user	POST			401			
+user	unauthorized	/api/user	PUT			401			
+user	unauthorized	/api/user	DELETE			401			
+user	unauthorized	/api/user	OPTIONS			401			
+user	unauthorized	/api/user	TRACE			401			
+user	unauthorized	/api/user	PATCH			401			
+user	disallowed method	/api/user	HEAD		test_user_0	405			
+user	disallowed method	/api/user	POST		test_user_0	405			
+user	disallowed method	/api/user	PUT		test_user_0	405			
+user	disallowed method	/api/user	OPTIONS		test_user_0	405			
+user	disallowed method	/api/user	TRACE		test_user_0	405			
+user	no leagues	/api/user	GET		test_user_0	200	{"success": true, "username": "test_user_0", "leagues": []}		
+user	multiple leagues	/api/user	GET		test_user_1	200	{"success": true, "username": "test_user_1", "leagues": ["test_league_0", "test_league_1"]}		
+user	invalid password	/api/user	DELETE	{"password": "invalid_password"}	test_user_1	400	{"success": false, "errors": ["password is missing or invalid."]}		
+user	missing password	/api/user	DELETE	{}	test_user_1	400	{"success": false, "errors": ["password is missing or invalid."]}		
+user	valid	/api/user	DELETE	{"password": "password"}	test_user_1	200	{"success": true}		
+user	missing data	/api/user	PATCH	{}	test_user_0	400	{"success": false, "errors": ["property is missing or invalid.", "data is missing or invalid."]}		
+user	incorrect old password	/api/user	PATCH	{"property": "password", "data": {"old_password": "invalid", "new_password1": "new_password", "new_password2": "new_password"}}	test_user_0	400	{"success": false, "errors": ["password is missing or invalid."]}		
+user	unmatched passwords	/api/user	PATCH	{"property": "password", "data": {"old_password": "password", "new_password1": "new_password_invalid", "new_password2": "new_password"}}	test_user_0	400	{"success": false, "errors": ["Passwords don't match."]}		
+user	valid	/api/user	PATCH	{"property": "password", "data": {"old_password": "password", "new_password1": "new_password", "new_password2": "new_password"}}	test_user_0	200	{"success": true}		
+users	disallowed method	/api/users	GET			405			
+users	disallowed method	/api/users	HEAD			405			
+users	disallowed method	/api/users	PUT			405			
+users	disallowed method	/api/users	DELETE			405			
+users	disallowed method	/api/users	OPTIONS			405			
+users	disallowed method	/api/users	TRACE			405			
+users	disallowed method	/api/users	PATCH			405			
+users	missing username	/api/users	POST	{"password1": "password", "password2": "password"}		400	{"success": false, "errors": ["username is missing or invalid."]}		
+users	empty username	/api/users	POST	{"username": "", "password1": "password", "password2": "password"}		400	{"success": false, "errors": ["username is missing or invalid."]}		
+users	missing password1	/api/users	POST	{"username": "test_new_user", "password2": "password"}		400	{"success": false, "errors": ["password1 is missing or invalid."]}		
+users	empty password1	/api/users	POST	{"username": "test_new_user", "password1": "", "password2": "password"}		400	{"success": false, "errors": ["password1 is missing or invalid."]}		
+users	missing password2	/api/users	POST	{"username": "test_new_user", "password1": "password"}		400	{"success": false, "errors": ["password2 is missing or invalid."]}		
+users	empty password2	/api/users	POST	{"username": "test_new_user", "password1": "password", "password2": ""}		400	{"success": false, "errors": ["password2 is missing or invalid."]}		
+users	unmatched passwords	/api/users	POST	{"username": "test_new_user", "password1": "password", "password2": "invalid_password"}		400	{"success": false, "errors": ["Passwords don't match."]}		
+users	username taken	/api/users	POST	{"username": "test_user_0", "password1": "password", "password2": "password"}		400	{"success": false, "errors": ["Username is already taken."]}		
+users	valid no email	/api/users	POST	{"username": "test_new_user", "password1": "password", "password2": "password"}		200	{"success": true}		
+users	valid email	/api/users	POST	{"username": "test_new_user_2", "email": "test@fake.com", "password1": "password", "password2": "password"}		200	{"success": true}		
+week	unauthorized	/api/week	GET			401			
+week	unauthorized	/api/week	HEAD			401			
+week	unauthorized	/api/week	POST			401			
+week	unauthorized	/api/week	PUT			401			
+week	unauthorized	/api/week	DELETE			401			
+week	unauthorized	/api/week	OPTIONS			401			
+week	unauthorized	/api/week	TRACE			401			
+week	unauthorized	/api/week	PATCH			401			
+week	disallowed method	/api/week	HEAD		test_user_0	405			
+week	disallowed method	/api/week	POST		test_user_0	405			
+week	disallowed method	/api/week	PUT		test_user_0	405			
+week	disallowed method	/api/week	DELETE		test_user_0	405			
+week	disallowed method	/api/week	OPTIONS		test_user_0	405			
+week	disallowed method	/api/week	TRACE		test_user_0	405			
+week	disallowed method	/api/week	PATCH		test_user_0	405			
+week	valid	/api/week	GET		test_user_0	200		success	[true]
