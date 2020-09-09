@@ -108,9 +108,6 @@ class SyncDB:
     else:
       return False   
   def _update_game(self, game_info):
-    # if self._game_is_updated(game_info["gameDetailId"]):
-    #   return 0
-
     print(f'Updating {game_info["gameDetailId"]}')
     game_path = f'{self.base_path}/nfl_json/json/games/{game_info["gameDetailId"]}.json.gz'
     with gzip.open(game_path) as game_json:
@@ -184,12 +181,12 @@ class Command(BaseCommand):
 
   def handle(self, *args, **options):
     sync = SyncDB()
-    # if options['initial'] or options['teams']:
-    #   print("Updating teams...")
-    #   sync.update_teams()
-    # if options['initial'] or options['players']:
-    #   print("Updating players...")
-    #   sync.update_players()
+    if options['initial'] or options['teams']:
+      print("Updating teams...")
+      sync.update_teams()
+    if options['initial'] or options['players']:
+      print("Updating players...")
+      sync.update_players()
 
     if options['initial']:
       # update all the seasons specified in settings

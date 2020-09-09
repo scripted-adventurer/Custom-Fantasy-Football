@@ -8,11 +8,11 @@ Ever felt like the reason you can't win your fantasy football league is because 
 
 ## Components ##
 
-- nfl_json: Syncs data between the NFL.com API and locally stored JSON files
-- mongodb_backend: One of two backend options for the application. Syncs stats data from the JSON files into MongoDB and provides methods to implement all the API requests.
-- postgres_backend: One of two backend options for the application. Syncs stats data from the JSON files into Postgres and provides methods to implement all the API requests (using Django).
-- api: The Flask module that powers the API requests. Uses either mongodb_backend or postgres_backend, depending on which is configured. 
-- frontend: A React single page application that provides all UI functionality. 
+- common: a repository for common elements used by both backend modules, including error messages and a .csv of test cases.
+- nfl_json: a module to sync data between the NFL.com API and locally stored JSON files.
+- postgres_backend: one of two backend modules that serve the REST API. Uses Django to sync data from the JSON files into a Postgres database, as well as implement all the API requests.
+- mongodb_backend: the other backend module that serves the REST API. Syncs data from the JSON files into a MongoDB instance and uses Flask to implement all the API requests.
+- frontend: a React single page application for the UI.
 
 The below subheadings explain the various components of the application.
 

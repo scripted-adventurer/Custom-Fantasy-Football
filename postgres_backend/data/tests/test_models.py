@@ -193,10 +193,10 @@ class ModelsTest(TestCase):
     self.assertEqual(self.data.league[0].correct_password('password'), True)
     self.assertEqual(self.data.league[0].correct_password('incorrect'), False)
     self.assertEqual(self.data.league[0].get_lineup_settings(), {})
+    self.assertEqual(self.data.league[0].get_scoring_settings(), [])
     self.assertEqual(self.data.league[0].get_members(), [])
     self.assertEqual(self.data.league[1].get_lineup_settings(), 
       lineup_settings)
-    self.assertEqual(self.data.league[0].get_scoring_settings(), [])
     self.assertEqual(self.data.league[1].get_scoring_settings(), 
       scoring_settings)
     self.assertEqual(self.data.league[1].get_members(), [self.data.user[0].username, 
@@ -309,10 +309,14 @@ class ModelsTest(TestCase):
     # no lineup
     self.assertEqual(self.data.member[0].get_lineup('REG', 2019, 17), [])
     self.assertEqual(self.data.member[0].get_lineup(), [])
-    # existing lineup
+    # existing lineup past
     existing_lineup = self.data.member[1].get_lineup('REG', 2019, 17)
     self.assertEqual(existing_lineup[0]['id'], '3200524f-4433-9293-a3cf-ad7758d03003')
     self.assertEqual(existing_lineup[1]['id'], '3200434f-5570-9400-e1ae-f835abb5963e')
+    # existing lineup current
+    existing_lineup = self.data.member[1].get_lineup()
+    self.assertEqual(existing_lineup[0]['id'], '3200524f-4433-9293-a3cf-ad7758d03003')
+    self.assertEqual(existing_lineup[1]['id'], '32005749-4c77-7781-795c-94c753706d1d')
     # lineup add previous week
     self.data.member[0].lineup_add('3200524f-4433-9293-a3cf-ad7758d03003', 
       'REG', 2019, 17)

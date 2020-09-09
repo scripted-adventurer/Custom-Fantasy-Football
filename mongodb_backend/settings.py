@@ -1,11 +1,20 @@
 import os
 
-database = {
- 'host': os.environ['NFL_MDB_HOST'],   # default is 'localhost',
- 'port': int(os.environ['NFL_MDB_PORT']),   # default is 27017
- 'user': os.environ['NFL_MDB_USER'],
- 'password': os.environ['NFL_MDB_PASSWORD'],
- 'db': os.environ['NFL_MDB_DB']
+DATABASES = {
+  'default': {
+    'host': os.environ['NFL_MDB_HOST'],   # default is 'localhost',
+    'port': int(os.environ['NFL_MDB_PORT']),   # default is 27017
+    'user': os.environ['NFL_MDB_USER'],
+    'password': os.environ['NFL_MDB_PASSWORD'],
+    'db': os.environ['NFL_MDB_DB']
+  },
+  'test': {
+    'host': os.environ['NFL_MDB_HOST'],   # default is 'localhost',
+    'port': int(os.environ['NFL_MDB_PORT']),   # default is 27017
+    'user': os.environ['NFL_MDB_USER'],
+    'password': os.environ['NFL_MDB_PASSWORD'],
+    'db': 'test'
+  }
 }
 
 '''A 'season' is specified by a year and a phase. For example, 2019 REG refers to
@@ -15,4 +24,4 @@ PRE - Preseason
 REG - Regular season
 PRO - Pro Bowl
 POST - Postseason '''
-included_seasons = {2019: ['PRE', 'REG', 'PRO', 'POST']}
+INCLUDED_SEASONS = {2019: ['PRE', 'REG', 'PRO', 'POST']}

@@ -1,47 +1,38 @@
 from pymongo import MongoClient
 import gzip
 import json
+import argparse
+import os
 
 import models
-import settings
+from settings import INCLUDED_SEASONS
 
 class SyncDB:
   '''Updates the MongoDB instance pointed to in settings.py with all the stats
-  and player info found in the json folder (using the data models defined in models.py)'''
+  and player info found in the nfl_json folder (using the data models defined in 
+  models.py).'''
   def __init__(self):
-    self.client = MongoClient(host=settings.database['host'], 
-      port=settings.database['port'], username=settings.database['user'], 
-      password=settings.database['password'], 
-      authSource=settings.database['db'])
-    self.db = self.client[settings.database['db']]
+    self.base_path = os.environ['CUSTOM_FF_PATH']
   def update_players(self):
     print("Updating players collection in database...")
-    # send the data in the currentPlayers.json file directly to MongoDB
-    with open('json/currentPlayers.json') as players_file:
+    with open(f"{self.base_path}/nfl_json/json/currentPlayers.json") as players_file:
       players = json.load(players_file)
-    for player in players.values():
-      self.db.player.find_one_and_replace({'id': player['id']}, player, 
-        upsert=True)
+    for player_info in players.values():
+      player = models.Player().from_json(player_info)
+      player.write_to_db()
   def _update_game(self, game_info):
-    game_path = f'json/games/{game_info["node"]["gameDetailId"]}.json.gz'
+    game_path = f"{self.base_path}/nfl_json/json/games/{game_info['node']['gameDetailId']}.json.gz"
     with gzip.open(game_path) as game_json:
       game_detail = json.load(game_json)
-    game = models.Game(game_info, game_detail)
-    existing = self.db.game.find_one({"_id": game._id})
-    # add if missing
-    if not existing:
-      print(f"Adding {game._id} to database...")
-      self.db.game.insert_one(game.as_dict())
-    # update if out of date
-    elif len(existing["plays"]) != len(game.plays): 
-      print(f"Updating {game._id} in database...")
-      self.db.game.replace_one({"_id": game._id}, game.as_dict())
+    game = models.Game().from_json(game_info, game_detail)
+    if game.write_to_db():
+      print(f"Updated {game._id} in database...")
   def update_games(self):
     # for each season defined in the settings file, send the associated game
     # data (after transforming according to models.py) to MongoDB
-    for year, phases in settings.included_seasons.items():
+    for year, phases in INCLUDED_SEASONS.items():
       print(f"Checking for updates in games collection in database for {year}...")
-      with open(f"json/schedule/{year}.json") as schedule_file:
+      with open(f"{self.base_path}/nfl_json/json/schedule/{year}.json") as schedule_file:
         schedule = json.load(schedule_file)
       games = schedule["data"]["viewer"]["league"]["games"]["edges"]
       for game in games:
@@ -51,3 +42,14 @@ class SyncDB:
     if update_players:
       self.update_players()
     self.update_games()
+
+def main():
+  parser = argparse.ArgumentParser(description='Sync the JSON game data to the MongoDB database')
+  parser.add_argument('--players', action='store_true', 
+    help='Sync the JSON player data to the database')
+  args = parser.parse_args()
+  
+  SyncDB().main(args.players)
+
+if __name__ == '__main__':
+  main()    
