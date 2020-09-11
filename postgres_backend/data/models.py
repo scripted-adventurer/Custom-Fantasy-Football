@@ -300,12 +300,12 @@ class Player(models.Model):
       season_type=season_type, season_year=season_year, week=week) | 
       (Game.objects.filter(away_team=self.team, season_type=season_type, 
       season_year=season_year, week=week)))
-    game_start = this_game[0].start_time.replace(tzinfo=pytz.UTC)
-    now = datetime.datetime.now(pytz.UTC)
-    if len(this_game) == 1 and game_start < now:
-      return True
-    else:
-      return False
+    if len(this_game) == 1:
+      game_start = this_game[0].start_time.replace(tzinfo=pytz.UTC)
+      now = datetime.datetime.now(pytz.UTC)
+      if game_start < now:
+        return True
+    return False
 
 class Team(models.Model):
   team_id = models.CharField(primary_key=True, max_length=3)
@@ -419,7 +419,7 @@ class League(models.Model):
     return [member.user.username for member in 
       Member.objects.filter(league=self).order_by('user__username')]
 
-class NfldbField(models.TextChoices):
+class StatField(models.TextChoices):
   DEFENSE_AST = 'defense_ast'
   DEFENSE_FFUM = 'defense_ffum'
   DEFENSE_FGBLK = 'defense_fgblk'
@@ -534,7 +534,7 @@ class NfldbField(models.TextChoices):
 class LeagueStat(models.Model):
   league = models.ForeignKey(League, on_delete=models.CASCADE)
   name = models.TextField()
-  field = models.CharField(max_length=21, choices=NfldbField.choices)
+  field = models.CharField(max_length=21, choices=StatField.choices)
   # when true, look for conditions in StatCondition
   conditions = models.BooleanField(default=False)
   # used for calculating scores
@@ -562,12 +562,12 @@ class StatCondition(models.Model):
     LTE = '<='
 
   league_stat = models.ForeignKey(LeagueStat, on_delete=models.CASCADE)
-  field = models.CharField(max_length=21, choices=NfldbField.choices)
+  field = models.CharField(max_length=21, choices=StatField.choices)
   comparison = models.CharField(max_length=2, choices=Comparison.choices)
   value = models.SmallIntegerField(default=0)
 
   def __repr__(self):
-    return (f"{{'model': 'StatCondition', 'league': " +
+    return (f"{{'model': 'StatCondition', 'league': " 
       f"'{self.league_stat.league.name}', 'stat': '{self.league_stat.name}', "
       f"'field': '{self.field}', 'comparison': '{self.comparison}', "
       f"'value': {self.value}}}")

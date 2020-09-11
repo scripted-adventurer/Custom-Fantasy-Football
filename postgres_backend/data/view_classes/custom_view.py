@@ -24,7 +24,6 @@ class CustomView:
     self.user = request.user
     self.request_data = json.loads(request.body) if request.body else {}
     self.request_method = request.method 
-    self.login_required = login_required
     self.response_data = {'success': True}
     self.response_status = 200
     self.errors = Errors()
