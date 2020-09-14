@@ -14,13 +14,13 @@ class Leagues(CustomView):
       self.add_response_error(self.errors.unmatched_passwords())
       self.change_response_status(400)
       return self.return_json()
-    elif len(db_models.League.objects.filter(name=new_league_name)):
+    elif len(models.League.objects(name=new_league_name)):
       self.add_response_error(self.errors.name_taken('League name'))
       self.change_response_status(400)
       return self.return_json()
     else:
-      league = db_models.League.objects.create(name=new_league_name)
+      league = models.League.objects(name=new_league_name).save()
       league.set_password(password1)
-      member = db_models.Member.objects.create(user=self.user, league=league, 
-        admin=True)
+      member = models.Member.objects(user=self.user, league=league, 
+        admin=True).save()
       return self.return_json()

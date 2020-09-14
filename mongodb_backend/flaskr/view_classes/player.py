@@ -4,8 +4,8 @@ from flaskr import models
 
 class Player(CustomView):
   def get(self):
-    if 'id' in self.request.GET:
-      player = db_models.get_safe('Player', player_id=self.request.GET['id'])
+    if 'id' in self.request.args:
+      player = models.get_safe('Player', player_id=self.request.args['id'])
       if not player:
         self.change_response_status(400)
         self.add_response_error(self.errors.bad_data('player ID'))

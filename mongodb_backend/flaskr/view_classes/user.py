@@ -6,7 +6,7 @@ class User(CustomView):
   def get(self):
     username = self.user.username
     self.add_response_data('username', username)
-    leagues = [row.league.name for row in db_models.Member.objects.filter(
+    leagues = [row.league.name for row in models.Member.objects.filter(
       user=self.user)]
     self.add_response_data('leagues', leagues)
     return self.return_json()

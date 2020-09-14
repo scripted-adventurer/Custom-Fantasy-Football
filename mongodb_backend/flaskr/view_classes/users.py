@@ -16,7 +16,7 @@ class Users(CustomView):
       self.add_response_error(self.errors.unmatched_passwords())
       return self.return_json()
     # existing user with username
-    elif db_models.get_safe('User', username=username):
+    elif models.get_safe('User', username=username):
       self.change_response_status(400)
       self.add_response_error(self.errors.name_taken('Username'))
       return self.return_json()

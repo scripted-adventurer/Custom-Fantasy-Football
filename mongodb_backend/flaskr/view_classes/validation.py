@@ -37,7 +37,7 @@ class LineupValidation:
         self.changed.append(player_id)
   def check_players(self):      
     for player_id in self.new_lineup:
-      player = db_models.get_safe('Player', player_id=player_id)
+      player = models.get_safe('Player', player_id=player_id)
       if not player:
         self.errors.append(Errors().unrecognized(player_id))
       else:
@@ -55,7 +55,7 @@ class LineupValidation:
       f"Submitted: {self.lineup_positions}. League settings: {self.league_positions}")
   def check_locked(self):
     for player_id in self.changed:
-      player = db_models.get_safe('Player', player_id=player_id)
+      player = models.get_safe('Player', player_id=player_id)
       if player.is_locked():
         self.errors.append(Errors().locked_player(player_id))
   def run(self): 
@@ -75,8 +75,8 @@ class ScoringSettingsValidation:
   def __init__(self):
     self.errors = []
     self.param_map = {'name': {'type': 'str', 'enum': None}, 
-      'field': {'type': 'str', 'enum': db_models.NfldbField.values}, 
-      'comparison': {'type': 'str', 'enum': db_models.StatCondition.Comparison.values}, 
+      'field': {'type': 'str', 'enum': models.NfldbField.values}, 
+      'comparison': {'type': 'str', 'enum': models.StatCondition.Comparison.values}, 
       'value': {'type': 'int', 'enum': None}, 
       'multiplier': {'type': 'float', 'enum': None}}
   def _correct_type(self, param, value):
@@ -139,7 +139,7 @@ class LineupSettingsValidation:
 
 class SeasonWeekValidation:
   def __init__(self):
-    self.param_bounds = {'season_type': db_models.SeasonType.values,
+    self.param_bounds = {'season_type': models.SeasonType.values,
       'season_year': range(2011, datetime.datetime.now().year + 1),
       'week': range(0, 18)}
   def check_season_type(self, season_type):

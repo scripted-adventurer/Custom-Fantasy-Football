@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 from mongoengine import *
-from flask_security import UserMixin, RoleMixin
 
 import os
 import datetime
 import pytz
+
+from .security import User
 
 import importlib.util
 spec = importlib.util.spec_from_file_location("statmap", 
@@ -17,6 +18,18 @@ common = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(common)
 CurrentWeek = common.CurrentWeek
 Utility = common.Utility
+
+def get_safe(model_name, **kwargs):
+  # a modified get() function that returns a single matching object if one exists
+  # or None otherwise (doesn't raise an Exception)
+  models = {'Game': Game, 'Player': Player, 'League': League, 'User': User, 
+    'Member': Member}
+  model = models[model_name]
+  data = model.objects.filter(**kwargs)
+  if len(data) == 1:
+    return data[0]
+  else:
+    return None
 
 def convert_yard_line(yard_line, possession_team):
   # extract team ID and yardline ex. "GB 25" -> ['GB', 25]
@@ -354,8 +367,8 @@ class Player(Document):
   def is_locked(self):
     season_year, season_type, week = get_current_week()
     week = Week(season_year=season_year, season_type=season_type, week=week)
-    this_game = Game.objects((Q(home_team=self.team) | Q(away_team=self.team)) 
-      & Q(week=week))
+    this_game = Game.objects(Q(week=week) & (Q(home_team__team_id=self.team) | 
+      Q(away_team__team_id=self.team)))
     if len(this_game) == 1:
       game_start = this_game[0].start_time.replace(tzinfo=pytz.UTC)
       now = datetime.datetime.now(pytz.UTC)
@@ -460,7 +473,7 @@ class StatCondition(EmbeddedDocument):
     return hash(('StatCondition', self.field, self.comparison, self.value))
   def data_dict(self):
     return {'field': self.field, 'comparison': self.comparison, 'value': 
-      self.value}  
+      float(self.value)}  
 
 class ScoreSetting(EmbeddedDocument):
   '''Represents one custom defined stat in a league. Used only in League.'''
@@ -484,7 +497,7 @@ class ScoreSetting(EmbeddedDocument):
   def data_dict(self):
     conditions = [condition.data_dict() for condition in self.conditions]
     return {'name': self.name, 'field': self.field, 'conditions': 
-      conditions, 'multiplier': self.multiplier}  
+      conditions, 'multiplier': float(self.multiplier)}  
 
 class League(Document):
   '''Represents a user-created league, containing members (users in the league), 
@@ -506,8 +519,6 @@ class League(Document):
   def __hash__(self):
     return hash(('League', self.name))
   def correct_password(self, password):
-    if not password:
-      return False
     if (Utility().custom_hash(password) == self.password):
       return True
     else:
@@ -537,45 +548,7 @@ class League(Document):
     self.save()
   def get_members(self):
     return [member.user.username for member in Member.objects(league=self).order_by(
-      'user')]
-
-class User(Document, UserMixin):
-  '''Represents one user of the global web application. One user can be in 
-  multiple leagues (see Member). Used by Flask security for authentication and 
-  authorization.'''
-  username = StringField(max_length=255, required=True, unique=True)
-  email = StringField(max_length=255)
-  password = StringField(max_length=255, required=True)
-  active = BooleanField(default=True)
-
-  def __repr__(self):
-    return f"{{'model': 'User', 'username': '{self.username}'}}"
-  def __str__(self):
-    return f"{{User {self.username}}}"
-  def __eq__(self, other):
-    if isinstance(other, User):
-      return (self.username == other.username)
-    else:
-      return NotImplemented  
-  def __hash__(self):
-    return hash(('User', self.username))
-
-class Role(Document, RoleMixin):
-  '''Necessary for Flask Security. Not currently used (all users have same role).'''
-  name = StringField(max_length=80, unique=True)
-  description = StringField(max_length=255)
-
-  def __repr__(self):
-    return f"{{'model': 'Role', 'name': '{self.name}'}}"
-  def __str__(self):
-    return f"{{Role {self.name}}}"
-  def __eq__(self, other):
-    if isinstance(other, Role):
-      return (self.name == other.name)
-    else:
-      return NotImplemented  
-  def __hash__(self):
-    return hash(('Role', self.name))  
+      'user')]  
 
 class Member(Document):
   '''Represents one user's participation in a league.'''
@@ -595,7 +568,7 @@ class Member(Document):
     else:
       return NotImplemented  
   def __hash__(self):
-    return hash(('Member', self.user.name, self.league.name))
+    return hash(('Member', self.user.username, self.league.name))
   def is_admin(self):
     return self.admin
   def get_lineup(self, season_type='', season_year='', week=''):

@@ -24,10 +24,6 @@ class LeagueMemberLineup(LeagueBase):
         self.add_response_error(error)
       self.change_response_status(400)
       return self.return_json()
-    for player_id in old_lineup:
-      if player_id not in new_lineup:
-        self.member.lineup_delete(player_id)
-    for player_id in new_lineup:
-      if player_id not in old_lineup:
-        self.member.lineup_add(player_id)
+    self.member.lineup_delete()
+    self.member.lineup_add(new_lineup)
     return self.return_json()

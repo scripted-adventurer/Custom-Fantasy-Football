@@ -6,16 +6,16 @@ from .validation import SeasonWeekValidation
 class Games(CustomView):
   def get(self):
     # default to the current week but use user-provided values if they are present
-    season_year, season_type, week = db_models.get_current_week()
+    season_year, season_type, week = models.get_current_week()
     custom_week = False
-    if 'seasonType' in self.request.GET:
-      season_type = self.request.GET['seasonType']
+    if 'seasonType' in self.request.args:
+      season_type = self.request.args['seasonType']
       custom_week = True
-    if 'seasonYear' in self.request.GET:
-      season_year = self.request.GET['seasonYear']
+    if 'seasonYear' in self.request.args:
+      season_year = self.request.args['seasonYear']
       custom_week = True
-    if 'week' in self.request.GET:  
-      week = self.request.GET['week']
+    if 'week' in self.request.args:  
+      week = self.request.args['week']
       custom_week = True
     if custom_week:
       valid = True
@@ -31,7 +31,8 @@ class Games(CustomView):
       if not valid:
         self.change_response_status(400)
         return self.return_json()
-    games = [game.data_dict() for game in db_models.Game.objects.filter(
-      season_type=season_type, season_year=int(season_year), week=int(week))] 
+    week = models.Week(season_type=season_type, season_year=int(season_year), 
+      week=int(week))
+    games = [game.data_dict() for game in models.Game.objects(week=week)] 
     self.add_response_data('games', games)
     return self.return_json()

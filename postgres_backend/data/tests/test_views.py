@@ -15,7 +15,6 @@ spec = importlib.util.spec_from_file_location("common",
   f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
 common = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(common)
-Errors = common.Errors
 Utility = common.Utility
 
 class ViewsTest(TestCase):
@@ -84,7 +83,7 @@ class ViewsTest(TestCase):
       league=self.data.league[0])
     self.data.create('Member', user=self.data.user[1], 
       league=self.data.league[0])
-    # Travis Kelce ('') is locked here 
+    # Travis Kelce ('32004b45-4c01-2458-b7b6-3a14cdb414dd') is locked here 
     self.data.create('Lineup', member=self.data.member[1], season_type='REG',
       season_year=2019, week=17, player_id='32005455-4322-4643-f70e-a24b7ce9db07')
     self.data.create('Lineup', member=self.data.member[1], season_type='REG',
@@ -208,6 +207,8 @@ class ViewsTest(TestCase):
         test.full_response, test.json_expression, test.parsed_response)
       self.assertEqual(True, test_case.run())
 
+  # Sunday afternoon during Week 17 2019
+  @freeze_time("2019-12-29 18:30:00")
   def test_players(self):
     # add the fuzzystrmatch extension to Postgres for player search
     with connection.cursor() as cursor:

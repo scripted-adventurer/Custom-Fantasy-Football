@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from flask import Flask, request
-from flask_security import Security, login_required
-from flask_login import current_user
+from flask_login import LoginManager, user_loader, login_required, current_user
 from flask_mongoengine import MongoEngine, MongoEngineSessionInterface
 
 import os
@@ -34,15 +33,21 @@ def create_app(testing=False):
     app.config['TESTING'] = True
     app.config['BCRYPT_LOG_ROUNDS'] = 4
   db = MongoEngine(app)
+  login_manager = LoginManager()
+  login_manager.init_app(app)
   app.session_interface = MongoEngineSessionInterface(db)
 
+  @login_manager.user_loader
+  def load_user(username):
+    return models.get_safe('User', username=username)
+
   @login_required
-  @app.route('/games', methods=['GET'])
+  @app.route('/api/games', methods=['GET'])
   def games():
     return Games(request).get()
 
   @login_required
-  @app.route('/league/<league_name>/member', methods=['GET', 'DELETE'])
+  @app.route('/api/league/<league_name>/member', methods=['GET', 'DELETE'])
   def league_member(league_name):
     if request.method == 'GET':
       return LeagueMember(request, current_user, league_name).get()
@@ -50,7 +55,7 @@ def create_app(testing=False):
       return LeagueMember(request, current_user, league_name).delete()  
 
   @login_required
-  @app.route('/league/<league_name>/member/lineup', methods=['GET', 'PUT'])
+  @app.route('/api/league/<league_name>/member/lineup', methods=['GET', 'PUT'])
   def league_member_lineup(league_name):
     if request.method == 'GET':
       return LeagueMemberLineup(request, current_user, league_name).get()
@@ -58,22 +63,22 @@ def create_app(testing=False):
       return LeagueMemberLineup(request, current_user, league_name).put()
 
   @login_required
-  @app.route('/league/<league_name>/members', methods=['POST'])
+  @app.route('/api/league/<league_name>/members', methods=['POST'])
   def league_members(league_name):
     return LeagueMembers(request, current_user, league_name).post()
 
   @login_required
-  @app.route('/league/<league_name>/scores', methods=['GET'])
+  @app.route('/api/league/<league_name>/scores', methods=['GET'])
   def league_scores(league_name):
     return LeagueScores(request, current_user, league_name).get()
 
   @login_required
-  @app.route('/league/<league_name>/stats', methods=['GET'])
+  @app.route('/api/league/<league_name>/stats', methods=['GET'])
   def league_stats(league_name):
     return LeagueStats(request, current_user, league_name).get()
 
   @login_required
-  @app.route('/league/<league_name>', methods=['GET', 'PATCH'])
+  @app.route('/api/league/<league_name>', methods=['GET', 'PATCH'])
   def league(league_name):
     if request.method == 'GET':
       return League(request, current_user, league_name).get()
@@ -81,21 +86,21 @@ def create_app(testing=False):
       return League(request, current_user, league_name).patch()    
 
   @login_required
-  @app.route('/leagues', methods=['POST'])
+  @app.route('/api/leagues', methods=['POST'])
   def leagues():
     return Leagues(request, current_user).post() 
 
   @login_required
-  @app.route('/player', methods=['GET'])
+  @app.route('/api/player', methods=['GET'])
   def player():
     return Player(request, current_user).get()
 
   @login_required
-  @app.route('/players', methods=['GET'])
+  @app.route('/api/players', methods=['GET'])
   def players():
     return Players(request, current_user).get()  
 
-  @app.route('/session', methods=['POST', 'DELETE'])
+  @app.route('/api/session', methods=['POST', 'DELETE'])
   def session():
     if request.method == 'POST':
       return Session(request).post()
@@ -103,17 +108,17 @@ def create_app(testing=False):
       return Session(request).delete()
 
   @login_required
-  @app.route('/team', methods=['GET'])
+  @app.route('/api/team', methods=['GET'])
   def team():
     return Team(request, current_user).get()
 
   @login_required
-  @app.route('/teams', methods=['GET'])
+  @app.route('/api/teams', methods=['GET'])
   def teams():
     return Teams(request, current_user).get()    
 
   @login_required
-  @app.route('/user', methods=['GET', 'DELETE', 'PATCH'])
+  @app.route('/api/user', methods=['GET', 'DELETE', 'PATCH'])
   def user():
     if request.method == 'GET':
       return User(request, current_user).get()
@@ -122,12 +127,12 @@ def create_app(testing=False):
     elif request.method == 'PATCH':
       return User(request, current_user).patch()
 
-  @app.route('/users', methods=['POST'])
+  @app.route('/api/users', methods=['POST'])
   def users():
     return Users(request).post()
 
   @login_required
-  @app.route('/week', methods=['GET'])
+  @app.route('/api/week', methods=['GET'])
   def week():
     return Week(request, current_user).get()
 

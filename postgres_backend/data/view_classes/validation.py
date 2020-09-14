@@ -75,18 +75,14 @@ class ScoringSettingsValidation:
   def __init__(self):
     self.errors = []
     self.param_map = {'name': {'type': 'str', 'enum': None}, 
-      'field': {'type': 'str', 'enum': db_models.NfldbField.values}, 
+      'field': {'type': 'str', 'enum': db_models.StatField.values}, 
       'comparison': {'type': 'str', 'enum': db_models.StatCondition.Comparison.values}, 
       'value': {'type': 'int', 'enum': None}, 
       'multiplier': {'type': 'float', 'enum': None}}
   def _correct_type(self, param, value):
     param_type = self.param_map[param]['type']
     if param_type == 'str':
-      try:
-        str(value)
-        return True
-      except ValueError:
-        return False
+      return True
     elif param_type == 'int':
       try:
         int(value)
@@ -143,13 +139,9 @@ class SeasonWeekValidation:
       'season_year': range(2011, datetime.datetime.now().year + 1),
       'week': range(0, 18)}
   def check_season_type(self, season_type):
-    try:
-      str(season_type)
-      if str(season_type) not in self.param_bounds['season_type']:
-        return False
-      return True  
-    except ValueError:
+    if str(season_type) not in self.param_bounds['season_type']:
       return False
+    return True  
   def check_season_year(self, season_year):
     try:
       int(season_year)

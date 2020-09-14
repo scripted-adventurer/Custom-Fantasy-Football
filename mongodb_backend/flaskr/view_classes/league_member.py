@@ -28,7 +28,7 @@ class LeagueMember(LeagueBase):
         self.add_response_error(self.errors.not_admin())
         self.change_response_status(403)
         return self.return_json()
-      to_remove = db_models.get_safe('Member', league=self.league, 
+      to_remove = models.get_safe('Member', league=self.league, 
         user__username=username)
       if not to_remove:
         self.change_response_status(400)

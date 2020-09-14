@@ -18,7 +18,7 @@ class LeagueScores(LeagueBase):
     league_scores = []
     for username in self.league.get_members():
       user_score = {'user': username, 'total': 0, 'player_scores': []}
-      self.member = db_models.Member.objects.get(league=self.league, 
+      self.member = models.Member.objects.get(league=self.league, 
         user__username=username)
       for player in self.member.get_lineup(self.season_type, self.season_year, 
         self.week):
@@ -33,7 +33,7 @@ class LeagueScores(LeagueBase):
       user_score['total'] = round(user_score['total'], 2)
       league_scores.append(user_score)
     reverse_sort = True
-    if 'sort' in self.request.GET and self.request.GET['sort'] == 'asc':
+    if 'sort' in self.request.args and self.request.args['sort'] == 'asc':
       reverse_sort = False
     league_scores.sort(key=lambda user_score: user_score['total'], 
       reverse=reverse_sort)

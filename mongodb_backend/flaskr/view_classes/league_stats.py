@@ -15,9 +15,9 @@ class LeagueStats(LeagueBase):
     stats = StatQuery(scoring_settings=scoring_settings)
     stats.filter(season_type=self.season_type, season_year=self.season_year, 
       week=self.week)
-    if 'playerId' in self.request.GET:
-      stats.filter(player_id=self.request.GET['playerId'])
-    if 'sort' in self.request.GET:
-      stats.filter(sort=self.request.GET['sort'])
+    if 'playerId' in self.request.args:
+      stats.filter(player_id=self.request.args['playerId'])
+    if 'sort' in self.request.args:
+      stats.filter(sort=self.request.args['sort'])
     self.add_response_data('stats', stats.get())
     return self.return_json()

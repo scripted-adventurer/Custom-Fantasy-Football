@@ -15,8 +15,8 @@ Utility = common.Utility
 
 class Players(CustomView):
   def get(self):
-    if 'query' in self.request.GET:
-      player_name = self.request.GET['query']
+    if 'query' in self.request.args:
+      player_name = self.request.args['query']
       players = []
       with connection.cursor() as cursor:
         cursor.execute('''SELECT player_id, name, team, position, difference(name, %s)
@@ -29,7 +29,7 @@ class Players(CustomView):
           players.append(player_dict)
       self.add_response_data('players', players)
       return self.return_json()
-    elif 'available' in self.request.GET:
+    elif 'available' in self.request.args:
       season_year, season_type, week = db_models.get_current_week()
       now = datetime.datetime.now(pytz.utc)
       teams = []

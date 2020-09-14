@@ -13,7 +13,7 @@ Utility = common.Utility
 
 class LeagueMembers(LeagueBase):
   def post(self):
-    league = db_models.get_safe('League', name=self.league_name)
+    league = models.get_safe('League', name=self.league_name)
     if not league:
       self.change_response_status(400)
       self.add_response_error(self.errors.bad_data('league name'))
@@ -28,5 +28,5 @@ class LeagueMembers(LeagueBase):
       self.change_response_status(400)
       return self.return_json()
     else:
-      db_models.Member.objects.create(user=self.user, league=league)
+      models.Member.objects(user=self.user, league=league).save()
       return self.return_json()

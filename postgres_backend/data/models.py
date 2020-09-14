@@ -356,8 +356,6 @@ class League(models.Model):
   def __hash__(self):
     return hash(('League', self.name))
   def correct_password(self, password):
-    if not password:
-      return False
     if (Utility().custom_hash(password) == self.password):
       return True
     else:
@@ -410,11 +408,8 @@ class League(models.Model):
             field=condition['field'], comparison=condition['comparison'], 
             value=condition['value'])
   def set_password(self, password):
-    if not password:
-      return False
-    else:
-      self.password = Utility().custom_hash(password)
-      self.save()
+    self.password = Utility().custom_hash(password)
+    self.save()
   def get_members(self):
     return [member.user.username for member in 
       Member.objects.filter(league=self).order_by('user__username')]

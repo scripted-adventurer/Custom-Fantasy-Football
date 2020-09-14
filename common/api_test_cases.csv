@@ -14,9 +14,11 @@ games	disallowed method	/api/games	DELETE		test_user_0	405
 games	disallowed method	/api/games	OPTIONS		test_user_0	405			
 games	disallowed method	/api/games	TRACE		test_user_0	405			
 games	disallowed method	/api/games	PATCH		test_user_0	405			
-games	invalid season type	/api/games?seasonType=PRA&seasonYear=2019&week=17	GET		test_user_0	400	{"success": false, "errors": ["season type is missing or invalid."]}		
-games	invalid season year	/api/games?seasonType=REG&seasonYear=2000&week=17	GET		test_user_0	400	{"success": false, "errors": ["season year is missing or invalid."]}		
-games	invalid week	/api/games?seasonType=REG&seasonYear=2019&week=20	GET		test_user_0	400	{"success": false, "errors": ["week is missing or invalid."]}		
+games	incorrect season type	/api/games?seasonType=PRA&seasonYear=2019&week=17	GET		test_user_0	400	{"success": false, "errors": ["season type is missing or invalid."]}		
+games	incorrect season year	/api/games?seasonType=REG&seasonYear=2000&week=17	GET		test_user_0	400	{"success": false, "errors": ["season year is missing or invalid."]}		
+games	incorrect week	/api/games?seasonType=REG&seasonYear=2019&week=20	GET		test_user_0	400	{"success": false, "errors": ["week is missing or invalid."]}		
+games	invalid season year	/api/games?seasonType=REG&seasonYear=twothousand&week=17	GET		test_user_0	400	{"success": false, "errors": ["season year is missing or invalid."]}		
+games	invalid week	/api/games?seasonType=REG&seasonYear=2019&week=seventeen	GET		test_user_0	400	{"success": false, "errors": ["week is missing or invalid."]}		
 games	valid – current	/api/games	GET		test_user_0	200		success	[true]
 games	valid – specific week	/api/games?seasonType=REG&seasonYear=2019&week=17	GET		test_user_0	200		games[*].id	["10160000-0581-4046-b36d-71a9dc294989", "10160000-0581-4191-65e2-636042b146a2", "10160000-0581-42a6-7ad4-b6ce07df420c", "10160000-0581-439e-5962-787e83670452", "10160000-0581-4493-e406-c82cf623910b", "10160000-0581-45c0-455c-8dcc2dd0671b", "10160000-0581-4680-ba82-12e629d4584f", "10160000-0581-473e-eb94-1a778636026a", "10160000-0581-48bf-97b6-ba88c25425db", "10160000-0581-497c-03ab-631399c8edb5", "10160000-0581-50f0-2784-54117f77ace2", "10160000-0581-51ec-daf8-313de0e71617", "10160000-0581-52cd-7bcb-655ad442bbc7", "10160000-0581-53f8-15d7-52fbf40781c2", "10160000-0581-548a-6756-cb2d2d18c1c2", "10160000-0581-554b-2f66-33a0afe446bb"]
 league	unauthorized	/api/league/test_league_0	GET			401			
@@ -315,6 +317,7 @@ user	invalid password	/api/user	DELETE	{"password": "invalid_password"}	test_use
 user	missing password	/api/user	DELETE	{}	test_user_1	400	{"success": false, "errors": ["password is missing or invalid."]}		
 user	valid	/api/user	DELETE	{"password": "password"}	test_user_1	200	{"success": true}		
 user	missing data	/api/user	PATCH	{}	test_user_0	400	{"success": false, "errors": ["property is missing or invalid.", "data is missing or invalid."]}		
+user	invalid property	/api/user	PATCH	{"property": "invalid", "data": {"old_password": "invalid", "new_password1": "new_password", "new_password2": "new_password"}}	test_user_0	400	{"success": false, "errors": ["property is missing or invalid."]}		
 user	incorrect old password	/api/user	PATCH	{"property": "password", "data": {"old_password": "invalid", "new_password1": "new_password", "new_password2": "new_password"}}	test_user_0	400	{"success": false, "errors": ["password is missing or invalid."]}		
 user	unmatched passwords	/api/user	PATCH	{"property": "password", "data": {"old_password": "password", "new_password1": "new_password_invalid", "new_password2": "new_password"}}	test_user_0	400	{"success": false, "errors": ["Passwords don't match."]}		
 user	valid	/api/user	PATCH	{"property": "password", "data": {"old_password": "password", "new_password1": "new_password", "new_password2": "new_password"}}	test_user_0	200	{"success": true}		

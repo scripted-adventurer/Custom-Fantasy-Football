@@ -41,8 +41,6 @@ class CustomView:
     return self.method_not_allowed()
   def delete(self):
     return self.method_not_allowed()
-  def connect(self):
-    return self.method_not_allowed()
   def options(self):
     return self.method_not_allowed()
   def trace(self):
@@ -55,14 +53,9 @@ class CustomView:
       self.add_response_error(self.errors.http_401())
       return self.return_json()
     method_map = {'GET': self.get, 'HEAD': self.head, 'POST': self.post, 
-      'PUT': self.put, 'DELETE': self.delete, 'CONNECT': self.connect, 
-      'OPTIONS': self.options, 'TRACE': self.trace, 'PATCH': self.patch}
-    if self.request_method in method_map:
-      return method_map[self.request_method]()
-    else:
-      self.change_response_status(400)
-      self.add_response_error(self.errors.http_400())
-      return self.return_json()
+      'PUT': self.put, 'DELETE': self.delete, 'OPTIONS': self.options, 
+      'TRACE': self.trace, 'PATCH': self.patch}
+    return method_map[self.request_method]()
   def check_required_params(self, params, container=''):
     container = container if container else self.request_data
     valid = True
