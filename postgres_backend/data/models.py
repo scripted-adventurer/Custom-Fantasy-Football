@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 import os
 import datetime
 import pytz
+from werkzeug.security import generate_password_hash, check_password_hash
 
 import importlib.util
 spec = importlib.util.spec_from_file_location("common", 
@@ -11,7 +12,6 @@ spec = importlib.util.spec_from_file_location("common",
 common = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(common)
 CurrentWeek = common.CurrentWeek
-Utility = common.Utility
 
 def get_current_week():
   now = datetime.datetime.now(pytz.UTC)
@@ -29,6 +29,12 @@ def get_safe(model_name, **kwargs):
     return data[0]
   else:
     return None
+
+def generate_hash(password):
+  return generate_password_hash(password)
+
+def compare_hash(pwhash, password):
+  return check_password_hash(pwhash, password)  
 
 class SeasonType(models.TextChoices):
   PRE = 'PRE'
@@ -356,7 +362,7 @@ class League(models.Model):
   def __hash__(self):
     return hash(('League', self.name))
   def correct_password(self, password):
-    if (Utility().custom_hash(password) == self.password):
+    if compare_hash(self.password, password):
       return True
     else:
       return False
@@ -408,7 +414,7 @@ class League(models.Model):
             field=condition['field'], comparison=condition['comparison'], 
             value=condition['value'])
   def set_password(self, password):
-    self.password = Utility().custom_hash(password)
+    self.password = generate_hash(password)
     self.save()
   def get_members(self):
     return [member.user.username for member in 

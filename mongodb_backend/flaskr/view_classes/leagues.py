@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from .custom_view import CustomView
 from flaskr import models
+from flaskr.security import generate_hash
 
 class Leagues(CustomView):
   def post(self):
@@ -19,8 +20,8 @@ class Leagues(CustomView):
       self.change_response_status(400)
       return self.return_json()
     else:
-      league = models.League.objects(name=new_league_name).save()
-      league.set_password(password1)
+      password = generate_hash(password1)
+      league = models.League.objects(name=new_league_name, password=password1).save()
       member = models.Member.objects(user=self.user, league=league, 
         admin=True).save()
       return self.return_json()

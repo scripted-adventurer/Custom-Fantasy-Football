@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from .league_base import LeagueBase
 from flaskr import models
+from flaskr.security import get_user, compare_hash
 
 class LeagueMember(LeagueBase):
   def get(self):
@@ -14,8 +15,8 @@ class LeagueMember(LeagueBase):
     # remove requesting user
     if self.get_request_data('password'):
       # re check password for security
-      if not authenticate(self.request, username=self.user.username, 
-        password=self.get_request_data('password')):
+      password = self.get_request_data('password')
+      if not compare_hash(self.user.password, password):
         self.add_response_error(self.errors.bad_data('password'))
         self.change_response_status(400)
         return self.return_json()
@@ -28,8 +29,9 @@ class LeagueMember(LeagueBase):
         self.add_response_error(self.errors.not_admin())
         self.change_response_status(403)
         return self.return_json()
+      user = get_user(username=username)
       to_remove = models.get_safe('Member', league=self.league, 
-        user__username=username)
+        user=user)
       if not to_remove:
         self.change_response_status(400)
         self.add_response_error(self.errors.bad_data('username'))

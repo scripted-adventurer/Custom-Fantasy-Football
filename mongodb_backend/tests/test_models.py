@@ -1,21 +1,40 @@
 # -*- coding: utf-8 -*-
-import datetime
 from freezegun import freeze_time
-import os
-import pytz
-import pytest
 
-from flaskr import models 
-
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-Utility = common.Utility
+from flaskr import models
+from flaskr import security 
 
 def test_models(app):
   # to speed up execution, run all the tests within one database setup/teardown
+  hashed_password = security.generate_hash('password')
+
+  def test_get_safe():
+    name = 'test_get_safe'
+    league_0 = models.League(name=f"{name}_0", password=hashed_password).save()
+    user_0 = models.User(username=f"{name}_0", password=hashed_password).save()
+    user_1 = models.User(username=f"{name}_1", password=hashed_password).save()
+    member_0 = models.Member(user=user_0, league=league_0).save()
+    game_valid = models.get_safe('Game', 
+      game_id='10160000-0581-45c0-455c-8dcc2dd0671b')
+    assert game_valid
+    game_invalid = models.get_safe('Game', 
+      game_id='10160000-0581-45c0-455c-8dcc2dd01234')
+    assert not game_invalid
+    player_valid = models.get_safe('Player', 
+      player_id='3200524f-4433-9293-a3cf-ad7758d03003')
+    assert player_valid
+    player_invalid = models.get_safe('Player', 
+      player_id='3200524f-4433-9293-a3cf-ad7758d01234')
+    assert not player_invalid
+    league_valid = models.get_safe('League', name=f"{name}_0")
+    assert league_valid
+    league_invalid = models.get_safe('League', name='invalid')
+    assert not league_invalid
+    member_valid = models.get_safe('Member', league=league_0, user=user_0)
+    assert member_valid
+    member_invalid = models.get_safe('Member', league=league_0, user=user_1)
+    assert not member_invalid
+
   def test_team():
     main = models.Team(team_id='GB', name='Green Bay Packers')
     same = models.Team(team_id='GB', name='Green Bay Packers')
@@ -203,8 +222,8 @@ def test_models(app):
 
   def test_league_basic():
     name = 'test_league_basic'
-    models.League(name=f"{name}_0", password='password').save()
-    models.League(name=f"{name}_1", password='password').save()
+    models.League(name=f"{name}_0", password=hashed_password).save()
+    models.League(name=f"{name}_1", password=hashed_password).save()
     
     main = models.League.objects.get(name=f"{name}_0")
     same = models.League.objects.get(name=f"{name}_0")
@@ -232,14 +251,12 @@ def test_models(app):
       {'field': 'kicking_fgm_yds', 'comparison': '>=', 'value': 50.00}], 
       'multiplier': 3.0}]
     # league 0 is blank, league 1 has standard settings
-    league_0 = models.League(name=f"{name}_0").save()
-    league_0.set_password('password')
-    league_1 = models.League(name=f"{name}_1", lineup_settings=lineup_settings, 
-      scoring_settings=scoring_settings).save()
-    league_1.set_password('password')
-    user_0 = models.User(username=f"{name}_0", password='password').save()
-    user_1 = models.User(username=f"{name}_1", password='password').save()
-    user_2 = models.User(username=f"{name}_2", password='password').save()
+    league_0 = models.League(name=f"{name}_0", password=hashed_password).save()
+    league_1 = models.League(name=f"{name}_1", password=hashed_password, 
+      lineup_settings=lineup_settings, scoring_settings=scoring_settings).save()
+    user_0 = models.User(username=f"{name}_0", password=hashed_password).save()
+    user_1 = models.User(username=f"{name}_1", password=hashed_password).save()
+    user_2 = models.User(username=f"{name}_2", password=hashed_password).save()
     member_0 = models.Member(user=user_0, league=league_1).save()
     member_1 = models.Member(user=user_1, league=league_1).save()
     member_2 = models.Member(user=user_2, league=league_1).save()
@@ -262,39 +279,11 @@ def test_models(app):
     assert league_0.get_scoring_settings() == scoring_settings
     assert league_0.correct_password('new_password')
 
-  def test_user():
-    name = 'test_user'
-    main = models.User(username=f'{name}_0', password='password')
-    same = models.User(username=f'{name}_0', password='password')
-    different = models.User(username=f'{name}_1', password='password')
-    other = models.Team(team_id='GB', name='Green Bay Packers')
-    assert repr(main) == f"{{'model': 'User', 'username': '{name}_0'}}"
-    assert str(main) == f"{{User {name}_0}}"
-    assert main == same
-    assert hash(main) == hash(same)
-    assert main != different
-    assert hash(main) != hash(different)
-    assert not main == other
-
-  def test_role():
-    main = models.Role(name='Test Role', description='test')
-    same = models.Role(name='Test Role', description='test')
-    different = models.Role(name='Test Role 2', description='test 2')
-    other = models.Team(team_id='GB', name='Green Bay Packers')
-    assert repr(main) == f"{{'model': 'Role', 'name': 'Test Role'}}"
-    assert str(main) == f"{{Role Test Role}}"
-    assert main == same
-    assert hash(main) == hash(same)
-    assert main != different
-    assert hash(main) != hash(different)
-    assert not main == other
-
   def test_member_basic():
     name = 'test_member_basic'
-    league_0 = models.League(name=f"{name}_0").save()
-    league_0.set_password('password')
-    user_0 = models.User(username=f"{name}_0", password='password').save()
-    user_1 = models.User(username=f"{name}_1", password='password').save()
+    league_0 = models.League(name=f"{name}_0", password=hashed_password).save()
+    user_0 = models.User(username=f"{name}_0", password=hashed_password).save()
+    user_1 = models.User(username=f"{name}_1", password=hashed_password).save()
     member_0 = models.Member(user=user_0, league=league_0).save()
     member_1 = models.Member(user=user_1, league=league_0).save()
 
@@ -314,10 +303,9 @@ def test_models(app):
 
   def test_member_additional():
     name = 'test_member_additional'
-    league_0 = models.League(name=f"{name}_0").save()
-    league_0.set_password('password')
-    user_0 = models.User(username=f"{name}_0", password='password').save()
-    user_1 = models.User(username=f"{name}_1", password='password').save()
+    league_0 = models.League(name=f"{name}_0", password=hashed_password).save()
+    user_0 = models.User(username=f"{name}_0", password=hashed_password).save()
+    user_1 = models.User(username=f"{name}_1", password=hashed_password).save()
     member_0 = models.Member(user=user_0, league=league_0).save()
     member_1 = models.Member(user=user_1, league=league_0).save()
     past_lineup_base = ["3200524f-4433-9293-a3cf-ad7758d03003", 
@@ -368,6 +356,7 @@ def test_models(app):
     member_0_lineup = member_0.get_lineup()
     assert member_0_lineup == []
 
+  test_get_safe()
   test_team()
   test_week()
   test_game_score()
@@ -384,7 +373,5 @@ def test_models(app):
   test_stat_condition()
   test_league_basic()
   test_league_additional()
-  test_user()
-  test_role()
   test_member_basic()
   test_member_additional()

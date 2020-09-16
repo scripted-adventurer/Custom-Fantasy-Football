@@ -3128,7 +3128,7 @@
               "node": {
                 "id": "10012020-0914-01b7-b22d-2e9003c78414",
                 "esbId": "2020091401",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-83a1-48d6-ffb8a0c4c8ed",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3141,7 +3141,7 @@
               "node": {
                 "id": "10012020-0914-006c-3137-bf4fd425611c",
                 "esbId": "2020091400",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-8275-14d3-44415f899826",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3154,7 +3154,7 @@
               "node": {
                 "id": "10012020-0913-12e2-7ccd-8083b8eae02a",
                 "esbId": "2020091312",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-8196-873c-fbd4b6a4688f",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3167,7 +3167,7 @@
               "node": {
                 "id": "10012020-0913-1151-b440-3bd7f60a42ca",
                 "esbId": "2020091311",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-80a3-3e67-fadbeaac892d",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3180,7 +3180,7 @@
               "node": {
                 "id": "10012020-0913-1035-120e-5eaf886bf2ed",
                 "esbId": "2020091310",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-7945-48e7-e030167a42eb",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3193,7 +3193,7 @@
               "node": {
                 "id": "10012020-0913-0970-4b0c-d1e1f11bb7ad",
                 "esbId": "2020091309",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-78cc-2d9e-599f63c72296",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3206,7 +3206,7 @@
               "node": {
                 "id": "10012020-0913-089c-b3d7-197a4bdcadc2",
                 "esbId": "2020091308",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-77a7-6020-b4cf522bec25",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3219,7 +3219,7 @@
               "node": {
                 "id": "10012020-0913-075e-9749-420f31163e13",
                 "esbId": "2020091307",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-76c4-009e-62f4bad86d0d",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3232,7 +3232,7 @@
               "node": {
                 "id": "10012020-0913-06b4-a7e3-b5e6528ee7a8",
                 "esbId": "2020091306",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-7529-f18a-5d17e1c95da1",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3245,7 +3245,7 @@
               "node": {
                 "id": "10012020-0913-053f-161b-490753f947be",
                 "esbId": "2020091305",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-7494-c9f6-6ecebbbb6dbc",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3258,7 +3258,7 @@
               "node": {
                 "id": "10012020-0913-04ca-c00e-7d26a62450ea",
                 "esbId": "2020091304",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-73a7-1abe-eaf9f4f6fd5f",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3271,7 +3271,7 @@
               "node": {
                 "id": "10012020-0913-0352-8263-da5e43a66693",
                 "esbId": "2020091303",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-729b-cd06-93ec725fa915",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3284,7 +3284,7 @@
               "node": {
                 "id": "10012020-0913-0283-b513-2d7aec512dfd",
                 "esbId": "2020091302",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-718a-57e6-fe7a341b4ee4",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3297,7 +3297,7 @@
               "node": {
                 "id": "10012020-0913-01bf-d20b-55d75ae2084e",
                 "esbId": "2020091301",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-70d4-0228-d2dd8f9a452b",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3310,7 +3310,7 @@
               "node": {
                 "id": "10012020-0913-003f-f697-b52f49882730",
                 "esbId": "2020091300",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-6992-7a57-56b2ee63e2f6",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",
@@ -3323,7 +3323,7 @@
               "node": {
                 "id": "10012020-0910-004e-d9e7-1b07484306e5",
                 "esbId": "2020091000",
-                "gameDetailId": null,
+                "gameDetailId": "10160000-0581-684c-9751-8a12a25d9dc8",
                 "week": {
                   "seasonValue": 2020,
                   "seasonType": "REG",

@@ -4,13 +4,6 @@ import os
 from .league_base import LeagueBase
 import data.models as db_models
 
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-Utility = common.Utility
-
 class LeagueMembers(LeagueBase):
   def post(self):
     league = db_models.get_safe('League', name=self.league_name)
@@ -22,8 +15,7 @@ class LeagueMembers(LeagueBase):
     if not self.check_required_params(required_params):
       return self.return_json()
     password = self.get_request_data('password')
-    password_hash = Utility().custom_hash(password)
-    if password_hash != league.password:
+    if not db_models.compare_hash(league.password, password):
       self.add_response_error(self.errors.bad_data('password'))
       self.change_response_status(400)
       return self.return_json()

@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-from flask import jsonify, Response
+from flask import json, Response
 
-import json
 import os
 
 import importlib.util
@@ -18,7 +17,7 @@ class CustomView:
   def __init__(self, request, current_user=None):
     self.request = request
     self.user = current_user
-    self.request_data = request.json
+    self.request_data = request.json if request.json else {}
     self.response_data = {'success': True}
     self.response_status = 200
     self.errors = Errors()
@@ -44,5 +43,5 @@ class CustomView:
   def change_response_status(self, new_response_status):
     self.response_status = new_response_status
   def return_json(self):
-    return Response(jsonify(self.response_data), status=self.response_status, 
+    return Response(json.dumps(self.response_data), status=self.response_status, 
       mimetype='application/json')

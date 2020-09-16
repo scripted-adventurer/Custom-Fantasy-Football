@@ -75,8 +75,8 @@ class ScoringSettingsValidation:
   def __init__(self):
     self.errors = []
     self.param_map = {'name': {'type': 'str', 'enum': None}, 
-      'field': {'type': 'str', 'enum': models.NfldbField.values}, 
-      'comparison': {'type': 'str', 'enum': models.StatCondition.Comparison.values}, 
+      'field': {'type': 'str', 'enum': models.STATFIELDS}, 
+      'comparison': {'type': 'str', 'enum': models.COMPARISON_VALS}, 
       'value': {'type': 'int', 'enum': None}, 
       'multiplier': {'type': 'float', 'enum': None}}
   def _correct_type(self, param, value):
@@ -126,9 +126,8 @@ class LineupSettingsValidation:
   def __init__(self):
     self.errors = []
   def check(self, lineup_settings):
-    positions = {'DB', 'DL', 'K', 'LB', 'OL', 'P', 'QB', 'RB', 'TE', 'WR'}
     for position, count in lineup_settings.items():
-      if position in positions:
+      if position in models.POSITIONS:
         try:
           int(count)
         except ValueError:
@@ -139,17 +138,13 @@ class LineupSettingsValidation:
 
 class SeasonWeekValidation:
   def __init__(self):
-    self.param_bounds = {'season_type': models.SeasonType.values,
+    self.param_bounds = {'season_type': models.SEASON_TYPES,
       'season_year': range(2011, datetime.datetime.now().year + 1),
       'week': range(0, 18)}
   def check_season_type(self, season_type):
-    try:
-      str(season_type)
-      if str(season_type) not in self.param_bounds['season_type']:
-        return False
-      return True  
-    except ValueError:
+    if str(season_type) not in self.param_bounds['season_type']:
       return False
+    return True  
   def check_season_year(self, season_year):
     try:
       int(season_year)

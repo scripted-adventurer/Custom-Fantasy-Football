@@ -27,20 +27,26 @@ class ViewTestRequest:
     self.expected_full_response = full_response
     self.json_expression = json_expression
     self.expected_parsed_response = parsed_response
-    
-    if username:
-      self.client.post('/api/session', data={'username': self.username, 
-        'password': 'password'})
+  def _login(self):
+    self.client.post('/api/session', json={'username': self.username, 
+      'password': 'password'})
+  def _make_request(self):
     if self.method == 'GET':
       self.response = self.client.get(self.url)
+    if self.method == 'HEAD':
+      self.response = self.client.head(self.url)
     if self.method == 'POST':
-      self.response = self.client.post(self.url, self.request)
+      self.response = self.client.post(self.url, json=self.request)
     if self.method == 'PUT':
-      self.response = self.client.put(self.url, self.request)
+      self.response = self.client.put(self.url, json=self.request)
     if self.method == 'DELETE':
-      self.response = self.client.delete(self.url, self.request)
+      self.response = self.client.delete(self.url, json=self.request)
+    if self.method == 'OPTIONS':
+      self.response = self.client.options(self.url, json=self.request)
+    if self.method == 'TRACE':
+      self.response = self.client.trace(self.url)   
     if self.method == 'PATCH':
-      self.response = self.client.patch(self.url, self.request)
+      self.response = self.client.patch(self.url, json=self.request)  
   def _get_response(self):
     self.received_status_code = self.response.status_code
     self.response_content = (json.loads(self.response.data) if 
@@ -66,11 +72,18 @@ class ViewTestRequest:
       print(f"Full response: {self.response_content}")
       return False
     return True 
+  def _logout(self):
+    self.client.delete('/api/session', json={})
   def run(self):
+    if self.username:
+      self._login()
+    self._make_request()  
     self._get_response()
     valid = self._check_status()
     if self.expected_full_response:
       valid = self._check_response()
     if self.expected_parsed_response:
       valid = self._check_json_expression()
+    if self.username:
+      self._logout()
     return valid  

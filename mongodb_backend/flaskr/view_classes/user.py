@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 from .custom_view import CustomView
 from flaskr import models
+from flaskr.security import compare_hash
 
 class User(CustomView):
   def get(self):
     username = self.user.username
     self.add_response_data('username', username)
-    leagues = [row.league.name for row in models.Member.objects.filter(
-      user=self.user)]
+    leagues = [row.league.name for row in models.Member.objects(user=self.user)]
     self.add_response_data('leagues', leagues)
     return self.return_json()
   def delete(self):
@@ -16,8 +16,7 @@ class User(CustomView):
     if not self.check_required_params(required_params):
       return self.return_json()
     password = self.get_request_data('password')
-    if not authenticate(self.request, username=self.user.username, 
-      password=password):
+    if not compare_hash(self.user.password, password):
       self.add_response_error(self.errors.bad_data('password'))
       self.change_response_status(400)
       return self.return_json()
@@ -35,8 +34,7 @@ class User(CustomView):
         self.add_response_error(self.errors.unmatched_passwords())
         self.change_response_status(400)
         return self.return_json()
-      elif not authenticate(self.request, username=self.user.username, 
-        password=old_password):
+      elif not compare_hash(self.user.password, old_password):
         self.add_response_error(self.errors.bad_data('password'))
         self.change_response_status(400)
         return self.return_json()

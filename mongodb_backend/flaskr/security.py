@@ -2,6 +2,8 @@ from flask_login import UserMixin
 from mongoengine import *
 from werkzeug.security import generate_password_hash, check_password_hash
 
+import os
+
 class User(Document, UserMixin):
   '''Represents one user of the global web application. One user can be in 
   multiple leagues (see Member). Used by Flask Login for authentication and 
@@ -10,32 +12,29 @@ class User(Document, UserMixin):
   email = StringField(max_length=255)
   password = StringField(max_length=255, required=True)
   active = BooleanField(default=True)
+  
+  @property
+  def is_active(self):
+    return self.active
 
   def __repr__(self):
     return f"{{'model': 'User', 'username': '{self.username}'}}"
   def __str__(self):
-    return f"{{User {self.username}}}"
-  def __eq__(self, other):
-    if isinstance(other, User):
-      return (self.username == other.username)
-    else:
-      return NotImplemented  
+    return str(self.id)   # necessary for MongoEngine to work properly 
   def __hash__(self):
-    return hash(('User', self.username)) 
-  def get_id(self):
-    return self.username
+    return hash(('User', self.id)) 
+  def set_password(self, password):
+    self.password = generate_hash(password)  
 
-def get_user(self, username):
+def get_user(username):
   response = User.objects(username=username)
-  if len(data) == 1:
+  if len(response) == 1:
     return response[0]
   else:
     return None
 
 def generate_hash(password):
-  salted_password = password + os.environ['PASSWORD_SALT']
-  return generate_password_hash(salted_password)
+  return generate_password_hash(password)
 
-def compare_hash(password, hashed_password):
-  salted_password = password + os.environ['PASSWORD_SALT']
-  return check_password_hash(salted_password, hashed_password)      
+def compare_hash(pwhash, password):
+  return check_password_hash(pwhash, password)      

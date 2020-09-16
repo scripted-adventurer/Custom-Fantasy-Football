@@ -99,6 +99,10 @@ def http_400(request, exception):
   response = {'success': False, 'errors': [Errors().http_400()]}
   return JsonResponse(response, status=400)
 
+def http_401(request, exception):
+  response = {'success': False, 'errors': [Errors().http_401()]}
+  return JsonResponse(response, status=401)  
+
 def csrf_failure(request, reason=""):
   response = {'success': False, 'errors': [Errors().bad_csrf()]}
   return JsonResponse(response, status=403)
@@ -110,6 +114,10 @@ def http_403(request, exception):
 def http_404(request, exception):
   response = {'success': False, 'errors': [Errors().http_404()]}
   return JsonResponse(response, status=404)
+
+def http_405(request, exception):
+  response = {'success': False, 'errors': [Errors().http_405()]}
+  return JsonResponse(response, status=405)  
 
 def http_500(request):
   response = {'success': False, 'errors': [Errors().http_500()]}

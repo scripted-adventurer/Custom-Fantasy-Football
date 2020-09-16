@@ -5,27 +5,27 @@ import os
 import datetime
 import pytz
 
-from .security import User
+from .security import User, generate_hash, compare_hash
 
 import importlib.util
-spec = importlib.util.spec_from_file_location("statmap", 
-  f"{os.environ['CUSTOM_FF_PATH']}/nfl_json/statmap.py")
-statmap = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(statmap)
+# spec = importlib.util.spec_from_file_location("statmap", 
+#   f"{os.environ['CUSTOM_FF_PATH']}/nfl_json/statmap.py")
+# statmap = importlib.util.module_from_spec(spec)
+# spec.loader.exec_module(statmap)
+from custom_FF.common import statmap 
+
 spec = importlib.util.spec_from_file_location("common", 
   f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
 common = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(common)
 CurrentWeek = common.CurrentWeek
-Utility = common.Utility
 
 def get_safe(model_name, **kwargs):
   # a modified get() function that returns a single matching object if one exists
   # or None otherwise (doesn't raise an Exception)
-  models = {'Game': Game, 'Player': Player, 'League': League, 'User': User, 
-    'Member': Member}
+  models = {'Game': Game, 'Player': Player, 'League': League, 'Member': Member}
   model = models[model_name]
-  data = model.objects.filter(**kwargs)
+  data = model.objects(**kwargs)
   if len(data) == 1:
     return data[0]
   else:
@@ -68,10 +68,12 @@ class Team(EmbeddedDocument):
   def __hash__(self):
     return hash(('Team', self.team_id))
 
+SEASON_TYPES = ('PRE', 'REG', 'PRO', 'POST')
+
 class Week(EmbeddedDocument):
   '''Represents a single week in an NFL season. Used in the week fields in Game 
   and Lineup.'''
-  season_type = StringField(max_length=4, choices=('PRE', 'REG', 'PRO', 'POST'))
+  season_type = StringField(max_length=4, choices=SEASON_TYPES)
   season_year = IntField(required=True)
   week = IntField(required=True)
 
@@ -376,6 +378,8 @@ class Player(Document):
         return True
     return False  
 
+POSITIONS = ['DB', 'DL', 'K', 'LB', 'OL', 'P', 'QB', 'RB', 'TE', 'WR']
+
 class LineupSettings(EmbeddedDocument):
   '''Represents how a league's lineups are made, i.e. how many of each player 
   position group are included in a lineup for that league. Only used in League.'''
@@ -389,18 +393,16 @@ class LineupSettings(EmbeddedDocument):
   RB = IntField()
   TE = IntField()
   WR = IntField()
-  # pre built position list for convenience
-  positions = ['DB', 'DL', 'K', 'LB', 'OL', 'P', 'QB', 'RB', 'TE', 'WR']
 
   def __repr__(self):
     settings = []
-    for position in self.positions:
+    for position in POSITIONS:
       if getattr(self, position):
         settings.append(f"'{position}': {getattr(self, position)}")
     return f"{{'model': 'LineupSettings', {', '.join(settings)}}}"
   def __str__(self):
     settings = []
-    for position in self.positions:
+    for position in POSITIONS:
       if getattr(self, position):
         settings.append(f"{getattr(self, position)} {position}")
     return f"{{Lineup Settings: {', '.join(settings)}}}"
@@ -417,7 +419,7 @@ class LineupSettings(EmbeddedDocument):
       self.P, self.QB, self.RB, self.TE, self.WR))
   def data_dict(self):
     settings = {}
-    for position in self.positions:
+    for position in POSITIONS:
       if getattr(self, position):
         settings[position] = getattr(self, position)
     return settings    
@@ -450,11 +452,13 @@ STATFIELDS = ('defense_ast', 'defense_ffum', 'defense_fgblk', 'defense_frec',
   'rushing_twoptm', 'rushing_twoptmissed', 'rushing_yds', 'third_down_att', 
   'third_down_conv', 'third_down_failed', 'timeout', 'xp_aborted')
 
+COMPARISON_VALS = ('=', '>', '<', '>=', '<=')
+
 class StatCondition(EmbeddedDocument):
   '''Represents one condition in one custom defined stat in a league. Used only 
   in ScoreSetting.'''
   field = StringField(max_length=21, choices=STATFIELDS, required=True)
-  comparison = StringField(max_length=2, choices=('=', '>', '<', '>=', '<='), 
+  comparison = StringField(max_length=2, choices=COMPARISON_VALS, 
     required=True)
   value = DecimalField(required=True)
 
@@ -503,7 +507,7 @@ class League(Document):
   '''Represents a user-created league, containing members (users in the league), 
   lineup settings, and scoring settings.'''
   name = StringField(max_length=200, required=True, unique=True)
-  password = StringField(max_length=200)
+  password = StringField(max_length=200, required=True)
   lineup_settings = EmbeddedDocumentField(LineupSettings)
   scoring_settings = EmbeddedDocumentListField(ScoreSetting)
 
@@ -519,7 +523,7 @@ class League(Document):
   def __hash__(self):
     return hash(('League', self.name))
   def correct_password(self, password):
-    if (Utility().custom_hash(password) == self.password):
+    if compare_hash(self.password, password):
       return True
     else:
       return False
@@ -544,7 +548,7 @@ class League(Document):
         multiplier=setting['multiplier']))
     self.save()
   def set_password(self, password):
-    self.password = Utility().custom_hash(password)
+    self.password = generate_hash(password)
     self.save()
   def get_members(self):
     return [member.user.username for member in Member.objects(league=self).order_by(

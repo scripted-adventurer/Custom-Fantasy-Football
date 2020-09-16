@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from .league_base import LeagueBase
 from flaskr import models
+from flaskr.security import get_user
 from .validation import SeasonWeekValidation
 from .stat_query import StatQuery
 
@@ -18,8 +19,9 @@ class LeagueScores(LeagueBase):
     league_scores = []
     for username in self.league.get_members():
       user_score = {'user': username, 'total': 0, 'player_scores': []}
+      user = get_user(username=username)
       self.member = models.Member.objects.get(league=self.league, 
-        user__username=username)
+        user=user)
       for player in self.member.get_lineup(self.season_type, self.season_year, 
         self.week):
         if player['id'] in stats:

@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
+from flask_login import login_user
+
 from .custom_view import CustomView
 from flaskr import models
+from flaskr import security
 
 class Users(CustomView):
   def post(self):
@@ -16,10 +19,11 @@ class Users(CustomView):
       self.add_response_error(self.errors.unmatched_passwords())
       return self.return_json()
     # existing user with username
-    elif models.get_safe('User', username=username):
+    elif security.get_user(username=username):
       self.change_response_status(400)
       self.add_response_error(self.errors.name_taken('Username'))
       return self.return_json()
-    user = User.objects.create_user(username, email, password1)
-    login(self.request, user)
+    password = security.generate_hash(password1)
+    user = security.User(username=username, email=email, password=password).save()
+    login_user(user)
     return self.return_json()

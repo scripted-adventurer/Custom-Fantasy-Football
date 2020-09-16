@@ -10,13 +10,6 @@ from .view_test_request import ViewTestRequest
 from .setup import TestData, TestCases
 import data.models as db_models
 
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-Utility = common.Utility
-
 class ViewsTest(TestCase):
   # automatically loaded:
   # 5 test users (referenced with TestData().user)
@@ -53,7 +46,7 @@ class ViewsTest(TestCase):
 
     # check data is updated
     league = db_models.League.objects.get(name=self.data.league[0].name)
-    self.assertEqual(league.password, Utility().custom_hash('new_password'))
+    self.assertEqual(True, db_models.compare_hash(league.password, 'new_password'))
  
   def test_league_member(self):
     self.data.create('League', name='test_league_0')
@@ -242,7 +235,7 @@ class ViewsTest(TestCase):
       self.assertEqual(True, test_case.run()) 
 
   def test_user(self):
-    password_hash = Utility().custom_hash('password')
+    password_hash = db_models.generate_hash('password')
     self.data.create('League', name='test_league_0', 
       password=password_hash)
     self.data.create('League', name='test_league_1', 

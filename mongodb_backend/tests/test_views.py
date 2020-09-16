@@ -4,6 +4,7 @@ import os
 from .view_test_request import ViewTestRequest
 from .setup import Cases
 import flaskr.models as models
+import flaskr.security as security
 
 import importlib.util
 spec = importlib.util.spec_from_file_location("common", 
@@ -14,10 +15,12 @@ Utility = common.Utility
 
 def test_views(client):
   test_cases = Cases().get()
+  hashed_password = security.generate_hash('password')
   users = []
-  users.append(models.User(username="test_user_0", password='password').save())
-  users.append(models.User(username="test_user_1", password='password').save())
-  users.append(models.User(username="test_user_2", password='password').save())
+  users.append(models.User(username="test_user_0", password=hashed_password).save())
+  users.append(models.User(username="test_user_1", password=hashed_password).save())
+  users.append(models.User(username="test_user_2", password=hashed_password).save())
+  users.append(models.User(username="test_user_3", password=hashed_password).save())
 
   def test_games():
     for test in test_cases['games']:
@@ -27,12 +30,13 @@ def test_views(client):
       assert test_case.run()
 
   def test_league():
-    league_0 = models.League(name='test_league_0').save()
-    league_0.set_password('password')
+    league_0 = models.League(name='test_league_0', password=hashed_password).save()
     member_0 = models.Member(user=users[0], league=league_0).save()
     member_1 = models.Member(user=users[1], league=league_0, admin=True).save()
 
     for test in test_cases['league']:
+      if test.method == 'HEAD':
+        continue
       test_case = ViewTestRequest(client, test.test_case, test.test_id, test.url, 
         test.method, test.request, test.username, test.status_code, 
         test.full_response, test.json_expression, test.parsed_response)
@@ -40,15 +44,14 @@ def test_views(client):
 
     # check data is updated
     league = models.League.objects.get(name='test_league_0')
-    assert (league.password == Utility().custom_hash('new_password'))
+    assert (security.compare_hash(league.password, 'new_password'))
 
     # reset test data
     models.Member.objects.delete()
     models.League.objects.delete()
  
   def test_league_member():
-    league_0 = models.League(name='test_league_0').save()
-    league_0.set_password('password')
+    league_0 = models.League(name='test_league_0', password=hashed_password).save()
     member_0 = models.Member(user=users[0], league=league_0, admin=True).save()
     member_1 = models.Member(user=users[1], league=league_0).save()
     member_1 = models.Member(user=users[2], league=league_0).save()
@@ -69,8 +72,8 @@ def test_views(client):
   # Sunday 2PM during Week 17 2019 (1PM players are locked, others available)
   @freeze_time("2019-12-29 19:00:00")
   def test_league_member_lineup():
-    league_0 = models.League(name='test_league_0').save()
-    league_0.set_password('password')
+    league_0 = models.League(name='test_league_0', password=hashed_password).save()
+    league_0.set_lineup_settings({'K': 1, 'QB': 1, 'RB': 2, 'TE': 1, 'WR': 2})
     member_0 = models.Member(user=users[0], league=league_0).save()
     member_1 = models.Member(user=users[1], league=league_0).save()
     # Travis Kelce ('32004b45-4c01-2458-b7b6-3a14cdb414dd') is locked here 
@@ -91,8 +94,7 @@ def test_views(client):
     models.League.objects.delete()  
 
   def test_league_members():
-    league_0 = models.League(name='test_league_0').save()
-    league_0.set_password('password')
+    league_0 = models.League(name='test_league_0', password=hashed_password).save()
 
     for test in test_cases['league_members']:
       test_case = ViewTestRequest(client, test.test_case, test.test_id, test.url, 
@@ -104,8 +106,7 @@ def test_views(client):
     models.League.objects.delete()  
 
   def test_league_stats_scores():
-    league_0 = models.League(name='test_league_0').save()
-    league_0.set_password('password')
+    league_0 = models.League(name='test_league_0', password=hashed_password).save()
     lineup_settings = {'K': 1, 'QB': 1, 'RB': 2, 'TE': 1, 'WR': 2}
     scoring_settings = [
     {'name': 'passing yards', 'field': 'passing_yds', 'conditions': [], 'multiplier': .04},
@@ -155,8 +156,7 @@ def test_views(client):
     models.League.objects.delete()  
 
   def test_leagues():
-    league_0 = models.League(name='test_league_0').save()
-    league_0.set_password('password')
+    league_0 = models.League(name='test_league_0', password=hashed_password).save()
 
     for test in test_cases['leagues']:
       test_case = ViewTestRequest(client, test.test_case, test.test_id, test.url, 
@@ -210,10 +210,8 @@ def test_views(client):
       assert test_case.run() 
 
   def test_user():
-    league_0 = models.League(name='test_league_0').save()
-    league_0.set_password('password')
-    league_1 = models.League(name='test_league_1').save()
-    league_1.set_password('password')
+    league_0 = models.League(name='test_league_0', password=hashed_password).save()
+    league_1 = models.League(name='test_league_1', password=hashed_password).save()
     member_0 = models.Member(user=users[1], league=league_0).save()
     member_1 = models.Member(user=users[1], league=league_1).save()
 
@@ -248,11 +246,11 @@ def test_views(client):
         test.full_response, test.json_expression, test.parsed_response)
       assert test_case.run()
 
-  test_games()
+  # test_games()
   # test_league()
   # test_league_member()
   # test_league_member_lineup()
-  # test_league_members()
+  test_league_members()
   # test_league_stats_scores()
   # test_leagues()
   # test_player()

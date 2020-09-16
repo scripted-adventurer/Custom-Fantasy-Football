@@ -8,6 +8,7 @@ from flask import current_app
 
 from flaskr.app import create_app
 from flaskr import models 
+from flaskr import security 
 
 @pytest.fixture
 def app():

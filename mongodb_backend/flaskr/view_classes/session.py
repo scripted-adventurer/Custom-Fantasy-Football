@@ -14,7 +14,7 @@ class Session(CustomView):
     
     user = get_user(username=username)
 
-    if user and compare_hash(password, user.password):
+    if user and compare_hash(user.password, password):
       login_user(user)
       return self.return_json()
     else:

@@ -8,17 +8,16 @@ class Utility:
   def __init__(self):
     pass
   def transform_pos(self, position):
-    # maps each nfldb position to its position group (used in League)
-    self.position_map = {'CB': 'DB', 'DB': 'DB', 'FS': 'DB', 'SAF': 'DB', 'SS': 
-      'DB', 'DE': 'DL', 'DT': 'DL', 'NT': 'DL', 'ILB': 'LB', 'LB': 'LB', 'MLB': 
-      'LB', 'OLB': 'LB', 'C': 'OL', 'LS': 'OL', 'OG': 'OL', 'OT': 'OL', 'QB': 
-      'QB', 'FB': 'RB', 'RB': 'RB', 'WR': 'WR', 'TE': 'TE', 'K': 'K', 'P': 'P'}
+    # maps each position to its position group
+    self.position_map = {'CB': 'DB', 'DB': 'DB', 'FS': 'DB', 'SAF': 'DB', 
+      'SS': 'DB', 'DE': 'DL', 'DL': 'DL', 'DT': 'DL', 'NT': 'DL', 'ILB': 'LB', 
+      'LB': 'LB', 'MLB': 'LB', 'OLB': 'LB', 'C': 'OL', 'LS': 'OL', 'OG': 'OL', 
+      'OL': 'OL', 'OT': 'OL', 'QB': 'QB', 'FB': 'RB', 'RB': 'RB', 'WR': 'WR', 
+      'TE': 'TE', 'K': 'K', 'P': 'P'}
     if position in self.position_map:
       return self.position_map[position]
     else:
-      return 'UNK'
-  def custom_hash(self, string):
-    return hashlib.sha256(string.encode('utf-8')).hexdigest()   
+      return 'UNK' 
 
 class Errors:
   '''A single source of all the various error messages returned throughout the 
@@ -126,7 +125,7 @@ class CurrentWeek:
 
     # If negative (e.g. preseason), negative integer division will take
     # us "too far" from the switch. This is adjusted later.
-    weeks_from_rs_switch = (instant - regular_season_switch).days / 7
+    weeks_from_rs_switch = (instant - regular_season_switch).days // 7
 
     if instant < regular_season_switch:
       season_type = 'PRE'

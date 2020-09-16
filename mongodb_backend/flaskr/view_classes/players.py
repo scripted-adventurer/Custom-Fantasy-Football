@@ -18,27 +18,19 @@ class Players(CustomView):
     if 'query' in self.request.args:
       player_name = self.request.args['query']
       players = []
-      with connection.cursor() as cursor:
-        cursor.execute('''SELECT player_id, name, team, position, difference(name, %s)
-        FROM data_player
-        WHERE difference(name, %s) > 3 AND status='ACT'
-        ORDER BY 5 DESC''', [player_name, player_name])
-        for row in cursor.fetchall():
-          player_dict = {'id': row[0], 'name': row[1], 'team': row[2], 
-            'position': row[3]}
-          players.append(player_dict)
+      # lookup players by double metaphone matches 
       self.add_response_data('players', players)
       return self.return_json()
     elif 'available' in self.request.args:
-      season_year, season_type, week = db_models.get_current_week()
+      season_year, season_type, week = models.get_current_week()
       now = datetime.datetime.now(pytz.utc)
       teams = []
-      for game in db_models.Game.objects.filter(season_type=season_type, 
+      for game in models.Game.objects(season_type=season_type, 
         season_year=season_year, week=week, start_time__gt=now):
         teams.append(game.home_team)
         teams.append(game.away_team)
       players = {}
-      for player in db_models.Player.objects.filter(team__in=teams).order_by(
+      for player in models.Player.objects(team__in=teams).order_by(
         'name'):
         pos = Utility().transform_pos(player.position)
         if pos not in players:

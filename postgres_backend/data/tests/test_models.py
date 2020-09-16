@@ -8,12 +8,6 @@ import pytz
 import data.models as db_models
 from .setup import TestData
 
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-
 class ModelsTest(TestCase):
   # automatically loaded:
   # 5 test users (referenced with TestData().user)
@@ -180,7 +174,7 @@ class ModelsTest(TestCase):
     self.assertEqual(main == other, False)
     
   def test_league_additional(self):
-    password_hash = common.Utility().custom_hash('password')
+    password_hash = db_models.generate_hash('password')
     lineup_settings = {'K': 1, 'QB': 1, 'RB': 2, 'TE': 1, 'WR': 2}
     scoring_settings = [
       {'name': 'passing yards', 'field': 'passing_yds', 'conditions': [], 
@@ -243,7 +237,7 @@ class ModelsTest(TestCase):
       new_scoring_settings)
 
   def test_league_stat(self):
-    password_hash = common.Utility().custom_hash('password')
+    password_hash = db_models.generate_hash('password')
     self.data.create('League', name='test_league_stat_0', password=password_hash)
     self.data.create('LeagueStat', league=self.data.league[0], name='passing yards', 
       field='passing_yds', multiplier=.04)
@@ -269,7 +263,7 @@ class ModelsTest(TestCase):
     self.assertEqual(main == other, False)
 
   def test_stat_condition(self):
-    password_hash = common.Utility().custom_hash('password')
+    password_hash = db_models.generate_hash('password')
     self.data.create('League', name='test_stat_condition_0', password=password_hash)
     self.data.create('LeagueStat', league=self.data.league[0], 
       name='fg bonus (40-49)', field='kicking_fgm', conditions=True, multiplier=1)
@@ -299,7 +293,7 @@ class ModelsTest(TestCase):
     self.assertEqual(main == other, False)
 
   def test_member_basic(self):
-    password_hash = common.Utility().custom_hash('password')
+    password_hash = db_models.generate_hash('password')
     self.data.create('League', name='test_member_basic_0', password=password_hash)
     self.data.create('Member', user=self.data.user[0], league=self.data.league[0])
     self.data.create('Member', user=self.data.user[1], league=self.data.league[0])
@@ -323,7 +317,7 @@ class ModelsTest(TestCase):
     self.assertEqual(main == other, False)
 
   def test_member_additional(self):
-    password_hash = common.Utility().custom_hash('password')
+    password_hash = db_models.generate_hash('password')
     self.data.create('League', name='test_member_additional_0', 
       password=password_hash)
     self.data.create('Member', user=self.data.user[0], league=self.data.league[0])
@@ -379,7 +373,7 @@ class ModelsTest(TestCase):
     self.assertEqual(self.data.member[0].get_lineup(), [])
 
   def test_lineup(self):
-    password_hash = common.Utility().custom_hash('password')
+    password_hash = db_models.generate_hash('password')
     self.data.create('League', name='test_lineup_0', password=password_hash)
     self.data.create('Member', user=self.data.user[0], league=self.data.league[0])
     self.data.create('Lineup', member=self.data.member[0], season_type='REG', 
