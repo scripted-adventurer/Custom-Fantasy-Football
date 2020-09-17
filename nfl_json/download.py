@@ -7,8 +7,6 @@ import gzip
 import datetime
 import time
 
-import settings
-
 class NflApiRequest:
   '''Makes a request to the NFL.com API with the given input parameters and returns
   the response (either raw or as JSON).'''
@@ -21,7 +19,7 @@ class NflApiRequest:
     self.params = urllib.parse.urlencode({'query': self.query, 'variables': 
       self.variables})
     self.full_url = self.base_url + self.params
-    self.headers = {"Authorization": settings.nfl_api_key}
+    self.headers = {"Authorization": os.environ['NFL_API_KEY']}
     self.request = urllib.request.Request(self.full_url, headers=self.headers)
     self.response = urllib.request.urlopen(self.request)
   def raw(self):

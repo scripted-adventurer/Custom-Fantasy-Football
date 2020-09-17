@@ -1,17 +1,13 @@
-from django.core.management import BaseCommand
-import data.models as db_models
-import postgres_backend.settings as settings 
-
 import json
 import os
 import datetime
 import gzip
 
-import importlib.util
-spec = importlib.util.spec_from_file_location("statmap", 
-  f"{os.environ['CUSTOM_FF_PATH']}/nfl_json/statmap.py")
-statmap = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(statmap)
+from django.core.management import BaseCommand
+
+import data.models as models
+import postgres_backend.settings as settings 
+import common.statmap as statmap
 
 class SyncDB:
   '''Contains all logic to transform the JSON data into the appropriate 
@@ -23,7 +19,7 @@ class SyncDB:
     with open(f"{self.base_path}/nfl_json/json/teams.json") as teams_file:
       teams = json.load(teams_file)
     for team in teams["teams"]:
-      db_models.Team.objects.get_or_create(team_id=team["id"], name=team["name"], 
+      models.Team.objects.get_or_create(team_id=team["id"], name=team["name"], 
         active=team["active"])
   def update_players(self):
     # sync currentPlayers.json to the database
@@ -36,8 +32,8 @@ class SyncDB:
         jersey_number = None  
       # skip players with missing data
       if player["id"] and player["name"] and player["team"] and player["position"]:
-        team = db_models.Team.objects.get(team_id=player["team"])
-        db_models.Player.objects.get_or_create(player_id=player["id"], 
+        team = models.Team.objects.get(team_id=player["team"])
+        models.Player.objects.get_or_create(player_id=player["id"], 
           name=player["name"], defaults={'team': team, 
           'position': player["position"], 'status': player["status"], 
           'jersey_number': jersey_number})
@@ -46,11 +42,11 @@ class SyncDB:
     if (not play_player["gsisPlayer"] or not play_player["gsisPlayer"]["person"] 
       or not play_player["gsisPlayer"]["position"]):
       return 1
-    player = db_models.Player.objects.get_or_create(
+    player = models.Player.objects.get_or_create(
       player_id=play_player["gsisPlayer"]["person"]["id"], defaults={
       'name': play_player["gsisPlayer"]["person"]["displayName"], 
       'position': play_player["gsisPlayer"]["position"]})[0] 
-    play_player_row = db_models.PlayPlayer.objects.get_or_create(play=play, 
+    play_player_row = models.PlayPlayer.objects.get_or_create(play=play, 
       player=player, team=play.pos_team)[0]
     # skip unknown stat values
     if play_player["statId"] not in statmap.idmap:
@@ -67,10 +63,10 @@ class SyncDB:
     # skip plays without an associated drive or team
     if not play["driveSequenceNumber"] or not play["possessionTeam"]:
       return 1
-    drive = db_models.Drive.objects.get(game=game, drive_id=play["driveSequenceNumber"])  
-    pos_team = db_models.Team.objects.get(team_id=play["possessionTeam"]
+    drive = models.Drive.objects.get(game=game, drive_id=play["driveSequenceNumber"])  
+    pos_team = models.Team.objects.get(team_id=play["possessionTeam"]
       ["abbreviation"])
-    play_row = db_models.Play.objects.get_or_create(drive=drive, 
+    play_row = models.Play.objects.get_or_create(drive=drive, 
       play_id=play["orderSequence"], defaults={'time': play["clockTime"], 
       'down': play["down"], 'start_yardline': play["yardLine"], 
       'end_yardline': play["endYardLine"], 'first_down': play["firstDown"], 
@@ -82,9 +78,9 @@ class SyncDB:
     for play_player in play["playStats"]:
       self._update_play_player(play_row, play_player)
   def _update_drive(self, game, drive):
-    pos_team = db_models.Team.objects.get(team_id=drive["possessionTeam"]
+    pos_team = models.Team.objects.get(team_id=drive["possessionTeam"]
       ["abbreviation"])
-    drive_row = db_models.Drive.objects.get_or_create(game=game, 
+    drive_row = models.Drive.objects.get_or_create(game=game, 
       drive_id=drive["orderSequence"], defaults={
       'start_quarter': drive["quarterStart"], 'end_quarter': drive["quarterEnd"],
       'start_transition': drive["startTransition"], 
@@ -99,7 +95,7 @@ class SyncDB:
     json_game_path = f'{self.base_path}/nfl_json/json/games/{game_id}.json.gz'
     json_update_time = datetime.datetime.utcfromtimestamp(
       os.path.getmtime(json_game_path))
-    db_row = db_models.Game.objects.filter(game_id=game_id)
+    db_row = models.Game.objects.filter(game_id=game_id)
     if not len(db_row):
       return False
     db_update_time = db_row[0].modified_at
@@ -118,11 +114,11 @@ class SyncDB:
     stadium = game_detail["stadium"] if game_detail["stadium"] else None
     weather = (game_detail["weather"].get("shortDescription", None) if 
       game_detail["weather"] else None)
-    home_team = db_models.Team.objects.get(team_id=game_detail["homeTeam"]
+    home_team = models.Team.objects.get(team_id=game_detail["homeTeam"]
       ["abbreviation"])
-    away_team = db_models.Team.objects.get(team_id=game_detail["visitorTeam"]
+    away_team = models.Team.objects.get(team_id=game_detail["visitorTeam"]
         ["abbreviation"])
-    game = db_models.Game.objects.get_or_create(game_id=game_info["gameDetailId"], 
+    game = models.Game.objects.get_or_create(game_id=game_info["gameDetailId"], 
       defaults={'season_type': game_info["week"]["seasonType"], 
       'season_year': game_info["week"]["seasonValue"], 
       'week': game_info["week"]["weekValue"], 'start_time': game_detail["gameTime"], 
@@ -155,7 +151,6 @@ class SyncDB:
       game = game["node"]
       if (game["gameDetailId"] and game["week"]["seasonType"] == season_type):
         self._update_game(game)           
-
 
 class Command(BaseCommand):
 

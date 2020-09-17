@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-from .league_base import LeagueBase
-import data.models as db_models
-from .validation import LineupValidation
+from data.view_classes.league_base import LeagueBase
+from data.view_classes.validation import LineupValidation
 
 class LeagueMemberLineup(LeagueBase):
   def get(self):

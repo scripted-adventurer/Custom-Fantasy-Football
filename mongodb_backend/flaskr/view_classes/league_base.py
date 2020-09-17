@@ -1,6 +1,7 @@
-from .custom_view import CustomView
-from flaskr import models
-from .validation import SeasonWeekValidation
+from mongodb_backend.flaskr.view_classes.custom_view import CustomView
+from mongodb_backend.flaskr.flaskr import models
+from mongodb_backend.flaskr.view_classes.validation import SeasonWeekValidation
+from common.current_week import get_current_week
 
 class LeagueBase(CustomView):
   def __init__(self, request, current_user, league_name):
@@ -16,7 +17,7 @@ class LeagueBase(CustomView):
     return True
   def check_season_week(self):
     # default to the current week but use user-provided values if they are present
-    self.season_year, self.season_type, self.week = models.get_current_week()
+    self.season_year, self.season_type, self.week = get_current_week()
     custom_week = False
     if 'seasonType' in self.request.args:
       self.season_type = self.request.args['seasonType']

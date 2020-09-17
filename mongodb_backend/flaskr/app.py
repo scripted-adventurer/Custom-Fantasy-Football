@@ -3,33 +3,24 @@ from flask import Flask, request, json, Response
 from flask_login import LoginManager, login_required, current_user
 from flask_mongoengine import MongoEngine, MongoEngineSessionInterface
 
-import os
-
-from . import config
-from . import security
-from .view_classes.games import Games 
-from .view_classes.league import League 
-from .view_classes.league_member import LeagueMember
-from .view_classes.league_member_lineup import LeagueMemberLineup
-from .view_classes.league_members import LeagueMembers
-from .view_classes.league_scores import LeagueScores 
-from .view_classes.league_stats import LeagueStats
-from .view_classes.leagues import Leagues 
-from .view_classes.player import Player 
-from .view_classes.players import Players 
-from .view_classes.session import Session 
-from .view_classes.team import Team
-from .view_classes.teams import Teams 
-from .view_classes.user import User 
-from .view_classes.users import Users 
-from .view_classes.week import Week
-
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-Errors = common.Errors
+from mongodb_backend.flaskr import config
+from mongodb_backend.flaskr.view_classes.games import Games 
+from mongodb_backend.flaskr.view_classes.league import League 
+from mongodb_backend.flaskr.view_classes.league_member import LeagueMember
+from mongodb_backend.flaskr.view_classes.league_member_lineup import LeagueMemberLineup
+from mongodb_backend.flaskr.view_classes.league_members import LeagueMembers
+from mongodb_backend.flaskr.view_classes.league_scores import LeagueScores 
+from mongodb_backend.flaskr.view_classes.league_stats import LeagueStats
+from mongodb_backend.flaskr.view_classes.leagues import Leagues 
+from mongodb_backend.flaskr.view_classes.player import Player 
+from mongodb_backend.flaskr.view_classes.players import Players 
+from mongodb_backend.flaskr.view_classes.session import Session 
+from mongodb_backend.flaskr.view_classes.team import Team
+from mongodb_backend.flaskr.view_classes.teams import Teams 
+from mongodb_backend.flaskr.view_classes.user import User 
+from mongodb_backend.flaskr.view_classes.users import Users 
+from mongodb_backend.flaskr.view_classes.week import Week
+from common.errors import Errors
 
 def create_app(testing=False):
 

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 This stat map has been copied over from nflgame. Please see that package for complete details.
 The new NFL API appears to use the same stat categories as the old one. 

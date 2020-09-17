@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
-from .custom_view import CustomView
-from flaskr import models
-from .validation import SeasonWeekValidation
+from mongodb_backend.flaskr.view_classes.custom_view import CustomView
+from mongodb_backend.flaskr import models
+from mongodb_backend.flaskr.view_classes.validation import SeasonWeekValidation
+from common.season_week import get_current_week
 
 class Games(CustomView):
   def get(self):
     # default to the current week but use user-provided values if they are present
-    season_year, season_type, week = models.get_current_week()
+    season_year, season_type, week = get_current_week()
     custom_week = False
     if 'seasonType' in self.request.args:
       season_type = self.request.args['seasonType']

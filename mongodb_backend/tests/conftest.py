@@ -6,9 +6,8 @@ import gzip
 from mongoengine import connect
 from flask import current_app
 
-from flaskr.app import create_app
-from flaskr import models 
-from flaskr import security 
+from mongodb_backend.flaskr.app import create_app
+from mongodb_backend.flaskr import models 
 
 @pytest.fixture
 def app():

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 from flask_login import login_user
 
-from .custom_view import CustomView
-from flaskr import models
-from flaskr import security
+from mongodb_backend.flaskr.view_classes.custom_view import CustomView
+from mongodb_backend.flaskr import models
+from hashing import generate_hash
 
 class Users(CustomView):
   def post(self):
@@ -19,11 +19,11 @@ class Users(CustomView):
       self.add_response_error(self.errors.unmatched_passwords())
       return self.return_json()
     # existing user with username
-    elif security.get_user(username=username):
+    elif models.User.objects(username=username).first():
       self.change_response_status(400)
       self.add_response_error(self.errors.name_taken('Username'))
       return self.return_json()
-    password = security.generate_hash(password1)
-    user = security.User(username=username, email=email, password=password).save()
+    password = generate_hash(password1)
+    user = models.User(username=username, email=email, password=password).save()
     login_user(user)
     return self.return_json()

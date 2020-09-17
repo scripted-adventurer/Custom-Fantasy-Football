@@ -1,17 +1,9 @@
 from freezegun import freeze_time
 import os
 
-from .view_test_request import ViewTestRequest
-from .setup import Cases
-import flaskr.models as models
-import flaskr.security as security
-
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-Utility = common.Utility
+from mongodb_backend.tests.view_test_request import ViewTestRequest
+from mongodb_backend.tests.setup import Cases
+import mongodb_backend.flaskr.models as models
 
 def test_views(client):
   test_cases = Cases().get()

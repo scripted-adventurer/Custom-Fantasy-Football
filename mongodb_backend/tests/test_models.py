@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from freezegun import freeze_time
 
-from flaskr import models
-from flaskr import security 
+from mongodb_backend.flaskr import models 
+from common.hashing import compare_hash
 
 def test_models(app):
   # to speed up execution, run all the tests within one database setup/teardown
@@ -279,6 +279,22 @@ def test_models(app):
     assert league_0.get_scoring_settings() == scoring_settings
     assert league_0.correct_password('new_password')
 
+  def test_user():
+    name = 'test_user'
+    main = security.User(username=f'{name}_0', password='password').save()
+    same = security.User.objects.get(username=f'{name}_0')
+    different = security.User(username=f'{name}_1', password='password').save()
+    other = models.Team(team_id='GB', name='Green Bay Packers')
+    assert repr(main) == f"{{'model': 'User', 'username': '{name}_0'}}"
+    assert str(main) == main.get_id()
+    assert main == same
+    assert hash(main) == hash(same)
+    assert main != different
+    assert hash(main) != hash(different)
+    assert not main == other
+    main.set_password('new_password')
+    compare_hash(main.password, 'new_password')
+
   def test_member_basic():
     name = 'test_member_basic'
     league_0 = models.League(name=f"{name}_0", password=hashed_password).save()
@@ -373,5 +389,6 @@ def test_models(app):
   test_stat_condition()
   test_league_basic()
   test_league_additional()
+  test_user()
   test_member_basic()
   test_member_additional()

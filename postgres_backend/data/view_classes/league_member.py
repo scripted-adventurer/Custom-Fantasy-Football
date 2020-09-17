@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
-from .league_base import LeagueBase
-import data.models as db_models
 from django.contrib.auth import authenticate
+
+from data.view_classes.league_base import LeagueBase
+import data.models as models
 
 class LeagueMember(LeagueBase):
   def get(self):
@@ -29,7 +30,7 @@ class LeagueMember(LeagueBase):
         self.add_response_error(self.errors.not_admin())
         self.change_response_status(403)
         return self.return_json()
-      to_remove = db_models.get_safe('Member', league=self.league, 
+      to_remove = models.get_safe('Member', league=self.league, 
         user__username=username)
       if not to_remove:
         self.change_response_status(400)

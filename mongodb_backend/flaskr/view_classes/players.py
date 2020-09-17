@@ -3,15 +3,10 @@ import datetime
 import pytz
 import os
 
-from .custom_view import CustomView
-from flaskr import models
-
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-Utility = common.Utility
+from mongodb_backend.flaskr.view_classes.custom_view import CustomView
+from mongodb_backend.flaskr import models
+from common.current_week import get_current_week
+from common.transform_pos import transform_pos
 
 class Players(CustomView):
   def get(self):
@@ -22,7 +17,7 @@ class Players(CustomView):
       self.add_response_data('players', players)
       return self.return_json()
     elif 'available' in self.request.args:
-      season_year, season_type, week = models.get_current_week()
+      season_year, season_type, week = get_current_week()
       now = datetime.datetime.now(pytz.utc)
       teams = []
       for game in models.Game.objects(season_type=season_type, 
@@ -32,7 +27,7 @@ class Players(CustomView):
       players = {}
       for player in models.Player.objects(team__in=teams).order_by(
         'name'):
-        pos = Utility().transform_pos(player.position)
+        pos = transform_pos(player.position)
         if pos not in players:
           players[pos] = []
         players[pos].append(player.data_dict())

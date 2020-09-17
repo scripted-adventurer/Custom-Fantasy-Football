@@ -2,8 +2,8 @@
 from django.contrib.auth.models import User
 from django.contrib.auth import login
 
-from .custom_view import CustomView
-import data.models as db_models
+from data.view_classes.custom_view import CustomView
+import data.models as models
 
 class Users(CustomView):
   def post(self):
@@ -19,7 +19,7 @@ class Users(CustomView):
       self.add_response_error(self.errors.unmatched_passwords())
       return self.return_json()
     # existing user with username
-    elif db_models.get_safe('User', username=username):
+    elif models.get_safe('User', username=username):
       self.change_response_status(400)
       self.add_response_error(self.errors.name_taken('Username'))
       return self.return_json()

@@ -1,72 +1,13 @@
 # -*- coding: utf-8 -*-
-from mongoengine import *
-
-import os
 import datetime
 import pytz
 
-from .security import User, generate_hash, compare_hash
+from mongoengine import *
 
-import importlib.util
-# spec = importlib.util.spec_from_file_location("statmap", 
-#   f"{os.environ['CUSTOM_FF_PATH']}/nfl_json/statmap.py")
-# statmap = importlib.util.module_from_spec(spec)
-# spec.loader.exec_module(statmap)
-from custom_FF.common import statmap 
-
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-CurrentWeek = common.CurrentWeek
-
-def get_safe(model_name, **kwargs):
-  # a modified get() function that returns a single matching object if one exists
-  # or None otherwise (doesn't raise an Exception)
-  models = {'Game': Game, 'Player': Player, 'League': League, 'Member': Member}
-  model = models[model_name]
-  data = model.objects(**kwargs)
-  if len(data) == 1:
-    return data[0]
-  else:
-    return None
-
-def convert_yard_line(yard_line, possession_team):
-  # extract team ID and yardline ex. "GB 25" -> ['GB', 25]
-  try:
-    possession_team = possession_team.team_id
-    yard_line = yard_line.split(' ')
-    team = yard_line[0]
-    yard_value = int(yard_line[1])
-  except:
-    return None 
-  # team's own yard line is negative, opponent's is positive
-  # ex. GB on the GB 25 = -25, GB on the CHI 25 = 25
-  if team == possession_team:
-    return -1 * yard_value
-  else:
-    return yard_value
-
-def get_current_week():
-  now = datetime.datetime.now(pytz.UTC)
-  return (CurrentWeek().find(now))  
-
-class Team(EmbeddedDocument):
-  '''Represents an NFL team. Used for the possession team fields in Game, Drive, and Play.'''
-  team_id = StringField(max_length=3, required=True)
-  name = StringField(max_length=40, required=True)
-
-  def __repr__(self):
-    return f"{{'model': 'Team', 'team_id': '{self.team_id}'}}"
-  def __str__(self):
-    return f"{{{self.name}}}"
-  def __eq__(self, other):
-    if isinstance(other, Team):
-      return (self.team_id == other.team_id)
-    else:
-      return NotImplemented  
-  def __hash__(self):
-    return hash(('Team', self.team_id))
+from common import statmap 
+from common.hashing import generate_hash, compare_hash
+from common.current_week import get_current_week
+from common.convert_yardline import convert_yardline
 
 SEASON_TYPES = ('PRE', 'REG', 'PRO', 'POST')
 
@@ -170,9 +111,9 @@ class Drive(EmbeddedDocument):
     self.penalty_yards = drive["yardsPenalized"]
     self.yards_gained = drive["yards"]
     self.play_count = drive["playCount"]
-    self.start_yardline = convert_yard_line(drive["startYardLine"], 
+    self.start_yardline = convert_yardline(drive["startYardLine"], 
       self.possession_team)
-    self.end_yardline = convert_yard_line(drive["endYardLine"], 
+    self.end_yardline = convert_yardline(drive["endYardLine"], 
       self.possession_team)
     return self
 
@@ -261,6 +202,23 @@ class Play(EmbeddedDocument):
       self.possession_team)
     self._parse_play_stats(play["playStats"])
     return self  
+
+class Team(Document):
+  '''Represents an NFL team. Used for the possession team fields in Game, Drive, and Play.'''
+  team_id = StringField(max_length=3, required=True)
+  name = StringField(max_length=40, required=True)
+
+  def __repr__(self):
+    return f"{{'model': 'Team', 'team_id': '{self.team_id}'}}"
+  def __str__(self):
+    return f"{{{self.name}}}"
+  def __eq__(self, other):
+    if isinstance(other, Team):
+      return (self.team_id == other.team_id)
+    else:
+      return NotImplemented  
+  def __hash__(self):
+    return hash(('Team', self.team_id))
 
 class Game(Document):
   '''Represents a single NFL game in a season and provides a logical mapping 
@@ -553,6 +511,28 @@ class League(Document):
   def get_members(self):
     return [member.user.username for member in Member.objects(league=self).order_by(
       'user')]  
+
+class User(Document, UserMixin):
+  '''Represents one user of the global web application. One user can be in 
+  multiple leagues (see Member). Used by Flask Login for authentication and 
+  authorization.'''
+  username = StringField(max_length=255, required=True, unique=True)
+  email = StringField(max_length=255)
+  password = StringField(max_length=255, required=True)
+  active = BooleanField(default=True)
+  
+  @property
+  def is_active(self):
+    return self.active
+
+  def __repr__(self):
+    return f"{{'model': 'User', 'username': '{self.username}'}}"
+  def __str__(self):
+    return str(self.id)   # necessary for MongoEngine to work properly 
+  def __hash__(self):
+    return hash(('User', self.id)) 
+  def set_password(self, password):
+    self.password = generate_hash(password) 
 
 class Member(Document):
   '''Represents one user's participation in a league.'''

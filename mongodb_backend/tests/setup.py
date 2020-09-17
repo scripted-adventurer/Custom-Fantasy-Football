@@ -1,7 +1,7 @@
 import os
 import json
 
-import flaskr.models as models
+from mongodb_backend.flaskr import models 
 
 class Case:
   '''Holds all data from the api_test_cases.csv file.'''

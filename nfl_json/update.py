@@ -1,6 +1,6 @@
 import argparse
 
-from download import Download
+from nfl_json.download import Download
 
 def main():
   parser = argparse.ArgumentParser(description='Download new JSON game data from NFL.com')

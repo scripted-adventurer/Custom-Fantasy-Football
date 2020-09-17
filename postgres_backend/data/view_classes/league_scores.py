@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-from .league_base import LeagueBase
-import data.models as db_models
-from .validation import SeasonWeekValidation
-from .stat_query import StatQuery
+from data.view_classes.league_base import LeagueBase
+import data.models as models
+from data.view_classes.stat_query import StatQuery
 
 class LeagueScores(LeagueBase): 
   def get(self):
@@ -18,7 +17,7 @@ class LeagueScores(LeagueBase):
     league_scores = []
     for username in self.league.get_members():
       user_score = {'user': username, 'total': 0, 'player_scores': []}
-      self.member = db_models.Member.objects.get(league=self.league, 
+      self.member = models.Member.objects.get(league=self.league, 
         user__username=username)
       for player in self.member.get_lineup(self.season_type, self.season_year, 
         self.week):

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-from .custom_view import CustomView
-from flaskr import models
+from mongodb_backend.flaskr.view_classes.custom_view import CustomView
+from mongodb_backend.flaskr import models
 
 class Team(CustomView):
   def get(self):
     if 'id' in self.request.args:
-      team = models.get_safe('Team', team_id=self.request.args['id'])
+      team = models.Team.objects(team_id=self.request.args['id']).first()
       if not team:
         self.change_response_status(400)
         self.add_response_error(self.errors.bad_data('team ID'))

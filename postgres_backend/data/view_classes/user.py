@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 from django.contrib.auth import authenticate
 
-from .custom_view import CustomView
-import data.models as db_models
+from data.view_classes.custom_view import CustomView
+import data.models as models
 
 class User(CustomView):
   def get(self):
     username = self.user.username
     self.add_response_data('username', username)
-    leagues = [row.league.name for row in db_models.Member.objects.filter(
+    leagues = [row.league.name for row in models.Member.objects.filter(
       user=self.user)]
     self.add_response_data('leagues', leagues)
     return self.return_json()

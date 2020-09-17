@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 from django.db import connection
-import data.models as db_models
+
+from common.current_week import get_current_week
 
 class StatQuery:
   '''The primary engine for calculating player stats based on a League's scoring
   settings.'''
   def __init__(self, scoring_settings):
     self.scoring_settings = scoring_settings
-    self.season_year, self.season_type, self.week = db_models.get_current_week()
+    self.season_year, self.season_type, self.week = get_current_week()
     self.stats_data = {}
     self.season_week_cond = ''
     self.player_id = ''

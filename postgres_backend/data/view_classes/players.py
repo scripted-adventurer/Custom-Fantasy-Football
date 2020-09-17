@@ -1,19 +1,14 @@
 # -*- coding: utf-8 -*-
-from django.db import connection
-
 import datetime
 import pytz
 import os
 
-from .custom_view import CustomView
-import data.models as db_models
+from django.db import connection
 
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-Utility = common.Utility
+from data.view_classes.custom_view import CustomView
+import data.models as models
+from common.transform_pos import transform_pos
+from common.current_week import get_current_week
 
 class Players(CustomView):
   def get(self):
@@ -32,17 +27,17 @@ class Players(CustomView):
       self.add_response_data('players', players)
       return self.return_json()
     elif 'available' in self.request.GET:
-      season_year, season_type, week = db_models.get_current_week()
+      season_year, season_type, week = get_current_week()
       now = datetime.datetime.now(pytz.utc)
       teams = []
-      for game in db_models.Game.objects.filter(season_type=season_type, 
+      for game in models.Game.objects.filter(season_type=season_type, 
         season_year=season_year, week=week, start_time__gt=now):
         teams.append(game.home_team)
         teams.append(game.away_team)
       players = {}
-      for player in db_models.Player.objects.filter(team__in=teams).order_by(
+      for player in models.Player.objects.filter(team__in=teams).order_by(
         'name'):
-        pos = Utility().transform_pos(player.position)
+        pos = transform_pos(player.position)
         if pos not in players:
           players[pos] = []
         players[pos].append(player.data_dict())

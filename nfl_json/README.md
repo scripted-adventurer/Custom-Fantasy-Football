@@ -4,7 +4,7 @@ Inspired by the [nflgame module](https://github.com/BurntSushi/nflgame) and upda
 
 ## About ##
 
-This module syncs JSON data from the NFL.com API to a local folder structure. It comes with all existing data from 2011 through 2019. It can be used for real-time updates, however to sync new data from NFL.com you will need to provide an API key in the settings.py file. 
+This module syncs JSON data from the NFL.com API to a local folder structure. It comes with all existing data from 2011 through 2019. It can be used for real-time updates, however to sync new data from NFL.com you will need to provide an API key in the 'NFL_API_KEY' environment variable. 
 
 Below is a quick summary of the folder structure:
 - **schedule**: Contains metadata on each game in an NFL year, including data for preseason, regular season, postseason, and the Pro Bowl. One file per year. 

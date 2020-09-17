@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from .custom_view import CustomView
-from flaskr import models
-from flaskr.security import compare_hash
+from mongodb_backend.flaskr.view_classes.custom_view import CustomView
+from mongodb_backend.flaskr import models
+from common.hashing import compare_hash
 
 class User(CustomView):
   def get(self):

@@ -2,15 +2,9 @@
 import datetime
 import os
 
-import data.models as db_models
-
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-Errors = common.Errors
-Utility = common.Utility
+import data.models as models
+from common.errors import Errors 
+from common.transform_pos import transform_pos
 
 class LineupValidation:
   '''Contains all the logic to validate a user's submitted lineup, including
@@ -37,7 +31,7 @@ class LineupValidation:
         self.changed.append(player_id)
   def check_players(self):      
     for player_id in self.new_lineup:
-      player = db_models.get_safe('Player', player_id=player_id)
+      player = models.get_safe('Player', player_id=player_id)
       if not player:
         self.errors.append(Errors().unrecognized(player_id))
       else:
@@ -45,7 +39,7 @@ class LineupValidation:
   def check_positions(self):
     self.lineup_positions = {}
     for player in self.new_player_objects:
-      pos = Utility().transform_pos(player.position)
+      pos = transform_pos(player.position)
       if pos in self.lineup_positions:
         self.lineup_positions[pos] += 1
       else:
@@ -55,7 +49,7 @@ class LineupValidation:
       f"Submitted: {self.lineup_positions}. League settings: {self.league_positions}")
   def check_locked(self):
     for player_id in self.changed:
-      player = db_models.get_safe('Player', player_id=player_id)
+      player = models.get_safe('Player', player_id=player_id)
       if player.is_locked():
         self.errors.append(Errors().locked_player(player_id))
   def run(self): 
@@ -75,8 +69,8 @@ class ScoringSettingsValidation:
   def __init__(self):
     self.errors = []
     self.param_map = {'name': {'type': 'str', 'enum': None}, 
-      'field': {'type': 'str', 'enum': db_models.StatField.values}, 
-      'comparison': {'type': 'str', 'enum': db_models.StatCondition.Comparison.values}, 
+      'field': {'type': 'str', 'enum': models.StatField.values}, 
+      'comparison': {'type': 'str', 'enum': models.StatCondition.Comparison.values}, 
       'value': {'type': 'int', 'enum': None}, 
       'multiplier': {'type': 'float', 'enum': None}}
   def _correct_type(self, param, value):
@@ -135,7 +129,7 @@ class LineupSettingsValidation:
 
 class SeasonWeekValidation:
   def __init__(self):
-    self.param_bounds = {'season_type': db_models.SeasonType.values,
+    self.param_bounds = {'season_type': models.SeasonType.values,
       'season_year': range(2011, datetime.datetime.now().year + 1),
       'week': range(0, 18)}
   def check_season_type(self, season_type):

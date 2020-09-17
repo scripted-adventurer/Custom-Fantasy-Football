@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from .league_base import LeagueBase
-import data.models as db_models
-from .validation import LineupSettingsValidation, ScoringSettingsValidation
+from data.view_classes.league_base import LeagueBase
+from data.view_classes.validation import (LineupSettingsValidation, 
+  ScoringSettingsValidation)
 
 class League(LeagueBase): 
   def get(self):

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from .league_base import LeagueBase
-from flaskr import models
-from .validation import LineupSettingsValidation, ScoringSettingsValidation
+from mongodb_backend.flaskr.view_classes.league_base import LeagueBase
+from mongodb_backend.flaskr.view_classes.validation import (LineupSettingsValidation, 
+  ScoringSettingsValidation)
 
 class League(LeagueBase): 
   def get(self):

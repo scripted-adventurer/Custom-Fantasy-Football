@@ -2,15 +2,9 @@
 import datetime
 import os
 
-from flaskr import models
-
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-Errors = common.Errors
-Utility = common.Utility
+from mongodb_backend.flaskr import models
+from common.errors import Errors 
+from common.transform_pos import transform_pos
 
 class LineupValidation:
   '''Contains all the logic to validate a user's submitted lineup, including
@@ -45,7 +39,7 @@ class LineupValidation:
   def check_positions(self):
     self.lineup_positions = {}
     for player in self.new_player_objects:
-      pos = Utility().transform_pos(player.position)
+      pos = transform_pos(player.position)
       if pos in self.lineup_positions:
         self.lineup_positions[pos] += 1
       else:

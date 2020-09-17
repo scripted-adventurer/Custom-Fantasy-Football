@@ -1,12 +1,15 @@
-from django.test import TestCase
-
+# -*- coding: utf-8 -*-
 import datetime
 from freezegun import freeze_time
 import os
 import pytz
 
-import data.models as db_models
+from django.test import TestCase
+
+import data.models as models
 from .setup import TestData
+from common.current_week import get_current_week
+from common.hashing import generate_hash
 
 class ModelsTest(TestCase):
   # automatically loaded:
@@ -22,10 +25,10 @@ class ModelsTest(TestCase):
     self.data = TestData()
   
   def test_game(self):
-    main = db_models.Game.objects.get(game_id='10160000-0581-45c0-455c-8dcc2dd0671b')
-    same = db_models.Game.objects.get(game_id='10160000-0581-45c0-455c-8dcc2dd0671b')
-    different = db_models.Game.objects.get(game_id='10160000-0581-4680-ba82-12e629d4584f')
-    other = db_models.Drive.objects.get(id=76757)
+    main = models.Game.objects.get(game_id='10160000-0581-45c0-455c-8dcc2dd0671b')
+    same = models.Game.objects.get(game_id='10160000-0581-45c0-455c-8dcc2dd0671b')
+    different = models.Game.objects.get(game_id='10160000-0581-4680-ba82-12e629d4584f')
+    other = models.Drive.objects.get(id=76757)
     self.assertEqual(repr(main), "{'model': 'Game', 'game_id': '10160000-0581-45c0-455c-8dcc2dd0671b'}")
     self.assertEqual(str(main), "{Game '10160000-0581-45c0-455c-8dcc2dd0671b'}")
     self.assertEqual(main.data_dict(), 
@@ -39,10 +42,10 @@ class ModelsTest(TestCase):
     self.assertEqual(main == other, False)
   
   def test_drive(self):
-    main = db_models.Drive.objects.get(id=76756)
-    same = db_models.Drive.objects.get(id=76756)
-    different = db_models.Drive.objects.get(id=76757)
-    other = db_models.Play.objects.get(id=544463)
+    main = models.Drive.objects.get(id=76756)
+    same = models.Drive.objects.get(id=76756)
+    different = models.Drive.objects.get(id=76757)
+    other = models.Play.objects.get(id=544463)
     self.assertEqual(repr(main), "{'model': 'Drive', 'game_id': "
       "'10160000-0581-45c0-455c-8dcc2dd0671b', 'drive_id': 14}")
     self.assertEqual(str(main), 
@@ -54,10 +57,10 @@ class ModelsTest(TestCase):
     self.assertEqual(main == other, False)
   
   def test_play(self):
-    main = db_models.Play.objects.get(id=544462)
-    same = db_models.Play.objects.get(id=544462)
-    different = db_models.Play.objects.get(id=544463)
-    other = db_models.Drive.objects.get(id=76757)
+    main = models.Play.objects.get(id=544462)
+    same = models.Play.objects.get(id=544462)
+    different = models.Play.objects.get(id=544463)
+    other = models.Drive.objects.get(id=76757)
     self.assertEqual(repr(main), 
       "{'model': 'Play', 'game_id': '10160000-0581-45c0-455c-8dcc2dd0671b', "
       "'drive_id': 14, 'play_id': 2945}")
@@ -70,10 +73,10 @@ class ModelsTest(TestCase):
     self.assertEqual(main == other, False)
   
   def test_play_player(self):
-    main = db_models.PlayPlayer.objects.get(id=1277030)
-    same = db_models.PlayPlayer.objects.get(id=1277030)
-    different = db_models.PlayPlayer.objects.get(id=1277031)
-    other = db_models.Play.objects.get(id=544463)
+    main = models.PlayPlayer.objects.get(id=1277030)
+    same = models.PlayPlayer.objects.get(id=1277030)
+    different = models.PlayPlayer.objects.get(id=1277031)
+    other = models.Play.objects.get(id=544463)
     self.assertEqual(repr(main), 
       "{'model': 'PlayPlayer', 'player': '3200524f-4433-9293-a3cf-ad7758d03003', "
       "'game_id': '10160000-0581-45c0-455c-8dcc2dd0671b', 'drive_id': 14, "
@@ -88,13 +91,13 @@ class ModelsTest(TestCase):
     self.assertEqual(main == other, False)
 
   def test_player(self):
-    main = db_models.Player.objects.get(
+    main = models.Player.objects.get(
       player_id='3200524f-4433-9293-a3cf-ad7758d03003')
-    same = db_models.Player.objects.get(
+    same = models.Player.objects.get(
       player_id='3200524f-4433-9293-a3cf-ad7758d03003')
-    different = db_models.Player.objects.get(
+    different = models.Player.objects.get(
       player_id='3200434f-5570-9400-e1ae-f835abb5963e')
-    other = db_models.Play.objects.get(id=544463)
+    other = models.Play.objects.get(id=544463)
     self.assertEqual(repr(main), "{'model': 'Player', 'player_id': "
       "'3200524f-4433-9293-a3cf-ad7758d03003'}")
     self.assertEqual(str(main), "{Aaron Rodgers QB GB}")
@@ -109,16 +112,16 @@ class ModelsTest(TestCase):
   # Sunday during Packers 2019 bye week 
   @freeze_time("2019-11-17 20:00:00")
   def test_player_is_locked_bye_week(self):
-    gb_qb = db_models.Player.objects.get(
+    gb_qb = models.Player.objects.get(
       player_id='3200434f-5570-9400-e1ae-f835abb5963e')
     self.assertEqual(gb_qb.is_locked(), False)
 
   # Saturday during Week 17 2019
   @freeze_time("2019-12-28 12:00:00")
   def test_player_is_locked_neither(self):
-    gb_qb = db_models.Player.objects.get(
+    gb_qb = models.Player.objects.get(
       player_id='3200434f-5570-9400-e1ae-f835abb5963e')
-    sea_qb = db_models.Player.objects.get(
+    sea_qb = models.Player.objects.get(
       player_id='32005749-4c77-7781-795c-94c753706d1d')
     self.assertEqual(gb_qb.is_locked(), False)
     self.assertEqual(sea_qb.is_locked(), False)
@@ -126,9 +129,9 @@ class ModelsTest(TestCase):
   # Sunday afternoon during Week 17 2019
   @freeze_time("2019-12-29 18:30:00")
   def test_player_is_locked_one(self):
-    gb_qb = db_models.Player.objects.get(
+    gb_qb = models.Player.objects.get(
       player_id='3200434f-5570-9400-e1ae-f835abb5963e')
-    sea_qb = db_models.Player.objects.get(
+    sea_qb = models.Player.objects.get(
       player_id='32005749-4c77-7781-795c-94c753706d1d')
     self.assertEqual(gb_qb.is_locked(), True)
     self.assertEqual(sea_qb.is_locked(), False)
@@ -136,18 +139,18 @@ class ModelsTest(TestCase):
   # Monday during Week 1 2019
   @freeze_time("2019-12-30 12:00:00")
   def test_player_is_locked_both(self):
-    gb_qb = db_models.Player.objects.get(
+    gb_qb = models.Player.objects.get(
       player_id='3200434f-5570-9400-e1ae-f835abb5963e')
-    sea_qb = db_models.Player.objects.get(
+    sea_qb = models.Player.objects.get(
       player_id='32005749-4c77-7781-795c-94c753706d1d')
     self.assertEqual(gb_qb.is_locked(), True)
     self.assertEqual(sea_qb.is_locked(), True)   
   
   def test_team(self):
-    main = db_models.Team.objects.get(team_id='GB')
-    same = db_models.Team.objects.get(team_id='GB')
-    different = db_models.Team.objects.get(team_id='CHI')
-    other = db_models.Play.objects.get(id=544463)
+    main = models.Team.objects.get(team_id='GB')
+    same = models.Team.objects.get(team_id='GB')
+    different = models.Team.objects.get(team_id='CHI')
+    other = models.Play.objects.get(id=544463)
     self.assertEqual(repr(main), "{'model': 'Team', 'team_id': 'GB'}")
     self.assertEqual(str(main), "{Green Bay Packers}")
     self.assertEqual(main.data_dict(), {'id': 'GB', 'name': 'Green Bay Packers'})
@@ -160,10 +163,10 @@ class ModelsTest(TestCase):
   def test_league_basic(self):
     self.data.create('League', name='test_league_basic_0', password='password')
     self.data.create('League', name='test_league_basic_1', password='password')
-    main = db_models.League.objects.get(name=self.data.league[0].name)
-    same = db_models.League.objects.get(name=self.data.league[0].name)
+    main = models.League.objects.get(name=self.data.league[0].name)
+    same = models.League.objects.get(name=self.data.league[0].name)
     different = self.data.league[1]
-    other = db_models.Play.objects.get(id=544463)
+    other = models.Play.objects.get(id=544463)
     self.assertEqual(repr(main), 
       f"{{'model': 'League', 'name': '{self.data.league[0].name}'}}")
     self.assertEqual(str(main), f"{{League {self.data.league[0].name}}}")
@@ -174,7 +177,7 @@ class ModelsTest(TestCase):
     self.assertEqual(main == other, False)
     
   def test_league_additional(self):
-    password_hash = db_models.generate_hash('password')
+    password_hash = generate_hash('password')
     lineup_settings = {'K': 1, 'QB': 1, 'RB': 2, 'TE': 1, 'WR': 2}
     scoring_settings = [
       {'name': 'passing yards', 'field': 'passing_yds', 'conditions': [], 
@@ -224,7 +227,7 @@ class ModelsTest(TestCase):
     self.data.league[1].set_scoring_settings(scoring_settings)
     self.data.league[1].set_password('new_password')
     # check all changes were made
-    self.data.league[1] = db_models.League.objects.get(name='test_league_additional_1')
+    self.data.league[1] = models.League.objects.get(name='test_league_additional_1')
     self.assertEqual(self.data.league[1].get_lineup_settings(), 
       lineup_settings)
     self.assertEqual(self.data.league[1].get_scoring_settings(), 
@@ -232,25 +235,25 @@ class ModelsTest(TestCase):
     self.assertEqual(self.data.league[1].correct_password('new_password'), True)
     # check updating stats deletes old stats
     self.data.league[1].set_scoring_settings(new_scoring_settings)
-    self.data.league[1] = db_models.League.objects.get(name='test_league_additional_1')
+    self.data.league[1] = models.League.objects.get(name='test_league_additional_1')
     self.assertEqual(self.data.league[1].get_scoring_settings(), 
       new_scoring_settings)
 
   def test_league_stat(self):
-    password_hash = db_models.generate_hash('password')
+    password_hash = generate_hash('password')
     self.data.create('League', name='test_league_stat_0', password=password_hash)
     self.data.create('LeagueStat', league=self.data.league[0], name='passing yards', 
       field='passing_yds', multiplier=.04)
     self.data.create('LeagueStat', league=self.data.league[0], name='rushing tds', 
       field='rushing_tds', multiplier=6)
 
-    main = db_models.LeagueStat.objects.get(league=self.data.league[0], 
+    main = models.LeagueStat.objects.get(league=self.data.league[0], 
       name='passing yards')
-    same = db_models.LeagueStat.objects.get(league=self.data.league[0], 
+    same = models.LeagueStat.objects.get(league=self.data.league[0], 
       name='passing yards')
-    different = db_models.LeagueStat.objects.get(league=self.data.league[0], 
+    different = models.LeagueStat.objects.get(league=self.data.league[0], 
       name='rushing tds')
-    other = db_models.Play.objects.get(id=544463)
+    other = models.Play.objects.get(id=544463)
     self.assertEqual(repr(main), 
       ("{'model': 'LeagueStat', 'league': 'test_league_stat_0', 'name': " +
       "'passing yards'}"))
@@ -263,7 +266,7 @@ class ModelsTest(TestCase):
     self.assertEqual(main == other, False)
 
   def test_stat_condition(self):
-    password_hash = db_models.generate_hash('password')
+    password_hash = generate_hash('password')
     self.data.create('League', name='test_stat_condition_0', password=password_hash)
     self.data.create('LeagueStat', league=self.data.league[0], 
       name='fg bonus (40-49)', field='kicking_fgm', conditions=True, multiplier=1)
@@ -272,13 +275,13 @@ class ModelsTest(TestCase):
     self.data.create('StatCondition', league_stat=self.data.leaguestat[0], 
       field='kicking_fgm_yds', comparison='<', value=50)
 
-    main = db_models.StatCondition.objects.get(league_stat=self.data.leaguestat[0], 
+    main = models.StatCondition.objects.get(league_stat=self.data.leaguestat[0], 
       field='kicking_fgm_yds', comparison='>=', value=40)
-    same = db_models.StatCondition.objects.get(league_stat=self.data.leaguestat[0], 
+    same = models.StatCondition.objects.get(league_stat=self.data.leaguestat[0], 
       field='kicking_fgm_yds', comparison='>=', value=40)
-    different = db_models.StatCondition.objects.get(league_stat=self.data.leaguestat[0], 
+    different = models.StatCondition.objects.get(league_stat=self.data.leaguestat[0], 
       field='kicking_fgm_yds', comparison='<', value=50)
-    other = db_models.Play.objects.get(id=544463)
+    other = models.Play.objects.get(id=544463)
     self.assertEqual(repr(main), 
       ("{'model': 'StatCondition', 'league': 'test_stat_condition_0', "
       "'stat': 'fg bonus (40-49)', 'field': 'kicking_fgm_yds', "
@@ -293,18 +296,18 @@ class ModelsTest(TestCase):
     self.assertEqual(main == other, False)
 
   def test_member_basic(self):
-    password_hash = db_models.generate_hash('password')
+    password_hash = generate_hash('password')
     self.data.create('League', name='test_member_basic_0', password=password_hash)
     self.data.create('Member', user=self.data.user[0], league=self.data.league[0])
     self.data.create('Member', user=self.data.user[1], league=self.data.league[0])
 
-    main = db_models.Member.objects.get(user=self.data.user[0], 
+    main = models.Member.objects.get(user=self.data.user[0], 
       league=self.data.league[0])
-    same = db_models.Member.objects.get(user=self.data.user[0], 
+    same = models.Member.objects.get(user=self.data.user[0], 
       league=self.data.league[0])
-    different = db_models.Member.objects.get(user=self.data.user[1], 
+    different = models.Member.objects.get(user=self.data.user[1], 
       league=self.data.league[0])
-    other = db_models.Play.objects.get(id=544463)
+    other = models.Play.objects.get(id=544463)
     self.assertEqual(repr(main), 
       ("{'model': 'Member', 'username': 'test_user_0', 'league': " +
       "'test_member_basic_0'}"))
@@ -317,7 +320,7 @@ class ModelsTest(TestCase):
     self.assertEqual(main == other, False)
 
   def test_member_additional(self):
-    password_hash = db_models.generate_hash('password')
+    password_hash = generate_hash('password')
     self.data.create('League', name='test_member_additional_0', 
       password=password_hash)
     self.data.create('Member', user=self.data.user[0], league=self.data.league[0])
@@ -328,7 +331,7 @@ class ModelsTest(TestCase):
     self.data.create('Lineup', member=self.data.member[1], season_type='REG', 
       season_year=2019, week=17, player_id='3200434f-5570-9400-e1ae-f835abb5963e')
     # current
-    season_year, season_type, week = db_models.get_current_week()
+    season_year, season_type, week = get_current_week()
     self.data.create('Lineup', member=self.data.member[1], season_type=season_type, 
       season_year=season_year, week=week, 
       player_id='3200524f-4433-9293-a3cf-ad7758d03003')
@@ -373,7 +376,7 @@ class ModelsTest(TestCase):
     self.assertEqual(self.data.member[0].get_lineup(), [])
 
   def test_lineup(self):
-    password_hash = db_models.generate_hash('password')
+    password_hash = generate_hash('password')
     self.data.create('League', name='test_lineup_0', password=password_hash)
     self.data.create('Member', user=self.data.user[0], league=self.data.league[0])
     self.data.create('Lineup', member=self.data.member[0], season_type='REG', 
@@ -381,16 +384,16 @@ class ModelsTest(TestCase):
     self.data.create('Lineup', member=self.data.member[0], season_type='REG', 
       season_year=2019, week=17, player_id='3200434f-5570-9400-e1ae-f835abb5963e')
 
-    main = db_models.Lineup.objects.get(member=self.data.member[0], 
+    main = models.Lineup.objects.get(member=self.data.member[0], 
       season_type='REG', season_year=2019, week=17, 
       player_id='3200524f-4433-9293-a3cf-ad7758d03003')
-    same = db_models.Lineup.objects.get(member=self.data.member[0], 
+    same = models.Lineup.objects.get(member=self.data.member[0], 
       season_type='REG', season_year=2019, week=17, 
       player_id='3200524f-4433-9293-a3cf-ad7758d03003')
-    different = db_models.Lineup.objects.get(member=self.data.member[0], 
+    different = models.Lineup.objects.get(member=self.data.member[0], 
       season_type='REG', season_year=2019, week=17, 
       player_id='3200434f-5570-9400-e1ae-f835abb5963e')
-    other = db_models.Play.objects.get(id=544463)
+    other = models.Play.objects.get(id=544463)
     self.assertEqual(repr(main), 
       ("{'model': 'Lineup', 'user': 'test_user_0', 'league': " 
       "'test_lineup_0', 'season_year': 2019, 'season_type': 'REG', " 

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from .custom_view import CustomView
-from flaskr import models
-from flaskr.security import generate_hash
+from mongodb_backend.flaskr.view_classes.custom_view import CustomView
+from mongodb_backend.flaskr import models
+from common.hashing import generate_hash
 
 class Leagues(CustomView):
   def post(self):

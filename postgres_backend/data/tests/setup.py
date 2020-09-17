@@ -1,9 +1,10 @@
-from django.contrib.auth.models import User
-
+# -*- coding: utf-8 -*-
 import os
 import json
 
-import data.models as db_models
+from django.contrib.auth.models import User
+
+import data.models as models
 
 class TestCase:
   '''Holds all data from the api_test_cases.csv file.'''
@@ -50,9 +51,9 @@ class TestData:
     self.member = []
     self.statcondition = []
     # map for string -> class name lookups
-    self.models = {'League': db_models.League, 'LeagueStat': db_models.LeagueStat, 
-      'Lineup': db_models.Lineup, 'Member': db_models.Member, 
-      'StatCondition': db_models.StatCondition}   
+    self.models = {'League': models.League, 'LeagueStat': models.LeagueStat, 
+      'Lineup': models.Lineup, 'Member': models.Member, 
+      'StatCondition': models.StatCondition}   
   def create(self, model_name, **kwargs):
     model = self.models[model_name]
     data = model.objects.create(**kwargs)

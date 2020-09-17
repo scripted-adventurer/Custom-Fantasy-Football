@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
+import os
+
 from django.http import JsonResponse
 from django.db import transaction
 from django.shortcuts import render
-
-import os
 
 from data.view_classes.games import Games 
 from data.view_classes.league import League 
@@ -21,13 +21,7 @@ from data.view_classes.teams import Teams
 from data.view_classes.user import User 
 from data.view_classes.users import Users 
 from data.view_classes.week import Week
-
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-Errors = common.Errors
+from common.errors import Errors
 
 def games(request):
   view = Games(request, login_required=True)

@@ -1,17 +1,10 @@
 # -*- coding: utf-8 -*-
-from django.http import JsonResponse
-
 import json
 import os
 
-import data.models as db_models
+from django.http import JsonResponse
 
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-Errors = common.Errors
+from common.errors import Errors
 
 class CustomView:
   '''A base class to handle servicing requests made to the API endpoints. Contains
@@ -34,7 +27,7 @@ class CustomView:
   def get(self):
     return self.method_not_allowed()
   def head(self):
-    return self.method_not_allowed()
+    return self.get()
   def post(self):
     return self.method_not_allowed()
   def put(self):

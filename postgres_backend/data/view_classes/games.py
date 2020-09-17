@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
-from .custom_view import CustomView
-import data.models as db_models
-from .validation import SeasonWeekValidation
+from data.view_classes.custom_view import CustomView
+import data.models as models
+from data.view_classes.validation import SeasonWeekValidation
+from common.current_week import get_current_week
 
 class Games(CustomView):
   def get(self):
     # default to the current week but use user-provided values if they are present
-    season_year, season_type, week = db_models.get_current_week()
+    season_year, season_type, week = get_current_week()
     custom_week = False
     if 'seasonType' in self.request.GET:
       season_type = self.request.GET['seasonType']
@@ -31,7 +32,7 @@ class Games(CustomView):
       if not valid:
         self.change_response_status(400)
         return self.return_json()
-    games = [game.data_dict() for game in db_models.Game.objects.filter(
+    games = [game.data_dict() for game in models.Game.objects.filter(
       season_type=season_type, season_year=int(season_year), week=int(week))] 
     self.add_response_data('games', games)
     return self.return_json()

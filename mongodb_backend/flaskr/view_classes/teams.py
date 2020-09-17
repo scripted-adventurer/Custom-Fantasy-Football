@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from .custom_view import CustomView
-from flaskr import models
+from mongodb_backend.flaskr.view_classes.custom_view import CustomView
+from mongodb_backend.flaskr import models
 
 class Teams(CustomView):
   def get(self):

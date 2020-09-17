@@ -1,14 +1,7 @@
 # -*- coding: utf-8 -*-
 from flask import json, Response
 
-import os
-
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-Errors = common.Errors
+from common.errors import Errors
 
 class CustomView:
   '''A base class to handle servicing requests made to the API endpoints. Contains

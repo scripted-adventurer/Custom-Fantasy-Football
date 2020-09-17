@@ -748,7 +748,7 @@
     "name": "Ryan Bee",
     "team": "WAS",
     "position": "DE",
-    "status": "RES",
+    "status": "CUT",
     "jerseyNumber": "92"
   },
   "32004241-5522-7933-4d25-099861ccfd59": {
@@ -2519,6 +2519,14 @@
     "status": "UFA",
     "jerseyNumber": "00"
   },
+  "32005745-4271-4947-abf7-9dc2a822a6f7": {
+    "id": "32005745-4271-4947-abf7-9dc2a822a6f7",
+    "name": "Ken Webster",
+    "team": "SF",
+    "position": "CB",
+    "status": "ACT",
+    "jerseyNumber": "00"
+  },
   "32005741-5248-5225-ce4a-b72862edcf69": {
     "id": "32005741-5248-5225-ce4a-b72862edcf69",
     "name": "Fred Warner",
@@ -2668,7 +2676,7 @@
     "name": "Richard Sherman",
     "team": "SF",
     "position": "CB",
-    "status": "ACT",
+    "status": "RES",
     "jerseyNumber": "25"
   },
   "32005348-4553-4547-9858-38a54e9a9fc0": {
@@ -2948,8 +2956,8 @@
     "name": "Dontae Johnson",
     "team": "SF",
     "position": "CB",
-    "status": "DEV",
-    "jerseyNumber": "27"
+    "status": "ACT",
+    "jerseyNumber": "00"
   },
   "32004a45-4e49-7457-3af8-79760d0083cb": {
     "id": "32004a45-4e49-7457-3af8-79760d0083cb",
@@ -3287,6 +3295,14 @@
     "status": "ACT",
     "jerseyNumber": "91"
   },
+  "3200414e-4758-8142-8afb-c9b49abff628": {
+    "id": "3200414e-4758-8142-8afb-c9b49abff628",
+    "name": "Christian Angulo",
+    "team": "SF",
+    "position": "CB",
+    "status": "DEV",
+    "jerseyNumber": "00"
+  },
   "3200414d-4911-8653-9ec5-e990191cbf2e": {
     "id": "3200414d-4911-8653-9ec5-e990191cbf2e",
     "name": "Kofi Amichia",
@@ -3302,6 +3318,14 @@
     "position": "LB",
     "status": "ACT",
     "jerseyNumber": "51"
+  },
+  "3200414c-4c06-4455-fde5-600f701bf107": {
+    "id": "3200414c-4c06-4455-fde5-600f701bf107",
+    "name": "Brian Allen",
+    "team": "SF",
+    "position": "CB",
+    "status": "DEV",
+    "jerseyNumber": "00"
   },
   "3200414c-4604-6143-fb00-d5bcdb1f17eb": {
     "id": "3200414c-4604-6143-fb00-d5bcdb1f17eb",
@@ -3710,6 +3734,14 @@
     "position": "SS",
     "status": "ACT",
     "jerseyNumber": "23"
+  },
+  "32004a45-4627-9624-44c2-044356333a2d": {
+    "id": "32004a45-4627-9624-44c2-044356333a2d",
+    "name": "Malik Jefferson",
+    "team": "LAC",
+    "position": "LB",
+    "status": "DEV",
+    "jerseyNumber": "00"
   },
   "32004a41-4d17-2303-1f22-803288e81521": {
     "id": "32004a41-4d17-2303-1f22-803288e81521",
@@ -4236,7 +4268,7 @@
     "name": "Curtis Riley",
     "team": "PIT",
     "position": "FS",
-    "status": "DEV",
+    "status": "CUT",
     "jerseyNumber": "35"
   },
   "32005241-5974-2272-3be4-73be93acb200": {
@@ -4510,6 +4542,14 @@
     "position": "WR",
     "status": "ACT",
     "jerseyNumber": "15"
+  },
+  "32004841-5742-6651-6065-1a9743a088ec": {
+    "id": "32004841-5742-6651-6065-1a9743a088ec",
+    "name": "Jerald Hawkins",
+    "team": "PIT",
+    "position": "OT",
+    "status": "ACT",
+    "jerseyNumber": "00"
   },
   "32004841-5358-6176-f51b-0b172808e017": {
     "id": "32004841-5358-6176-f51b-0b172808e017",
@@ -4820,7 +4860,7 @@
     "name": "Zach Banner",
     "team": "PIT",
     "position": "OT",
-    "status": "ACT",
+    "status": "RES",
     "jerseyNumber": "72"
   },
   "32004241-4e24-6232-fe0b-013f8a395a53": {
@@ -5271,14 +5311,6 @@
     "status": "ACT",
     "jerseyNumber": "55"
   },
-  "32004a4f-4e00-0007-40da-3c61d980cc50": {
-    "id": "32004a4f-4e00-0007-40da-3c61d980cc50",
-    "name": "Chris Jones",
-    "team": "ARI",
-    "position": "DB",
-    "status": "CUT",
-    "jerseyNumber": "25"
-  },
   "32004a4f-4844-7301-71fa-cc0080d9e83f": {
     "id": "32004a4f-4844-7301-71fa-cc0080d9e83f",
     "name": "Lyndon Johnson",
@@ -5484,8 +5516,8 @@
     "name": "Jalen Davis",
     "team": "ARI",
     "position": "CB",
-    "status": "ACT",
-    "jerseyNumber": "30"
+    "status": "DEV",
+    "jerseyNumber": "00"
   },
   "32004441-4e52-7377-7c31-33311d909473": {
     "id": "32004441-4e52-7377-7c31-33311d909473",
@@ -6351,6 +6383,14 @@
     "status": "ACT",
     "jerseyNumber": "53"
   },
+  "32004252-4f48-5991-4eb2-390cd5f5fede": {
+    "id": "32004252-4f48-5991-4eb2-390cd5f5fede",
+    "name": "Jamon Brown",
+    "team": "PHI",
+    "position": "OG",
+    "status": "ACT",
+    "jerseyNumber": "00"
+  },
   "32004252-4f11-8473-9e35-61e0fe9de99b": {
     "id": "32004252-4f11-8473-9e35-61e0fe9de99b",
     "name": "Brandon Brooks",
@@ -6420,7 +6460,7 @@
     "name": "Paul Worrilow",
     "team": "NYJ",
     "position": "LB",
-    "status": "UFA",
+    "status": "DEV",
     "jerseyNumber": "00"
   },
   "32005749-4c77-4506-1ef4-5fddefe58f18": {
@@ -8037,7 +8077,7 @@
     "team": "NYG",
     "position": "WR",
     "status": "DEV",
-    "jerseyNumber": "06"
+    "jerseyNumber": "00"
   },
   "32004449-4327-7552-6554-52a8ee7e167b": {
     "id": "32004449-4327-7552-6554-52a8ee7e167b",
@@ -8270,14 +8310,6 @@
     "position": "OT",
     "status": "ACT",
     "jerseyNumber": "78"
-  },
-  "3200414e-4758-8142-8afb-c9b49abff628": {
-    "id": "3200414e-4758-8142-8afb-c9b49abff628",
-    "name": "Christian Angulo",
-    "team": "NYG",
-    "position": "CB",
-    "status": "ACT",
-    "jerseyNumber": "33"
   },
   "3200414c-4c46-9092-5c78-2e9c81c3e122": {
     "id": "3200414c-4c46-9092-5c78-2e9c81c3e122",
@@ -9647,14 +9679,6 @@
     "status": "ACT",
     "jerseyNumber": "24"
   },
-  "32004741-5572-0007-f9ae-e9173464f6b5": {
-    "id": "32004741-5572-0007-f9ae-e9173464f6b5",
-    "name": "Tyler Gauthier",
-    "team": "NE",
-    "position": "C",
-    "status": "CUT",
-    "jerseyNumber": "61"
-  },
   "32004741-4e56-3606-9dc3-8df580a53f1a": {
     "id": "32004741-4e56-3606-9dc3-8df580a53f1a",
     "name": "Malik Gant",
@@ -9676,16 +9700,16 @@
     "name": "Nick Folk",
     "team": "NE",
     "position": "K",
-    "status": "DEV",
-    "jerseyNumber": "06"
+    "status": "ACT",
+    "jerseyNumber": "00"
   },
   "32004645-5202-6916-80b1-b8cb27d18783": {
     "id": "32004645-5202-6916-80b1-b8cb27d18783",
     "name": "James Ferentz",
     "team": "NE",
     "position": "C",
-    "status": "UFA",
-    "jerseyNumber": "66"
+    "status": "DEV",
+    "jerseyNumber": "00"
   },
   "3200454c-5517-7981-2db3-292a30f493e2": {
     "id": "3200454c-5517-7981-2db3-292a30f493e2",
@@ -9718,6 +9742,14 @@
     "position": "SAF",
     "status": "ACT",
     "jerseyNumber": "35"
+  },
+  "3200444f-4c20-7644-6742-41e27a5bcb5a": {
+    "id": "3200444f-4c20-7644-6742-41e27a5bcb5a",
+    "name": "Jake Dolegala",
+    "team": "NE",
+    "position": "QB",
+    "status": "DEV",
+    "jerseyNumber": "00"
   },
   "32004445-5614-5356-e890-346d6c75ad9d": {
     "id": "32004445-5614-5356-e890-346d6c75ad9d",
@@ -9852,8 +9884,8 @@
     "name": "Myles Bryant",
     "team": "NE",
     "position": "CB",
-    "status": "DEV",
-    "jerseyNumber": "63"
+    "status": "ACT",
+    "jerseyNumber": "00"
   },
   "32004252-4f17-2431-b6c3-4555505c8682": {
     "id": "32004252-4f17-2431-b6c3-4555505c8682",
@@ -10198,14 +10230,6 @@
     "position": "TE",
     "status": "UFA",
     "jerseyNumber": "89"
-  },
-  "32004d4f-4119-3801-2372-bd6322c21abf": {
-    "id": "32004d4f-4119-3801-2372-bd6322c21abf",
-    "name": "David Moa",
-    "team": "MIN",
-    "position": "DT",
-    "status": "CUT",
-    "jerseyNumber": "60"
   },
   "32004d49-5422-8980-b5b6-45b020209f4e": {
     "id": "32004d49-5422-8980-b5b6-45b020209f4e",
@@ -10783,14 +10807,6 @@
     "status": "CUT",
     "jerseyNumber": "87"
   },
-  "32005745-4271-4947-abf7-9dc2a822a6f7": {
-    "id": "32005745-4271-4947-abf7-9dc2a822a6f7",
-    "name": "Ken Webster",
-    "team": "MIA",
-    "position": "CB",
-    "status": "CUT",
-    "jerseyNumber": "31"
-  },
   "32005745-4221-0365-378b-852aaa4d937f": {
     "id": "32005745-4221-0365-378b-852aaa4d937f",
     "name": "J'Marcus Webb",
@@ -10836,8 +10852,8 @@
     "name": "Cordrea Tankersley",
     "team": "MIA",
     "position": "CB",
-    "status": "RES",
-    "jerseyNumber": "23"
+    "status": "DEV",
+    "jerseyNumber": "00"
   },
   "32005441-4c42-8789-1ed0-48621b0dc7a8": {
     "id": "32005441-4c42-8789-1ed0-48621b0dc7a8",
@@ -11390,6 +11406,14 @@
     "position": "TE",
     "status": "ACT",
     "jerseyNumber": "88"
+  },
+  "32004741-5572-0007-f9ae-e9173464f6b5": {
+    "id": "32004741-5572-0007-f9ae-e9173464f6b5",
+    "name": "Tyler Gauthier",
+    "team": "MIA",
+    "position": "C",
+    "status": "DEV",
+    "jerseyNumber": "00"
   },
   "32004741-5321-1909-2ae0-a123794bf24d": {
     "id": "32004741-5321-1909-2ae0-a123794bf24d",
@@ -14295,14 +14319,6 @@
     "status": "UFA",
     "jerseyNumber": "92"
   },
-  "3200504f-5051-3779-6fdf-b6b98affab9a": {
-    "id": "3200504f-5051-3779-6fdf-b6b98affab9a",
-    "name": "Ryan Pope",
-    "team": "JAX",
-    "position": "OT",
-    "status": "CUT",
-    "jerseyNumber": "67"
-  },
   "3200504c-4568-3631-c357-40b3f228b41d": {
     "id": "3200504c-4568-3631-c357-40b3f228b41d",
     "name": "Austen Pleasants",
@@ -15308,7 +15324,7 @@
     "name": "Marlon Mack",
     "team": "IND",
     "position": "RB",
-    "status": "ACT",
+    "status": "RES",
     "jerseyNumber": "25"
   },
   "32004c45-5775-2680-9291-8a7386cdabac": {
@@ -15388,8 +15404,8 @@
     "name": "Darius Jackson",
     "team": "IND",
     "position": "RB",
-    "status": "UFA",
-    "jerseyNumber": "41"
+    "status": "DEV",
+    "jerseyNumber": "00"
   },
   "32004953-4842-5791-be1f-c097fb1c2b62": {
     "id": "32004953-4842-5791-be1f-c097fb1c2b62",
@@ -15463,14 +15479,6 @@
     "status": "DEV",
     "jerseyNumber": "05"
   },
-  "32004752-4966-2547-ffbd-abfa8588dbc3": {
-    "id": "32004752-4966-2547-ffbd-abfa8588dbc3",
-    "name": "Xavier Grimble",
-    "team": "IND",
-    "position": "TE",
-    "status": "CUT",
-    "jerseyNumber": "85"
-  },
   "32004752-4523-7309-50f4-38e38928d30b": {
     "id": "32004752-4523-7309-50f4-38e38928d30b",
     "name": "Gerri Green",
@@ -15540,8 +15548,8 @@
     "name": "Daurice Fountain",
     "team": "IND",
     "position": "WR",
-    "status": "DEV",
-    "jerseyNumber": "10"
+    "status": "ACT",
+    "jerseyNumber": "00"
   },
   "3200454c-4455-0110-eebc-2fa1bf4db5d4": {
     "id": "3200454c-4455-0110-eebc-2fa1bf4db5d4",
@@ -16231,14 +16239,6 @@
     "status": "ACT",
     "jerseyNumber": "67"
   },
-  "32004841-5742-6651-6065-1a9743a088ec": {
-    "id": "32004841-5742-6651-6065-1a9743a088ec",
-    "name": "Jerald Hawkins",
-    "team": "HOU",
-    "position": "OT",
-    "status": "CUT",
-    "jerseyNumber": "70"
-  },
   "32004841-5214-3957-d3dd-a46bc852de96": {
     "id": "32004841-5214-3957-d3dd-a46bc852de96",
     "name": "Vernon Hargreaves III",
@@ -16572,8 +16572,8 @@
     "name": "Nick Westbrook",
     "team": "TEN",
     "position": "WR",
-    "status": "DEV",
-    "jerseyNumber": "15"
+    "status": "ACT",
+    "jerseyNumber": "00"
   },
   "32005741-4c11-5671-e747-a27704ad47c0": {
     "id": "32005741-4c11-5671-e747-a27704ad47c0",
@@ -16951,14 +16951,6 @@
     "status": "ACT",
     "jerseyNumber": "60"
   },
-  "32004a45-4627-9624-44c2-044356333a2d": {
-    "id": "32004a45-4627-9624-44c2-044356333a2d",
-    "name": "Malik Jefferson",
-    "team": "TEN",
-    "position": "LB",
-    "status": "DEV",
-    "jerseyNumber": "00"
-  },
   "32004a41-4308-6514-67d6-bce2ae2ce61c": {
     "id": "32004a41-4308-6514-67d6-bce2ae2ce61c",
     "name": "Chris Jackson",
@@ -17311,6 +17303,14 @@
     "status": "DEV",
     "jerseyNumber": "00"
   },
+  "32005749-4e42-9360-a58b-4c4ce5e28b5e": {
+    "id": "32005749-4e42-9360-a58b-4c4ce5e28b5e",
+    "name": "Billy Winn",
+    "team": "GB",
+    "position": "DE",
+    "status": "DEV",
+    "jerseyNumber": "00"
+  },
   "32005749-4c60-1289-f472-c34988050582": {
     "id": "32005749-4c60-1289-f472-c34988050582",
     "name": "Gerald Willis",
@@ -17591,6 +17591,14 @@
     "status": "DEV",
     "jerseyNumber": "99"
   },
+  "3200504f-5051-3779-6fdf-b6b98affab9a": {
+    "id": "3200504f-5051-3779-6fdf-b6b98affab9a",
+    "name": "Ryan Pope",
+    "team": "GB",
+    "position": "OT",
+    "status": "DEV",
+    "jerseyNumber": "00"
+  },
   "32005041-5426-9889-e1ac-bf5ad84aa1c2": {
     "id": "32005041-5426-9889-e1ac-bf5ad84aa1c2",
     "name": "Lucas Patrick",
@@ -17644,7 +17652,7 @@
     "name": "Daylon Mack",
     "team": "GB",
     "position": "DT",
-    "status": "DEV",
+    "status": "CUT",
     "jerseyNumber": "00"
   },
   "32004c4f-5761-7631-a34e-c6965ab51a7c": {
@@ -18519,6 +18527,14 @@
     "status": "ACT",
     "jerseyNumber": "52"
   },
+  "32004a4f-4e00-0007-40da-3c61d980cc50": {
+    "id": "32004a4f-4e00-0007-40da-3c61d980cc50",
+    "name": "Chris Jones",
+    "team": "DET",
+    "position": "DB",
+    "status": "ACT",
+    "jerseyNumber": "00"
+  },
   "32004a4f-4839-9188-cb7b-f29b5ea64839": {
     "id": "32004a4f-4839-9188-cb7b-f29b5ea64839",
     "name": "Kerryon Johnson",
@@ -18878,14 +18894,6 @@
     "position": "OG",
     "status": "ACT",
     "jerseyNumber": "76"
-  },
-  "32005749-4e42-9360-a58b-4c4ce5e28b5e": {
-    "id": "32005749-4e42-9360-a58b-4c4ce5e28b5e",
-    "name": "Billy Winn",
-    "team": "DEN",
-    "position": "DT",
-    "status": "UFA",
-    "jerseyNumber": "90"
   },
   "32005749-4e16-4177-922b-27ea221a4749": {
     "id": "32005749-4e16-4177-922b-27ea221a4749",
@@ -19327,6 +19335,14 @@
     "status": "ACT",
     "jerseyNumber": "22"
   },
+  "32004952-5673-2673-ccdf-8b4c960eb708": {
+    "id": "32004952-5673-2673-ccdf-8b4c960eb708",
+    "name": "Isaiah Irving",
+    "team": "DEN",
+    "position": "LB",
+    "status": "DEV",
+    "jerseyNumber": "00"
+  },
   "3200484f-5722-9668-8276-3db73c8d6912": {
     "id": "3200484f-5722-9668-8276-3db73c8d6912",
     "name": "Bug Howard",
@@ -19604,7 +19620,7 @@
     "name": "A.J. Bouye",
     "team": "DEN",
     "position": "CB",
-    "status": "ACT",
+    "status": "RES",
     "jerseyNumber": "21"
   },
   "3200424f-4c53-2335-9c0b-98c5c891813d": {
@@ -19652,8 +19668,8 @@
     "name": "DeVante Bausby",
     "team": "DEN",
     "position": "CB",
-    "status": "DEV",
-    "jerseyNumber": "41"
+    "status": "ACT",
+    "jerseyNumber": "00"
   },
   "32004241-5366-5944-41e9-4e9b3c786828": {
     "id": "32004241-5366-5944-41e9-4e9b3c786828",
@@ -20652,7 +20668,7 @@
     "name": "Alex Taylor",
     "team": "CLE",
     "position": "OT",
-    "status": "RES",
+    "status": "CUT",
     "jerseyNumber": "67"
   },
   "32005441-4b11-1241-9b68-3c89f1b8a042": {
@@ -20844,8 +20860,8 @@
     "name": "Montrel Meander",
     "team": "CLE",
     "position": "LB",
-    "status": "DEV",
-    "jerseyNumber": "41"
+    "status": "ACT",
+    "jerseyNumber": "00"
   },
   "32004d43-4367-3891-3d96-64a1a3d3751a": {
     "id": "32004d43-4367-3891-3d96-64a1a3d3751a",
@@ -21871,14 +21887,6 @@
     "status": "CUT",
     "jerseyNumber": "70"
   },
-  "3200444f-4c20-7644-6742-41e27a5bcb5a": {
-    "id": "3200444f-4c20-7644-6742-41e27a5bcb5a",
-    "name": "Jake Dolegala",
-    "team": "CIN",
-    "position": "QB",
-    "status": "CUT",
-    "jerseyNumber": "07"
-  },
   "32004449-5365-0257-3527-e337621926f3": {
     "id": "32004449-5365-0257-3527-e337621926f3",
     "name": "Trey Dishon",
@@ -22252,7 +22260,7 @@
     "name": "Eric Saubert",
     "team": "CHI",
     "position": "TE",
-    "status": "ACT",
+    "status": "CUT",
     "jerseyNumber": "82"
   },
   "32005341-4e79-6299-852e-b177eee92780": {
@@ -22260,8 +22268,8 @@
     "name": "Cairo Santos",
     "team": "CHI",
     "position": "K",
-    "status": "DEV",
-    "jerseyNumber": "02"
+    "status": "ACT",
+    "jerseyNumber": "00"
   },
   "3200524f-4236-5982-45ce-8ca18ca03af8": {
     "id": "3200524f-4236-5982-45ce-8ca18ca03af8",
@@ -22535,14 +22543,6 @@
     "status": "DEV",
     "jerseyNumber": "14"
   },
-  "32004952-5673-2673-ccdf-8b4c960eb708": {
-    "id": "32004952-5673-2673-ccdf-8b4c960eb708",
-    "name": "Isaiah Irving",
-    "team": "CHI",
-    "position": "LB",
-    "status": "CUT",
-    "jerseyNumber": "47"
-  },
   "32004946-4513-6317-9ed7-242899e243f5": {
     "id": "32004946-4513-6317-9ed7-242899e243f5",
     "name": "Germain Ifedi",
@@ -22774,14 +22774,6 @@
     "position": "CB",
     "status": "RES",
     "jerseyNumber": "25"
-  },
-  "32004252-4f48-5991-4eb2-390cd5f5fede": {
-    "id": "32004252-4f48-5991-4eb2-390cd5f5fede",
-    "name": "Jamon Brown",
-    "team": "CHI",
-    "position": "OG",
-    "status": "CUT",
-    "jerseyNumber": "00"
   },
   "32004252-4178-0271-63c9-91a5359241fc": {
     "id": "32004252-4178-0271-63c9-91a5359241fc",
@@ -23195,8 +23187,8 @@
     "id": "32004d4f-4e39-8581-619c-05fed0606b15",
     "name": "Aaron Monteiro",
     "team": "CAR",
-    "position": "OT",
-    "status": "CUT",
+    "position": "OG",
+    "status": "DEV",
     "jerseyNumber": "62"
   },
   "32004d49-4c37-3763-bb71-113d10369c73": {
@@ -24511,14 +24503,6 @@
     "status": "ACT",
     "jerseyNumber": "17"
   },
-  "3200414c-4c06-4455-fde5-600f701bf107": {
-    "id": "3200414c-4c06-4455-fde5-600f701bf107",
-    "name": "Brian Allen",
-    "team": "BUF",
-    "position": "CB",
-    "status": "CUT",
-    "jerseyNumber": "00"
-  },
   "3200414c-4551-3150-be04-23466b383d2e": {
     "id": "3200414c-4551-3150-be04-23466b383d2e",
     "name": "Maurice Alexander",
@@ -25055,6 +25039,14 @@
     "status": "ACT",
     "jerseyNumber": "40"
   },
+  "32004752-4966-2547-ffbd-abfa8588dbc3": {
+    "id": "32004752-4966-2547-ffbd-abfa8588dbc3",
+    "name": "Xavier Grimble",
+    "team": "BAL",
+    "position": "TE",
+    "status": "DEV",
+    "jerseyNumber": "00"
+  },
   "32004752-4928-3140-9891-1e10fb560bfb": {
     "id": "32004752-4928-3140-9891-1e10fb560bfb",
     "name": "Robert Griffin III",
@@ -25404,8 +25396,8 @@
     "name": "John Wetzel",
     "team": "ATL",
     "position": "OG",
-    "status": "DEV",
-    "jerseyNumber": "75"
+    "status": "ACT",
+    "jerseyNumber": "00"
   },
   "32005741-4c28-0175-924f-5d081f632663": {
     "id": "32005741-4c28-0175-924f-5d081f632663",
@@ -25428,8 +25420,8 @@
     "name": "Laquon Treadwell",
     "team": "ATL",
     "position": "WR",
-    "status": "CUT",
-    "jerseyNumber": "80"
+    "status": "DEV",
+    "jerseyNumber": "00"
   },
   "32005448-4f01-7083-73ef-a88e38f15ec7": {
     "id": "32005448-4f01-7083-73ef-a88e38f15ec7",
@@ -25630,6 +25622,14 @@
     "position": "SS",
     "status": "ACT",
     "jerseyNumber": "22"
+  },
+  "32004d4f-4119-3801-2372-bd6322c21abf": {
+    "id": "32004d4f-4119-3801-2372-bd6322c21abf",
+    "name": "David Moa",
+    "team": "ATL",
+    "position": "DT",
+    "status": "DEV",
+    "jerseyNumber": "00"
   },
   "32004d49-4c37-3762-c0d7-70bbb307a253": {
     "id": "32004d49-4c37-3762-c0d7-70bbb307a253",

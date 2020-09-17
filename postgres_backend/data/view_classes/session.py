@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-from .custom_view import CustomView
 from django.contrib.auth import authenticate, login, logout
+
+from data.view_classes.custom_view import CustomView
 
 class Session(CustomView):
   def post(self):

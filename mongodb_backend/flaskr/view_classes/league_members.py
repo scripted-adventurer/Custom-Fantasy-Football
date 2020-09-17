@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 import os
 
-from .league_base import LeagueBase
-from flaskr import models
-from flaskr.security import generate_hash
+from mongodb_backend.flaskr.view_classes.league_base import LeagueBase
+from mongodb_backend.flaskr import models
+from common.hashing import generate_hash
 
 class LeagueMembers(LeagueBase):
   def post(self):
-    league = models.get_safe('League', name=self.league_name)
+    league = models.League.objects(name=self.league_name).first()
     if not league:
       self.change_response_status(400)
       self.add_response_error(self.errors.bad_data('league name'))

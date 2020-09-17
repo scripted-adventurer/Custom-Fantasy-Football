@@ -2,7 +2,7 @@
 from flask_login import login_user, logout_user
 from flaskr.security import get_user, compare_hash
 
-from .custom_view import CustomView
+from mongodb_backend.flaskr.view_classes.custom_view import CustomView
 
 class Session(CustomView):
   def post(self):

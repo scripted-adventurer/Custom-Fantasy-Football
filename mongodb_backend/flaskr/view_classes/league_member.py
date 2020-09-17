@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from .league_base import LeagueBase
-from flaskr import models
-from flaskr.security import get_user, compare_hash
+from mongodb_backend.flaskr.view_classes.league_base import LeagueBase
+from mongodb_backend.flaskr import models
+from common.hashing import compare_hash
 
 class LeagueMember(LeagueBase):
   def get(self):
@@ -30,8 +30,8 @@ class LeagueMember(LeagueBase):
         self.change_response_status(403)
         return self.return_json()
       user = get_user(username=username)
-      to_remove = models.get_safe('Member', league=self.league, 
-        user=user)
+      to_remove = models.Member.objects(league=self.league, 
+        user=user).first()
       if not to_remove:
         self.change_response_status(400)
         self.add_response_error(self.errors.bad_data('username'))

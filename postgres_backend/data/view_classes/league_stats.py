@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
-from .league_base import LeagueBase
-import data.models as db_models
-from .validation import SeasonWeekValidation
-from .stat_query import StatQuery
+from data.view_classes.league_base import LeagueBase
+from data.view_classes.stat_query import StatQuery
 
 class LeagueStats(LeagueBase):
   def get(self):

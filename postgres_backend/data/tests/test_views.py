@@ -1,14 +1,16 @@
+# -*- coding: utf-8 -*-
+from freezegun import freeze_time
+import os
+
 from django.test import TestCase
 from django.db import connection
 from django.contrib.auth.models import User
 from django.db import connection
 
-from freezegun import freeze_time
-import os
-
 from .view_test_request import ViewTestRequest
 from .setup import TestData, TestCases
-import data.models as db_models
+import data.models as models
+from common.hashing import compare_hash
 
 class ViewsTest(TestCase):
   # automatically loaded:
@@ -45,8 +47,8 @@ class ViewsTest(TestCase):
       self.assertEqual(True, test_case.run())
 
     # check data is updated
-    league = db_models.League.objects.get(name=self.data.league[0].name)
-    self.assertEqual(True, db_models.compare_hash(league.password, 'new_password'))
+    league = models.League.objects.get(name=self.data.league[0].name)
+    self.assertEqual(True, compare_hash(league.password, 'new_password'))
  
   def test_league_member(self):
     self.data.create('League', name='test_league_0')
@@ -64,7 +66,7 @@ class ViewsTest(TestCase):
       self.assertEqual(True, test_case.run())
 
     # check members are removed
-    league = db_models.League.objects.get(name=self.data.league[0].name)
+    league = models.League.objects.get(name=self.data.league[0].name)
     self.assertEqual(league.get_members(), ['test_user_0'])
 
   # Sunday 2PM during Week 17 2019 (1PM players are locked, others available)
@@ -188,8 +190,8 @@ class ViewsTest(TestCase):
       self.assertEqual(True, test_case.run())
 
     # check data is created
-    league = db_models.League.objects.get(name='new_league')
-    member = db_models.Member.objects.get(user=self.data.user[0], 
+    league = models.League.objects.get(name='new_league')
+    member = models.Member.objects.get(user=self.data.user[0], 
       league__name='new_league')
     self.assertEqual(member.admin, True)  
 
@@ -235,7 +237,7 @@ class ViewsTest(TestCase):
       self.assertEqual(True, test_case.run()) 
 
   def test_user(self):
-    password_hash = db_models.generate_hash('password')
+    password_hash = models.generate_hash('password')
     self.data.create('League', name='test_league_0', 
       password=password_hash)
     self.data.create('League', name='test_league_1', 
@@ -252,7 +254,7 @@ class ViewsTest(TestCase):
       self.assertEqual(True, test_case.run()) 
     
     # check data was updated
-    user_1 = db_models.get_safe('User', username=self.data.user[1].username)
+    user_1 = models.get_safe('User', username=self.data.user[1].username)
     self.assertEqual(user_1, None) 
 
   def test_users(self):
@@ -263,8 +265,8 @@ class ViewsTest(TestCase):
       self.assertEqual(True, test_case.run()) 
 
     # check data is created
-    user1 = db_models.User.objects.get(username='test_new_user')
-    user2 = db_models.User.objects.get(username='test_new_user_2')
+    user1 = models.User.objects.get(username='test_new_user')
+    user2 = models.User.objects.get(username='test_new_user_2')
 
   def test_week(self):
     for test in self.test_cases['week']:

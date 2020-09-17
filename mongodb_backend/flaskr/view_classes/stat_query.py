@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from flaskr import models
+from mongodb_backend.flaskr import models
 
 class StatQuery:
   '''The primary engine for calculating player stats based on a League's scoring

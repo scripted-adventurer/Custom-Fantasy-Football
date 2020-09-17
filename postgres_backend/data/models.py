@@ -1,21 +1,13 @@
-from django.db import models
-from django.contrib.auth.models import User
-
+# -*- coding: utf-8 -*-
 import os
 import datetime
 import pytz
-from werkzeug.security import generate_password_hash, check_password_hash
 
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-CurrentWeek = common.CurrentWeek
+from django.db import models
+from django.contrib.auth.models import User
 
-def get_current_week():
-  now = datetime.datetime.now(pytz.UTC)
-  return (CurrentWeek().find(now))
+from common.current_week import get_current_week
+from common.hashing import generate_hash, compare_hash
 
 def get_safe(model_name, **kwargs):
   # a modified get() function that returns a single matching object if one exists
@@ -28,13 +20,7 @@ def get_safe(model_name, **kwargs):
   if len(data) == 1:
     return data[0]
   else:
-    return None
-
-def generate_hash(password):
-  return generate_password_hash(password)
-
-def compare_hash(pwhash, password):
-  return check_password_hash(pwhash, password)  
+    return None 
 
 class SeasonType(models.TextChoices):
   PRE = 'PRE'

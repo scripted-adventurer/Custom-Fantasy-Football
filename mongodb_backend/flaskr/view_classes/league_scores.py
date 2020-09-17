@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
-from .league_base import LeagueBase
-from flaskr import models
-from flaskr.security import get_user
-from .validation import SeasonWeekValidation
-from .stat_query import StatQuery
+from mongodb_backend.flaskr.view_classes.league_base import LeagueBase
+from mongodb_backend.flaskr.flaskr import models
+from mongodb_backend.flaskr.view_classes.stat_query import StatQuery
 
 class LeagueScores(LeagueBase): 
   def get(self):

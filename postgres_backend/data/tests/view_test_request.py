@@ -1,16 +1,12 @@
-from django.test import Client
-
+# -*- coding: utf-8 -*-
 import json
 import copy
-from jsonpath_ng import jsonpath, parse
 import os
+from jsonpath_ng import jsonpath, parse
 
-import importlib.util
-spec = importlib.util.spec_from_file_location("common", 
-  f"{os.environ['CUSTOM_FF_PATH']}/common/common.py")
-common = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(common)
-Errors = common.Errors
+from django.test import Client
+
+from common.errors import Errors
 
 class ViewTestRequest:
   '''Makes a test request according to the parameters provided and performs

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from .custom_view import CustomView
-import data.models as db_models
+from data.view_classes.custom_view import CustomView
+import data.models as models
 
 class Leagues(CustomView):
   def post(self):
@@ -14,13 +14,13 @@ class Leagues(CustomView):
       self.add_response_error(self.errors.unmatched_passwords())
       self.change_response_status(400)
       return self.return_json()
-    elif len(db_models.League.objects.filter(name=new_league_name)):
+    elif len(models.League.objects.filter(name=new_league_name)):
       self.add_response_error(self.errors.name_taken('League name'))
       self.change_response_status(400)
       return self.return_json()
     else:
-      league = db_models.League.objects.create(name=new_league_name)
+      league = models.League.objects.create(name=new_league_name)
       league.set_password(password1)
-      member = db_models.Member.objects.create(user=self.user, league=league, 
+      member = models.Member.objects.create(user=self.user, league=league, 
         admin=True)
       return self.return_json()
