@@ -104,6 +104,9 @@ class SyncDB:
     else:
       return False   
   def _update_game(self, game_info):
+    if self._game_is_updated(game_info["gameDetailId"]):
+      return
+    
     print(f'Updating {game_info["gameDetailId"]}')
     game_path = f'{self.base_path}/nfl_json/json/games/{game_info["gameDetailId"]}.json.gz'
     with gzip.open(game_path) as game_json:

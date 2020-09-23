@@ -3,6 +3,7 @@ import datetime
 import pytz
 
 from mongoengine import *
+import fuzzy
 
 from common import statmap 
 from common.hashing import generate_hash, compare_hash
@@ -73,7 +74,7 @@ class Drive(EmbeddedDocument):
   end_quarter = IntField()
   end_transition = StringField(max_length=20)
   end_time = StringField(max_length=10)
-  possession_team = EmbeddedDocumentField(Team)
+  possession_team = ReferenceField(Team, reverse_delete_rule=DO_NOTHING, required=True)
   possession_time = StringField(max_length=10)
   first_downs = IntField()
   penalty_yards = IntField()
@@ -125,7 +126,7 @@ class Play(EmbeddedDocument):
   drive_id = IntField()
   play_id = IntField()
   quarter = IntField()
-  possession_team = EmbeddedDocumentField(Team)
+  possession_team = ReferenceField(Team, reverse_delete_rule=DO_NOTHING, required=True)
   start_time = StringField(max_length=10)
   end_time = StringField(max_length=10)
   down = IntField()
@@ -204,9 +205,11 @@ class Play(EmbeddedDocument):
     return self  
 
 class Team(Document):
-  '''Represents an NFL team. Used for the possession team fields in Game, Drive, and Play.'''
+  '''Represents an NFL team. Used for the possession team fields in Game, Drive, 
+  and Play and the team field in Player.'''
   team_id = StringField(max_length=3, required=True)
   name = StringField(max_length=40, required=True)
+  active = BooleanField(default=True)
 
   def __repr__(self):
     return f"{{'model': 'Team', 'team_id': '{self.team_id}'}}"
@@ -219,6 +222,11 @@ class Team(Document):
       return NotImplemented  
   def __hash__(self):
     return hash(('Team', self.team_id))
+  def custom_json(self, team_info):
+    self.team_id = team_info["id"]
+    self.name = team_info["name"]
+    self.active = team_info["active"]
+    return self  
 
 class Game(Document):
   '''Represents a single NFL game in a season and provides a logical mapping 
@@ -232,11 +240,12 @@ class Game(Document):
   stadium = StringField(max_length=50)
   home_score = EmbeddedDocumentField(GameScore, required=True)
   away_score = EmbeddedDocumentField(GameScore, required=True)
-  home_team = EmbeddedDocumentField(Team, required=True)
-  away_team = EmbeddedDocumentField(Team, required=True)
+  home_team = ReferenceField(Team, reverse_delete_rule=DO_NOTHING, required=True)
+  away_team = ReferenceField(Team, reverse_delete_rule=DO_NOTHING, required=True)
   weather = StringField(max_length=500)
   drives = EmbeddedDocumentListField(Drive, required=True)
   plays = EmbeddedDocumentListField(Play, required=True)
+  modified_at = DateTimeField(required=True, default=datetime.datetime.now(pytz.UTC))
 
   def __repr__(self):
     return f"{{'model': 'Game', 'game_id': '{self.game_id}'}}"
@@ -297,10 +306,12 @@ class Player(Document):
   the MongoDB database.'''
   player_id = StringField(max_length=36, required=True)
   name = StringField(max_length=100, required=True)
-  team = StringField(max_length=3)
+  team = ReferenceField(Team, reverse_delete_rule=DO_NOTHING, required=True)
   position = StringField(max_length=10)
   status = StringField(max_length=10)
   jersey_number = IntField()
+  # for fuzzy string player name matching
+  metaphone = ListField()
 
   def __repr__(self):
     return f"{{'model': 'Player', 'player_id': '{self.player_id}'}}"
@@ -323,6 +334,7 @@ class Player(Document):
     self.position = player_info["position"]
     self.status = player_info["status"]
     self.jersey_number = player_info["jerseyNumber"]
+    self.metaphone = fuzzy.DMetaphone()(self.name)
     return self
   def is_locked(self):
     season_year, season_type, week = get_current_week()
