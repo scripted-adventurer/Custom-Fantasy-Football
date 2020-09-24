@@ -29,7 +29,7 @@ class LeagueMember(LeagueBase):
         self.add_response_error(self.errors.not_admin())
         self.change_response_status(403)
         return self.return_json()
-      user = get_user(username=username)
+      user = models.User.objects(username=username).first()
       to_remove = models.Member.objects(league=self.league, 
         user=user).first()
       if not to_remove:

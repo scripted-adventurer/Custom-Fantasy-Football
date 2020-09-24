@@ -2,7 +2,7 @@
 from mongodb_backend.flaskr.view_classes.custom_view import CustomView
 from mongodb_backend.flaskr import models
 from mongodb_backend.flaskr.view_classes.validation import SeasonWeekValidation
-from common.season_week import get_current_week
+from common.current_week import get_current_week
 
 class Games(CustomView):
   def get(self):

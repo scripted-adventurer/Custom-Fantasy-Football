@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from mongodb_backend.flaskr.view_classes.league_base import LeagueBase
-from mongodb_backend.flaskr.flaskr import models
+from mongodb_backend.flaskr import models
 from mongodb_backend.flaskr.view_classes.stat_query import StatQuery
 
 class LeagueStats(LeagueBase):

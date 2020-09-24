@@ -1,13 +1,16 @@
 from freezegun import freeze_time
 import os
 
+from flask_login import logout_user
+
 from mongodb_backend.tests.view_test_request import ViewTestRequest
 from mongodb_backend.tests.setup import Cases
-import mongodb_backend.flaskr.models as models
+from mongodb_backend.flaskr import models
+from common.hashing import generate_hash, compare_hash
 
 def test_views(client):
   test_cases = Cases().get()
-  hashed_password = security.generate_hash('password')
+  hashed_password = generate_hash('password')
   users = []
   users.append(models.User(username="test_user_0", password=hashed_password).save())
   users.append(models.User(username="test_user_1", password=hashed_password).save())
@@ -27,8 +30,6 @@ def test_views(client):
     member_1 = models.Member(user=users[1], league=league_0, admin=True).save()
 
     for test in test_cases['league']:
-      if test.method == 'HEAD':
-        continue
       test_case = ViewTestRequest(client, test.test_case, test.test_id, test.url, 
         test.method, test.request, test.username, test.status_code, 
         test.full_response, test.json_expression, test.parsed_response)
@@ -36,7 +37,7 @@ def test_views(client):
 
     # check data is updated
     league = models.League.objects.get(name='test_league_0')
-    assert (security.compare_hash(league.password, 'new_password'))
+    assert (compare_hash(league.password, 'new_password'))
 
     # reset test data
     models.Member.objects.delete()
@@ -158,7 +159,7 @@ def test_views(client):
 
     # check data is created
     league = models.League.objects.get(name='new_league')
-    member = models.Member.objects.get(user=users[0], league__name='new_league')
+    member = models.Member.objects.get(user=users[0], league=league)
     assert member.admin
 
     models.Member.objects.delete()
@@ -230,6 +231,8 @@ def test_views(client):
     # check data is created
     user1 = models.User.objects.get(username='test_new_user')
     user2 = models.User.objects.get(username='test_new_user_2')
+    # logout the newly created user
+    client.delete('/api/session', json={})
 
   def test_week():
     for test in test_cases['week']:
@@ -238,18 +241,18 @@ def test_views(client):
         test.full_response, test.json_expression, test.parsed_response)
       assert test_case.run()
 
-  # test_games()
-  # test_league()
-  # test_league_member()
-  # test_league_member_lineup()
+  test_games()
+  test_league()
+  test_league_member()
+  test_league_member_lineup()
   test_league_members()
   # test_league_stats_scores()
-  # test_leagues()
-  # test_player()
+  test_leagues()
+  test_player()
   # test_players()
-  # test_session()
-  # test_team()
-  # test_teams()
-  # test_user()
-  # test_users()
-  # test_week()    
+  test_session()
+  test_team()
+  test_teams()
+  test_user()
+  test_users()
+  test_week()  

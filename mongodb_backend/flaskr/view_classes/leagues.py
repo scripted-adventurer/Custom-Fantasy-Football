@@ -21,7 +21,9 @@ class Leagues(CustomView):
       return self.return_json()
     else:
       password = generate_hash(password1)
-      league = models.League.objects(name=new_league_name, password=password1).save()
-      member = models.Member.objects(user=self.user, league=league, 
-        admin=True).save()
+      league = models.League(name=new_league_name, password=password1).save()
+      # the user object returned in Flask Login is not the correct type for 
+      # the ReferenceField so this explicit lookup is necessary
+      user = models.User.objects.get(username=self.user.username)
+      member = models.Member(user=user, league=league, admin=True).save()
       return self.return_json()

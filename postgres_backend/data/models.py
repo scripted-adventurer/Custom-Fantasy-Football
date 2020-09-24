@@ -320,7 +320,7 @@ class Team(models.Model):
 
 class League(models.Model):
   name = models.TextField()
-  # league password is stored as SHA256 hash
+  # league password is stored as hash
   password = models.TextField()
   # below are the number of positions included in a league's lineup
   db = models.SmallIntegerField(default=0)

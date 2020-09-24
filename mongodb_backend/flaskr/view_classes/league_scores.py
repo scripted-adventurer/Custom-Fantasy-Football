@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from mongodb_backend.flaskr.view_classes.league_base import LeagueBase
-from mongodb_backend.flaskr.flaskr import models
+from mongodb_backend.flaskr import models
 from mongodb_backend.flaskr.view_classes.stat_query import StatQuery
 
 class LeagueScores(LeagueBase): 
@@ -17,7 +17,7 @@ class LeagueScores(LeagueBase):
     league_scores = []
     for username in self.league.get_members():
       user_score = {'user': username, 'total': 0, 'player_scores': []}
-      user = get_user(username=username)
+      user = models.User.objects(username=username).first()
       self.member = models.Member.objects.get(league=self.league, 
         user=user)
       for player in self.member.get_lineup(self.season_type, self.season_year, 

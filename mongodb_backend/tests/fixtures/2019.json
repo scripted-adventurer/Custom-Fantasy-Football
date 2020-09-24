@@ -1,0 +1,220 @@
+{
+  "data": {
+    "viewer": {
+      "league": {
+        "games": {
+          "edges": [
+            {
+              "node": {
+                "id": "10012019-1229-00b2-0067-20384c6d15bd",
+                "esbId": "2019122900",
+                "gameDetailId": "10160000-0581-4046-b36d-71a9dc294989",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-0184-9324-49015a792850",
+                "esbId": "2019122901",
+                "gameDetailId": "10160000-0581-4191-65e2-636042b146a2",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-02ca-a620-60fbb2ac1049",
+                "esbId": "2019122902",
+                "gameDetailId": "10160000-0581-42a6-7ad4-b6ce07df420c",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-03f3-7271-9f358ec386b1",
+                "esbId": "2019122903",
+                "gameDetailId": "10160000-0581-439e-5962-787e83670452",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-04bd-94ea-b87f6e6075c9",
+                "esbId": "2019122904",
+                "gameDetailId": "10160000-0581-4493-e406-c82cf623910b",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-05b9-a4c7-ec63d5719e88",
+                "esbId": "2019122905",
+                "gameDetailId": "10160000-0581-45c0-455c-8dcc2dd0671b",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-0650-a5c5-e160717bbda1",
+                "esbId": "2019122906",
+                "gameDetailId": "10160000-0581-4680-ba82-12e629d4584f",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-07f0-fa41-b116a1fe561b",
+                "esbId": "2019122907",
+                "gameDetailId": "10160000-0581-473e-eb94-1a778636026a",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-08e1-78f6-ad4d1e6f8a1c",
+                "esbId": "2019122908",
+                "gameDetailId": "10160000-0581-48bf-97b6-ba88c25425db",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-09b0-d1ed-3a80302be03d",
+                "esbId": "2019122909",
+                "gameDetailId": "10160000-0581-497c-03ab-631399c8edb5",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-1092-8309-8a64f865a54f",
+                "esbId": "2019122910",
+                "gameDetailId": "10160000-0581-50f0-2784-54117f77ace2",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-119a-749a-de38125a057b",
+                "esbId": "2019122911",
+                "gameDetailId": "10160000-0581-51ec-daf8-313de0e71617",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-1281-ebfb-4a0da68229e3",
+                "esbId": "2019122912",
+                "gameDetailId": "10160000-0581-52cd-7bcb-655ad442bbc7",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T18:00:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-1342-f03f-8d7881fa30a3",
+                "esbId": "2019122913",
+                "gameDetailId": "10160000-0581-53f8-15d7-52fbf40781c2",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-1461-7023-05b881e43732",
+                "esbId": "2019122914",
+                "gameDetailId": "10160000-0581-548a-6756-cb2d2d18c1c2",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-29T21:25:00.000Z"
+              }
+            },
+            {
+              "node": {
+                "id": "10012019-1229-153a-d164-2140aa0ef61f",
+                "esbId": "2019122915",
+                "gameDetailId": "10160000-0581-554b-2f66-33a0afe446bb",
+                "week": {
+                  "seasonValue": 2019,
+                  "seasonType": "REG",
+                  "weekValue": 17
+                },
+                "gameTime": "2019-12-30T01:20:00.000Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

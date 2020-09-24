@@ -3,6 +3,8 @@ import datetime
 import pytz
 import os
 
+import fuzzy
+
 from mongodb_backend.flaskr.view_classes.custom_view import CustomView
 from mongodb_backend.flaskr import models
 from common.current_week import get_current_week
@@ -14,6 +16,7 @@ class Players(CustomView):
       player_name = self.request.args['query']
       players = []
       # lookup players by double metaphone matches 
+      metaphones = fuzzy.DMetaphone()(player_name)
       self.add_response_data('players', players)
       return self.return_json()
     elif 'available' in self.request.args:

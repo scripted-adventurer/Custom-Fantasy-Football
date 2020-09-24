@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 from flask_login import login_user, logout_user
-from flaskr.security import get_user, compare_hash
 
 from mongodb_backend.flaskr.view_classes.custom_view import CustomView
+from common.hashing import compare_hash
+from mongodb_backend.flaskr import models
 
 class Session(CustomView):
   def post(self):
@@ -12,7 +13,7 @@ class Session(CustomView):
     username = self.get_request_data('username')
     password = self.get_request_data('password')
     
-    user = get_user(username=username)
+    user = models.User.objects(username=username).first()
 
     if user and compare_hash(user.password, password):
       login_user(user)

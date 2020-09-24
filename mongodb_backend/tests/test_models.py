@@ -2,51 +2,11 @@
 from freezegun import freeze_time
 
 from mongodb_backend.flaskr import models 
-from common.hashing import compare_hash
+from common.hashing import generate_hash, compare_hash
 
 def test_models(app):
   # to speed up execution, run all the tests within one database setup/teardown
-  hashed_password = security.generate_hash('password')
-
-  def test_get_safe():
-    name = 'test_get_safe'
-    league_0 = models.League(name=f"{name}_0", password=hashed_password).save()
-    user_0 = models.User(username=f"{name}_0", password=hashed_password).save()
-    user_1 = models.User(username=f"{name}_1", password=hashed_password).save()
-    member_0 = models.Member(user=user_0, league=league_0).save()
-    game_valid = models.get_safe('Game', 
-      game_id='10160000-0581-45c0-455c-8dcc2dd0671b')
-    assert game_valid
-    game_invalid = models.get_safe('Game', 
-      game_id='10160000-0581-45c0-455c-8dcc2dd01234')
-    assert not game_invalid
-    player_valid = models.get_safe('Player', 
-      player_id='3200524f-4433-9293-a3cf-ad7758d03003')
-    assert player_valid
-    player_invalid = models.get_safe('Player', 
-      player_id='3200524f-4433-9293-a3cf-ad7758d01234')
-    assert not player_invalid
-    league_valid = models.get_safe('League', name=f"{name}_0")
-    assert league_valid
-    league_invalid = models.get_safe('League', name='invalid')
-    assert not league_invalid
-    member_valid = models.get_safe('Member', league=league_0, user=user_0)
-    assert member_valid
-    member_invalid = models.get_safe('Member', league=league_0, user=user_1)
-    assert not member_invalid
-
-  def test_team():
-    main = models.Team(team_id='GB', name='Green Bay Packers')
-    same = models.Team(team_id='GB', name='Green Bay Packers')
-    different = models.Team(team_id='CHI', name='Chicago Bears')
-    other = models.Week(season_type='REG', season_year=2020, week=1)
-    assert repr(main) == "{'model': 'Team', 'team_id': 'GB'}"
-    assert str(main) == "{Green Bay Packers}"
-    assert main == same
-    assert hash(main) == hash(same)
-    assert main != different
-    assert hash(main) != hash(different)
-    assert not main == other
+  hashed_password = generate_hash('password')
 
   def test_week():
     main = models.Week(season_type='REG', season_year=2019, week=17)
@@ -76,6 +36,20 @@ def test_models(app):
     assert main != different
     assert hash(main) != hash(different)
     assert not main == other
+
+  def test_team():
+    main = models.Team(team_id='GB', name='Green Bay Packers')
+    same = models.Team(team_id='GB', name='Green Bay Packers')
+    different = models.Team(team_id='CHI', name='Chicago Bears')
+    other = models.Week(season_type='REG', season_year=2020, week=1)
+    assert repr(main) == "{'model': 'Team', 'team_id': 'GB'}"
+    assert str(main) == "{Green Bay Packers}"
+    assert main.data_dict() == {'id': 'GB', 'name': 'Green Bay Packers'}
+    assert main == same
+    assert hash(main) == hash(same)
+    assert main != different
+    assert hash(main) != hash(different)
+    assert not main == other  
 
   def test_drive():
     game = models.Game.objects.get(game_id='10160000-0581-45c0-455c-8dcc2dd0671b')
@@ -281,12 +255,13 @@ def test_models(app):
 
   def test_user():
     name = 'test_user'
-    main = security.User(username=f'{name}_0', password='password').save()
-    same = security.User.objects.get(username=f'{name}_0')
-    different = security.User(username=f'{name}_1', password='password').save()
+    main = models.User(username=f'{name}_0', password='password').save()
+    same = models.User.objects.get(username=f'{name}_0')
+    different = models.User(username=f'{name}_1', password='password').save()
     other = models.Team(team_id='GB', name='Green Bay Packers')
     assert repr(main) == f"{{'model': 'User', 'username': '{name}_0'}}"
     assert str(main) == main.get_id()
+    assert main.is_active
     assert main == same
     assert hash(main) == hash(same)
     assert main != different
@@ -372,10 +347,9 @@ def test_models(app):
     member_0_lineup = member_0.get_lineup()
     assert member_0_lineup == []
 
-  test_get_safe()
-  test_team()
   test_week()
   test_game_score()
+  test_team()
   test_drive()
   test_play()
   test_game()

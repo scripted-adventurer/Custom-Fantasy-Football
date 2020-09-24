@@ -43,4 +43,5 @@ class User(CustomView):
         return self.return_json()
     else:
       self.add_response_error(self.errors.bad_data('property'))
+      self.change_response_status(400)
       return self.return_json()    

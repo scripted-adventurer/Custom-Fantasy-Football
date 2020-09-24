@@ -3,7 +3,7 @@ from flask_login import login_user
 
 from mongodb_backend.flaskr.view_classes.custom_view import CustomView
 from mongodb_backend.flaskr import models
-from hashing import generate_hash
+from common.hashing import generate_hash
 
 class Users(CustomView):
   def post(self):

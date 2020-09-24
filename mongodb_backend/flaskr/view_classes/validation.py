@@ -31,7 +31,7 @@ class LineupValidation:
         self.changed.append(player_id)
   def check_players(self):      
     for player_id in self.new_lineup:
-      player = models.get_safe('Player', player_id=player_id)
+      player = models.Player.objects(player_id=player_id).first()
       if not player:
         self.errors.append(Errors().unrecognized(player_id))
       else:
@@ -49,7 +49,7 @@ class LineupValidation:
       f"Submitted: {self.lineup_positions}. League settings: {self.league_positions}")
   def check_locked(self):
     for player_id in self.changed:
-      player = models.get_safe('Player', player_id=player_id)
+      player = models.Player.objects(player_id=player_id).first()
       if player.is_locked():
         self.errors.append(Errors().locked_player(player_id))
   def run(self): 

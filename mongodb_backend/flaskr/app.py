@@ -4,6 +4,7 @@ from flask_login import LoginManager, login_required, current_user
 from flask_mongoengine import MongoEngine, MongoEngineSessionInterface
 
 from mongodb_backend.flaskr import config
+from mongodb_backend.flaskr import models
 from mongodb_backend.flaskr.view_classes.games import Games 
 from mongodb_backend.flaskr.view_classes.league import League 
 from mongodb_backend.flaskr.view_classes.league_member import LeagueMember
@@ -38,7 +39,7 @@ def create_app(testing=False):
 
   @login_manager.user_loader
   def load_user(user_id):
-    return security.User.objects(id=user_id).first()  
+    return models.User.objects(id=user_id).first()  
 
   @app.route('/api/games', methods=['GET'])
   @login_required

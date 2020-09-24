@@ -3,12 +3,13 @@ import datetime
 import pytz
 
 from mongoengine import *
+from flask_login import UserMixin
 import fuzzy
 
 from common import statmap 
 from common.hashing import generate_hash, compare_hash
 from common.current_week import get_current_week
-from common.convert_yardline import convert_yardline
+from common.convert_yard_line import convert_yard_line
 
 SEASON_TYPES = ('PRE', 'REG', 'PRO', 'POST')
 
@@ -62,6 +63,32 @@ class GameScore(EmbeddedDocument):
     return hash(('GameScore', self.total, self.Q1, self.Q2, self.Q3, self.Q4, 
       self.overtime))
 
+class Team(Document):
+  '''Represents an NFL team. Used for the possession team fields in Game, Drive, 
+  and Play and the team field in Player.'''
+  team_id = StringField(max_length=3, required=True, unique=True)
+  name = StringField(max_length=40, required=True)
+  active = BooleanField(default=True)
+
+  def __repr__(self):
+    return f"{{'model': 'Team', 'team_id': '{self.team_id}'}}"
+  def __str__(self):
+    return f"{{{self.name}}}"
+  def __eq__(self, other):
+    if isinstance(other, Team):
+      return (self.team_id == other.team_id)
+    else:
+      return NotImplemented  
+  def __hash__(self):
+    return hash(('Team', self.team_id))
+  def custom_json(self, team_info):
+    self.team_id = team_info["id"]
+    self.name = team_info["name"]
+    self.active = team_info["active"]
+    return self
+  def data_dict(self):
+    return {'id': self.team_id, 'name': self.name}  
+
 class Drive(EmbeddedDocument):
   '''Represents a single drive in a given NFL game and provides a logical mapping
   between the fields found in the NFL API and the 'drives' field of the 'game'
@@ -74,7 +101,7 @@ class Drive(EmbeddedDocument):
   end_quarter = IntField()
   end_transition = StringField(max_length=20)
   end_time = StringField(max_length=10)
-  possession_team = ReferenceField(Team, reverse_delete_rule=DO_NOTHING, required=True)
+  possession_team = ReferenceField(Team, reverse_delete_rule=DO_NOTHING)
   possession_time = StringField(max_length=10)
   first_downs = IntField()
   penalty_yards = IntField()
@@ -105,16 +132,16 @@ class Drive(EmbeddedDocument):
     self.end_quarter = drive["quarterEnd"]
     self.end_transition = drive["endTransition"]
     self.end_time = drive["gameClockEnd"]
-    self.possession_team = (Team(team_id=drive["possessionTeam"]["abbreviation"], 
-      name=drive["possessionTeam"]["nickName"]) if drive["possessionTeam"] else None)
+    self.possession_team = (Team.objects.get(team_id=drive["possessionTeam"]
+      ["abbreviation"]) if drive["possessionTeam"] else None)
     self.possession_time = drive["timeOfPossession"]
     self.first_downs = drive["firstDowns"]
     self.penalty_yards = drive["yardsPenalized"]
     self.yards_gained = drive["yards"]
     self.play_count = drive["playCount"]
-    self.start_yardline = convert_yardline(drive["startYardLine"], 
+    self.start_yardline = convert_yard_line(drive["startYardLine"], 
       self.possession_team)
-    self.end_yardline = convert_yardline(drive["endYardLine"], 
+    self.end_yardline = convert_yard_line(drive["endYardLine"], 
       self.possession_team)
     return self
 
@@ -126,7 +153,7 @@ class Play(EmbeddedDocument):
   drive_id = IntField()
   play_id = IntField()
   quarter = IntField()
-  possession_team = ReferenceField(Team, reverse_delete_rule=DO_NOTHING, required=True)
+  possession_team = ReferenceField(Team, reverse_delete_rule=DO_NOTHING)
   start_time = StringField(max_length=10)
   end_time = StringField(max_length=10)
   down = IntField()
@@ -183,8 +210,8 @@ class Play(EmbeddedDocument):
     self.drive_id = play["driveSequenceNumber"]
     self.play_id = play["orderSequence"]
     self.quarter = play["quarter"]
-    self.possession_team = (Team(team_id=play["possessionTeam"]["abbreviation"], 
-      name=play["possessionTeam"]["nickName"]) if play["possessionTeam"] else None)
+    self.possession_team = (Team.objects.get(team_id=play["possessionTeam"]
+      ["abbreviation"]) if play["possessionTeam"] else None)
     self.start_time = play["clockTime"]
     self.end_time = play["endClockTime"]
     self.down = play["down"]
@@ -202,37 +229,13 @@ class Play(EmbeddedDocument):
     self.end_yardline = convert_yard_line(play["endYardLine"], 
       self.possession_team)
     self._parse_play_stats(play["playStats"])
-    return self  
-
-class Team(Document):
-  '''Represents an NFL team. Used for the possession team fields in Game, Drive, 
-  and Play and the team field in Player.'''
-  team_id = StringField(max_length=3, required=True)
-  name = StringField(max_length=40, required=True)
-  active = BooleanField(default=True)
-
-  def __repr__(self):
-    return f"{{'model': 'Team', 'team_id': '{self.team_id}'}}"
-  def __str__(self):
-    return f"{{{self.name}}}"
-  def __eq__(self, other):
-    if isinstance(other, Team):
-      return (self.team_id == other.team_id)
-    else:
-      return NotImplemented  
-  def __hash__(self):
-    return hash(('Team', self.team_id))
-  def custom_json(self, team_info):
-    self.team_id = team_info["id"]
-    self.name = team_info["name"]
-    self.active = team_info["active"]
-    return self  
+    return self
 
 class Game(Document):
   '''Represents a single NFL game in a season and provides a logical mapping 
   between fields found in the NFL API and fields used in the 'game' collection of
   the MongoDB database.'''
-  game_id = StringField(max_length=36, required=True)
+  game_id = StringField(max_length=36, required=True, unique=True)
   week = EmbeddedDocumentField(Week, required=True)
   start_time = DateTimeField(required=True)
   phase = StringField(max_length=15, required=True)
@@ -282,10 +285,8 @@ class Game(Document):
       Q1=game_detail["visitorPointsQ1"], Q2=game_detail["visitorPointsQ2"], 
       Q3=game_detail["visitorPointsQ3"], Q4=game_detail["visitorPointsQ4"], 
       overtime=game_detail["visitorPointsOvertimeTotal"])
-    self.home_team = Team(team_id=game_detail["homeTeam"]["abbreviation"], 
-      name=game_detail["homeTeam"]["nickName"])
-    self.away_team = Team(team_id=game_detail["visitorTeam"]["abbreviation"], 
-      name=game_detail["visitorTeam"]["nickName"])
+    self.home_team = Team.objects.get(team_id=game_detail["homeTeam"]["abbreviation"])
+    self.away_team = Team.objects.get(team_id=game_detail["visitorTeam"]["abbreviation"])
     self.weather = (game_detail["weather"]["shortDescription"] if 
       game_detail["weather"] else None)
     self.drives = self._get_drives(game_detail["drives"])
@@ -304,7 +305,7 @@ class Player(Document):
   '''Represents a single NFL player and provides a logical mapping between 
   fields found in the NFL API and fields used in the 'player' collection of
   the MongoDB database.'''
-  player_id = StringField(max_length=36, required=True)
+  player_id = StringField(max_length=36, required=True, unique=True)
   name = StringField(max_length=100, required=True)
   team = ReferenceField(Team, reverse_delete_rule=DO_NOTHING, required=True)
   position = StringField(max_length=10)
@@ -316,7 +317,7 @@ class Player(Document):
   def __repr__(self):
     return f"{{'model': 'Player', 'player_id': '{self.player_id}'}}"
   def __str__(self):
-    return f"{{{self.name} {self.position} {self.team}}}"
+    return f"{{{self.name} {self.position} {self.team.team_id}}}"
   def __eq__(self, other):
     if isinstance(other, Player):
       return (self.player_id == other.player_id)
@@ -325,12 +326,12 @@ class Player(Document):
   def __hash__(self):
     return hash(('Player', self.player_id))
   def data_dict(self):
-    return {'id': self.player_id, 'name': self.name, 'team': self.team, 
+    return {'id': self.player_id, 'name': self.name, 'team': self.team.team_id, 
       'position': self.position, 'status': self.status}  
   def custom_json(self, player_info):
     self.player_id = player_info["id"]
     self.name = player_info["name"]
-    self.team = player_info["team"]
+    self.team = Team.objects.get(team_id=player_info["team"])
     self.position = player_info["position"]
     self.status = player_info["status"]
     self.jersey_number = player_info["jerseyNumber"]
@@ -339,8 +340,8 @@ class Player(Document):
   def is_locked(self):
     season_year, season_type, week = get_current_week()
     week = Week(season_year=season_year, season_type=season_type, week=week)
-    this_game = Game.objects(Q(week=week) & (Q(home_team__team_id=self.team) | 
-      Q(away_team__team_id=self.team)))
+    this_game = Game.objects(Q(week=week) & (Q(home_team=self.team) | 
+      Q(away_team=self.team)))
     if len(this_game) == 1:
       game_start = this_game[0].start_time.replace(tzinfo=pytz.UTC)
       now = datetime.datetime.now(pytz.UTC)

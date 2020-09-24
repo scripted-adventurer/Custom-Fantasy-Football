@@ -3,7 +3,7 @@
 team identifier and make it instead a single integer from -50 (own goal line) to 
 +50 (opponent's goal line)'''
 
-def convert_yard_line(yard_line, team_id):
+def convert_yard_line(yard_line, possession_team):
   # extract team ID and yardline ex. "GB 25" -> ['GB', 25]
   try:
     yard_line = yard_line.split(' ')
