@@ -16,13 +16,14 @@ class Players(CustomView):
       player_name = self.request.GET['query']
       players = []
       with connection.cursor() as cursor:
-        cursor.execute('''SELECT player_id, name, team, position, difference(name, %s)
+        cursor.execute('''SELECT player_id, name, team, position, status, 
+          difference(name, %s)
         FROM data_player
-        WHERE difference(name, %s) > 3 AND status='ACT'
+        WHERE difference(name, %s) > 3
         ORDER BY 5 DESC''', [player_name, player_name])
         for row in cursor.fetchall():
           player_dict = {'id': row[0], 'name': row[1], 'team': row[2], 
-            'position': row[3]}
+            'position': row[3], 'status': row[4]}
           players.append(player_dict)
       self.add_response_data('players', players)
       return self.return_json()

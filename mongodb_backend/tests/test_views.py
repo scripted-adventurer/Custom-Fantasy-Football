@@ -249,7 +249,7 @@ def test_views(client):
   # test_league_stats_scores()
   test_leagues()
   test_player()
-  # test_players()
+  test_players()
   test_session()
   test_team()
   test_teams()

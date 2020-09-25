@@ -4,12 +4,12 @@ import pytz
 
 from mongoengine import *
 from flask_login import UserMixin
-import fuzzy
 
 from common import statmap 
 from common.hashing import generate_hash, compare_hash
 from common.current_week import get_current_week
 from common.convert_yard_line import convert_yard_line
+from common.fuzzy_string import encode_name
 
 SEASON_TYPES = ('PRE', 'REG', 'PRO', 'POST')
 
@@ -312,7 +312,7 @@ class Player(Document):
   status = StringField(max_length=10)
   jersey_number = IntField()
   # for fuzzy string player name matching
-  metaphone = ListField()
+  phonetic_name = StringField(max_length=100, required=True)
 
   def __repr__(self):
     return f"{{'model': 'Player', 'player_id': '{self.player_id}'}}"
@@ -327,7 +327,7 @@ class Player(Document):
     return hash(('Player', self.player_id))
   def data_dict(self):
     return {'id': self.player_id, 'name': self.name, 'team': self.team.team_id, 
-      'position': self.position, 'status': self.status}  
+      'position': self.position, 'status': self.status} 
   def custom_json(self, player_info):
     self.player_id = player_info["id"]
     self.name = player_info["name"]
@@ -335,7 +335,7 @@ class Player(Document):
     self.position = player_info["position"]
     self.status = player_info["status"]
     self.jersey_number = player_info["jerseyNumber"]
-    self.metaphone = fuzzy.DMetaphone()(self.name)
+    self.phonetic_name = encode_name(self.name)
     return self
   def is_locked(self):
     season_year, season_type, week = get_current_week()

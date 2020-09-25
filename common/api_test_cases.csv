@@ -179,7 +179,7 @@ players	disallowed method	/api/players?available=true	PATCH		test_user_0	405
 players	valid	/api/players?available=true	HEAD		test_user_0	200			
 players	missing query	/api/players	GET		test_user_0	400	{"success": false, "errors": ["HTTP 400: Bad request"]}		
 players	no results	/api/players?query=Qwijibox	GET		test_user_0	200	{"success": true, "players": []}		
-players	one result	/api/players?query=Aaron+Rogers	GET		test_user_0	200	{"success": true, "players": [{"id": "3200524f-4433-9293-a3cf-ad7758d03003", "name": "Aaron Rodgers", "team": "GB", "position": "QB"}]}		
+players	one result	/api/players?query=Aaron+Rogers	GET		test_user_0	200	{"success": true, "players": [{"id": "3200524f-4433-9293-a3cf-ad7758d03003", "name": "Aaron Rodgers", "team": "GB", "position": "QB", "status": "ACT"}]}		
 players	available players	/api/players?available=true	GET		test_user_0	200		success	[true]
 session	disallowed method	/api/session	GET			405			
 session	disallowed method	/api/session	HEAD			405			

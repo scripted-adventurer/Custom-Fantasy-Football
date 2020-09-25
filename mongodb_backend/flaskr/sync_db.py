@@ -19,7 +19,7 @@ class SyncDB:
     self.teams_path = f"{self.base_path}/nfl_json/json/teams.json"
     self.players_path_main = f"{self.base_path}/nfl_json/json/currentPlayers.json"
     self.players_path_test = (f"{self.base_path}/mongodb_backend/tests/fixtures/"
-      f"players_fixture.json")
+      f"players.json")
     connect(SETTINGS['MONGODB_SETTINGS']['db'], 
       host=SETTINGS['MONGODB_SETTINGS']['host'], 
       port=SETTINGS['MONGODB_SETTINGS']['port'], 
