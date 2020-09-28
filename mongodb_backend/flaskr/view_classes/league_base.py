@@ -19,14 +19,10 @@ class LeagueBase(CustomView):
     # default to the current week but use user-provided values if they are present
     self.season_year, self.season_type, self.week = get_current_week()
     custom_week = False
-    if 'seasonType' in self.request.args:
+    if 'seasonType' in self.request.args and 'seasonYear' in self.request.args:
       self.season_type = self.request.args['seasonType']
-      custom_week = True
-    if 'seasonYear' in self.request.args:
       self.season_year = self.request.args['seasonYear']
-      custom_week = True
-    if 'week' in self.request.args:  
-      self.week = self.request.args['week']
+      self.week = self.request.args.get('week', None)
       custom_week = True
     if custom_week:
       valid = True
@@ -36,7 +32,7 @@ class LeagueBase(CustomView):
       if not SeasonWeekValidation().check_season_year(self.season_year):
         self.add_response_error(self.errors.bad_data('season year'))
         valid = False
-      if not SeasonWeekValidation().check_week(self.week):
+      if self.week and not SeasonWeekValidation().check_week(self.week):
         self.add_response_error(self.errors.bad_data('week'))
         valid = False
       if not valid:

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-from mongoengine import connect
-
 import gzip
 import json
 import argparse
 import os
 import datetime
+
+from mongoengine import connect
 
 from mongodb_backend.flaskr import models
 from mongodb_backend.flaskr.config import SETTINGS, INCLUDED_SEASONS

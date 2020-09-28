@@ -136,8 +136,9 @@ league_stats	invalid season type	/api/league/test_league_0/stats?seasonType=PRA&
 league_stats	invalid season year	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2000&week=17	GET		test_user_0	400	{"success": false, "errors": ["season year is missing or invalid."]}		
 league_stats	invalid week	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2019&week=20	GET		test_user_0	400	{"success": false, "errors": ["week is missing or invalid."]}		
 league_stats	invalid player ID	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2019&week=17&playerId=32005455-4322-4643-f70e-a24b7ce12345	GET		test_user_0	200	{"success": true, "stats": []}		
-league_stats	past all players	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2019&week=17	GET		test_user_0	200		stats[0].id	["3200524f-4433-9293-a3cf-ad7758d03003"]
-league_stats	past all players sort asc	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2019&week=17&sort=asc	GET		test_user_0	200		stats[0].id	["32004147-4e40-6291-2b0f-470a6817d947"]
+league_stats	past all players season	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2019	GET		test_user_0	200		success	[true]
+league_stats	past all players week	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2019&week=17	GET		test_user_0	200		success	[true]
+league_stats	past all players sort asc	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2019&week=17&sort=asc	GET		test_user_0	200		success	[true]
 league_stats	past one player	/api/league/test_league_0/stats?seasonType=REG&seasonYear=2019&week=17&playerId=32004352-4f36-9933-a863-d4bf2cc5772e	GET		test_user_0	200		stats[0].total	[11.0]
 league_stats	current all players	/api/league/test_league_0/stats	GET		test_user_0	200		success	[true]
 league_stats	current all players sort asc	/api/league/test_league_0/stats?sort=asc	GET		test_user_0	200		success	[true]

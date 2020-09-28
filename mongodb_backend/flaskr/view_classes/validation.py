@@ -76,11 +76,7 @@ class ScoringSettingsValidation:
   def _correct_type(self, param, value):
     param_type = self.param_map[param]['type']
     if param_type == 'str':
-      try:
-        str(value)
-        return True
-      except ValueError:
-        return False
+      return True
     elif param_type == 'int':
       try:
         int(value)

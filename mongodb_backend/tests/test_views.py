@@ -122,15 +122,15 @@ def test_views(client):
     league_0.set_scoring_settings(scoring_settings)
     member_0 = models.Member(user=users[0], league=league_0).save()
     member_1 = models.Member(user=users[1], league=league_0).save()
-    lineup = ['3200524f-4433-9293-a3cf-ad7758d03003', 
-      '32004a4f-4e02-6624-33bd-3ba151b7013d', '32004241-5219-2674-af43-1519254e563d', 
-      '32004144-4121-8591-4d26-4c0ac739af41', '32004144-4121-8591-4d26-4c0ac739af41', 
-      '32004552-5480-0920-32a6-165b5a77814e', '32004352-4f36-9933-a863-d4bf2cc5772e']
-    member_1.lineup_add(lineup, 'REG', 2019, 17)
     lineup = ['3200424c-4f31-5389-8dc7-e49c9f486370', 
       '32004a4f-4839-9188-cb7b-f29b5ea64839', '3200454c-4c28-9284-cdcc-74694c8d1749', 
       '3200474f-4c57-3546-c21d-b780be32aca0', '3200434f-4f29-9382-29e1-70020b0a09be', 
       '32004b45-4c01-2458-b7b6-3a14cdb414dd', '32005052-4114-3616-ccef-0127103fb075']
+    member_1.lineup_add(lineup, 'REG', 2019, 17)
+    lineup = ['3200524f-4433-9293-a3cf-ad7758d03003', 
+      '32004a4f-4e02-6624-33bd-3ba151b7013d', '32004241-5219-2674-af43-1519254e563d', 
+      '32004144-4121-8591-4d26-4c0ac739af41', '32004144-4121-8591-4d26-4c0ac739af41', 
+      '32004552-5480-0920-32a6-165b5a77814e', '32004352-4f36-9933-a863-d4bf2cc5772e']
     member_0.lineup_add(lineup, 'REG', 2019, 17)
 
     for test in test_cases['league_stats']:
@@ -246,7 +246,7 @@ def test_views(client):
   test_league_member()
   test_league_member_lineup()
   test_league_members()
-  # test_league_stats_scores()
+  test_league_stats_scores()
   test_leagues()
   test_player()
   test_players()

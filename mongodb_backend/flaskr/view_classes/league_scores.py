@@ -10,9 +10,8 @@ class LeagueScores(LeagueBase):
     if not self.check_season_week():
       return self.return_json()
     scoring_settings = self.league.get_scoring_settings()
-    stats = StatQuery(scoring_settings=scoring_settings)
-    stats.filter(season_type=self.season_type, season_year=self.season_year, 
-      week=self.week)
+    stats = StatQuery(scoring_settings=scoring_settings, 
+      season_year=self.season_year, season_type=self.season_type, week=self.week)
     stats = stats.get(as_list=False)
     league_scores = []
     for username in self.league.get_members():
