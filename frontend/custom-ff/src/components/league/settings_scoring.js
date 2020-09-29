@@ -5,32 +5,11 @@ import {requestOptions} from '../../config.js';
 import {Error} from '../error';
 import './settings_scoring.css';
 
-class TableField extends React.Component {
+class FieldSelect extends React.Component {
   render() {
     return (
       <div className="label-input-box">
-        <label>Table:&nbsp;</label>
-        <select name="table" onChange={this.props.onChange} 
-        data-stat-index={this.props.statIndex}
-        data-stat-field={this.props.statField} 
-        data-condition-index={this.props.conditionIndex}
-        data-condition-field={this.props.conditionField}
-        value={this.props.value}>
-          <option value=""></option>
-          <option value="play_player">play_player</option>
-          <option value="play">play</option>
-          <option value="agg_play">agg_play</option>
-        </select>
-      </div>
-    );
-  }
-}
-
-class ColumnField extends React.Component {
-  render() {
-    return (
-      <div className="label-input-box">
-        <label>Column:&nbsp;</label>
+        <label>Field:&nbsp;</label>
         <select name="table" onChange={this.props.onChange} 
         data-stat-index={this.props.statIndex}
         data-stat-field={this.props.statField} 
@@ -55,12 +34,12 @@ class ColumnField extends React.Component {
           <option value="defense_safe">defense_safe</option>
           <option value="defense_sk">defense_sk</option>
           <option value="defense_sk_yds">defense_sk_yds</option>
+          <option value="defense_tds">defense_tds</option>
           <option value="defense_tkl">defense_tkl</option>
           <option value="defense_tkl_loss">defense_tkl_loss</option>
           <option value="defense_tkl_loss_yds">defense_tkl_loss_yds</option>
           <option value="defense_tkl_primary">defense_tkl_primary</option>
           <option value="defense_xpblk">defense_xpblk</option>
-          <option value="down">down</option>
           <option value="first_down">first_down</option>
           <option value="fourth_down_att">fourth_down_att</option>
           <option value="fourth_down_conv">fourth_down_conv</option>
@@ -148,7 +127,6 @@ class ColumnField extends React.Component {
           <option value="third_down_failed">third_down_failed</option>
           <option value="timeout">timeout</option>
           <option value="xp_aborted">xp_aborted</option>
-          <option value="yards_to_go">yards_to_go</option>
         </select>
       </div>
     );
@@ -189,14 +167,10 @@ class ConditionFields extends React.Component {
           onClick={this.props.removeCondition}>❌</span>
         </div>
         <div className="conditions-content">
-          <TableField onChange={this.props.onChange} 
+          <FieldSelect onChange={this.props.onChange} 
           statIndex={this.props.statIndex}
           statField="conditions" conditionIndex={this.props.conditionIndex} 
-          conditionField="table" value={this.props.table} />
-          <ColumnField onChange={this.props.onChange} 
-          statIndex={this.props.statIndex}
-          statField="conditions" conditionIndex={this.props.conditionIndex} 
-          conditionField="column" value={this.props.column} />
+          conditionField="field" value={this.props.field} />
           <ComparisonField onChange={this.props.onChange} 
           statIndex={this.props.statIndex}
           statField="conditions" conditionIndex={this.props.conditionIndex} 
@@ -231,9 +205,8 @@ class StatFields extends React.Component {
         <ConditionFields key={JSON.stringify(thisCondition)} 
         statIndex={this.props.statIndex} 
         conditionIndex={condIndex} onChange={this.handleConditionChange} 
-        table={thisCondition.table} column={thisCondition.column} 
-        comparison={thisCondition.comparison} value={thisCondition.value}
-        removeCondition={this.props.removeCondition} />
+        field={thisCondition.field} comparison={thisCondition.comparison} 
+        value={thisCondition.value} removeCondition={this.props.removeCondition} />
       );
     }
     return conditionFields;
@@ -269,10 +242,8 @@ class StatFields extends React.Component {
             data-stat-index={this.props.statIndex}
             data-stat-field="name" value={this.props.name} />
           </div>
-          <TableField onChange={this.props.onChange} statIndex={this.props.statIndex}
-          statField="table" value={this.props.table} />
-          <ColumnField onChange={this.props.onChange} statIndex={this.props.statIndex}
-          statField="column" value={this.props.column} />
+          <FieldSelect onChange={this.props.onChange} statIndex={this.props.statIndex}
+          statField="field" value={this.props.field} />
           <div className="label-input-box">
             <label>Multiplier:&nbsp;</label>
             <input type="number" name="name" onChange={this.props.onChange}
@@ -383,7 +354,7 @@ export class LeagueSettingsScoring extends React.Component {
   }
   addStat(event) {
     event.preventDefault();
-    this.scoringSettings.push({'name':'', 'table':'', 'column':'', 
+    this.scoringSettings.push({'name':'', 'field':'', 
       'conditions':[], 'multiplier':0});
     this.setState({
       updateNeeded: true  
@@ -400,7 +371,7 @@ export class LeagueSettingsScoring extends React.Component {
   addCondition(event) {
     event.preventDefault();
     const statIndex = event.target.dataset.statIndex;
-    this.scoringSettings[statIndex]['conditions'].push({'table':'', 'column':'', 
+    this.scoringSettings[statIndex]['conditions'].push({'field':'', 
       'comparison':'', 'value':0});
     this.setState({
       updateNeeded: true
@@ -422,8 +393,7 @@ export class LeagueSettingsScoring extends React.Component {
         // this key value ensures updates made to the conditions cause a re-render
         <StatFields key={'' + statIndex + thisStat.conditions.length} 
         statIndex={statIndex} onChange={this.handleInputChange} 
-        name={thisStat.name} table={thisStat.table} 
-        column={thisStat.column} multiplier={thisStat.multiplier} 
+        name={thisStat.name} field={thisStat.field} multiplier={thisStat.multiplier} 
         conditions={thisStat.conditions} addCondition={this.addCondition}
         removeCondition={this.removeCondition} removeStat={this.removeStat} />
       );

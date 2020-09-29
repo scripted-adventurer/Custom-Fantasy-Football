@@ -40,7 +40,6 @@ class ScoreDetail extends React.Component {
     super(props);
     this.scores = [];
     for (const playerScore of this.props.row.player_scores) {
-      console.log(playerScore);
       this.scores.push(
         <p key={playerScore.id} className="popup-data">{playerScore.name}:&nbsp; 
         {playerScore.total}</p> 
@@ -80,6 +79,7 @@ export class ScoreTable extends React.Component {
     this.weekOptions = weeks.map((week) => 
       <option key={week} value={week}>{week}</option>
     );
+    this.weekOptions.unshift(<option key='None' value=''></option>);
     this.handleInputChange = this.handleInputChange.bind(this);
     this.pickNewWeek = this.pickNewWeek.bind(this);
     this.showDetailed = this.showDetailed.bind(this);
@@ -135,7 +135,6 @@ export class ScoreTable extends React.Component {
       detailedData = <ScoreDetail row={this.state.data[index]} />;
     }
     const popup = <Popup content={detailedData} close={this.closePopup} />;
-    console.log(detailedData);
     this.setState({
       popup: popup
     });
@@ -215,7 +214,6 @@ export class ScoreTable extends React.Component {
         updateNeeded: false
       });
     }
-    console.log(this.state);
   }
   render() {
     return (
@@ -232,13 +230,15 @@ export class ScoreTable extends React.Component {
       <form className="week-select" onSubmit={this.pickNewWeek}>
         <p><label htmlFor="season_type">Season Type&nbsp;
         <select name="season_type" onChange={this.handleInputChange}>
-          <option value="Preseason">PRE</option>
-          <option value="Regular">REG</option>
-          <option value="Postseason">POST</option>
+          <option value=""></option>
+          <option value="PRE">PRE</option>
+          <option value="REG">REG</option>
+          <option value="POST">POST</option>
         </select>
         </label></p>
         <p><label htmlFor="season_year">Season Year&nbsp;
         <select name="season_year" onChange={this.handleInputChange}>
+          <option value=""></option>
           <option value={this.currentYear}>{this.currentYear}</option>
           <option value={this.currentYear - 1}>{this.currentYear - 1}</option>
         </select>
